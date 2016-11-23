@@ -1,24 +1,146 @@
-<header id="page-header">
-  <div class="container">
-    <nav id="mainnav" class="navbar" role="navigation">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="/img/logo-wordmark.svg" alt="Bonafide Brands"></a>
+<div id="page">
+  <header id="page-header">
+    <div id="topnav" class="show-for-medium-up">
+      <div class="row">
+        <div id="iconnav" class="small-12 medium-4 columns">
+          <a href="http://hi-accounting.com/"><i class='icon-accounting'></i></a>
+          <a href="http://hi-employment.com/"><i class='icon-employment'></i></a>
+          <a href="http://hihealthcarehawaii.com/"><i class='icon-nursing'></i></a>
+        </div>
+        <div class="medium-8 columns show-for-medium-up">
+          <ul class="inline-list right">
+            <li class="search">
+              <a href="/search" id="topsearch">
+                <label>Search</label>
+                <input type="text" placeholder="Search..." name="search" onkeyup="buttonUp();" required />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="{{ site.baseurl }}/about">About</a></li>
-          <li><a href="{{ site.baseurl }}/services">Services</a></li>
-          <li><a href="{{ site.baseurl }}#expose-footer">Contact</a></li>
+    </div>
+
+    <nav id="mobilenav" class="top-bar hide-for-medium-up" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="/">HiEmployment</a></h1>
+        </li>
+        <li class="toggle-topbar"><a href="#"><span class="icon-menu"></span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <ul class="menu">
+          <li class="mobile-search"><a href="/search">Search</a></li>
+          <li><a href="/">Home</a></li>
+          <li class="has-dropdown">
+            <a href="#">About</a>
+            <!-- <ul class="dropdown">
+              <li><a href="<?php home_url(); ?>/mission">Mission</a></li>
+              <li><a href="<?php home_url(); ?>/team">Staff</a></li>
+              <li><a href="<?php home_url(); ?>/advantage">Advantage</a></li>
+            </ul> -->
+          <li class="has-dropdown">
+            <a href="#">Specialties</a>
+            <!-- <ul class="dropdown">
+              <li><a href="<?php home_url(); ?>/industries">Industries</a></li>
+              <li><a href="<?php home_url(); ?>/executive-search">Executive Search</a></li>
+            </ul> -->
+          </li>
+          <li><a href="/contact" data-nav="contact">Contact</a></li>
         </ul>
-      </div>
+      </section>
     </nav>
-  </div>
-</header>
+    
+    <div id="mainnav" class="show-for-medium-up">
+      <div class="row">
+        <nav class="top-bar">
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="/">HiAccounting</a></h1>
+            </li>
+          </ul>
+          <section class="top-bar-section">
+            <ul class="right">
+              <li><a href="/" title="HiEmployment">Home</a></li>
+              <li class="mega_menu">
+                <a href="/mission/">About</a>
+                <div class="dropdown">
+                  <div class="row" data-nav="about">
+                    <div class="medium-2 columns medium-offset-6">
+                      <h3><a href="/mission">Mission</a></h3>
+                      <ul>
+                        <li><a href="/mission#mission" rel="m_PageScroll2id">Our Mission</a></li>
+                        <li><a href="/mission#values" rel="m_PageScroll2id">Our Values</a></li>
+                      </ul>
+                    </div>
+                    <div class="medium-2 columns">
+                      <h3><a href="/team">Team</a></h3>
+                      <ul>
+                        <li><a href="/team#team" rel="m_PageScroll2id">Staff</a></li>
+                        <li><a href="/team#working" rel="m_PageScroll2id">Working at HiEmployment</a></li>
+                      </ul>
+                    </div>
+                    <div class="medium-2 columns">
+                      <h3><a href="<?php home_url(); ?>/advantage">Advantage</a></h3>
+                      <ul>
+                        <li><a href="/advantage#industry-snapshot" rel="m_PageScroll2id">Industry Snapshot</a></li>
+                        <li><a href="/advantage#awards" rel="m_PageScroll2id">Awards</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="mega_menu">
+                <a href="<?php home_url(); ?>/industries">Specialties</a>
+                <div class="dropdown">
+                  <div class="row">
+                    <div class="medium-4 columns medium-offset-4">
+                      <h3><a href="<?php home_url(); ?>/industries">Industries</a></h3>
+                    </div>
+                    <div class="medium-4 columns">
+                      <h3><a href="<?php home_url(); ?>/executive-search">Executive Search</a></h3>
+                    </div>
+                  </div>  
+                  <div class="row">
+                    <div class="medium-2 columns medium-offset-4">
+                      <ul>
+                        <li><a href="<?php home_url(); ?>/industries#hospitality" rel="m_PageScroll2id">Hospitality</a></li>
+                        <li><a href="<?php home_url(); ?>/industries#education" rel="m_PageScroll2id">Education</a></li>
+                        <li><a href="<?php home_url(); ?>/industries#professional" rel="m_PageScroll2id">Professional</a></li>
+                      </ul>
+                    </div>
+                    <div class="medium-2 columns">
+                      <ul>
+                        <li><a href="<?php home_url(); ?>/industries#industrial" rel="m_PageScroll2id">Industrial</a></li>
+                        <li><a href="<?php home_url(); ?>/industries#technical" rel="m_PageScroll2id">Technical</a></li>
+                        <li><a href="<?php home_url(); ?>/industries#medical" rel="m_PageScroll2id">Medical</a></li>
+                      </ul>
+                    </div>
+                    <div class="medium-2 columns">
+                      <ul>
+                        <li><a href="<?php home_url(); ?>/executive-search#executive-recruiting">Executive &amp; Recruiting</a></li>
+                        <li><a href="<?php home_url(); ?>/executive-search#services">Our Services</a></li>
+                      </ul>
+                    </div>
+                    <div class="medium-2 columns">
+                      <ul>
+                        <li><a href="<?php home_url(); ?>/executive-search#retained-search">Retained Search</a></li>
+                        <li><a href="<?php home_url(); ?>/executive-search#contingency-search">Contingency Search</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a href="<?php home_url(); ?>/contact" data-nav="contact">Contact</a></li>
+            </ul>
+          </section>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div id="page-content" role="main">
+    <div id="message" data-alert class="alert-box" style="display: none; margin-top: 90px; margin-bottom: 0;">
+      <div class="row">
+        <p><strong>Thanks</strong> for your inquiry. We will be in touch shortly.</p>
+        <a href="#" class="close">&times;</a>
+      </div>
+    </div>

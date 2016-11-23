@@ -1,25 +1,14 @@
 # Site settings
-title: Client Name
+title: HiAccounting
 email: dev@ocupop.com
 description: ''
 url: "http://client_url"
 permalink: /:title
-
-collections:
-  brands:
-    output: true
-defaults:
-  - scope:
-      type: brands
-    values:
-      layout: brand
 
 # Build settings
 safe: false
 source: src
 include: ["_pages"]
 
-
 gems:
-  - jekyll-bootstrap-sass
   - jekyll-sitemap

@@ -1024,6 +1024,10 @@ ul#support-list {
   }
 }
 // Colors
+.white {
+  background-color: $white;
+  color: $body-font-color;
+}
 .gray {
   background-color: $gray-lightest;
   form {
@@ -1040,6 +1044,7 @@ ul#support-list {
   background-color: $gray-dark;
   color: #fff;
 }
+
 
 .back_to_job_listings {
   display: none;

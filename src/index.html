@@ -1,12 +1,14 @@
 ---
 layout: homepage
-title: HiAccounting
+title: HiAccounting | Home
+testimonial: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, commodi reiciendis veniam! Voluptatem labore illo autem magni itaque maiores necessitatibus perferendis, fugiat eligendi vel officia sequi impedit officiis, aliquid doloremque"
+testimonial_author: "Michelangelo Muchlongername, CFO at VeryImportantBusiness"
 ---
 
 <section id="home-hero" class="hero" style="background-image: url(/img/home/hero-home.jpg);">
     <div class="hero-caption">
       <div class="row">
-        <div class="medium-6 columns medium-offset-6">
+        <div class="medium-8 columns medium-offset-4">
           <h1>Focus On Your Business — <br>We’ve Got Your Back (Office)</h1>
           <p>Hiring an in-house accounting team requires significant financial and physical resources— resources better targeted at your core business. Instead of adding extra overhead and frustration, outsource your accounting needs to HiAccounting’s experienced, local team. Put people you can trust on the job and stay focused on what you do best—we’ll take care of the rest.</p>
         </div>
@@ -122,6 +124,12 @@ title: HiAccounting
   </div>
 </div>
 
+<div class="container dark-gray call-to-action">
+  <div class="row">
+    <h3 class="text-center">Looking to Join the Team?&nbsp;&nbsp;<a href="/careers">Visit Our Careers Page</a></h3>
+  </div>
+</div>
+
 <div id="support-mobile-hero" class="hero show-for-small-only"  style="background-image: url(/img/bg-lighthouse-large.jpg);" data-interchange="[/img/hero-lighthouse-small.jpg, (small)], [/img/hero-lighthouse-large.jpg, (medium)]">
   <div class="hero-caption">
     <h1><i class="icon-employment"></i>HiEmployment</h1>
@@ -177,3 +185,13 @@ title: HiAccounting
     </div>
   </div>
 </div>
+<section id="testimonials" class="container">
+  <div class="row">
+    <div class="small-12 columns">
+      <p><em>&ldquo;
+        {{ page.testimonial }}
+        &rdquo;</em></p>
+        <p>{{ page.testimonial_author }}</p>
+    </div>
+  </div>
+</section>

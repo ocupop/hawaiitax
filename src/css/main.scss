@@ -15,6 +15,7 @@
 html {}
 body {
   margin: 0;
+  color: $body-font-color;
 }
 *,
 *:after,
@@ -28,7 +29,7 @@ body {
 a {
   color: $primary-color;
   &:hover {
-    color: #71a130;
+    color: $link-hover;
     text-decoration: none;
     cursor: pointer;
   }
@@ -75,6 +76,9 @@ select {
 
 .button {
   background-color: $primary-color;
+  &:hover {
+    background-color: $link-hover;
+  }
 }
 
 .offset {
@@ -509,7 +513,7 @@ select {
   i {
     text-align: center;
     display: block;
-    font-size: rem-calc(75);
+    font-size: 75px;
     padding: 50px 0;
   }
 }
@@ -539,12 +543,12 @@ select {
     background: $gray-dark;
     h2 {
       color: $primary-color;
-      font-size: rem-calc(18);
+      font-size: 18px;
       margin-top:20px;
       margin-bottom: 0;
     }
     p {
-      font-size: rem-calc(14);
+      font-size: 14px;
       margin-bottom: 15px;
     }
     .slick-dots {
@@ -614,7 +618,7 @@ select {
         display: block;
         padding: 20px 10px;
         margin-left: 0;
-        font-size: rem-calc(14);
+        font-size: 14px;
         text-align: left;
         color: #ffffff;
       }
@@ -704,7 +708,7 @@ ul#support-list {
   font-family: $header-font-family;
   text-align: center;
   em {
-    font-size: rem-calc(19);
+    font-size: 19px;
     color: $white;
     font-style: normal;
   }
@@ -768,7 +772,7 @@ ul#support-list {
 //     border: 1px solid $gray;
 //     &.button {
 //       border: 0;
-//       font-size: rem-calc(18);
+//       font-size: 18px;
 //     }
 //   }
 //   div {
@@ -855,7 +859,7 @@ ul#support-list {
   .hero-caption {
     text-align: left;
     h1 {
-      font-size: 50px;
+      font-size: 40px;
       line-height: 1;
       margin-bottom: 20px;
       min-height: 0;
@@ -881,6 +885,11 @@ ul#support-list {
 #accounting-you-can-trust {
   i {
     font-size: 75px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 23px;
   }
 }
 
@@ -896,6 +905,21 @@ ul#support-list {
 #apply-now {
   h2 {
     margin-top: 40px;
+  }
+}
+
+#testimonials {
+  background: url(/img/global/testimonial-background.jpg) no-repeat center center;
+  font-family: $header-font-family;
+  text-align: center;
+  em {
+    font-size: 26px;
+    color: $white;
+    font-style: normal;
+  }
+  p {
+    color: $white;
+    line-height: 1.2;
   }
 }
 
@@ -990,14 +1014,14 @@ ul#support-list {
       }
     }
     h1 {
-      font-size: rem-calc(45);
+      font-size: 45px;
       min-height: 200px;
       line-height: 200px;
       color: #fff;
       //background: url(../images/global/hero-bg-icon.svg) no-repeat center center;
     }
     h2 {
-      font-size: rem-calc(30);
+      font-size: 30px;
       color: #fff;
     }
     p { color: #fff; }
@@ -1038,7 +1062,10 @@ ul#support-list {
 
 .call-to-action {
   padding: 30px 0 !important;
-  h3 {
+  min-height: 50px;
+  box-shadow: 1px 3px 7px rgba(0,0,0,.5);
+  z-index: 10;
+  h3, p {
     color: $white;
     padding: 0;
     margin: 0;
@@ -1161,13 +1188,13 @@ hr.plus {
   }
   a {
     color: $primary-color;
-    font-size: rem-calc(16) !important;
+    font-size: 16px !important;
     font-family: $header-font-family;
     display: block;
     line-height: 2; 
   }
   h5 {
-    font-size: rem-calc(14) !important;
+    font-size: 14px !important;
     color: $gray-dark;
   }
   .content {
@@ -1294,7 +1321,7 @@ time {
 ----------------------------------------- */
 #locations {
   font-family: $header-font-family;
-  font-size: rem-calc(13);
+  font-size: 13px;
   h1 {
     font-size: 1rem;
   }
@@ -1475,7 +1502,7 @@ a {
       }
       h5 {
         margin-left: 28%;
-        font-size: rem-calc(16);
+        font-size: 16px;
       }
     }
   }
@@ -1510,7 +1537,7 @@ a {
       top: 35%;
       left: 50%;
       margin-left: -50px;
-      //font-size: rem-calc(100);
+      //font-size: 100px;
       color: #ddd;
     }
   }
@@ -1523,10 +1550,10 @@ a {
 
   #testimonials {
     em {
-      font-size: rem-calc(28);
+      font-size: 28px;
     }
     p {
-      font-size: rem-calc(20);
+      font-size: 20px;
     }
   }
   #search {

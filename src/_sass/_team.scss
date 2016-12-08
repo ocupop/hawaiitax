@@ -1,0 +1,53 @@
+$font-size: 16px;
+$line-height: 1.4;
+$lines-to-show: 6;
+
+.team {
+  list-style: none;
+  li {
+    position: relative;
+    padding-bottom: 20px;
+  }
+  h3 {
+    margin-top: 15px;
+    font-size: 1.3875rem;
+    small {
+      font-size: 100%;
+      color: $gray;
+    }
+  }
+  p {
+    font-family: $font-family-sans-serif;
+    font-weight: 300;
+  }
+  .bio {
+    i {
+      position: absolute;
+      bottom: -35px;
+      font-size: 25px;
+      color: $gray;
+    }
+    .icon-icon-email {
+      right: 50px;
+    }
+    .icon-icon-linkedin {
+      right: 0;
+    }
+  }
+}
+.team-grid {
+  img {
+    margin-bottom: 10px;
+  }
+  h3 {
+    margin: 0;
+    font-size: 1.3875rem;
+    line-height: 1;
+  }
+}
+
+.single-staff {
+  h2 {
+    margin-top: 50px;
+  }
+}

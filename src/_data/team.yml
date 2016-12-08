@@ -1,0 +1,18 @@
+- name: Management Team
+  staff:
+    - matt-delaney
+    - stacey-katakura
+    - sonomi-uchida
+    - wayne-tomita
+    - jason-izu
+- name: Staff
+  staff:
+    - kelly-won
+    - yvonne-galiananes
+    - song-kang
+    - shanthally-alboro
+    - kimberly-harai
+    - robert-reantaso
+    - ellie-zhao
+    - sheldon-shibuya
+    - fred-li

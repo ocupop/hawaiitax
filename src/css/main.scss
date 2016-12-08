@@ -7,6 +7,7 @@
 @import "mixins";
 @import "icons";
 @import "typography";
+@import "team";
 
 /* -----------------------------------------
    Global Styles
@@ -25,7 +26,9 @@ body {
   text-rendering:optimizeLegibility;
 }
 a {
+  color: $primary-color;
   &:hover {
+    color: #71a130;
     text-decoration: none;
     cursor: pointer;
   }
@@ -875,6 +878,21 @@ ul#support-list {
   }
 }
 
+#accounting-you-can-trust {
+  i {
+    font-size: 75px;
+  }
+}
+
+#how-we-help {
+  i {
+    display: block;
+    font-size: 70px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
 /* -----------------------------------------
    Overwrite Foundation Class Styles
 ----------------------------------------- */
@@ -1197,30 +1215,30 @@ ul.icon-list {
   }
 }
 
-.icon-email, .icon-linkedin {
-  position: relative;
-  display: inline-block;
-  padding: 10px;
-  &:before {
-    content: "";
-    width: 35px;
-    height: 35px;
-    background: no-repeat center center;
-    display: block;
-  }
-}
+// .icon-email, .icon-linkedin {
+//   position: relative;
+//   display: inline-block;
+//   padding: 10px;
+//   &:before {
+//     content: "";
+//     width: 35px;
+//     height: 35px;
+//     background: no-repeat center center;
+//     display: block;
+//   }
+// }
 
-.icon-email {
-  &:before {
-    background-image: url(images/icon-email.svg);
-  }
-}
+// .icon-email {
+//   &:before {
+//     background-image: url(images/icon-email.svg);
+//   }
+// }
 
-.icon-linkedin {
-  &:before {
-    background-image: url(images/icon-linkedin.svg);
-  }
-}
+// .icon-linkedin {
+//   &:before {
+//     background-image: url(images/icon-linkedin.svg);
+//   }
+// }
 
 //styles for blog page and single post
 time {

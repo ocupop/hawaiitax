@@ -5,6 +5,15 @@ description: ''
 url: "http://client_url"
 permalink: /:title
 
+collections:
+  staff:
+    output: true
+defaults:
+  - scope:
+      type: staff
+    values:
+      layout: staffs
+
 # Build settings
 safe: false
 source: src

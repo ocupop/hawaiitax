@@ -1,16 +1,17 @@
 @font-face {
   font-family: 'hiaccounting';
-  src:url('/imgfonts/hiaccounting.eot?ijke9e');
-  src:url('/img/fonts/hiaccounting.eot?ijke9e#iefix') format('embedded-opentype'),
-    url('/img/fonts/hiaccounting.ttf?ijke9e') format('truetype'),
-    url('/img/fonts/hiaccounting.woff?ijke9e') format('woff'),
-    url('/img/fonts/hiaccounting.svg?ijke9e#icomoon') format('svg');
+  src:  url('/img/fonts/hiaccounting.eot?oqwxno');
+  src:  url('/img/fonts/hiaccounting.eot?oqwxno#iefix') format('embedded-opentype'),
+    url('/img/fonts/hiaccounting.woff2?oqwxno') format('woff2'),
+    url('/img/fonts/hiaccounting.ttf?oqwxno') format('truetype'),
+    url('/img/fonts/hiaccounting.woff?oqwxno') format('woff'),
+    url('/img/fonts/hiaccounting.svg?oqwxno#hiaccounting') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
+  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'hiaccounting' !important;
   speak: none;
   font-style: normal;
@@ -24,153 +25,72 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-temp-staffing:before {
+.icon-payroll-support:before {
   content: "\e900";
 }
-.icon-temp-to-hire:before {
+.icon-accounting-support:before {
   content: "\e901";
 }
-.icon-perm-placement:before {
+.icon-general-support:before {
   content: "\e902";
 }
-.icon-consultation:before {
+.icon-accounting:before {
   content: "\e903";
 }
-.icon-executive-search:before {
+.icon-employment:before {
   content: "\e904";
 }
-.icon-group-recruit:before {
+.icon-exit:before {
   content: "\e905";
 }
-.icon-place-for-everyone-06:before {
+.icon-healthcare:before {
   content: "\e906";
 }
-.icon-place-for-everyone-08:before {
+.icon-icon-email:before {
   content: "\e907";
 }
-.icon-Why-Companies-02:before {
+.icon-icon-linkedin:before {
   content: "\e908";
 }
-.icon-Why-Companies-04:before {
+.icon-menu:before {
   content: "\e909";
 }
-.icon-delivery-01:before {
-  content: "\e620";
-}
-.icon-delivery-02:before {
-  content: "\e621";
-}
-.icon-delivery-03:before {
-  content: "\e622";
-}
-.icon-delivery-04:before {
-  content: "\e623";
-}
-.icon-delivery-05:before {
-  content: "\e624";
-}
-.icon-delivery-06:before {
-  content: "\e625";
-}
-.icon-delivery-07:before {
-  content: "\e626";
-}
-.icon-delivery-08:before {
-  content: "\e627";
-}
-.icon-compliance:before {
-  content: "\e600";
-}
-.icon-talent:before {
-  content: "\e601";
-}
-.icon-wellness:before {
-  content: "\e602";
-}
-.icon-accounting:before {
-  content: "\e603";
-}
-.icon-agenda:before {
-  content: "\e604";
-}
-.icon-align:before {
-  content: "\e605";
-}
-.icon-award:before {
-  content: "\e606";
-}
-.icon-bell:before {
-  content: "\e607";
-}
-.icon-careers:before {
-  content: "\e608";
-}
-.icon-case:before {
-  content: "\e609";
-}
-.icon-certificate:before {
-  content: "\e60a";
-}
-.icon-checked:before {
-  content: "\e60b";
-}
-.icon-company:before {
-  content: "\e60c";
-}
-.icon-employment:before {
-  content: "\e60d";
-}
-.icon-expert:before {
-  content: "\e60e";
-}
-.icon-gears:before {
-  content: "\e60f";
-}
-.icon-gift:before {
-  content: "\e610";
-}
-.icon-group:before {
-  content: "\e611";
-}
-.icon-hammer:before {
-  content: "\e612";
-}
-.icon-heart:before {
-  content: "\e613";
-}
-.icon-hihr:before {
-  content: "\e614";
-}
-.icon-islands:before {
-  content: "\e615";
-}
-.icon-liability:before {
-  content: "\e616";
-}
-.icon-lock:before {
-  content: "\e617";
-}
-.icon-manage-costs:before {
-  content: "\e618";
-}
 .icon-notepad:before {
-  content: "\e619";
-}
-.icon-nursing:before {
-  content: "\e61a";
-}
-.icon-partners:before {
-  content: "\e61b";
+  content: "\e90a";
 }
 .icon-payroll:before {
-  content: "\e61c";
+  content: "\e90b";
 }
-.icon-plus-plus:before {
-  content: "\e61d";
+.icon-services-01:before {
+  content: "\e90c";
 }
-.icon-refresh:before {
-  content: "\e61e";
+.icon-services-02:before {
+  content: "\e90d";
 }
-.icon-skyscraper:before {
-  content: "\e61f";
+.icon-services-03:before {
+  content: "\e90e";
+}
+.icon-services-04:before {
+  content: "\e90f";
+}
+.icon-services-05:before {
+  content: "\e910";
+}
+.icon-services-06:before {
+  content: "\e911";
+}
+.icon-social-facebook:before {
+  content: "\e912";
+}
+.icon-social-google:before {
+  content: "\e913";
+}
+.icon-social-instagram:before {
+  content: "\e914";
+}
+.icon-social-linkedin:before {
+  content: "\e915";
+}
+.icon-social-twitter:before {
+  content: "\e916";
 }

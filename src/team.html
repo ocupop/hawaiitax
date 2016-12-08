@@ -3,3 +3,50 @@ layout: default
 title: Team HiAccounting
 ---
 
+<section class="hero" style="background-image: url(/img/team/hero-team.jpg);">
+  <div class="hero-caption">
+    <h1>Team</h1>
+  </div>  
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="small-12 columns">
+        <h1>Our Team</h1>
+        <p>Comprised of business leaders with decades of experience both locally and abroad, Hawaii Accounting is unmatched with the attention, value, reliability and piece of mind we offer our clientele.</p>
+        <p>Interested in joining the team? <a href="{ site.baseurl }}/careers">Learn more on our Careers page</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gray">
+  <div class="container">
+    {% for object in site.data.team %}
+    <div class="row">
+      <div class="small-12 columns">
+        <h1>{{ object.name }}</h1>
+      </div>
+    </div>
+    <ul class="team">
+      {% for ordered in object.staff %}
+      {% assign member = site.staff | where: "slug", ordered | first %}
+      <li class="row">
+        <div class="medium-4 columns">
+          <img src="{{ member.profile_image }}" alt="">
+        </div>
+        <div class="medium-8 columns bio">
+          <h3>{{ member.name }}<small> - {{ member.title}}</small></h3>
+          {{ member.bio_html }}
+          {% if member.email %}
+            <a href="mailto:{{ member.email }}" class="icon-email"><i class="icon-icon-email"></i></a>
+          {% endif %}
+          {% if member.linkedin %}
+            <a href="{{ member.linkedin }}" class="icon-linkedin" target="_blank"><i class="icon-icon-linkedin"></i></a>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</section>

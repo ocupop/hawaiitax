@@ -8,11 +8,17 @@ permalink: /:title
 collections:
   staff:
     output: true
+  positions: 
+    output: true  
 defaults:
   - scope:
       type: staff
     values:
-      layout: staffs
+      layout: default
+  - scope:
+      type: positions
+    values: 
+      layout: position
 
 # Build settings
 safe: false

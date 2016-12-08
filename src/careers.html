@@ -16,13 +16,13 @@ title: Careers HiAccounting
       <p>If a dynamic and diverse work environment is your calling, we’d love to meet you. Check the open positions to your right and download an job application. We looking forward to hearing from you soon.</p>
     </div>
   </div>
-  <div class="row">
-    <div class="medium-4 columns">
-      <img src="http://placehold.it/350x150?text=apply+now+graphic" alt="">
+  <div id="apply-now" class="row">
+    <div class="medium-3 columns">
+      <a href="#" class="circle-cta"><h4>Apply Now</h4><i class="icon-notepad"></i></a>
     </div>
-    <div class="medium-8 columns">
+    <div class="medium-9 columns">
       <h2>Questions?</h2>
-      <p>If you have any questions, please contact us at <a href="mailto:careers@hi-accounting.com">careers@hi-accounting.com</a>or <a href="tel:808-529-9990">808-529-9990</a>.</p>
+      <p>If you have any questions, please contact us at <a href="mailto:careers@hi-accounting.com">careers@hi-accounting.com</a> or <a href="tel:808-529-9990">808-529-9990</a>.</p>
     </div>
   </div>
 </section>
@@ -30,12 +30,16 @@ title: Careers HiAccounting
   <div class="container">
     <div class="row">
       <h1>Currently Open Positions</h1>
-      <h2>Job Title 01</h2>
+      {% for position in site.positions %}
+        <a href="{{ site.baseurl }}{{ position.url }}"><h2>{{ position.name }}</h2></a>
+        <p>{{ position.summary }}</p>
+      {% endfor %}
+      <!-- <h2>Job Title 01</h2>
       <p>Job description - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quidem recusandae voluptates aspernatur magni ducimus deserunt, impedit quis debitis in, porro velit reiciendis rerum magnam, molestias eveniet asperiores repellat. Molestias.</p>
       <h2>Job Title 02</h2>
       <p>Job description - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum libero dolor, veniam unde. Porro repellat voluptatem voluptates magni, odit quos! Laborum molestias omnis soluta. Modi nihil a, ad deleniti esse?</p>
       <h2>Job Title 03</h2>
-      <p>Job description - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero hic, eius autem distinctio. Rerum, alias modi quo cum ipsa quaerat dolorem laudantium, vitae quisquam optio perspiciatis cumque totam, ipsam molestias.</p>
+      <p>Job description - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero hic, eius autem distinctio. Rerum, alias modi quo cum ipsa quaerat dolorem laudantium, vitae quisquam optio perspiciatis cumque totam, ipsam molestias.</p> -->
     </div>
   </div>
 </section>

@@ -1,0 +1,78 @@
+---
+layout: default
+name: 
+type:
+experience:
+functions:
+reports_to:
+flsa_status:
+compensation:
+summary: 
+essential_functions_html:
+competency_statements_html:
+education_description:
+experience_description:
+computer_skills_description:
+other_requirements:
+position_pdf_document:
+---
+
+<section>
+  <div class="container">
+    <div id="positions" class="row">
+      <div class="small-12 columns">
+        <div class="content">
+          <h1>{{ page.name}}</h1>
+          <p><strong>Type:</strong> {{ page.type }}</p>
+          <p><strong>Experience:</strong> {{ page.experience }}</p>
+          <p><strong>Functions:</strong> {{ page.functions }}</p>
+          <p><strong>Reports To:</strong> {{ page.reports_to }}</p>
+          <p><strong>FLSA Status:</strong> {{ page.flsa_status }}</p>
+          <p><strong>Compensation:</strong> {{ page.compensation }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="gray">        
+  <div class="container">      
+    <div class="row">
+      <div class="small-12 columns">
+        <div class="content">
+          {% if page.essential_functions_html %}
+            <h2>Essential Functions</h2>
+            <h3>Reasonable Accomodations Statement</h3>
+            <p>To perform this job successfully, an individual must be able to perform each essential duty satisfactorily. Reasonable accommodations may be made to enable qualified individuals with disabilities to perform the essential functions.</p>
+            {{ page.essential_functions_html }}
+          {% endif %}
+          {% if page.competency_statements_html %}
+            <h2>Competency Statement(s)</h2>
+            {{ page.competency_statements_html }}
+            <h2>Skills &amp; Abilities</h2>
+          {% endif %}  
+          {% if page.education_description %}
+            <h3>Education</h3>
+            <p>{{ page.education_description }}</p>
+          {% endif %}
+          {% if page.experience_description %}
+            <h3>Experience</h3>
+            <p>{{ page.experience_description }}</p>
+          {% endif %}
+          {% if page.computer_skills_description %}
+            <h3>Computer Skills</h3>
+            <p>{{ page.computer_skills_description }}</p>
+          {% endif %}
+          {% if page.other_requirements %}
+            <h3>Other Requirements</h3>
+            <p>{{ page.other_requirements }}</p>
+          {% endif %}
+          <p>
+            <a href="{{ page.position_pdf_document }}">Download {{ page.name }} Job Opening Information</a>
+          </p>
+          <a href="#" class="button">Click here to apply</a>
+        </div> 
+      </div>
+    </div>
+  </div>
+</section>
+

@@ -159,7 +159,7 @@ testimonial_author: "Michelangelo Muchlongername, CFO at VeryImportantBusiness"
           <div id="employment-modal" class="reveal-modal small" data-reveal aria-hidden="true" role="dialog">
             <h2><i class="icon-employment"></i>HiEmployment</h2>
             <p class="editable">HiEmployment can locate, select, screen and mobilize the talent you need. Our Hawaii-specific focus and decades of business experience in the state, guarantees insight, expertise, and relationships that competing local and national recruiting and staffing firms simply cannot match. Whether you are looking for a new C-level executive or short-term staff HiEmployment has the people, and connections, you need.</p>
-            <a href="<?php echo home_url(); ?>/mission" class="button">Learn More</a>
+            <a href="http://hi-employment.com/mission" class="button">Learn More</a>
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
           </div>
         </li>
@@ -168,7 +168,7 @@ testimonial_author: "Michelangelo Muchlongername, CFO at VeryImportantBusiness"
           <div id="accounting-modal" class="reveal-modal small" data-reveal aria-hidden="true" role="dialog">
             <h2><i class="icon-accounting"></i>HiAccounting</h2>
             <p class="editable">To hire an in-house accounting team requires dedication of significant financial and physical resources – resources better targeted at your core business. So instead of adding extra overhead and frustration, outsource your accounting and bookkeeping to HiAccounting's experienced, local team. Put people you can trust on the job and focus on what you do best – we'll take care of the rest.</p>
-            <a href="http://hi-accounting.com/" class="button">Learn More</a>
+            <a href="http://hi-accounting.com/about" class="button">Learn More</a>
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
           </div>
         </li>
@@ -185,6 +185,7 @@ testimonial_author: "Michelangelo Muchlongername, CFO at VeryImportantBusiness"
     </div>
   </div>
 </div>
+{% if page.testimonial %}
 <section id="testimonials" class="container">
   <div class="row">
     <div class="small-12 columns">
@@ -195,3 +196,4 @@ testimonial_author: "Michelangelo Muchlongername, CFO at VeryImportantBusiness"
     </div>
   </div>
 </section>
+{% endif %}

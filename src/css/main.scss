@@ -52,14 +52,7 @@ hr {
   max-width: 62.5rem;
   margin: 1.25rem auto 1.1875rem;
 }
-input[type="text"], input[type="email"] {
-  line-height: 53px;
-  height: 53px;
-  text-indent: 10px;
-  sup {
-    color: $primary-color;
-  }
-}
+
 em {
   color: $primary-color;
 }
@@ -78,7 +71,7 @@ select {
 
 .button {
   background-color: $primary-color;
-  &:hover {
+  &:hover, &:active, &:focus {
     background-color: $link-hover;
   }
 }
@@ -712,91 +705,6 @@ ul#support-list {
     font-size: 20px;
   }
 }
-// #faq {
-//   h3 {
-//     margin-top: 20px;
-//   }
-//   .accordion {
-//     margin-left: 0;
-//     .accordion-navigation {
-//       &.active {
-//         background: transparent;
-//         a {
-//           background: url(images/icon-minus.png) no-repeat left center;
-//           background-size: 15px;
-//         }
-//       }
-//       a {
-//         padding-left: 25px;
-//         color: $body-font-color;
-//         background: url(images/icon-plus-nobg.png) no-repeat left center;
-//         background-size: 15px;
-//       }
-//       .content {
-//         p {
-//           font-style: italic;
-//         }
-//       }
-//     }
-//   }
-//   p {
-//     margin-bottom: 0;
-//   }
-// }
-// #mc_embed_signup {
-//   h4 {
-//     color: $primary-color;
-//   }
-//   input {
-//     border: 1px solid $gray;
-//     &.button {
-//       border: 0;
-//       font-size: 18px;
-//     }
-//   }
-//   div {
-//     &.mce_inline_error {
-//     background-color:$green-bright !important;
-//     }
-//   }
-//   #mce-error-response {
-//     padding-bottom: 10px;
-//   }
-// }
-// #references {
-//   a {
-//     color: $body-font-color;
-//   }
-//   .button {
-//     color: $white;
-//   }
-//   .button-group {
-//     padding-top: 20px;
-//     padding-bottom: 20px;
-//     .button {
-//       margin: 0 5px 0 0;
-//     }
-//   }
-// }
-// #reference-notification {
-//   background: $gray-light;
-//   color: #fff;
-// }
-#form19 {
-  input[type="email"] {
-    background-color: $white;
-  }
-}
-#sitenav {
-  padding: 7px;
-  a {
-    color: $white;
-    padding: 10px;
-    &.active {
-      background: $primary-color;
-    }
-  }
-}
 
 .image-bg {
   background: no-repeat center center;
@@ -814,6 +722,7 @@ ul#support-list {
 #ready {
   background-image: url(images/jobseeker-green.jpg);
 }
+
 #job-search {
   padding: 20px;
   background: $gray-lightest;
@@ -829,11 +738,11 @@ ul#support-list {
   // change background image when receive from grace
   background-image: url(images/jobseeker-green.jpg);
 }
-#medical {
-  img {
-    width: 425px;
-  }
-}
+// #medical {
+//   img {
+//     width: 425px;
+//   }
+// }
 #home-hero {
   .hero-caption {
     text-align: left;
@@ -1149,83 +1058,83 @@ hr.plus {
   margin: 50px auto;
 }
 
-.service-grid {
-  br, p {
-    display: none;
-  }
-  a {
-    display: block;
-    height: 75px;
-    padding: 15px 10px;
-    background: $white;
-    font-family: $font-family-sans-serif;
-    color: $body-font-color;
-    img {
-      max-width: 25%;
-      float: left;
-      padding: 0;
-      margin: -15px;
-      margin-right: 10px;
-      display: inline-block;
-    }
-    p {
-      float: left;
-      display: inline-block;
-      padding: 15px;
-      margin: 0;
-      text-align: center;
-      width: 75%;
-      &.single-line {
-        padding: 28px 0;
-      }
-    }
-  }
-}
+// .service-grid {
+//   br, p {
+//     display: none;
+//   }
+//   a {
+//     display: block;
+//     height: 75px;
+//     padding: 15px 10px;
+//     background: $white;
+//     font-family: $font-family-sans-serif;
+//     color: $body-font-color;
+//     img {
+//       max-width: 25%;
+//       float: left;
+//       padding: 0;
+//       margin: -15px;
+//       margin-right: 10px;
+//       display: inline-block;
+//     }
+//     p {
+//       float: left;
+//       display: inline-block;
+//       padding: 15px;
+//       margin: 0;
+//       text-align: center;
+//       width: 75%;
+//       &.single-line {
+//         padding: 28px 0;
+//       }
+//     }
+//   }
+// }
 
-.sidebar {
-  ul {
-    list-style-type: none;
-  }
-  a {
-    color: $primary-color;
-    font-size: 16px !important;
-    font-family: $header-font-family;
-    display: block;
-    line-height: 2; 
-  }
-  h5 {
-    font-size: 14px !important;
-    color: $gray-dark;
-  }
-  .content {
-    margin-top: 15px;
-    ul {
-      margin-left: 0;
-    }
-  }
-  .dark-gray {
-    h5 {
-      color: $white;
-    }
-    a {
-      color: $primary-color;
-    }
-  }
-}
+// .sidebar {
+//   ul {
+//     list-style-type: none;
+//   }
+//   a {
+//     color: $primary-color;
+//     font-size: 16px !important;
+//     font-family: $header-font-family;
+//     display: block;
+//     line-height: 2; 
+//   }
+//   h5 {
+//     font-size: 14px !important;
+//     color: $gray-dark;
+//   }
+//   .content {
+//     margin-top: 15px;
+//     ul {
+//       margin-left: 0;
+//     }
+//   }
+//   .dark-gray {
+//     h5 {
+//       color: $white;
+//     }
+//     a {
+//       color: $primary-color;
+//     }
+//   }
+// }
 
-.single-post {
-  .sidebar {
-    ul {
-      margin-left: 0;
-    }
-    .content {
-      margin-top: 0;
-    }
-    .gray, .dark-gray {
-      margin-top: 15px;
-    }
-  }
-}
+// .single-post {
+//   .sidebar {
+//     ul {
+//       margin-left: 0;
+//     }
+//     .content {
+//       margin-top: 0;
+//     }
+//     .gray, .dark-gray {
+//       margin-top: 15px;
+//     }
+//   }
+// }
 
 // lists
 ul.centered {
@@ -1248,53 +1157,9 @@ ul.icon-list {
   }
 }
 
-// .icon-email, .icon-linkedin {
-//   position: relative;
-//   display: inline-block;
-//   padding: 10px;
-//   &:before {
-//     content: "";
-//     width: 35px;
-//     height: 35px;
-//     background: no-repeat center center;
-//     display: block;
-//   }
-// }
-
-// .icon-email {
-//   &:before {
-//     background-image: url(images/icon-email.svg);
-//   }
-// }
-
-// .icon-linkedin {
-//   &:before {
-//     background-image: url(images/icon-linkedin.svg);
-//   }
-// }
-
 //styles for blog page and single post
 time {
   font-style: italic;
-}
-.entry-content {
-  padding: 20px 0;
-}
-
-.entry-title {
-  margin-top: 30px;
-}
-
-.post-67 {
-  h2 {
-    line-height: 1;
-  }
-}
-
-.type-newsletter {
-  img {
-    margin-bottom: 30px;
-  }
 }
 
 .circle-cta {
@@ -1346,47 +1211,47 @@ time {
   }
 }
 
-a {
- &.ss-button-facebook {
-   background-image: url(images/socialshare.png) !important;
-   background-position: -60px -30px !important;
-   width: 30px !important;
-   height: 30px !important;
-   &:hover {
-     background-position: -60px 0 !important;
-   }
- }
+// a {
+//  &.ss-button-facebook {
+//    background-image: url(images/socialshare.png) !important;
+//    background-position: -60px -30px !important;
+//    width: 30px !important;
+//    height: 30px !important;
+//    &:hover {
+//      background-position: -60px 0 !important;
+//    }
+//  }
 
- &.ss-button-twitter {
-   background-image: url(images/socialshare.png) !important;
-   background-position: 0 -30px !important;
-   width: 30px !important;
-   height: 30px !important;
-   &:hover {
-    background-position: 0 0 !important;
-   } 
- }
+//  &.ss-button-twitter {
+//    background-image: url(images/socialshare.png) !important;
+//    background-position: 0 -30px !important;
+//    width: 30px !important;
+//    height: 30px !important;
+//    &:hover {
+//     background-position: 0 0 !important;
+//    } 
+//  }
 
- &.ss-button-googleplus {
-  background-image: url(images/socialshare.png) !important;
-   background-position: -30px -30px !important;
-   width: 30px !important;
-   height: 30px !important;
-   &:hover {
-    background-position: -30px 0 !important;
-   } 
- }
+//  &.ss-button-googleplus {
+//   background-image: url(images/socialshare.png) !important;
+//    background-position: -30px -30px !important;
+//    width: 30px !important;
+//    height: 30px !important;
+//    &:hover {
+//     background-position: -30px 0 !important;
+//    } 
+//  }
 
- &.ss-button-linkedin {
-  background-image: url(images/socialshare.png) !important;
-   background-position: -90px -30px !important;
-   width: 30px !important;
-   height: 30px !important;
-   &:hover {
-    background-position: -90px 0 !important;
-   } 
- } 
-}
+//  &.ss-button-linkedin {
+//   background-image: url(images/socialshare.png) !important;
+//    background-position: -90px -30px !important;
+//    width: 30px !important;
+//    height: 30px !important;
+//    &:hover {
+//     background-position: -90px 0 !important;
+//    } 
+//  } 
+// }
 
 /* -----------------------------------------
    Media Queries

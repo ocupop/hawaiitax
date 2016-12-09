@@ -1476,8 +1476,22 @@ time {
   }
   
 }
-
-@media (max-width: 40em) {
+@media(max-width: 768px) {
+  #mainnav {
+    .top-bar {
+      .title-area {
+        .name {
+          h1 {
+            a {
+              width: 180px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
   h1 { font-size: 25px; }
   h2 { font-size: 22px; }
   h3 { font-size: 20px; }
@@ -1573,6 +1587,7 @@ time {
   #page-footer {
     #footersub {
       padding: 15px;
+      box-shadow: none;
       img {
         display: block;
         margin: 0 auto;

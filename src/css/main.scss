@@ -120,7 +120,7 @@ select {
   }
 }
 #page-content {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 .logged-in {
     #page-content {
@@ -279,12 +279,12 @@ select {
     display: block;
     padding-left: 30px;
     margin-bottom: 0;
-    height: 60px;
+    height: 50px;
     a {
       text-indent:-9999em;
       display: block;
-      width: 160px;
-      line-height: 60px;
+      width: 150px;
+      line-height: 50px;
       background: transparent url(/img/logo.svg) no-repeat center center;
       background-size: contain;
     }
@@ -300,17 +300,20 @@ select {
     //   }
     // }
     .name {
-      height: 60px;
+      height: 50px;
     }
     .menu {
       background-color: $gray-dark;
     }
     .toggle-topbar{
       a {
-        background: transparent url(images/menu.svg) no-repeat center center;
-        background-size: 30px;
+        //background: transparent url(images/menu.svg) no-repeat center center;
+        // background-size: 30px;
         cursor: pointer;
-        padding: 0 2rem;
+        i {
+          color: $gray;
+          font-size: 27px;
+        }
       }
     }
     &.expanded {
@@ -335,7 +338,7 @@ select {
         &.mobile-search {
           display: inline-block;
           width: 49.5%;
-          background: url(images/icon-search.png) no-repeat left 15% center;
+          background: url(/img/global/icon-search.png) no-repeat left 15% center;
           margin-left:-4px;
           padding-left: 0;
           text-align: center;

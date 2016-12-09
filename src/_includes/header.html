@@ -25,7 +25,7 @@
         <li class="name">
           <h1><a href="{{ site.baseurl }}/">HiEmployment</a></h1>
         </li>
-        <li class="toggle-topbar"><a href="#"><span class="icon-menu"></span></a></li>
+        <li class="toggle-topbar"><a href="#"><i class="icon-menu"></i></a></li>
       </ul>
       <section class="top-bar-section">
         <ul class="menu">
@@ -33,12 +33,11 @@
           <li><a href="/">Home</a></li>
           <li class="has-dropdown">
             <a href="#">About</a>
-            <!-- <ul class="dropdown">
-              <li><a href="<?php home_url(); ?>/"></a></li>
-              <li><a href="<?php home_url(); ?>/"></a></li>
-              <li><a href="<?php home_url(); ?>/"></a></li>
-            </ul> -->
-          <li class="has-dropdown">
+            <ul class="dropdown">
+              <li><a href="{{ site.baseurl }}/team">Team</a></li>
+              <li><a href="{{ site.baseurl }}/about">Advantage</a></li>
+            </ul>
+          <li>
             <a href="#">Services</a>
             <!-- <ul class="dropdown">
               <li><a href="<?php home_url(); ?>/"></a></li>
@@ -67,18 +66,18 @@
                 <div class="dropdown">
                   <div class="row" data-nav="about">
                     <div class="medium-2 columns medium-offset-6">
-                      <h3><a href="/team">Team</a></h3>
+                      <h3><a href="{{ site.baseurl }}/team">Team</a></h3>
                       <ul>
-                        <li><a href="/team#management-team" rel="m_PageScroll2id">Management Team</a></li>
-                        <li><a href="/team#staff" rel="m_PageScroll2id">Staff</a></li>
+                        <li><a href="{{ site.baseurl }}/team#management-team">Management Team</a></li>
+                        <li><a href="{{ site.baseurl }}/team#staff">Staff</a></li>
                       </ul>
                     </div>
                     <div class="medium-2 columns end">
-                      <h3><a href="/about">Advantage</a></h3>
+                      <h3><a href="{{ site.baseurl }}/about">Advantage</a></h3>
                       <ul>
-                        <li><a href="/about#benefits" rel="m_PageScroll2id">Benefits</a></li>
-                        <li><a href="/about#awards" rel="m_PageScroll2id">Awards</a></li>
-                        <li><a href="/about#technology-partners" rel="m_PageScroll2id">Technology Partners</a></li>
+                        <li><a href="{{ site.baseurl }}/about#benefits">Benefits</a></li>
+                        <li><a href="{{ site.baseurl }}/about#awards">Awards</a></li>
+                        <li><a href="{{ site.baseurl }}/about#technology-partners">Technology Partners</a></li>
                       </ul>
                     </div>
                   </div>

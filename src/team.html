@@ -36,16 +36,16 @@ title: Team HiAccounting
         </div>
         <div class="medium-8 columns bio">
           <h3>{{ member.name }}<small> - {{ member.title}}</small></h3>
-          {{ member.bio_html | truncatewords: 50 }}
+          <p>{{ member.bio_html | truncatewords: 50 }}</p>
           {% assign num_words = member.bio_html | number_of_words %}
           {% if num_words > 50 %}
             <p><a href="{{ member.url }}">Read More</a></p>
           {% endif %}
           {% if member.email %}
-            <a href="mailto:{{ member.email }}" class="icon-email"><i class="icon-icon-email"></i></a>
+            <a href="mailto:{{ member.email }}" class="contact-icon"><i class="icon-icon-email"></i></a>
           {% endif %}
           {% if member.linkedin %}
-            <a href="{{ member.linkedin }}" class="icon-linkedin" target="_blank"><i class="icon-icon-linkedin"></i></a>
+            <a href="{{ member.linkedin }}" class="contact-icon" target="_blank"><i class="icon-icon-linkedin"></i></a>
           {% endif %}
         </div>
       </li>

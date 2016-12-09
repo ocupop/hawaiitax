@@ -21,17 +21,19 @@ $lines-to-show: 6;
     font-weight: 300;
   }
   .bio {
-    i {
+    .contact-icon {
       position: absolute;
-      bottom: -35px;
-      font-size: 25px;
+      bottom: 0;
       color: $gray;
-    }
-    .icon-icon-email {
-      right: 50px;
-    }
-    .icon-icon-linkedin {
-      right: 0;
+      &:nth-of-type(1) {
+        right: 50px;
+      }
+      &:nth-of-type(2) {
+        right: 0;
+      }
+      i {
+        font-size: 25px;
+      }
     }
   }
 }
@@ -49,5 +51,21 @@ $lines-to-show: 6;
 .single-staff {
   h2 {
     margin-top: 50px;
+  }
+}
+
+@media(max-width: 40em) {
+  .team {
+    margin-left: 0;
+    .bio {
+      .contact-icon {
+        display: inline-block;
+        position: relative;
+        bottom: 10px;
+        &:nth-of-type(1) {
+          right: auto;
+        }
+      }
+    }
   }
 }

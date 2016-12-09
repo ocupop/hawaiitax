@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section id="staff-member">
+  <div class="container">
+    <div class="row">
+      <div class="medium-4 columns">
+        <img src="{{ page.profile_image }}" alt="">
+      </div>
+      <div class="medium-8 columns">
+        <h1>{{ page.name }}</h1>
+        <p>{{ page.bio_html }}</p>
+        <p>
+          <a href="{{ page.email }}"><i class="icon-icon-email"></i></a>
+          <a href="{{ page.linkedin }}"><i class="icon-icon-linkedin"></i></a>
+        </p>
+        <p><a href="{{ site.baseurl }}/team">&lt; Back to Team</a></p>
+      </div>
+    </div>
+  </div>
+</section>

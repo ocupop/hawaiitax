@@ -10,10 +10,11 @@
         <div class="medium-8 columns show-for-medium-up">
           <ul class="inline-list right">
             <li class="search">
-              <a href="/search" id="topsearch">
-                <label>Search</label>
-                <input type="text" placeholder="Search..." name="search" onkeyup="buttonUp();" required />
-              </a>
+              <form id="site-search-form">
+                <label class="sr">Search</label>
+                <input id="search_box" class="keyterms" type="text" placeholder="Search">
+                <input type="submit" value="Search">
+              </form>
             </li>
           </ul>
         </div>

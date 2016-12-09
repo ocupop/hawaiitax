@@ -3,8 +3,20 @@
   {% include head.html %}
   <body class="{{page.layout}}">
     {% include header.html %}
+    <section id="site-search-results" class="gray">
+      <div class="container">
+        <div class="row">
+          <div class="small-12">
+            <h2>Search Results</h2>
+            <hr>
+            <ul id="search_results">
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
     {{ content }}
-    <div id="expose-footer"></div>
     
     {% include footer.html %}
     {% include scripts.html %}

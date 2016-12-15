@@ -1194,6 +1194,9 @@ time {
   h1 {
     font-size: 1rem;
   }
+  .content {
+    padding: 0 0 0 25px;
+  }
 }
 .content-divider {
   background-color: $gray-lightest;
@@ -1210,48 +1213,6 @@ time {
       width: 90%;
   }
 }
-
-// a {
-//  &.ss-button-facebook {
-//    background-image: url(images/socialshare.png) !important;
-//    background-position: -60px -30px !important;
-//    width: 30px !important;
-//    height: 30px !important;
-//    &:hover {
-//      background-position: -60px 0 !important;
-//    }
-//  }
-
-//  &.ss-button-twitter {
-//    background-image: url(images/socialshare.png) !important;
-//    background-position: 0 -30px !important;
-//    width: 30px !important;
-//    height: 30px !important;
-//    &:hover {
-//     background-position: 0 0 !important;
-//    } 
-//  }
-
-//  &.ss-button-googleplus {
-//   background-image: url(images/socialshare.png) !important;
-//    background-position: -30px -30px !important;
-//    width: 30px !important;
-//    height: 30px !important;
-//    &:hover {
-//     background-position: -30px 0 !important;
-//    } 
-//  }
-
-//  &.ss-button-linkedin {
-//   background-image: url(images/socialshare.png) !important;
-//    background-position: -90px -30px !important;
-//    width: 30px !important;
-//    height: 30px !important;
-//    &:hover {
-//     background-position: -90px 0 !important;
-//    } 
-//  } 
-// }
 
 /* -----------------------------------------
    Media Queries
@@ -1476,6 +1437,15 @@ time {
   }
   
 }
+
+@media(max-width: 1024px) {
+  #locations {
+    .content {
+      padding: 0;
+    }
+  }
+}
+
 @media(max-width: 768px) {
   #mainnav {
     .top-bar {

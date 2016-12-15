@@ -22,7 +22,7 @@ title: Team HiAccounting
 <section class="gray">
   <div class="container">
     {% for object in site.data.team %}
-    <div class="row">
+    <div id="{{ object.name | slugify }}" class="row">
       <div class="small-12 columns">
         <h1>{{ object.name }}</h1>
       </div>

@@ -54,8 +54,7 @@ jQuery(function() {
           $("#site-search-results").fadeIn();
         });
       } else {
-        $search_results.html('<li>No results found. Please try another search term</li>');
-        $("#site-search-results").fadeIn();
+        $search_results.html('<li>No results found</li>');
       }
     });
   }

@@ -10,6 +10,7 @@ $(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      window.console.log(target);
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top - 125
@@ -18,4 +19,12 @@ $(function() {
       }
     }
   });
+});
+
+$(window).on('load', function (e){
+  if (window.location.hash) {
+    $('html, body').animate({
+      scrollTop: $(window.location.hash).offset().top - 125
+    }, 1000);
+  }
 });

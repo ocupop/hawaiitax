@@ -32,10 +32,14 @@ title: Team HiAccounting
       {% assign member = site.staff | where: "slug", ordered | first %}
       <li class="row">
         <div class="medium-4 columns">
-          <img src="{{ member.profile_image }}" alt="">
+          {% if member.profile_image %}
+            <img src="{{ member.profile_image }}" alt="Profile Image">
+          {% else %}
+            <i class="icon-accounting"></i>
+          {% endif %}
         </div>
         <div class="medium-8 columns bio">
-          <h3>{{ member.name }}<small> - {{ member.title}}</small></h3>
+          <h3>{{ member.name }}<small> {% if member.job_title %}- {{ member.job_title }}{% endif %}</small></h3>
           <p>{{ member.bio_html | truncatewords: 50 }}</p>
           {% assign num_words = member.bio_html | number_of_words %}
           {% if num_words > 50 %}

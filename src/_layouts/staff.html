@@ -6,10 +6,14 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="medium-4 columns">
-        <img src="{{ page.profile_image }}" alt="">
+        {% if page.profile_image %}
+          <img src="{{ page.profile_image }}" alt="">
+        {% else %}
+          <img src="img/logo.svg" alt="HiAccounting Logo">
+        {% endif %}
       </div>
       <div class="medium-8 columns">
-        <h1>{{ page.name }}</h1>
+        <h1>{{ page.name }}{% if page.job_title %}- {{ page.job_title }}{% endif %}</h1>
         <p>{{ page.bio_html }}</p>
         <p>
           <a href="{{ page.email }}"><i class="icon-icon-email"></i></a>

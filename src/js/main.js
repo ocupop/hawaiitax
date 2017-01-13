@@ -21,6 +21,21 @@ $(function() {
   });
 });
 
+$(document).ready(function() {
+  var params = window.location.search.substring(1);
+  if (params.indexOf('thanks') > -1 ) {
+    $('#message').show();
+    setTimeout(function(){ 
+      $('#message').fadeOut('slow');
+    }, 4000);
+  }
+
+  $( "#site-search-form").on('click', function () {
+    $(this).addClass('active');
+    $submit = $(this).find('input[type="submit"]');
+  });
+});
+
 $(window).on('load', function (e){
   if (window.location.hash) {
     $('html, body').animate({

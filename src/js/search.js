@@ -1,3 +1,4 @@
+
 jQuery(function() {
   // Initalize lunr with the fields it will be searching on. I've given title
   // a boost of 10 to indicate matches on this field are more important.
@@ -22,8 +23,10 @@ jQuery(function() {
 
   // Event when the form is submitted
   $("#site-search-form").submit(function(){
+      window.console.log('submitted');
       event.preventDefault();
       var query = $("#search_box").val(); // Get the value for the text field
+      window.console.log(query);
       var results = window.idx.search(query); // Get lunr to perform a search
       display_search_results(results); // Hand the results off to be displayed
   });
@@ -55,7 +58,9 @@ jQuery(function() {
         });
       } else {
         $search_results.html('<li>No results found</li>');
+        $("#site-search-results").fadeIn();
       }
     });
   }
 });
+

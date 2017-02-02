@@ -1,10 +1,10 @@
 {
-  "name": "HiAccounting",
+  "name": "hi-accounting",
   "version": "1.0.0",
   "authors": [
     "Tom Beck <dev@ocupop.com>"
   ],
-  "description": "Project description",
+  "description": "HiAccounting",
   "main": "",
   "moduleType": [],
   "license": "MIT",
@@ -18,12 +18,15 @@
     "tests"
   ],
   "dependencies": {
-    "waypoints": "^4.0.0",
-    "animate.css": "^3.5.2",
-    "flexboxgrid": "^6.3.2"
+    "jquery-behaviors": "tiff/jquery-behaviors"
   },
   "devDependencies": {
   },
   "overrides": {
+    "jquery-behaviors": {
+      "main": [
+        "behaviors.js"
+      ]
+    }
   }
 }

@@ -1,0 +1,6 @@
+.posts {
+  display: none;
+  &.posts-loaded {
+    display: block;
+  }
+}

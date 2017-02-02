@@ -34,6 +34,28 @@ $(document).ready(function() {
     $(this).addClass('active');
     $submit = $(this).find('input[type="submit"]');
   });
+
+  $(document).on('ready', function(){
+    $.ajax({
+      type: "GET",
+      url: "http://important-chickpea.cloudvent.net/hi-accounting/index.json",
+      success: function(result){
+        window.console.log('success');
+        for(var i=0; i<result.length; i++) {
+          var new_post = $('.post').clone();
+          window.console.log(new_post);
+          var post_content = result[i].excerpt;
+          post_content = $("<div />").html(post_content).text();
+          new_post.find('.post-title').text(result[i].title).end()
+                  .find('.post-date').text(result[i].date).end()
+                  .find('.post-content').append(post_content).end()
+                  .find('.post-link').attr('href', result[i].url);
+          $('.posts').append(new_post);        
+        }
+        $('.posts').find('.post').first().remove();
+        $('.posts').addClass('posts-loaded');
+    }});
+  });
 });
 
 $(window).on('load', function (e){

@@ -1,4 +1,4 @@
-Client Name
+HiGroup
 ================
 
 ##Getting Started

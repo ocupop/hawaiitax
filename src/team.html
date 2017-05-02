@@ -41,7 +41,10 @@ title: Team HiAccounting
         <div class="medium-8 columns bio">
           <h3>{{ member.name }}<small> {% if member.job_title %}- {{ member.job_title }}{% endif %}</small></h3>
           <p>{{ member.bio_html | truncatewords: 50 }}</p>
-          <p><a href="{{ member.url }}">Read More</a></p>
+          {% assign num_words = member.bio_html | xml_escape | number_of_words %}
+          {% if num_words > 50 %}
+            <p><a href="{{ member.url }}">Read More</a></p>
+          {% endif %}
          
           {% if member.email %}
             <a href="mailto:{{ member.email }}" class="contact-icon"><i class="icon-icon-email"></i></a>

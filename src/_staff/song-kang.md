@@ -1,9 +1,11 @@
 ---
 layout: staff
 name: Song Kang
-job_title: "Senior Accountant"
-bio_html: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sed ducimus quae fugit magni voluptatibus nesciunt ipsum, vel cupiditate repudiandae cum necessitatibus mollitia commodi eum eos deleniti eius delectus aliquam"
-email: example@mail.com
-linkedin: https://www.linkedin.com/
+job_title: Senior Accountant
+bio_html:
+email: skang@hi-accounting.com
+linkedin:
 profile_image: /uploads/song-kang.jpg
 ---
+
+

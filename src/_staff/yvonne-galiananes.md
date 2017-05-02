@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: Yvonne Galiananes
+name: Yvonne Galinanes
 job_title: Senior Accountant
 bio_html:
 email: ygalinanes@hi-accounting.com

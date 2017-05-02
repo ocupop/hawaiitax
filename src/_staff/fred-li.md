@@ -1,9 +1,11 @@
 ---
 layout: staff
 name: Fred Li
-job_title: "Director of IT"
-bio_html: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sed ducimus quae fugit magni voluptatibus nesciunt ipsum, vel cupiditate repudiandae cum necessitatibus mollitia commodi eum eos deleniti eius delectus aliquam"
-email: example@mail.com
-linkedin: https://www.linkedin.com/
+job_title: Director of IT
+bio_html:
+email: fli@hi-accounting.com
+linkedin:
 profile_image: /uploads/fred-li.jpg
 ---
+
+

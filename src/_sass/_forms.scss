@@ -87,3 +87,9 @@ fieldset {
   line-height: 43px;
   padding: 0;
 }
+
+@media all and (max-width: 1024px) {
+  #saveForm {
+    margin-top: 20px;
+  }
+}

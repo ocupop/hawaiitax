@@ -64,3 +64,9 @@ jQuery(function() {
   }
 });
 
+$(document).ready(function(){
+  $('#close-search').on('click', function(){
+    $('#site-search-results').fadeOut();
+  });
+})
+

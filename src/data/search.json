@@ -7,7 +7,7 @@ layout: null
       "name": "{{ member.name | xml_escape }}",
       "title": "{{ member.title | xml_escape }}",
       "url": " {{ member.url | xml_escape | prepend: site.url }}",
-      "bio": "{{ member.bio_html | xml_escape}}"
+      "bio": "{{ member.bio_html | xml_escape }}"
     }{% unless forloop.last%},{% endunless %}
   {% endfor %}
 }

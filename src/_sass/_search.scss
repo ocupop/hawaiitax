@@ -1,5 +1,10 @@
 #site-search-results {
   display: none;
+  position: fixed;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  z-index: 500;
 }
 
 #search_results {
@@ -49,6 +54,16 @@
     background: $primary-color;
     margin-left: -4px;
   }
+}
+
+#close-search {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-weight: 100;
+  font-size: 25px;
+  z-index: 500;
+  cursor: pointer;
 }
 
 .search {

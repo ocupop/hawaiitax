@@ -1,0 +1,549 @@
+/* -----------------------------------------
+   Global Styles
+----------------------------------------- */
+html {}
+body {
+  margin: 0;
+  color: $body-font-color;
+}
+*,
+*:after,
+*:before {
+  margin:0;
+  padding:0;
+  -webkit-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+a {
+  color: $primary-color;
+  &:hover {
+    color: $link-hover;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+h4 {
+  color: $body-font-color;
+}
+dl {
+  dt {
+    font-family: $header-font-family;
+    
+  }
+  dd {
+    margin-left: 65px;
+  }
+}
+hr {
+  max-width: 62.5rem;
+  margin: 1.25rem auto 1.1875rem;
+}
+
+em {
+  color: $primary-color;
+}
+i {
+  font-size: 45px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+select {
+  font-family: $header-font-family;
+  color: rgba(0,0,0,0.35);
+  line-height: 38px;
+  height: 53px;
+  text-indent: 10px;
+}
+
+.button {
+  background-color: $primary-color;
+  &:hover, &:active, &:focus {
+    background-color: $link-hover;
+  }
+}
+
+.offset {
+  &:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -200px; 
+  height: 200px; 
+  visibility: hidden; 
+  }
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+
+/* -----------------------------------------
+   DOM Specific Styles
+----------------------------------------- */
+#page {}
+#page-header {
+  position: fixed;
+  background: #4b4948;
+  z-index: 99999;
+  width: 100%;
+  top: 0;
+  left: 0;
+  &.open_subnav {
+    #mainnav {
+      box-shadow: 0 3px 15px rgba(0,0,0,0.5);
+    }
+    #subnav {
+      display: block;
+      height: auto;
+      top: 114px;
+    }
+  }
+}
+#page-content {
+  margin-top: 50px;
+}
+.logged-in {
+    #page-content {
+    margin-top: 17px;
+  }
+}
+#page-footer {
+  width: 100%;
+  background: $gray;
+  font-size: 12px;
+  color: $gray-lighter;
+  padding-bottom: 0;
+  overflow: hidden;
+  hr {
+    border-color: #999;
+  }
+  .social {
+    margin-top:10px;
+    min-width: 160px;
+    img {
+      padding-left: 10px;
+    }
+  }
+  #copyright {
+    p {
+      font-size: 13px;
+      margin-bottom: 0;
+      padding-top: 12px;
+    }
+  }
+  #footersub {
+    width: 110%;
+    margin-left: -5%;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: inset 0 2px 10px rgba(0,0,0,0.6);
+    background-color: $gray-dark;
+    ul {
+      li {
+        a {
+          line-height: 40px;
+        }
+      }
+    }
+  }
+
+}
+#iconnav {
+  text-align: center;
+  a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    i {
+      font-size: 32px;
+      color: $gray-lighter;
+    }
+    &:hover {
+      i {
+        color: $primary-color;
+      }
+    }
+  }
+}
+#topnav {
+  background: #646469;
+  line-height: 50px;
+  // TODO - Add back in the search bar feature now that things are cleaned up
+  
+  ul {
+    margin: 0;
+    li {
+      padding: 10px 0 13px 0;
+      margin: 0;
+      border-top: 5px solid transparent;
+      background: transparent;
+      &.search {
+        border-top: 0;
+      }
+      &.active {
+        border-color: #80a43f
+      }
+      &.brand {
+        width: 125px;
+        text-indent: -9999em;
+        background: #484849 url(images/logo-myhihr.png) top center no-repeat;
+        a {
+          border: none;
+        }
+        #logo_dropdown {
+          width: 220px;
+          max-width: none;
+          margin-top: 13px;
+          background: #484849;
+          border: none;
+          padding: 10px 0;
+          &:before, &:after {
+            display: none;
+          }
+          li {
+            padding: 5px;
+            a {
+              color: #ffffff;
+              text-indent: 0;
+              text-align: right;
+            }
+          }
+        }
+      }
+      a {
+        color: #e8e8e8;
+        padding: 0 15px;
+        font-family: $font-family-sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 200;
+        &:hover {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+#mobilenav {
+  background-color: #ffffff;
+  min-height: 50px;
+  h1 {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    margin-bottom: 0;
+    height: 50px;
+    a {
+      text-indent:-9999em;
+      display: block;
+      width: 150px;
+      line-height: 50px;
+      background: transparent url(/img/logo.svg) no-repeat center center;
+      background-size: contain;
+    }
+  }
+  &.top-bar {
+    box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+    // .myhihr-button {
+    //   text-indent: -9999px;
+    //   background: $gray url(/img/logo.svg) no-repeat center center;
+    //   border-bottom: 0;
+    //   &:after {
+    //     display: none;
+    //   }
+    // }
+    .name {
+      height: 50px;
+    }
+    .menu {
+      background-color: $gray-dark;
+    }
+    .toggle-topbar{
+      a {
+        //background: transparent url(images/menu.svg) no-repeat center center;
+        // background-size: 30px;
+        cursor: pointer;
+        i {
+          color: $gray;
+          font-size: 27px;
+        }
+      }
+    }
+    &.expanded {
+      .toggle-topbar {
+        a {
+          background: url(/img/gobal/exit.svg) no-repeat center center;
+        }
+      }
+    }
+  }
+  .top-bar-section {
+    ul {
+      li {
+        padding: 0 20px;
+        &.myhihr {
+          width: 49.5%;
+          display: inline-block;
+          padding-left: 20px;
+          padding-right: 0;
+          border-bottom: none;
+        }
+        &.mobile-search {
+          display: inline-block;
+          width: 49.5%;
+          background: url(/img/global/icon-search.png) no-repeat left 15% center;
+          margin-left:-4px;
+          padding-left: 0;
+          text-align: center;
+          a {
+            &:hover {
+              background: transparent;
+            }
+          }
+        }
+        &:last-child {
+          a {
+            border-bottom: none;
+          }
+        }
+        a {
+          border-bottom: 1px solid $gray-light;
+          padding: 12px 0;
+        }
+      }
+    }
+    .dropdown {
+      li {
+        a {
+          padding: 12px 0;
+        }
+      }
+    }
+    .has-dropdown {
+      a {
+        &:after {
+          right: 25px;
+        }
+      }
+    }
+    .parent-link {
+      display: none;
+    }
+  }
+}
+#mainnav {
+  height: 74px;
+  background: #ffffff;
+  font-family: $font-family-sans-serif;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.5);
+  .top-bar {
+    background: #ffffff;
+    height: 66px;
+    .title-area {
+      .name {
+        margin-left: 15px;
+        h1 {
+          margin-top: 13px;
+          a {
+            text-indent:-9999em;
+            display: block;
+            width: 250px;
+            background: transparent url(/img/logo.svg) no-repeat center center;
+            background-size: contain;
+          }
+        }
+      }
+    }
+    .top-bar-section {
+      background: transparent;
+      ul {
+        li {
+          a {
+            padding: 0 1.1375rem;
+            line-height: 72px;
+            background: #ffffff;
+            color: $gray-dark;
+            font-family: $font-family-sans-serif !important;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 200;
+            border-top: 2px solid transparent;
+            &:hover {
+              color: #ffffff;
+              background: #4b4948;
+              border-color: $primary-color;
+            }
+          }
+        }
+      }
+      li.mega_menu {
+        &:hover {
+          a {
+            color: #ffffff;
+            background: #4b4948;
+            border-color: $primary-color;
+          }
+          .dropdown {
+            clip: auto;
+            opacity: 1;
+          }
+        }
+      }
+      .dropdown {
+        position: fixed !important;
+        height: auto;
+        padding: 30px 0;
+        background: $gray-dark;
+        color: #fff;
+        overflow: hidden;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+        font-family: $font-family-sans-serif;
+        z-index: -1;
+        opacity: 0;
+        @include transition();
+        h3 {
+          color: #ffffff;
+          border-bottom: 1px solid #80a43f;
+          width: 20px;
+          overflow: visible;
+          font-family: $font-family-sans-serif;
+          font-size: 15px;
+          font-weight: 300;
+          text-transform: uppercase;
+          white-space: nowrap;
+          a {
+            border: none;
+            line-height: 1;
+            padding: 0;
+          }
+        }
+        ul {
+          margin-left: 0;
+          list-style: none;
+          li {
+            margin: 0;
+            font-size: 13px;
+            font-style: oblique;
+            font-weight: 200;
+            background-color: $gray-dark;
+            a {
+              color: #fff;
+              line-height: 1.2em;
+              background: transparent;
+              border: none;
+              font-size: 13px;
+              padding: 3px 0;
+              white-space: normal;
+              text-transform: none;
+            }
+          }
+        }
+        em {
+          color: #80a43f;
+        }
+        .border {
+          min-height: 200px;
+        }
+      }
+    }
+  }
+  .row .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5rem;
+  }
+}
+#footernav {
+  a {
+    padding: 0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $gray-lighter;
+    font-family: $font-family-sans-serif;
+  }
+}
+
+#carousel-wrapper {
+  i {
+    text-align: center;
+    display: block;
+    font-size: 75px;
+    padding: 50px 0;
+  }
+}
+
+#hero-carousel{
+  font-family: $header-font-family;
+  h2 {
+    color: $white;
+  }
+  p {
+    color: $white;
+  }
+  .hero-wrap {
+    position:relative;
+    .hero-content {
+      position:absolute;
+      top:0px;
+      left:0px;
+      right:0px;
+      padding: 30px 0;
+    }
+  }
+  .button {
+    display: inline-block;
+  }
+  &.carousel-mobile {
+    background: $gray-dark;
+    h2 {
+      color: $primary-color;
+      font-size: 18px;
+      margin-top:20px;
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+    .slick-dots {
+      display: none !important;
+    }
+  }
+}
+
+#testimonials {
+  background: url(images/testimonial-background.jpg) no-repeat top center;
+  font-family: $header-font-family;
+  text-align: center;
+  em {
+    font-size: 19px;
+    color: $white;
+    font-style: normal;
+  }
+  p {
+    color: $white;
+    line-height: 1.2;
+  }
+}
+
+#search {
+  background: url(images/testimonial-background.jpg) no-repeat top center;
+  h2 {
+    color: $white;
+    padding-bottom: 20px;
+  }
+  input {
+    padding: 3px;
+    text-indent: 5px;
+  }
+  .button {
+    background: $gray;
+    margin-left:20px;
+    font-size: 20px;
+  }
+}

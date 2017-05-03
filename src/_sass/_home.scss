@@ -1,0 +1,83 @@
+#home-hero {
+  .hero-caption {
+    text-align: left;
+    h1 {
+      font-size: 40px;
+      line-height: 1;
+      margin-bottom: 20px;
+      min-height: 0;
+      height: auto;
+    }
+  }
+}
+
+#accounting-you-can-trust {
+  i {
+    font-size: 75px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 23px;
+  }
+}
+
+#content-support {
+  background-color: $gray-lightest;
+  p {
+    color: $gray;
+  }
+  .support-logo {
+    margin: 30% 0px;
+  }
+  .hero {
+    margin-bottom: 20px;
+  }
+}
+
+#testimonials {
+  background: url(/img/global/testimonial-background.jpg) no-repeat center center;
+  font-family: $header-font-family;
+  text-align: center;
+  em {
+    font-size: 26px;
+    color: $white;
+    font-style: normal;
+  }
+  p {
+    color: $white;
+    line-height: 1.2;
+  }
+}
+
+#locations {
+  font-family: $header-font-family;
+  font-size: 13px;
+  h1 {
+    font-size: 1rem;
+  }
+  .content {
+    padding: 0 0 0 25px;
+  }
+}
+
+ul#support-list {
+  text-align: left;
+  li { 
+    padding-bottom: 10px;
+    &:last-child {
+      h2 {
+        border-bottom: 0;
+      }
+    }
+  }
+  h1, h2 {
+    color: $gray-dark;
+    border-bottom: 1px solid $gray-lighter;
+    padding-bottom: 10px;
+    font-family: $font-family-serif;
+    i {
+      color: $primary-color;
+    }
+  }
+}

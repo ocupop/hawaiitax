@@ -1,0 +1,38 @@
+//styles for blog page and single post
+time {
+  font-style: italic;
+}
+
+.circle-cta {
+   width:200px;
+   height: 200px;
+   display: block;
+   background: $primary-color;
+   border-radius: 50%;
+   text-align: center;
+   margin: 0 auto;
+   h4 {
+     font-size: 17px;
+     padding-top:40px;
+     color: #fff;
+   }
+   i {
+     color: #fff;
+     font-size: 70px;
+     margin-right: 0;
+   }
+}
+
+// .single-post {
+//   .sidebar {
+//     ul {
+//       margin-left: 0;
+//     }
+//     .content {
+//       margin-top: 0;
+//     }
+//     .gray, .dark-gray {
+//       margin-top: 15px;
+//     }
+//   }
+// }

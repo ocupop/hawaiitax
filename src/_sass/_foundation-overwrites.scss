@@ -1,0 +1,56 @@
+/* -----------------------------------------
+   Overwrite Foundation Class Styles
+----------------------------------------- */
+.panel {
+  padding: 0;
+  border: none;
+  box-shadow: 3px 4px 7px rgba(0,0,0,.2);
+  .panel-header {
+    background-color: $gray-dark;
+    h2 {
+      font-size: 1.5rem;
+      line-height: 55px;
+      margin: 0;
+      color: #ffffff;
+    }
+  }
+  .panel-body {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    p {
+      line-height: 2.5;
+    }
+    .button {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.reveal-modal {
+  >:first-child {
+    margin-top:20px;
+    margin-bottom: 20px;
+    color: $body-font-color;
+    i {
+      color: $primary-color;
+    }
+  }
+  .close-reveal-modal {
+    font-weight: normal;
+    color: $body-font-color;
+  }
+}
+
+.back_to_job_listings {
+  display: none;
+}
+// Borders
+$border-width: 1px;
+.border { border: 0 solid #666; }
+.border-all { border-width: $border-width; }
+.border-top { border-top-width: $border-width; }
+.border-right { border-right-width: $border-width; }
+.border-bottom { border-bottom-width: $border-width;}
+.border-left { border-left-width: $border-width; }

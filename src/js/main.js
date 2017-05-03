@@ -36,22 +36,20 @@ $(document).ready(function() {
   });
 
   $('#services').on('click', function(){
-    $('fieldset.services').toggleClass('active');
+    $('#service-choices').toggleClass('active');
   });
 
 });
 
-$(document).mouseup(function (e)
-
-{
-    var container = $("fieldset.services.active");
-
-    if (!container.is(e.target) // if the target of the click isn't the container...
-        && container.has(e.target).length === 0) // ... nor a descendant of the container
-    {
-        container.removeClass('active');
-    }
-});
+// $(document).mouseup(function (e)
+// {
+//   var container = $("fieldset.services.active");
+//   if (!container.is(e.target)) // if the target of the click isn't the container...
+//     //&& container.has(e.target).length === 0) // ... nor a descendant of the container
+//   {
+//     container.removeClass('active');
+//   }
+// });
 
 $(window).on('load', function (e){
   if (window.location.hash) {

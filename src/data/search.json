@@ -6,8 +6,11 @@ layout: null
     "{{ member.slug }}": {
       "name": "{{ member.name | xml_escape }}",
       "title": "{{ member.title | xml_escape }}",
-      "url": " {{ member.url | xml_escape | prepend: site.url }}",
-      "bio": "{{ member.bio_html | jsonify | strip_html | xml_escape }}"
+      "url": "{{ member.url | xml_escape | prepend: site.url }}"
+      {% if member.bio_html %}
+      ,
+      "bio": {{ member.bio_html | jsonify | strip_html | strip_new_lines | strip }}
+      {% endif %}
     }{% unless forloop.last%},{% endunless %}
   {% endfor %}
 }

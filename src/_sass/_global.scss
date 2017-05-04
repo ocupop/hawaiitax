@@ -101,7 +101,9 @@ select {
   }
 }
 #page-content {
+  position: relative;
   margin-top: 50px;
+  @include transition();
 }
 .logged-in {
     #page-content {

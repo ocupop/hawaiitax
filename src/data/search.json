@@ -5,7 +5,7 @@ layout: null
   {% for member in site.staff %}
     "{{ member.slug }}": {
       "name": "{{ member.name | xml_escape }}",
-      "title": "{{ member.title | xml_escape }}",
+      "title": "{{ member.job_title | xml_escape }}",
       "url": "{{ member.url | xml_escape | prepend: site.url }}"
       {% if member.bio_html %}
       ,

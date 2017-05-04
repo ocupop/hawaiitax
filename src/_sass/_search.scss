@@ -1,16 +1,32 @@
+body.search_results {
+  #page-content {
+    opacity: 0;
+    pointer-events: none;
+    height: 100vh;
+    overflow: hidden;
+  }
+  #site-search-results {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
 #site-search-results {
-  display: none;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  min-height: 100%;
   z-index: 500;
+  opacity: 0;
+  pointer-events: none;
+  @include transition();
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+  }
 }
 
-#search_results {
-  list-style-type: none;
-  margin-left: 0;
-}
 
 #site-search-form {
   label {

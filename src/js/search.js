@@ -54,10 +54,12 @@ jQuery(function() {
 
           // Add it to the results
           $search_results.append(appendString);
+          $("html, body").animate({ scrollTop: 0 }, "slow");
           $("#site-search-results").fadeIn();
         });
       } else {
         $search_results.html('<li>No results found</li>');
+        $("html, body").animate({ scrollTop: 0 }, "slow");
         $("#site-search-results").fadeIn();
       }
     });

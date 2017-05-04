@@ -1,104 +1,96 @@
-<div id="page">
-  <header id="page-header">
-    <div id="topnav" class="show-for-medium-up">
-      <div class="row">
-        <div id="iconnav" class="small-12 medium-4 columns">
-          <!-- <a href="http://hi-accounting.com/" target="_blank"><i class='icon-accounting'></i></a> -->
-          <a href="http://hi-employment.com/" target="_blank"><i class='icon-employment'></i></a>
-          <a href="http://hihealthcarehawaii.com/" target="_blank"><i class='icon-healthcare'></i></a>
-        </div>
-        <div class="medium-8 columns show-for-medium-up">
-          <ul class="inline-list right">
-            <li class="search">
-              <form id="site-search-form">
-                <label class="sr">Search</label>
-                <input id="search_box" class="keyterms" type="text" placeholder="Search">
-                <input type="submit" value="Search">
-              </form>
-            </li>
-          </ul>
-        </div>
-      </div>
+<header id="page-header">
+<div id="topnav" class="show-for-medium-up">
+  <div class="row">
+    <div id="iconnav" class="small-12 medium-4 columns">
+      <!-- <a href="http://hi-accounting.com/" target="_blank"><i class='icon-accounting'></i></a> -->
+      <a href="http://hi-employment.com/" target="_blank"><i class='icon-employment'></i></a>
+      <a href="http://hihealthcarehawaii.com/" target="_blank"><i class='icon-healthcare'></i></a>
     </div>
+    <div class="medium-8 columns show-for-medium-up">
+      <ul class="inline-list right">
+        <li class="search">
+          <form id="site-search-form">
+            <label class="sr">Search</label>
+            <input id="search_box" class="keyterms" type="text" placeholder="Search">
+            <input type="submit" value="Search">
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-    <nav id="mobilenav" class="top-bar hide-for-medium-up" data-topbar role="navigation">
+<nav id="mobilenav" class="top-bar hide-for-medium-up" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="{{ site.baseurl }}/">HiEmployment</a></h1>
+    </li>
+    <li class="toggle-topbar"><a href="#"><i class="icon-menu"></i></a></li>
+  </ul>
+  <section class="top-bar-section">
+    <ul class="menu">
+      <!-- <li class="mobile-search search">
+        <form id="site-search-form">
+          <label class="sr">Search</label>
+          <input id="search_box" class="keyterms" type="text" placeholder="Search">
+          <input type="submit" value="Search">
+        </form>
+      </li> -->
+      <li><a href="/">Home</a></li>
+      <li class="has-dropdown">
+        <a href="#">About</a>
+        <ul class="dropdown">
+          <li><a href="{{ site.baseurl }}/team">Team</a></li>
+          <li><a href="{{ site.baseurl }}/about">Advantage</a></li>
+        </ul>
+      <li><a href="{{ site.baseurl }}/services">Services</a></li>
+      <li><a href="{{ site.baseurl }}/careers">Careers</a></li>
+      <li><a href="{{ site.baseurl }}/press">Press</a></li>
+      <li><a href="{{ site.baseurl }}/contact" data-nav="contact">Contact</a></li>
+    </ul>
+  </section>
+</nav>
+
+<div id="mainnav" class="show-for-medium-up">
+  <div class="row">
+    <nav class="top-bar">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="{{ site.baseurl }}/">HiEmployment</a></h1>
+          <h1><a href="{{ site.baseurl }}/">HiAccounting</a></h1>
         </li>
-        <li class="toggle-topbar"><a href="#"><i class="icon-menu"></i></a></li>
       </ul>
       <section class="top-bar-section">
-        <ul class="menu">
-          <!-- <li class="mobile-search search">
-            <form id="site-search-form">
-              <label class="sr">Search</label>
-              <input id="search_box" class="keyterms" type="text" placeholder="Search">
-              <input type="submit" value="Search">
-            </form>
-          </li> -->
-          <li><a href="/">Home</a></li>
-          <li class="has-dropdown">
-            <a href="#">About</a>
-            <ul class="dropdown">
-              <li><a href="{{ site.baseurl }}/team">Team</a></li>
-              <li><a href="{{ site.baseurl }}/about">Advantage</a></li>
-            </ul>
-          <li><a href="{{ site.baseurl }}/services">Services</a></li>
+        <ul class="right">
+          <li><a href="/" title="HiEmployment">Home</a></li>
+          <li class="mega_menu">
+            <a href="{{ site.baseurl }}/about">About</a>
+            <div class="dropdown">
+              <div class="row" data-nav="about">
+                <div class="medium-2 columns medium-offset-6">
+                  <h3><a href="{{ site.baseurl }}/team">Team</a></h3>
+                  <ul>
+                    <li><a href="{{ site.baseurl }}/team#management-team">Management Team</a></li>
+                    <li><a href="{{ site.baseurl }}/team#staff">Staff</a></li>
+                  </ul>
+                </div>
+                <div class="medium-2 columns end">
+                  <h3><a href="{{ site.baseurl }}/about">Advantage</a></h3>
+                  <ul>
+                    <li><a href="{{ site.baseurl }}/about#benefits">Benefits</a></li>
+                    <li><a href="{{ site.baseurl }}/about#awards">Awards</a></li>
+                    <li><a href="{{ site.baseurl }}/about#technology-partners">Technology Partners</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="mega_menu"><a href="{{ site.baseurl }}/services">Services</a></li>
           <li><a href="{{ site.baseurl }}/careers">Careers</a></li>
           <li><a href="{{ site.baseurl }}/press">Press</a></li>
           <li><a href="{{ site.baseurl }}/contact" data-nav="contact">Contact</a></li>
         </ul>
       </section>
     </nav>
-    
-    <div id="mainnav" class="show-for-medium-up">
-      <div class="row">
-        <nav class="top-bar">
-          <ul class="title-area">
-            <li class="name">
-              <h1><a href="{{ site.baseurl }}/">HiAccounting</a></h1>
-            </li>
-          </ul>
-          <section class="top-bar-section">
-            <ul class="right">
-              <li><a href="/" title="HiEmployment">Home</a></li>
-              <li class="mega_menu">
-                <a href="{{ site.baseurl }}/about">About</a>
-                <div class="dropdown">
-                  <div class="row" data-nav="about">
-                    <div class="medium-2 columns medium-offset-6">
-                      <h3><a href="{{ site.baseurl }}/team">Team</a></h3>
-                      <ul>
-                        <li><a href="{{ site.baseurl }}/team#management-team">Management Team</a></li>
-                        <li><a href="{{ site.baseurl }}/team#staff">Staff</a></li>
-                      </ul>
-                    </div>
-                    <div class="medium-2 columns end">
-                      <h3><a href="{{ site.baseurl }}/about">Advantage</a></h3>
-                      <ul>
-                        <li><a href="{{ site.baseurl }}/about#benefits">Benefits</a></li>
-                        <li><a href="{{ site.baseurl }}/about#awards">Awards</a></li>
-                        <li><a href="{{ site.baseurl }}/about#technology-partners">Technology Partners</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="mega_menu"><a href="{{ site.baseurl }}/services">Services</a></li>
-              <li><a href="{{ site.baseurl }}/careers">Careers</a></li>
-              <li><a href="{{ site.baseurl }}/press">Press</a></li>
-              <li><a href="{{ site.baseurl }}/contact" data-nav="contact">Contact</a></li>
-            </ul>
-          </section>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <div id="page-content" role="main">
-    <div id="message" data-alert class="alert-box" style="display: none; margin-top: 90px; margin-bottom: 0;">
-      <div class="row">
-        <p><strong>Thanks</strong> for your inquiry. We will be in touch shortly.</p>
-        <a href="#" class="close">&times;</a>
-      </div>
-    </div>
+  </div>
+</div>
+</header>

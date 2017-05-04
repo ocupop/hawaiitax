@@ -19,12 +19,8 @@ jQuery(function() {
   window.data.local = $.getJSON("/data/search.json");
   window.data.posts = $.getJSON("{{ site.press_url }}/posts.json");
 
-  // console.log(window.data.posts);
-
   // Wait for the data to load and add it to lunr
   window.data.local.then(function(loaded_data){
-    window.console.log("LOADED: ", loaded_data);
-    // window.console.log("DATA: ", window.data);
     $.each(loaded_data, function(index, value){
       window.idx.add(
         $.extend({ "id": index }, value)
@@ -34,8 +30,6 @@ jQuery(function() {
 
   // Wait for the post data to load and add it to lunr
   window.data.posts.then(function(loaded_data){
-    window.console.log("LOADED: ", loaded_data);
-    // window.console.log("DATA: ", window.data);
     $.each(loaded_data, function(index, value){
       window.idx.add(
         $.extend({ "id": index }, value)
@@ -47,7 +41,6 @@ jQuery(function() {
   $("#site-search-form").submit(function(){
       event.preventDefault();
       var query = $("#search_box").val(); // Get the value for the text field
-      window.console.log(query);
       var results = window.idx.search(query); // Get lunr to perform a search
       $('.num_results').html('A search for <strong>'+ query +'</strong> returned ' + results.length + ' results');
       display_search_results(results); // Hand the results off to be displayed
@@ -55,16 +48,9 @@ jQuery(function() {
 
   function display_search_results(results) {
     $("html, body").animate({ scrollTop: 0 }, "slow");
-
-    // window.data.local.then(function(loaded_data) {
-    //   window.console.log("DATA: ", loaded_data);
-    //   window.console.log("RESULTS: ", results);
-    // });
-
+    $("#search-results-local, #search-results-posts").empty();
     // Are there any results?
     if (results.length) {
-      $("#search-results-local, #search-results-posts").empty(); // Clear any old results
-
       // Iterate over the results
       window.data.local.then(function(loaded_data) {
         results.forEach(function(result) {

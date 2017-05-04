@@ -5,6 +5,9 @@ description: ''
 url: "http://client_url"
 permalink: /:title
 
+press_url: "http://important-chickpea.cloudvent.net"
+local_press_url: "/hi-accounting/index.json"
+
 collections:
   staff:
     output: true

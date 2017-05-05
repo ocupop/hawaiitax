@@ -35,8 +35,15 @@ $(document).ready(function() {
     $submit = $(this).find('input[type="submit"]');
   });
 
-  $('#services').on('click', function(){
+  $('#services').on('click', function(event){
+    event.stopPropagation();
     $('#service-choices').toggleClass('active');
+  });
+  $('#service-choices').on('click', function() {
+    event.stopPropagation();
+  });
+  $('body').on('click', function() {
+    $('#service-choices').removeClass('active');
   });
 
 });

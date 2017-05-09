@@ -1,9 +1,9 @@
 ---
 layout: staff
 name: Jeremy Bennett
-job_title: Title
+job_title: Accountant
 bio_html:
-email: bwatson@hi-accounting.com
+email:
 linkedin:
 profile_image:
 ---

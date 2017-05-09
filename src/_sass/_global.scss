@@ -522,6 +522,7 @@ select {
   background: url(images/testimonial-background.jpg) no-repeat top center;
   font-family: $header-font-family;
   text-align: center;
+  background-size: cover;
   em {
     font-size: 19px;
     color: $white;

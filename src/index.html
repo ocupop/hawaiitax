@@ -1,8 +1,6 @@
 ---
 layout: homepage
 title: 'HiAccounting | Home'
-testimonial: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, commodi reiciendis veniam! Voluptatem labore illo autem magni itaque maiores necessitatibus perferendis, fugiat eligendi vel officia sequi impedit officiis, aliquid doloremque'
-testimonial_author: 'Michelangelo Muchlongername, CFO at VeryImportantBusiness'
 ---
 
 <section id="home-hero" class="hero" style="background-image: url(/img/home/hero-home.jpg);">
@@ -138,15 +136,15 @@ testimonial_author: 'Michelangelo Muchlongername, CFO at VeryImportantBusiness'
     </div>
   </div>
 </div>
-{% if page.testimonial %}
 <section id="testimonials" class="container">
-  <div class="row">
+  {% for testimonial in site.data.testimonials %}
+  <div class="row{% unless forloop.first %} hide{% endunless %}">
     <div class="small-12 columns">
       <p><em>&ldquo;
-        {{ page.testimonial }}
+        {{ testimonial.quote }}
         &rdquo;</em></p>
-        <p>{{ page.testimonial_author }}</p>
+        <p>{{ testimonial.author }}</p>
     </div>
   </div>
+  {% endfor %}
 </section>
-{% endif %}

@@ -1,7 +1,17 @@
 .posts {
   display: none;
   .post {
-
+    display: flex;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid $gray-lightest;
+    .post-featured-image {
+      padding: 20px;
+      img {
+        width: 250px;
+        max-width: none;
+      }
+    }
   }
   .close-post {
     position: absolute;

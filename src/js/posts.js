@@ -10,16 +10,23 @@
       success: function(result){
         for(var i=0; i<result.length; i++) {
           var new_post = container.find('.post').first().clone();
+          var featured_image = result[i].featured_image;
           var post_excerpt = result[i].excerpt;
           post_excerpt = $("<div />").html(post_excerpt).text();
           var post_content = result[i].content;
           post_content = $("<div />").html(post_content).text();
-          new_post.find('.post-title').text(result[i].title).end()
+          new_post.find('.post-title .post-link').text(result[i].title).end()
                   .find('.post-date').text(result[i].date).end()
                   .find('.post-excerpt').append(post_excerpt).end()
+                  .find('.post-featured-image').each(function() {
+                    if(featured_image) {
+                      $(this).find('img').attr('src', featured_image);
+                    } else {
+                      $(this).remove();
+                    }
+                  }).end()
                   .find('.post-content').append(post_content).end()
                   .find('.post-pdf').attr('href', result[i].pdf);
-                  //.find('.post-link').attr('href', result[i].url);
           container.append(new_post);     
         }
         container.find('.post').first().remove();
@@ -31,7 +38,6 @@
 
 $(document).on('ready', function(){
   $('.posts').on('click', '.post-link', function(){
-    window.console.log('clicked');
     $('.posts').addClass('single-post-view');
     $(this).closest('div.post').addClass('active');
   });

@@ -15,11 +15,12 @@
   }
   .close-post {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 20px;
+    top: -20px;
     opacity: 0;
     font-size: 13px;
     @include transition(.5s);
+    pointer-events: none;
     .close {
       padding: 3px 5px;
       background-color: $primary-color;
@@ -49,18 +50,25 @@
     display: block;
     &.single-post-view {
       position: relative;
+      .close-post {
+        opacity: 1;
+        cursor: pointer;
+        pointer-events: all;
+      }
       .post {
         display: none;
         &.active {
           display: block;
+          .post-featured-image {
+            img {
+              width: auto;
+              max-width: none;
+            }
+          }
           .post-pdf, .post-content {
             height: auto;
             opacity: 1;
             pointer-events: auto;
-          }
-          .close-post {
-            opacity: 1;
-            cursor: pointer;
           }
           .post-pdf {
             margin: 20px 0;
@@ -68,11 +76,30 @@
           .post-excerpt {
             height: 0;
             opacity: 0;
+            pointer-events: none;
           }
-          .post-link {
+          .post-read {
             opacity: 0;
             height: 0;
+            pointer-events: none;
           }
+        }
+      }
+    }
+  }
+}
+
+
+@media(max-width: 50em) {
+  .posts {
+    .post {
+      flex-wrap: wrap;
+      .post-featured-image {
+        display: none;
+        padding: 20px;
+        img {
+          width: 100%;
+          max-width: none;
         }
       }
     }

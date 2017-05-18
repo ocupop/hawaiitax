@@ -26,7 +26,13 @@
                     }
                   }).end()
                   .find('.post-content').append(post_content).end()
-                  .find('.post-pdf').attr('href', result[i].pdf);
+                  .find('.post-pdf').each(function() {
+                    if(result[i].pdf) {
+                      $(this).attr('href', result[i].pdf);
+                    } else {
+                      $(this).remove();
+                    }
+                  });
           container.append(new_post);     
         }
         container.find('.post').first().remove();
@@ -39,7 +45,10 @@
 $(document).on('ready', function(){
   $('.posts').on('click', '.post-link', function(){
     $('.posts').addClass('single-post-view');
+    $('.post.active').removeClass('active');
+
     $(this).closest('div.post').addClass('active');
+    window.scrollTo(0,0);
   });
 
   $('.posts').on('click', '.close-post', function(){

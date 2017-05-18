@@ -17,10 +17,11 @@ body {
 }
 a {
   color: $primary-color;
-  &:hover {
+  &:hover, &:focus {
     color: $link-hover;
     text-decoration: none;
     cursor: pointer;
+    outline: none;
   }
 }
 h4 {

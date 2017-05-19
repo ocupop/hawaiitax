@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'hiaccounting';
-  src:  url('/img/fonts/hiaccounting.eot?oqwxno');
-  src:  url('/img/fonts/hiaccounting.eot?oqwxno#iefix') format('embedded-opentype'),
-    url('/img/fonts/hiaccounting.woff2?oqwxno') format('woff2'),
-    url('/img/fonts/hiaccounting.ttf?oqwxno') format('truetype'),
-    url('/img/fonts/hiaccounting.woff?oqwxno') format('woff'),
-    url('/img/fonts/hiaccounting.svg?oqwxno#hiaccounting') format('svg');
+  font-family: 'higroup';
+  src:  url('/fonts/higroup.eot?oqwxno');
+  src:  url('/fonts/higroup.eot?oqwxno#iefix') format('embedded-opentype'),
+    url('/fonts/higroup.woff2?oqwxno') format('woff2'),
+    url('/fonts/higroup.ttf?oqwxno') format('truetype'),
+    url('/fonts/higroup.woff?oqwxno') format('woff'),
+    url('/fonts/higroup.svg?oqwxno#higroup') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'hiaccounting' !important;
+  font-family: 'higroup' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -25,72 +25,73 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-payroll-support:before {
+
+.icon-higroup:before {
   content: "\e900";
 }
-.icon-accounting-support:before {
+.icon-accounting:before {
   content: "\e901";
 }
-.icon-general-support:before {
+.icon-employment:before {
   content: "\e902";
 }
-.icon-accounting:before {
+.icon-healthcare:before {
   content: "\e903";
 }
-.icon-employment:before {
+.icon-social-google:before {
   content: "\e904";
 }
-.icon-exit:before {
+.icon-social-twitter:before {
   content: "\e905";
 }
-.icon-healthcare:before {
+.icon-social-linkedin:before {
   content: "\e906";
 }
-.icon-icon-email:before {
+.icon-social-instagram:before {
   content: "\e907";
 }
-.icon-icon-linkedin:before {
+.icon-social-facebook:before {
   content: "\e908";
 }
-.icon-menu:before {
+.icon-checkbox:before {
   content: "\e909";
 }
-.icon-notepad:before {
+.icon-cloud:before {
   content: "\e90a";
 }
-.icon-payroll:before {
+.icon-email:before {
   content: "\e90b";
 }
-.icon-services-01:before {
+.icon-equalize:before {
   content: "\e90c";
 }
-.icon-services-02:before {
+.icon-exit:before {
   content: "\e90d";
 }
-.icon-services-03:before {
+.icon-gears:before {
   content: "\e90e";
 }
-.icon-services-04:before {
+.icon-menu:before {
   content: "\e90f";
 }
-.icon-services-05:before {
+.icon-money:before {
   content: "\e910";
 }
-.icon-services-06:before {
+.icon-notepad:before {
   content: "\e911";
 }
-.icon-social-facebook:before {
+.icon-payroll:before {
   content: "\e912";
 }
-.icon-social-google:before {
+.icon-security:before {
   content: "\e913";
 }
-.icon-social-instagram:before {
+.icon-support-accounting:before {
   content: "\e914";
 }
-.icon-social-linkedin:before {
+.icon-support-general:before {
   content: "\e915";
 }
-.icon-social-twitter:before {
+.icon-support-payroll:before {
   content: "\e916";
 }

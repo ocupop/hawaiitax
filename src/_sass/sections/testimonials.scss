@@ -1,0 +1,17 @@
+#testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 500px;
+  text-align: center;
+  div.row {
+    position: absolute;
+    margin: auto;
+  }
+}
+
+
+@media (max-width: 500px) {
+
+}

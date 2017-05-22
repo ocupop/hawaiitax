@@ -66,12 +66,12 @@ $(window).on('load', function (e){
   }
 });
 
-$("#testimonials > div:gt(0)").hide();
-setInterval(function() { 
-  $('#testimonials > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#testimonials');
-},  3000);
+// $("#testimonials > div:gt(0)").hide();
+// setInterval(function() { 
+//   $('#testimonials > div:first')
+//     .fadeOut(1000)
+//     .next()
+//     .fadeIn(1000)
+//     .end()
+//     .appendTo('#testimonials');
+// },  3000);

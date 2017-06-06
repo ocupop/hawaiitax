@@ -1,9 +1,11 @@
 ---
 layout: staff
-name: "Tiana Fa’sau"
+name: Tiana Fa’sau
 job_title: Accountant
-bio_html: "<p>University of Hawaii, Mano – Bachelors in Business Administration – Finance</p>"
-email: 
-linkedin: 
-profile_image:
+bio_html: '<p>University of Hawaii, Mano &ndash; Bachelors in Business Administration &ndash; Finance</p>'
+email: tiana@hi-accounting.com
+linkedin:
+profile_image: /uploads/tiana0002.jpg
 ---
+
+

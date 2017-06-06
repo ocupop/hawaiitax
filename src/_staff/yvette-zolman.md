@@ -1,9 +1,11 @@
 ---
 layout: staff
 name: Yvette Zolman
-job_title: Accountant
-bio_html: '<p>University of Oklahoma, Bachelors of Business Administration: Accounting</p>'
-email: AWilliams@thehawaiigroup.com
+job_title: Project Manager
+bio_html:
+email: yzolman@hihealthcarehawaii.com
 linkedin:
-profile_image: /uploads/aubrey.jpg
+profile_image: /uploads/yvette0014-copy.jpg
 ---
+
+

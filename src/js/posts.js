@@ -14,7 +14,7 @@
           var post_excerpt = result[i].excerpt;
           post_excerpt = $("<div />").html(post_excerpt).text();
           var post_content = result[i].content;
-          post_content = $("<div />").html(post_content).text();
+          // post_content = $("<div />").html(post_content).text();
           new_post.find('.post-title .post-link').text(result[i].title).attr('href', '#'+result[i].slug).end()
                   .find('.post-date').text(result[i].date).end()
                   .find('.post-excerpt').append(post_excerpt).end()

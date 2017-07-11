@@ -11,6 +11,24 @@
   }
 }
 
+#announcement {
+  h3 { 
+    color: $gray;
+  }
+  img {
+    margin-bottom: 20px;
+  }
+  a {
+    font-family: 'ITCBookmanW01-LightItal', serif;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  .content {
+    padding: 30px 20px;
+  }
+}
+
 #accounting-you-can-trust {
   i {
     font-size: 75px;

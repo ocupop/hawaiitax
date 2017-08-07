@@ -1,11 +1,11 @@
 ---
 layout: staff
 name: Velaye Skipper
-job_title: Accountant
-bio_html: >-
-  <p>University of Oklahoma, Bachelors of Business Administration:
-  Accounting</p>
-email: AWilliams@thehawaiigroup.com
+job_title: Staff Accountant
+bio_html:
+email: velaye@hi-accounting.com
 linkedin:
-profile_image: /uploads/aubrey.jpg
+profile_image: /uploads/velaye.jpg
 ---
+
+

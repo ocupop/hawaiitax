@@ -1,11 +1,13 @@
 ---
 layout: staff
 name: Becky Grennan
-job_title: Accountant
+job_title: Office Manager
 bio_html: >-
-  <p>University of Oklahoma, Bachelors of Business Administration:
-  Accounting</p>
-email: AWilliams@thehawaiigroup.com
-linkedin:
-profile_image: /uploads/aubrey.jpg
+  <p>Office Manager and Certified Public Bookkeeper with over 20 years of
+  experience.</p>
+email: becky@hi-accounting.com
+linkedin: 'https://www.linkedin.com/in/becky-grennan-02b16240/'
+profile_image: /uploads/becky.jpg
 ---
+
+

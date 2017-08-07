@@ -1,11 +1,13 @@
 ---
 layout: staff
 name: 'Charmaine Apa, EA'
-job_title: Accountant
+job_title: Tax Accountant
 bio_html: >-
-  <p>University of Oklahoma, Bachelors of Business Administration:
-  Accounting</p>
-email: AWilliams@thehawaiigroup.com
-linkedin:
-profile_image: /uploads/aubrey.jpg
+  <p>University of Hawaii, Bachelor's Degree in Business Administration,
+  emphasis in Accounting.&nbsp;</p>
+email: charmaine@hiaccounting.com
+linkedin: 'https://www.linkedin.com/in/charmaine-apa-55953438/'
+profile_image: /uploads/charmaine.jpg
 ---
+
+

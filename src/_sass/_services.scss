@@ -2,6 +2,11 @@
   i {
     font-size: 100px;
   }
+  ul {
+    li {
+      font-style: italic;
+    }
+  }
 }
 
 #tax-preparation {
@@ -9,7 +14,6 @@
     list-style-type: none;
     margin-left: 20px;
     li {
-      font-style: italic;
       position: relative;
       padding-left: 10px;
       &:before {

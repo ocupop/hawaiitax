@@ -26,6 +26,26 @@
 }
 
 
+.icon-check:before {
+  content: "\e917";
+  color: #81ba3f;
+}
+.icon-irs-audit:before {
+  content: "\e918";
+  color: #65656a;
+}
+.icon-tax-planning:before {
+  content: "\e919";
+  color: #65656a;
+}
+.icon-tax-preparation:before {
+  content: "\e91a";
+  color: #65656a;
+}
+.icon-tax-problems:before {
+  content: "\e91b";
+  color: #65656a;
+}
 .icon-higroup:before {
   content: "\e900";
 }

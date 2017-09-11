@@ -7,7 +7,7 @@ bio_html: >-
   in construction, hotel and real estate industries.</p>
 email:
 linkedin: 'https://www.linkedin.com/in/ryken-bohner-185980140/'
-profile_image: /uploads/ryken.jpg
+profile_image: /uploads/ryken-new01.jpg
 ---
 
 

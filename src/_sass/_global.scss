@@ -114,6 +114,7 @@ select {
       font-size: 11px;
       padding: 4px;
       color: #fff;
+      opacity: 0;
       &:after {
         content: '';
         display: block;

@@ -58,6 +58,21 @@ $(document).ready(function() {
 //   }
 // });
 
+//on user scroll, hide client vault notification
+$(window).scroll(function(){
+  if ($(window).scrollTop() >= 500) {
+    $('.client-vault span').removeClass('flashit');
+   }
+});
+
+// if ($(window).scrollTop() <= 250) {
+//   $('#page-header').addClass('top-only');
+//  }
+//  else {
+//   $('#page-header').removeClass('top-only');
+//  }
+
+//check for hash on load
 $(window).on('load', function (e){
   if (window.location.hash) {
     $('html, body').animate({

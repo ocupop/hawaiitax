@@ -100,6 +100,34 @@ select {
       top: 114px;
     }
   }
+  .client-vault {
+    position: relative;
+    span {
+      position: absolute;
+      top: 6px;
+      left: -117px;
+      display: block;
+      background-color: #8dc63f;
+      width: 119px;
+      height: auto;
+      z-index: 1000;
+      font-size: 11px;
+      padding: 4px;
+      color: #fff;
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 6px;
+        left: 117px;
+        width: 0; 
+        height: 0; 
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-left: 10px solid $primary-color;
+      }
+    }
+  }
 }
 #page-content {
   position: relative;
@@ -137,6 +165,7 @@ select {
   
   ul {
     margin: 0;
+    overflow: visible;
     li {
       padding: 10px 0 13px 0;
       margin: 0;
@@ -205,6 +234,15 @@ select {
       line-height: 50px;
       background: transparent url(/img/logo.svg) no-repeat center center;
       background-size: contain;
+    }
+  }
+  .client-vault-mobile {
+    .button {
+      display: inline-block;
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: $gray;
     }
   }
   &.top-bar {

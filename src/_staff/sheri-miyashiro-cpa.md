@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: 'Sheri Miyashiro, CPA'
-job_title: Tax Senior
+job_title: Senior Tax Accountant
 bio_html: >-
   <p>Born and raised on the north shore, Sheri received a Bachelors of Marketing
   from University of Hawaii &ndash; Manoa and Masters of Science in Accountancy

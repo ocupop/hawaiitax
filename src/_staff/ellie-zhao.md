@@ -6,14 +6,14 @@ bio_html: >-
   <p>Education: Bachelor in Business Administration with a concentration in
   Accounting and Human Resources Management from the University of Hawaii at
   Manoa - Shidler College of Business<br />Years of Experience: 5 Years&nbsp;<br
-  />Languages: English, Cantonese &amp; Mandarin</p><p>Industries: Not For
-  Profit, Manufacturing, Retail, Professional Services</p><p>&nbsp;</p><p>Ellie
-  was born and raised in China and moved to Hawaii 13 years ago. In 2014, she
-  received her Bachelor in Business Administration with a concentration in
-  Accounting and Human Resources Management from the University of Hawaii at
-  Manoa - Shidler College of Business. Ellie is currently the Senior Accountant
-  of Hawaii Accounting assisting with the monthly closing of the books and
-  producing monthly financial reports for various client with a primary focus on
+  />Languages: English, Cantonese &amp; Mandarin<br />Industries: Not For
+  Profit, Manufacturing, Retail, Professional Services<br />Ellie was born and
+  raised in China and moved to Hawaii 13 years ago. In 2014, she received her
+  Bachelor in Business Administration with a concentration in Accounting and
+  Human Resources Management from the University of Hawaii at Manoa - Shidler
+  College of Business. Ellie is currently the Senior Accountant of Hawaii
+  Accounting assisting with the monthly closing of the books and producing
+  monthly financial reports for various client with a primary focus on
   non-for-profit. She oversees the processing of&nbsp; invoices and related
   payments, records cash receipts and reconciles bank accounts and activity,
   prepares and files general excise tax returns, monitors expenses through

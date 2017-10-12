@@ -11,7 +11,7 @@ bio_html: >-
   team.</p>
 email:
 linkedin: 'https://www.linkedin.com/in/sherimiyashiro/'
-profile_image: /uploads/sheri.jpg
+profile_image: /uploads/04sheri0032.jpg
 ---
 
 

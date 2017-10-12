@@ -7,7 +7,7 @@ bio_html: >-
   emphasis in Accounting.&nbsp;</p>
 email: charmaine@hiaccounting.com
 linkedin: 'https://www.linkedin.com/in/charmaine-apa-55953438/'
-profile_image: /uploads/charmaine.jpg
+profile_image: /uploads/05charmaine0013.jpg
 ---
 
 

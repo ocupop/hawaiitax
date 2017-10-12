@@ -7,7 +7,7 @@ bio_html: >-
   experience.</p>
 email: becky@hi-accounting.com
 linkedin: 'https://www.linkedin.com/in/becky-grennan-02b16240/'
-profile_image: /uploads/becky.jpg
+profile_image: /uploads/02becky0001.jpg
 ---
 
 

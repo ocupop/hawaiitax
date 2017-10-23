@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Victor Madrillejos
-job_title:
+job_title: Staff Accountant
 bio_html:
 email:
 linkedin:

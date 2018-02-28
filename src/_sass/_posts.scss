@@ -40,6 +40,53 @@
     pointer-events: none;
     display: block;
     @include transition(.5s);
+
+    h5 {
+      margin-bottom: 20px;
+    }
+    ol, ul {
+      margin-left: 25px;
+      li {
+        padding: 20px 0;
+      }
+      ul {
+        margin-left: 50px;
+        li {
+          padding: 5px 0;
+        }
+        ul {
+          margin-left: 50px;
+          li {
+            padding: 0;
+          }
+        }
+      }
+    }
+    ul {
+      list-style-type: disc;
+      &.section-list {
+        list-style-type: none;
+        li {
+          &:before {
+            content: "§";
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+    .sub-section {
+      padding: 20px;
+      background-color: $gray-lightest;
+      margin: 20px 0;
+      ul {
+        margin-left: 50px;
+      }
+      ul, ol {
+        li {
+          padding: 5px 0;
+        }
+      }
+    }
   }
   .post-excerpt {
     height: auto;

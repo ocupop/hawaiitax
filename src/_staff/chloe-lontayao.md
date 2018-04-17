@@ -5,6 +5,6 @@ job_title: Staff Accountant
 bio_html:
 email:
 linkedin:
-profile_image:
+profile_image: /uploads/higroup-portrait-chloe.jpg
 ---
 

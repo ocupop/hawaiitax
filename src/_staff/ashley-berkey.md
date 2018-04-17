@@ -5,6 +5,6 @@ job_title: Tax Accountant
 bio_html:
 email:
 linkedin:
-profile_image:
+profile_image: /uploads/higroup-portrait-ashley.jpg
 ---
 

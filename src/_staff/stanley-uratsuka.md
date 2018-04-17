@@ -5,6 +5,6 @@ job_title: Accounting Manager
 bio_html:
 email:
 linkedin:
-profile_image:
+profile_image: /uploads/higroup-portrait-stan.jpg
 ---
 

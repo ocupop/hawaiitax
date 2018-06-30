@@ -2,10 +2,10 @@
 title: HiAccounting
 email: dev@ocupop.com
 description: ''
-url: "http://client_url"
+url: "https://hi-accounting.com"
 permalink: /:title
 
-press_url: "http://important-chickpea.cloudvent.net"
+press_url: "https://important-chickpea.cloudvent.net"
 local_press_url: "/hi-accounting/index.json"
 
 collections:

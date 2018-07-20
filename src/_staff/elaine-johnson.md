@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Elaine Johnson
-job_title:
+job_title: Director of Human Resources
 bio_html:
 email:
 linkedin:

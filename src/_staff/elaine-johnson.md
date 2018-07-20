@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Elaine Johnson
-job_title: Accountant
+job_title:
 bio_html:
 email:
 linkedin:

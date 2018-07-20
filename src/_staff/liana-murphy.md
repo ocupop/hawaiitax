@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: 'Liana Fajayan, CPA'
-job_title: Controller & Director of Client Services
+job_title: Director of Client Services
 bio_html: >-
   <p>A Certified Public Accountant (WA), Liana has 10 years&rsquo; experience in
   management of tax and accounting services. Liana comes to HiAccounting from
@@ -18,5 +18,4 @@ email: lfajayan@hi-accounting.com
 linkedin: 'https://www.linkedin.com/in/liana-fajayan-9394ba2a/'
 profile_image: /uploads/liana-new.jpg
 ---
-
 

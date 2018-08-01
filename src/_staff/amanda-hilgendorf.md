@@ -9,6 +9,6 @@ bio_html: >-
   Perrington, Michigan</p>
 email:
 linkedin:
-profile_image:
+profile_image: /uploads/higroup-portrait-newhire.jpg
 ---
 

@@ -11,6 +11,6 @@ bio_html: >-
   </strong>Ulaanbaatar, Mongolia</p>
 email:
 linkedin:
-profile_image:
+profile_image: /uploads/higroup-portrait-serge.jpg
 ---
 

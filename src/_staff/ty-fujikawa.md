@@ -10,6 +10,6 @@ bio_html: >-
   and Hospitality<br /><strong>Hometown:</strong> Honolulu, Hawaii</p>
 email:
 linkedin:
-profile_image:
+profile_image: /uploads/img-2269.jpg
 ---
 

@@ -11,6 +11,6 @@ bio_html: >-
   /><strong>Hometown:</strong> Mililani, HI</p>
 email:
 linkedin:
-profile_image:
+profile_image: /uploads/isaac.jpg
 ---
 

@@ -9,6 +9,6 @@ bio_html: >-
   Albany, Illinois</p>
 email: velaye@hi-accounting.com
 linkedin:
-profile_image: /uploads/velaye.jpg
+profile_image: /uploads/valeya.jpg
 ---
 

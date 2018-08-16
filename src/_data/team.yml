@@ -1,12 +1,11 @@
 - name: Management Team
   staff:
     - matt-delaney
-    - scott-strimling-cpa
-    - sonomi-uchida
-    - yvette-zolman
     - liana-murphy
     - janet-williams
+    - scott-strimling-cpa
     - joe-muldowney
+    - yvette-zolman
 
 - name: Staff
   staff:

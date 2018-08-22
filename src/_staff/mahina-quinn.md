@@ -9,6 +9,6 @@ bio_html: >-
   Oahu</p>
 email:
 linkedin:
-profile_image: /uploads/higroup-portrait-mahina.jpg
+profile_image: /uploads/higroup-portrait-mahina-1.jpg
 ---
 

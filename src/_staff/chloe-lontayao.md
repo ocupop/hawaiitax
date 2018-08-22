@@ -10,6 +10,6 @@ bio_html: >-
   Education<br /><strong>Hometown:</strong> Kapolei, Hawaii</p>
 email:
 linkedin:
-profile_image: /uploads/higroup-portrait-chloe.jpg
+profile_image: /uploads/higroup-portrait-chloe-1.jpg
 ---
 

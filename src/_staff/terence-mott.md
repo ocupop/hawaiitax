@@ -3,7 +3,7 @@ layout: staff
 name: Terence Mott
 job_title: Accounting Manager
 bio_html: >-
-  <p>Terence Mott is a CPA (HI) with just under 10 years in public accounting.
+  <p>Terence Mott is a CPA (HI) with just under ten years in public accounting.
   Born and raised in Makiki, he most recently came from a local CPA firm where
   audited clients in a variety of industries including; Not-for-Profits, Charter
   Schools, Healthcare, Construction, Manufacturing, Retail, and Employee Benefit

@@ -14,6 +14,6 @@ bio_html: >-
   golden retriever and watching or playing soccer.</p>
 email: terence@hi-accounting.com
 linkedin: 'https://www.linkedin.com/in/terence-mott-06584387/'
-profile_image: /uploads/terence-8-20-18.jpg
+profile_image: /uploads/terence.jpg
 ---
 

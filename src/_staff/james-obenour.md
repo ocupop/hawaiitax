@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: 'James Obenour, CPA'
-job_title: Sr. Tax Accountant
+job_title: Senior Tax Accountant
 bio_html: >-
   <p>James was born and raised in Miami, Florida. He earned his undergraduate
   degree at Florida State University majoring in Accounting and Finance.&nbsp;

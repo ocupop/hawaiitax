@@ -10,6 +10,6 @@ bio_html: >-
   and Hospitality<br /><strong>Hometown:</strong> Honolulu, Hawaii</p>
 email:
 linkedin:
-profile_image: /uploads/higroup-portrait-ty-1.jpg
+profile_image: /uploads/ty-fujikawa.jpg
 ---
 

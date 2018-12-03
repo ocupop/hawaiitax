@@ -1,13 +1,20 @@
 ---
 layout: staff
 name: Ty Fujikawa
-job_title: Staff Accountant
+job_title: Staff Accountant and Implementation Specialist
 bio_html: >-
-  <p><strong>Education:</strong> University of Hawaii Manoa, Bachelor&rsquo;s
-  Degree, Accounting Major<br /><strong>Experience:</strong> Staff Accountant
-  for Michelin Star Chef-Michael Mina&rsquo;s Hawaii restaurants and partnership
-  entities<br /><strong>Industry Experience:</strong> Restaurant, Guest Service
-  and Hospitality<br /><strong>Hometown:</strong> Honolulu, Hawaii</p>
+  <p><strong>Hometown:</strong> Honolulu,
+  Hawaii</p><p><strong>Education:</strong> University of Hawaii &ndash; Manoa,
+  B.A. in Accounting</p><p><strong>Experience:</strong> Previously a Staff
+  Accountant for Michelin Star Chef-Michael Mina&rsquo;s Hawaii restaurants, Ty
+  has experience in the restaurants, guest service, and hospitality industries.
+  Ty works with clients on financial statement preparation, bookkeeping and
+  planning. He also champions various efforts at HiAccounting including
+  implementation of new clients and service platforms such as but not limited to
+  Sage Intacct, QuickBooks, CS Fixed Assets and Expensify. Ty has passed the
+  Intacct Accounting Specialist Exam and is CPA eligible.</p><p><strong>Fun
+  Fact: </strong>Ty spends his spare time with his friends trying the new and
+  hip restaurants on the island.</p>
 email:
 linkedin:
 profile_image: /uploads/ty-fujikawa.jpg

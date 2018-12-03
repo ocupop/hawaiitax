@@ -13,7 +13,7 @@ layout: default
         {% endif %}
       </div>
       <div class="medium-8 columns">
-        <h1>{{ page.name }}{% if page.job_title %}<br/>{{ page.job_title }}{% endif %}</h1>
+        <h1>{{ page.name }}{% if page.job_title %}<br/><span class="job-title">{{ page.job_title }}</span>{% endif %}</h1>
         <p>{{ page.bio_html }}</p>
         <p>
           <a href="{{ page.email }}"><i class="icon-icon-email"></i></a>

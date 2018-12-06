@@ -3,7 +3,7 @@ layout: staff
 name: Scott Strimling
 job_title: CFO
 bio_html: >-
-  <p>As a Certified Public Accountant (CA), Scott has proven is adept quality in
+  <p>Scott has proven is adept quality in
   streamlining financial process, enhancing productivity levels, and introducing
   process improvements. Coming to The Hawaii Group from the digital courseware
   company, Toolwire Inc., Scott provided leadership to the finance organization

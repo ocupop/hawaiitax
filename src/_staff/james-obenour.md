@@ -15,6 +15,6 @@ bio_html: >-
   surfing and catching waves when he&rsquo;s not working in the office.</p>
 email:
 linkedin:
-profile_image: /uploads/obenour.jpg
+profile_image: /uploads/james.jpg
 ---
 

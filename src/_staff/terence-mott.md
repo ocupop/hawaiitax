@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Terence Mott
-job_title: Accounting Manager
+job_title: CPA – Accounting Manager
 bio_html: >-
   <p><strong>Hometown: </strong>Makiki, Hawaii</p><p><strong>Education:
   </strong>University of Hawaii&mdash;Manoa, Master of Business Administration

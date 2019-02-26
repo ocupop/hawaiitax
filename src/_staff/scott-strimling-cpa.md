@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: 'Scott Strimling, CPA'
-job_title: – CFO
+job_title: '- CFO'
 bio_html: >-
   <p>Scott has proven is adept quality in streamlining financial process,
   enhancing productivity levels, and introducing process improvements. Coming to

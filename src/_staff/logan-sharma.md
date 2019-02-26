@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: 'Logan Sharma, CPA'
-job_title: – Staff Accountant
+job_title: Staff Accountant
 bio_html: >-
   <p><strong>Hometown:</strong> Westport,
   Washington</p><p><strong>Education:</strong> Western Washington University, BA

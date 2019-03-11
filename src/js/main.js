@@ -1,37 +1,37 @@
 $(document).foundation({
-  equalizer : {
+  equalizer: {
     // Specify if Equalizer should make elements equal height once they become stacked.
     equalize_on_stack: false
   }
 });
 
 // $(function() {
-  
+
 // });
 
 $(document).ready(function() {
   var params = window.location.search.substring(1);
-  if (params.indexOf('thanks') > -1 ) {
-    $('#message').show();
-    setTimeout(function(){ 
-      $('#message').fadeOut('slow');
+  if (params.indexOf("thanks") > -1) {
+    $("#message").show();
+    setTimeout(function() {
+      $("#message").fadeOut("slow");
     }, 4000);
   }
 
-  $( "#site-search-form").on('click', function () {
-    $(this).addClass('active');
+  $("#site-search-form").on("click", function() {
+    $(this).addClass("active");
     $submit = $(this).find('input[type="submit"]');
   });
 
-  $('#services').on('click', function(event){
+  $("#services").on("click", function(event) {
     event.stopPropagation();
-    $('#service-choices').toggleClass('active');
+    $("#service-choices").toggleClass("active");
   });
-  $('#service-choices').on('click', function() {
+  $("#service-choices").on("click", function() {
     event.stopPropagation();
   });
-  $('body').on('click', function() {
-    $('#service-choices').removeClass('active');
+  $("body").on("click", function() {
+    $("#service-choices").removeClass("active");
   });
 
   // $('a[href*="#"]:not([href="#"])').click(function() {
@@ -47,15 +47,17 @@ $(document).ready(function() {
   //     }
   //   }
   // });
-
 });
 
-$(document).on('click', 'a[href^="#"]', function (event) {
-    event.preventDefault();
+$(document).on("click", 'a[href^="#"]', function(event) {
+  event.preventDefault();
 
-    $('html, body').animate({
-      scrollTop: $($.attr(this, 'href')).offset().top -130
-     }, 500);
+  $("html, body").animate(
+    {
+      scrollTop: $($.attr(this, "href")).offset().top - 130
+    },
+    500
+  );
 });
 
 // $(document).mouseup(function (e)
@@ -69,10 +71,10 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 // });
 
 //on user scroll, hide client vault notification
-$(window).scroll(function(){
+$(window).scroll(function() {
   if ($(window).scrollTop() >= 500) {
-    $('.client-vault span').removeClass('flashit');
-   }
+    $(".client-vault span").removeClass("flashit");
+  }
 });
 
 // if ($(window).scrollTop() <= 250) {
@@ -83,16 +85,19 @@ $(window).scroll(function(){
 //  }
 
 //check for hash on load
-$(window).on('load', function (e){
+$(window).on("load", function(e) {
   if (window.location.hash) {
-    $('html, body').animate({
-      scrollTop: $(window.location.hash).offset().top - 125
-    }, 1000);
+    $("html, body").animate(
+      {
+        scrollTop: $(window.location.hash).offset().top - 125
+      },
+      1000
+    );
   }
 });
 
 // $("#testimonials > div:gt(0)").hide();
-// setInterval(function() { 
+// setInterval(function() {
 //   $('#testimonials > div:first')
 //     .fadeOut(1000)
 //     .next()

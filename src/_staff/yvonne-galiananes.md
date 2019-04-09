@@ -13,6 +13,7 @@ bio_html: >-
   Yvonne and her family are avid Cross Fitters &ndash; working out at their home
   gym in Kailua.&nbsp;</p>
 email: ygalinanes@hi-accounting.com
+phone: 808-529-9990
 linkedin:
 profile_image: /uploads/yvonne-galiananes.jpg
 ---

@@ -42,6 +42,7 @@ bio_html: >-
   Science in Accounting, Business Administration and Entrepreneurship from
   University of Southern California.</p>
 email: MDelaney@thehawaiigroup.com
+phone: 808-529-9990
 linkedin: 'https://www.linkedin.com/in/matthew-delaney-a49b731/'
 profile_image: /uploads/matt-delaney.jpg
 ---

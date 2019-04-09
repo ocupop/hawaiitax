@@ -12,6 +12,7 @@ bio_html: >-
   &nbsp;</p><p><strong>Fun Fact:</strong> Becky moved to Hawaii and has lived in
   Hawaii for 19 years.</p>
 email: becky@hi-accounting.com
+phone: 808-529-9990
 linkedin: 'https://www.linkedin.com/in/becky-grennan-02b16240/'
 profile_image: /uploads/02becky0001.jpg
 ---

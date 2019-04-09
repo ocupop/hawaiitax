@@ -10,7 +10,8 @@ bio_html: >-
   aspects of accounting, cash management, financial planning and analysis, and
   budgeting. Scott received his BS in Business Administration, Finance emphasis
   from the University of Southern California.</p>
-email: sstrimling@hi-accounting.com
+email: SStrimling@thehawaiigroup.com
+phone: 808-529-9990
 linkedin: 'https://www.linkedin.com/in/scott-strimling-9399639/'
 profile_image: /uploads/06scott0004.jpg
 ---

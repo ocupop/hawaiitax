@@ -19,7 +19,8 @@ bio_html: >-
   music. He is also passionate about helping others explore. If you need someone
   to advise on alternative travel methods + cheapest flight routes, look no
   further!</p>
-email:
+email: logan@hi-accounting.com
+phone: 808-529-9990
 linkedin:
 profile_image: /uploads/hiaccounting-portrait-logan.jpg
 ---

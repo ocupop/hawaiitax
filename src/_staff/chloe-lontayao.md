@@ -12,7 +12,8 @@ bio_html: >-
   in various industries. Chloe has passed the Intacct Accounting Specialist Exam
   and is CPA eligible.</p><p><strong>Fun Fact:</strong> Chloe takes gymnastics
   and stays active outside on the weekends.</p>
-email:
+email: chloe@hi-accounting.com
+phone: 808-529-9990
 linkedin:
 profile_image: /uploads/higroup-portrait-chloe-1.jpg
 ---

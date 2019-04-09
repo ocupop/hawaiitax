@@ -14,7 +14,8 @@ bio_html: >-
   by serving as the office mentor and coach to junior staff &ndash; passing on
   years of knowledge and experience.</p><p><strong>Fun Fact:</strong> Stanley
   raises exotic fish including betas and cichlids.</p>
-email:
+email: stan@hi-accounting.com
+phone: 808-529-9990
 linkedin:
 profile_image: /uploads/higroup-portrait-stan.jpg
 ---

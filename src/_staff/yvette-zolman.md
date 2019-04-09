@@ -8,7 +8,8 @@ bio_html: >-
   goals and directives. Yvette achieved her Bachelor&rsquo;s in Business
   Administration and comes to Hawaii from Nashville, TN bringing experience in
   Project Management, Marketing, Customer Relations, and Administration.</p>
-email:
+email: yvette@thehawaiigroup.com
+phone: 808-529-9990
 linkedin:
 profile_image: /uploads/aff6dbc09bcfa5cd94a40af47be4a6e6.jpg
 ---

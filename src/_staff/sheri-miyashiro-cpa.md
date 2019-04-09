@@ -12,7 +12,8 @@ bio_html: >-
   equity, and technology software.</p><p><strong>Fun Fact:</strong> Sheri moved
   back to Hawaii in 2017 with her husband and son after living in the mainland
   for several years.</p>
-email:
+email: smiyashiro@hi-accounting.com
+phone: 808-529-9990
 linkedin: 'https://www.linkedin.com/in/sherimiyashiro/'
 profile_image: /uploads/04sheri0032.jpg
 ---

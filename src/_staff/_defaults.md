@@ -4,6 +4,7 @@ name:
 job_title: Accountant
 bio_html: 
 email: 
+phone: 808-529-9990
 linkedin:
 profile_image: 
 ---

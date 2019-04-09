@@ -12,7 +12,8 @@ bio_html: >-
   administration. Mahina has passed the Intacct Accounting Specialist Exam and
   is CPA eligible.</p><p><strong>Fun Fact:</strong> Mahina played soccer in
   college and still plays for leisure.</p>
-email:
+email: mahina@hi-accounting.com
+phone: 808-529-9990
 linkedin:
 profile_image: /uploads/higroup-portrait-mahina-1.jpg
 ---

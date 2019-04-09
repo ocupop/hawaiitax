@@ -11,7 +11,8 @@ bio_html: >-
   eligible and plans to take the exam in the near future.</p><p><strong>Fun
   Fact:</strong> Velaye owns a beautiful Rottweiler with her husband. They enjoy
   staying active outdoors.</p>
-email: velaye@hi-accounting.com
+email: Velaye@hi-accounting.com
+phone: 808-529-9990
 linkedin:
 profile_image: /uploads/valeya.jpg
 ---

@@ -11,7 +11,8 @@ bio_html: >-
   and plans to take the exam in the near future.</p><p><strong>Fun Fact:
   </strong>Isaac enjoys reading the IRS tax code, even when he&rsquo;s not at
   work.</p>
-email:
+email: isaac@hi-accounting.com
+phone: 808-529-9990
 linkedin:
 profile_image: /uploads/isaac.jpg
 ---

@@ -16,7 +16,8 @@ bio_html: >-
   Director of Client Services on internal accounting, strategic planning and
   budgeting for The Hawaii Group.</p><p><strong>Fun Fact: </strong>Evans has ran
   two marathons.</p>
-email: emartin@hi-accounting.com
+email: evans@hi-accounting.com
+phone: 808-529-9990
 linkedin: 'https://www.linkedin.com/in/sallyevansmartin/'
 profile_image: /uploads/evans0023.jpg
 ---

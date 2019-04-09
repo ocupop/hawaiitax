@@ -15,7 +15,8 @@ bio_html: >-
   development, retail, construction contractors, not-for-profit organizations,
   personal service and health care.</p><p><strong>Fun Fact:</strong> Kathy
   enjoys playing tennis.</p>
-email:
+email: kau@hi-accounting.com
+phone: 808-529-9990
 linkedin:
 profile_image: /uploads/kathy-au.jpg
 ---

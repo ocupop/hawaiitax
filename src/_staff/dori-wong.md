@@ -12,7 +12,8 @@ bio_html: >-
   banking. Currently, Dori is actively pursuing the CPA exam.</p><p><strong>Fun
   Fact:</strong> Dori has been teaching power yoga for the last 2 years at the
   UH-Cancer Center in Kakaako and enjoys golfing.</p>
-email:
+email: dori@hi-accounting.com
+phone: 808-529-9990
 linkedin:
 profile_image: /uploads/hiaccounting-portrait-dori.jpg
 ---

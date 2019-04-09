@@ -13,7 +13,8 @@ bio_html: >-
   He&rsquo;s worked in industries including: construction, healthcare,
   government, and non-profit.</p><p><strong>Fun Fact:</strong> James enjoys
   surfing and catching waves when he&rsquo;s not working in the office.</p>
-email:
+email: James@hi-accounting.com
+phone: 808-529-9990
 linkedin:
 profile_image: /uploads/james.jpg
 ---

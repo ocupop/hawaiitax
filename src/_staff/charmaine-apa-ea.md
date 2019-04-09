@@ -13,7 +13,8 @@ bio_html: >-
   services, restaurants, retail, and non-profits.</p><p><strong>Fun
   Fact:</strong> Loves to travel and on a mission to visit all 50 states and a
   country in each continent.</p>
-email: charmaine@hiaccounting.com
+email: Charmaine@hi-accounting.com
+phone: 808-529-9990
 linkedin: 'https://www.linkedin.com/in/charmaine-apa-55953438/'
 profile_image: /uploads/05charmaine0013.jpg
 ---

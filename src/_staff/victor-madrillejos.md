@@ -10,6 +10,7 @@ bio_html: >-
   Experience:</strong> restaurant, construction, non-profit and real-estate
   industries<br /><strong>Hometown: </strong>San Diego, California</p>
 email:
+phone: 808-529-9990
 linkedin:
 profile_image: /uploads/victor.jpg
 ---

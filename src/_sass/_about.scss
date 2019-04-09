@@ -20,3 +20,21 @@
   background-color: $primary-color;
   color: #ffffff;
 }
+
+#perks {
+  li {
+    clear: both;
+    height:50px;
+    list-style-type:none;
+    margin-bottom:20px;
+
+    img {
+      width: 32px;
+      height: auto;
+      margin: 0 20px 20px 10px;
+      display: block;
+      float: left;
+    }
+  }
+
+}

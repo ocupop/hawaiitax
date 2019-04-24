@@ -13,6 +13,7 @@ bio_html: >-
 email: SStrimling@thehawaiigroup.com
 phone: 808-529-9990
 linkedin: 'https://www.linkedin.com/in/scott-strimling-9399639/'
+vcard: /downloads/Scott-Strimling.vcf
 profile_image: /uploads/06scott0004.jpg
 ---
 

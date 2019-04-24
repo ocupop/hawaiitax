@@ -11,6 +11,7 @@ bio_html: >-
 email: yvette@thehawaiigroup.com
 phone: 808-529-9990
 linkedin:
+vcard: /downloads/Yvette-Zolman.vcf
 profile_image: /uploads/aff6dbc09bcfa5cd94a40af47be4a6e6.jpg
 ---
 

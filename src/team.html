@@ -43,13 +43,21 @@ title: Team HiAccounting
           {% if num_words > 50 %}
             <p><a href="{{ member.url }}">Read More</a></p>
           {% endif %}
-         
-          {% if member.email %}
-            <a href="mailto:{{ member.email }}" class="contact-icon"><i class="icon-emailx"></i></a>
-          {% endif %}
-          {% if member.linkedin %}
-            <a href="{{ member.linkedin }}" class="contact-icon" target="_blank"><i class="icon-linkedin"></i></a>
-          {% endif %}
+          <hr/>
+          <div class="member-meta">
+            {% if member.email %}
+              <a href="mailto:{{ member.email }}" class="contact-meta"><img src="/img/about/icon-mail.png" alt="Email {{ member.name }}">{{ member.email }}</a>
+            {% endif %}
+            {% if member.phone %}
+            <a href="tel:{{ member.phone }}" class="contact-meta" target="_blank"><img src="/img/about/icon-phone.png" alt="Call {{ member.name }}">{{ member.phone }}</a>
+            {% endif %}
+            {% if member.linkedin %}
+              <a href="{{ member.linkedin }}" class="contact-meta" target="_blank"><img src="/img/about/icon-linkedin.png" alt="LinkedIn - {{ member.name }}"></a>
+            {% endif %}
+            {% if member.vcard %}
+            <a href="{{ member.vcard }}" class="contact-meta green" target="_blank">vCard</a>
+            {% endif %}
+          </div>
         </div>
       </li>
       {% endfor %}

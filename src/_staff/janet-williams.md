@@ -15,6 +15,7 @@ bio_html: >-
 email: Janet@hi-accounting.com
 phone: 808-529-9990
 linkedin:
+vcard: /downloads/Janet-Williams-Reyes.vcf
 profile_image: /uploads/janet.jpg
 ---
 

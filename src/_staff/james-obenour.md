@@ -16,6 +16,7 @@ bio_html: >-
 email: James@hi-accounting.com
 phone: 808-529-9990
 linkedin:
+vcard: /downloads/James-Obenour.vcf
 profile_image: /uploads/james.jpg
 ---
 

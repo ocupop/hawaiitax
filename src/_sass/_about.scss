@@ -38,3 +38,34 @@
   }
 
 }
+
+.contact-meta {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0;
+  margin: 0;
+  padding-right: 10px;
+  color:#646569;
+  display: inline-block;
+  height:18px;
+
+  
+
+  &.green {
+    color: #8dc63f;
+  }
+
+}
+
+.member-meta {
+  padding-bottom:30px;
+
+  img {
+    margin: 0;
+    padding: 0;
+    margin-top:-2px;
+    padding-right: 4px;
+
+  }
+
+}

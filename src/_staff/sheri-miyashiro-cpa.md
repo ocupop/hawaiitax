@@ -15,6 +15,7 @@ bio_html: >-
 email: smiyashiro@hi-accounting.com
 phone: 808-529-9990
 linkedin: 'https://www.linkedin.com/in/sherimiyashiro/'
+vcard: /downloads/Sheri-Miyashiro.vcf
 profile_image: /uploads/04sheri0032.jpg
 ---
 

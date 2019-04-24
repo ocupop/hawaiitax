@@ -10,6 +10,7 @@ bio_html: >-
 email: ty@hi-accounting.com
 phone: 808-529-9990
 linkedin:
+vcards: /downloads/Ty-Fujikawa.vcf
 profile_image: /uploads/ty-fujikawa.jpg
 ---
 

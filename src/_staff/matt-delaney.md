@@ -44,6 +44,7 @@ bio_html: >-
 email: MDelaney@thehawaiigroup.com
 phone: 808-529-9990
 linkedin: 'https://www.linkedin.com/in/matthew-delaney-a49b731/'
+vcard: /downloads/Matt-Delaney.vcf
 profile_image: /uploads/matt-delaney.jpg
 ---
 

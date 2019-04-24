@@ -15,10 +15,24 @@ layout: default
       <div class="medium-8 columns">
         <h1>{{ page.name }}{% if page.job_title %}<br/><span class="job-title">{{ page.job_title }}</span>{% endif %}</h1>
         <p>{{ page.bio_html }}</p>
-        <p>
-          <a href="{{ page.email }}"><i class="icon-emailx"></i></a>
-          <a href="{{ page.linkedin }}"><i class="icon-linkedinx"></i></a>
-        </p>
+        <hr />
+        <div class="member-meta">
+          {% if page.email %}
+          <a href="mailto:{{ page.email }}" class="contact-meta"><img src="/img/about/icon-mail.png"
+              alt="Email {{ page.name }}">{{ page.email }}</a>
+          {% endif %}
+          {% if page.phone %}
+          <a href="tel:{{ page.phone }}" class="contact-meta" target="_blank"><img src="/img/about/icon-phone.png"
+              alt="Call {{ page.name }}">{{ page.phone }}</a>
+          {% endif %}
+          {% if page.linkedin %}
+          <a href="{{ page.linkedin }}" class="contact-meta" target="_blank"><img src="/img/about/icon-linkedin.png"
+              alt="LinkedIn - {{ page.name }}"></a>
+          {% endif %}
+          {% if page.vcard %}
+          <a href="{{ page.vcard }}" class="contact-meta green" target="_blank">vCard</a>
+          {% endif %}
+        </div>
         <p><a href="{{ site.baseurl }}/team">&lt; Back to Team</a></p>
       </div>
     </div>

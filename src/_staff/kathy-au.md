@@ -18,6 +18,7 @@ bio_html: >-
 email: kau@hi-accounting.com
 phone: 808-529-9990
 linkedin:
+vcard: /downloads/Kathy-Au.vcf
 profile_image: /uploads/kathy-au.jpg
 ---
 

@@ -16,6 +16,7 @@ bio_html: >-
 email: Charmaine@hi-accounting.com
 phone: 808-529-9990
 linkedin: 'https://www.linkedin.com/in/charmaine-apa-55953438/'
+vcard: /downloads/Charmaine-Apa.vcf
 profile_image: /uploads/05charmaine0013.jpg
 ---
 

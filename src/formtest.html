@@ -211,7 +211,7 @@ title: Form Test Page
         <input id="Field221" name="Field221" type="text" placeholder="Annual Revenues" tabindex="104">
       </div>
       <div class="small-12 large-4 columns">
-        <div class="g-recaptcha" data-sitekey="6LcATaIUAAAAANy4O0TmWuzvmPOVz_tf4unTXi6F"></div>
+        
         <input id="saveForm" name="saveForm" type="submit" class="button expand" value="submit" />
       </div>
       <div class="hide">
@@ -221,6 +221,31 @@ title: Form Test Page
       </div>
     </div>
   </form>
+      </section>
+      <section>
+        <form method="post" action="/thank-you.html">
+          <label>Email Address</label>
+          <input type="text" name="email">
+        
+          <label>Name</label>
+          <input type="text" name="name">
+        
+          <label>Message</label>
+          <textarea name="message"></textarea>
+        
+          <label>Urgent</label>
+          <input type="checkbox" name="urgent">
+        
+          <label>Type of Enquiry</label>
+          <input type="radio" name="_subject" value="Sales Enquiry"> Sales
+          <input type="radio" name="_subject" value="General Enquiry"> General
+        
+          <input type="hidden" name="_to" value="j@ocupop.com">
+          <input type="hidden" name="_cc" value="dev@ocupop.com">
+          <input type="text" name="_gotcha" style="display: none;">
+          <div class="g-recaptcha" data-sitekey="6LcATaIUAAAAANy4O0TmWuzvmPOVz_tf4unTXi6F"></div>
+          <input type="submit" value="Send Message">
+        </form>
       </section>
     </div>
   </div>

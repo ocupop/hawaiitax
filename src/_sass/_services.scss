@@ -1,4 +1,7 @@
-#tax-preparation, #tax-planning, #irs-audit, #tax-problems {
+#tax-preparation,
+#tax-planning,
+#irs-audit,
+#tax-problems {
   i {
     font-size: 100px;
   }
@@ -10,7 +13,7 @@
 }
 
 #tax-preparation {
-  ul {
+  ul.styled {
     list-style-type: none;
     margin-left: 20px;
     li {
@@ -18,7 +21,7 @@
       padding-left: 10px;
       &:before {
         content: "\e917";
-        font-family: 'higroup';
+        font-family: "higroup";
         font-size: 25px;
         position: absolute;
         left: -25px;

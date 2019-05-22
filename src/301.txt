@@ -1,1 +1,2 @@
-/advantage /about
+/advantage/ /value
+/about/ /history

@@ -28,12 +28,14 @@
     display: table-cell;
     width: 100%;
     height: 100%;
-    top: 0; bottom: 0;
-    left: 0; right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     color: #fff;
     text-align: center;
     vertical-align: middle;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     &.green {
       background: rgba(141, 198, 63, 0.8);
     }
@@ -51,7 +53,9 @@
       font-size: 30px;
       color: #fff;
     }
-    p { color: #fff; }
+    p {
+      color: #fff;
+    }
   }
 }
 
@@ -71,7 +75,7 @@
   width: 90% !important;
 }
 
-// column wrap 
+// column wrap
 .col2 {
   column-count: 2;
   column-gap: 40px;
@@ -118,7 +122,7 @@
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   border: 0;
 }
 
@@ -127,7 +131,7 @@
     cursor: pointer;
     .content {
       display: none;
-      opacity:0;
+      opacity: 0;
     }
     &.active {
       z-index: 9;
@@ -151,18 +155,19 @@
     margin: 2.25rem 0 1.1875rem;
     height: 0;
   }
-  .content-divider-logo{
-      height: 74px;
-      width: 90%;
+  .content-divider-logo {
+    height: 74px;
+    width: 90%;
   }
 }
 
 .call-to-action {
   padding: 30px 0 !important;
   min-height: 50px;
-  box-shadow: 1px 3px 7px rgba(0,0,0,.5);
+  box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.5);
   z-index: 10;
-  h3, p {
+  h3,
+  p {
     color: $white;
     padding: 0;
     margin: 0;
@@ -171,6 +176,34 @@
     margin-bottom: 0;
   }
 }
+// Responsive containers
+.container-4x3 {
+  height: 0;
+  padding-top: 60%;
+  width: 100%;
+  position: relative;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+.container-banner {
+  height: 0;
+  padding-top: 25%;
+  width: 100%;
+  position: relative;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 // Colors
 .white {
   background-color: $white;
@@ -208,7 +241,10 @@ ul.centered {
   }
 }
 ul.icon-list {
-  h1, h2, h3, h4 {
+  h1,
+  h2,
+  h3,
+  h4 {
     display: inline-block;
     color: $primary-color;
   }
@@ -263,19 +299,35 @@ hr.plus {
 }
 
 @-webkit-keyframes flash {
-  0% { opacity: 0; }
-  25% { opacity: 1; }
-  75% { opacity: 1; } 
-  100% { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes flash {
-  0% { opacity: 0; }
-  25% { opacity: 1; }
-  75% { opacity: 1; } 
-  100% { opacity: 0; }
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-.flashit{
+.flashit {
   -webkit-animation: flash linear 3.5s 2;
   animation: flash linear 3.5s 2;
 }
@@ -286,11 +338,11 @@ hr.plus {
   .break-60,
   .break-70,
   .break-80,
-  .break-90, {
+  .break-90 {
     width: 100% !important;
   }
 
-  // columns stop wrapping 
+  // columns stop wrapping
   .col2 {
     column-count: 1;
   }

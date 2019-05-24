@@ -126,6 +126,15 @@
   border: 0;
 }
 
+.text-gray {
+  color: $gray !important;
+}
+
+.text-green,
+.text-primary {
+  color: $primary-color !important;
+}
+
 .toggle {
   .tab {
     cursor: pointer;

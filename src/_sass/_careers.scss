@@ -22,3 +22,9 @@
     display: block;
   }
 }
+
+@media (max-width: 767px) {
+  #subnav {
+    display: none;
+  }
+}

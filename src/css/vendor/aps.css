@@ -1,0 +1,122 @@
+body {
+font-family: "ITCBookmanW01-LightItal","Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+body.microsite .level-1 {
+background-color: #646569 !important;
+}
+
+h1 {
+text-transform:uppercase !important;
+font-size:24px !important;
+text-align:left !important;
+margin:0 !important;
+padding:0 !important;
+padding-bottom:6px !important;
+color:#646569 !important;
+}
+
+.account_description h1 {
+text-transform:uppercase !important;
+font-size:20px !important;
+text-align:left !important;
+margin:0 !important;
+padding:0 !important;
+padding-bottom:6px !important;
+color:#646569 !important;
+}
+
+
+h2 {
+text-transform:uppercase !important;
+font-size:18px !important;
+text-align:left !important;
+margin:0 !important;
+padding:0 !important;
+padding-bottom:6px !important;
+color:#646569 !important;
+}
+
+h3 {
+font-size:16px !important;
+text-align:left !important;
+margin:0 !important;
+padding:0 !important;
+color:#646569 !important;
+}
+
+h4 {
+text-transform:uppercase !important;
+font-size:14px !important;
+text-align:left !important;
+color:#646569 !important;
+}
+
+a, a:hover, a:active {
+color: #8dc63f; }
+
+a {
+font-weight: normal; }
+
+#microsite-footer {
+display:none; }
+
+body.microsite .content {
+width:100%; }
+
+span.name {
+padding-left: 15px; }
+
+body.microsite, body.microsite p, body.microsite li {
+font-size:14px !important;
+line-height: 1.6 !important;
+color:#646569 !important;
+}
+
+p span {
+font-size:14px !important;
+line-height: 1.6 !important;
+color:#646569 !important;
+}
+
+body.microsite ul {
+  margin-left:20px;
+}
+
+#apply-now-wrapper {
+  background-color: #fff;
+}
+
+#job-name, #job-secondary {
+  display:none !important;
+}
+
+#apply-now-form {
+  background-color: #EFEFF0;
+}
+
+input.btn.g-recaptcha {
+  color:#fff !important;
+  background-color: #8dc63f !important;
+}
+
+legend span, h2.apply-heading {
+  text-transform:uppercase !important;
+  color:#646569 !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  font-style: normal !important;
+
+}
+
+.file-area .input.file label.control-label {
+  color: #8dc63f !important;
+}
+
+#account-photo-wall {
+  display:none;
+}
+
+.job-location {
+  color: black;
+}

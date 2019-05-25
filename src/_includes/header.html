@@ -33,26 +33,22 @@
   </ul>
   <section class="top-bar-section">
     <ul class="menu">
-      <!-- <li class="mobile-search search">
-        <form id="site-search-form">
-          <label class="sr">Search</label>
-          <input id="search_box" class="keyterms" type="text" placeholder="Search">
-          <input type="submit" value="Search">
-        </form>
-      </li> -->
       <li class="client-vault-mobile"><a href="https://hiaccounting.sharefile.com/Authentication/Login" class="button" target="_blank">Client Vault</a></li>
       <li><a href="/">Home</a></li>
       <li class="has-dropdown">
         <a href="#">About</a>
         <ul class="dropdown">
+          <li><a href="{{ site.baseurl }}/value">Value</a></li>
+          <li><a href="{{ site.baseurl }}/history">History</a></li>
           <li><a href="{{ site.baseurl }}/team">Team</a></li>
-          <li><a href="{{ site.baseurl }}/about">Advantage</a></li>
+          <li><a href="{{ site.baseurl }}/testimonials">Testimonials</a></li>
         </ul>
       <li class="has-dropdown">
         <a href="{{ site.baseurl }}/services">Services</a>
         <ul class="dropdown">
-          <li><a href="{{ site.baseurl }}/accounting-services">Accounting Services</a></li>
+          <li><a href="{{ site.baseurl }}/accounting-services">Bookkeeping & Accounting Services</a></li>
           <li><a href="{{ site.baseurl }}/tax-services">Tax Services</a></li>
+          <li><a href="{{ site.baseurl }}/cfo-and-other-advisory-services">CFO and Other Advisory Services</a></li>
         </ul>
       </li>
       <li><a href="{{ site.baseurl }}/careers">Careers</a></li>
@@ -74,10 +70,25 @@
         <ul class="right">
           <li><a href="/" title="HiAccounting">Home</a></li>
           <li class="mega_menu">
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/history">About</a>
             <div class="dropdown">
               <div class="row" data-nav="about">
-                <div class="medium-2 columns medium-offset-6">
+                <div class="medium-2 columns medium-offset-4">
+                  <h3><a href="{{ site.baseurl }}/value">Value</a></h3>
+                  <ul>
+                    <li><a href="{{ site.baseurl }}/value#outsourcing-benefits">Benefits</a></li>
+                    <li><a href="{{ site.baseurl }}/value#awards">Awards</a></li>
+                    <li><a href="{{ site.baseurl }}/value#technology-partners">Technology Partners</a></li>
+                  </ul>
+                </div>
+                <div class="medium-2 columns">
+                  <h3><a href="{{ site.baseurl }}/history">History</a></h3>
+                  <ul>
+                    <li><a href="{{ site.baseurl }}/history#about">HiAccounting Advantage</a></li>
+                    <li class="hide"><a href="{{ site.baseurl }}/history#timeline">Timeline</a></li>
+                  </ul>
+                </div>
+                <div class="medium-2 columns">
                   <h3><a href="{{ site.baseurl }}/team">Team</a></h3>
                   <ul>
                     <li><a href="{{ site.baseurl }}/team#management-team">Management Team</a></li>
@@ -85,30 +96,22 @@
                   </ul>
                 </div>
                 <div class="medium-2 columns end">
-                  <h3><a href="{{ site.baseurl }}/about">Advantage</a></h3>
-                  <ul>
-                    <li><a href="{{ site.baseurl }}/about">General Information</a></li>
-                    <li><a href="{{ site.baseurl }}/about#benefits">Benefits</a></li>
-                    <li><a href="{{ site.baseurl }}/about#awards">Awards</a></li>
-                    <li><a href="{{ site.baseurl }}/about#technology-partners">Technology Partners</a></li>
-                  </ul>
+                  <h3><a href="{{ site.baseurl }}/testimonials">Testimonials</a></h3>
                 </div>
               </div>
             </div>
           </li>
           <li class="mega_menu">
-            <a href="{{ site.baseurl }}/accounting-services">Services</a>
+            <a href="{{ site.baseurl }}/bookkeeping-and-accounting-services">Services</a>
             <div class="dropdown">
               <div class="row" data-nav="services">
-                <div class="medium-3 columns medium-offset-6">
-                  <h3><a href="{{ site.baseurl }}/accounting-services">Accounting Services</a></h3>
+                <div class="medium-4 columns medium-offset-1">
+                  <h3><a href="{{ site.baseurl }}/bookkeeping-and-accounting-services">Bookkeeping & Accounting Services</a></h3>
                   <ul>
-                    <li><a href="{{ site.baseurl }}/accounting-services#outsourced-bookkeeping">Outsourced Bookkeeping</a></li>
-                    <li><a href="{{ site.baseurl }}/accounting-services#outsourced-accounting">Outsourced Accounting</a></li>
-                    <li><a href="{{ site.baseurl }}/accounting-services#general-business-support">General Business Support</a></li>
+                    <li><a href="{{ site.baseurl }}/accounting-services#software-as-service">Software as a Service</a></li>
                   </ul>
                 </div>
-                <div class="medium-2 columns end">
+                <div class="medium-2 columns">
                   <h3><a href="{{ site.baseurl }}/tax-services">Tax Services</a></h3>
                   <ul>
                     <li><a href="{{ site.baseurl }}/tax-services#tax-preparation">Tax Preparation</a></li>
@@ -116,6 +119,15 @@
                     <li><a href="{{ site.baseurl }}/tax-services#irs-audit">IRS Audit Representation</a></li>
                     <li><a href="{{ site.baseurl }}/tax-services#tax-problems">Tax Problems</a></li>
                   </ul>
+                </div>
+                <div class="medium-3 columns">
+                  <h3><a href="{{ site.baseurl }}/cfo-and-other-advisory-services">CFO and Other Advisory Services</a></h3>
+                  <ul>
+                    <li><a href="{{ site.baseurl }}/cfo-and-other-advisory-services#services-for-all-sizes">Services for Small to Large Businesses</a></li>
+                  </ul>
+                </div>
+                <div class="medium-2 columns end">
+                  <h3><a href="{{ site.baseurl }}/industries">Industries</a></h3>
                 </div>
               </div>
             </div>

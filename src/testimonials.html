@@ -1,0 +1,26 @@
+---
+layout: default
+title: Testimonials
+---
+<section class="hero" style="background-image: url(/img/testimonials/hero-testimonials.jpg);">
+  <div class="hero-caption">
+    <h1 class="editable">Testimonials</h1>
+  </div>
+</section>
+
+{% include featured_testimonial.html %}
+
+<section id="testimonial-list">
+  {% for testimonial in site.data.testimonials %}
+  <div class="container {% cycle 'gray', '' %}">
+    <div class="row">
+      <div class="small-12 columns center">
+        <h4><em class="text-gray">&ldquo;
+            {{ testimonial.quote }}
+            &rdquo;</em></h4>
+        <p>{{ testimonial.source }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</section>

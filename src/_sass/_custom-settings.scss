@@ -90,16 +90,15 @@ $include-html-global-classes: $include-html-classes;
 // font-family:'ITCBookmanW01-LightItal';
 // font-family:'ITCBookmanW01-DemiBoldI';
 
-
 // We use these to define default font stacks
 $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$font-family-serif: 'ITC Bookman W01 Light', 'ITCBookmanW01-Light', Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-serif: "ITC Bookman W01 Light", "ITCBookmanW01-Light", Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
 // $font-weight-normal: normal !default;
 // $font-weight-bold: bold !default;
-$white       : #FFFFFF;
+$white: #ffffff;
 // $ghost       : #FAFAFA;
 // $snow        : #F9F9F9;
 // $vapor       : #F6F6F6;
@@ -121,19 +120,15 @@ $white       : #FFFFFF;
 
 // HiHR branding colors
 
-
-
-$gray-lightest: #EFEFF0;
-$gray-lighter:  #9c9c99;
-$gray-light:    #7f7e83;
-$gray:          #646569;
-$gray-dark:     #484849;
-$gray-darker:   #222222;
-$green-bright:  #81ba3f;
-$white:         #ffffff;
-$link-hover:    #71a130;
-
-
+$gray-lightest: #efeff0;
+$gray-lighter: #9c9c99;
+$gray-light: #7f7e83;
+$gray: #646569;
+$gray-dark: #484849;
+$gray-darker: #222222;
+$green-bright: #81ba3f;
+$white: #ffffff;
+$link-hover: #71a130;
 
 // We use these as default colors throughout
 $primary-color: #8dc63f;
@@ -216,7 +211,7 @@ $xxlarge-only: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)}) and (m
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
-$header-font-family: 'ITCBookmanW01-LightItal', serif;
+$header-font-family: "ITCBookmanW01-LightItal", serif;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
 $header-font-color: $primary-color;
@@ -574,7 +569,6 @@ $button-bg-color: $primary-color;
 
 // Default radius for dropdown.
 // $f-dropdown-radius: $global-radius;
-
 
 // 09. Dropdown Buttons
 // - - - - - - - - - - - - - - - - - - - - - - - - -

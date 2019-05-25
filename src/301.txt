@@ -1,1 +1,3 @@
-/advantage /about
+/advantage/ /value
+/about/ /history
+/accounting-services/ /bookkeeping-and-accounting-services

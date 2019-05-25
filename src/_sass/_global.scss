@@ -1,7 +1,8 @@
 /* -----------------------------------------
    Global Styles
 ----------------------------------------- */
-html {}
+html {
+}
 body {
   margin: 0;
   color: $body-font-color;
@@ -9,15 +10,16 @@ body {
 *,
 *:after,
 *:before {
-  margin:0;
-  padding:0;
-  -webkit-font-smoothing:antialiased;
-  font-smoothing:antialiased;
-  text-rendering:optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 a {
   color: $primary-color;
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: $link-hover;
     text-decoration: none;
     cursor: pointer;
@@ -30,7 +32,6 @@ h4 {
 dl {
   dt {
     font-family: $header-font-family;
-    
   }
   dd {
     margin-left: 65px;
@@ -51,7 +52,7 @@ i {
 }
 select {
   font-family: $header-font-family;
-  color: rgba(0,0,0,0.35);
+  color: rgba(0, 0, 0, 0.35);
   line-height: 38px;
   height: 53px;
   text-indent: 10px;
@@ -59,18 +60,20 @@ select {
 
 .button {
   background-color: $primary-color;
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     background-color: $link-hover;
   }
 }
 
 .offset {
-  &:before { 
-  display: block; 
-  content: " "; 
-  margin-top: -200px; 
-  height: 200px; 
-  visibility: hidden; 
+  &:before {
+    display: block;
+    content: " ";
+    margin-top: -200px;
+    height: 200px;
+    visibility: hidden;
   }
 }
 
@@ -82,7 +85,8 @@ select {
 /* -----------------------------------------
    DOM Specific Styles
 ----------------------------------------- */
-#page {}
+#page {
+}
 #page-header {
   position: fixed;
   background: #4b4948;
@@ -92,7 +96,7 @@ select {
   left: 0;
   &.open_subnav {
     #mainnav {
-      box-shadow: 0 3px 15px rgba(0,0,0,0.5);
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
     }
     #subnav {
       display: block;
@@ -116,13 +120,13 @@ select {
       color: #fff;
       opacity: 0;
       &:after {
-        content: '';
+        content: "";
         display: block;
         position: absolute;
         top: 6px;
         left: 117px;
-        width: 0; 
-        height: 0; 
+        width: 0;
+        height: 0;
         border-top: 8px solid transparent;
         border-bottom: 8px solid transparent;
         border-left: 10px solid $primary-color;
@@ -136,7 +140,7 @@ select {
   @include transition();
 }
 .logged-in {
-    #page-content {
+  #page-content {
     margin-top: 17px;
   }
 }
@@ -163,7 +167,7 @@ select {
   background: #646469;
   line-height: 50px;
   // TODO - Add back in the search bar feature now that things are cleaned up
-  
+
   ul {
     margin: 0;
     overflow: visible;
@@ -176,7 +180,7 @@ select {
         border-top: 0;
       }
       &.active {
-        border-color: #80a43f
+        border-color: #80a43f;
       }
       &.brand {
         width: 125px;
@@ -192,7 +196,8 @@ select {
           background: #484849;
           border: none;
           padding: 10px 0;
-          &:before, &:after {
+          &:before,
+          &:after {
             display: none;
           }
           li {
@@ -229,7 +234,7 @@ select {
     margin-bottom: 0;
     height: 50px;
     a {
-      text-indent:-9999em;
+      text-indent: -9999em;
       display: block;
       width: 150px;
       line-height: 50px;
@@ -247,7 +252,7 @@ select {
     }
   }
   &.top-bar {
-    box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     // .myhihr-button {
     //   text-indent: -9999px;
     //   background: $gray url(/img/logo.svg) no-repeat center center;
@@ -262,7 +267,7 @@ select {
     .menu {
       background-color: $gray-dark;
     }
-    .toggle-topbar{
+    .toggle-topbar {
       a {
         //background: transparent url(images/menu.svg) no-repeat center center;
         // background-size: 30px;
@@ -296,7 +301,7 @@ select {
           display: inline-block;
           width: 49.5%;
           background: url(/img/global/icon-search.png) no-repeat left 15% center;
-          margin-left:-4px;
+          margin-left: -4px;
           padding-left: 0;
           text-align: center;
           a {
@@ -339,7 +344,7 @@ select {
   height: 74px;
   background: #ffffff;
   font-family: $font-family-sans-serif;
-  box-shadow: 0 3px 15px rgba(0,0,0,0.5);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
   .top-bar {
     background: #ffffff;
     height: 66px;
@@ -349,7 +354,7 @@ select {
         h1 {
           margin-top: 13px;
           a {
-            text-indent:-9999em;
+            text-indent: -9999em;
             display: block;
             width: 250px;
             background: transparent url(/img/logo.svg) no-repeat center center;
@@ -400,7 +405,7 @@ select {
         background: $gray-dark;
         color: #fff;
         overflow: hidden;
-        box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
         font-family: $font-family-sans-serif;
         z-index: -1;
         opacity: 0;
@@ -460,6 +465,32 @@ select {
     max-width: 62.5rem;
   }
 }
+#subnav {
+  padding: 0;
+  min-height: 0;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    li {
+      display: inline-block;
+      a {
+        display: block;
+        height: 80px;
+        line-height: 80px;
+        padding: 0 20px;
+        color: $gray;
+        font-family: "ITCBookmanW01-LightItal", serif;
+        &:hover {
+          background-color: $primary-color;
+          color: $white;
+        }
+      }
+    }
+  }
+}
 #footernav {
   a {
     padding: 0 10px;
@@ -479,7 +510,7 @@ select {
   }
 }
 
-#hero-carousel{
+#hero-carousel {
   font-family: $header-font-family;
   h2 {
     color: $white;
@@ -488,12 +519,12 @@ select {
     color: $white;
   }
   .hero-wrap {
-    position:relative;
+    position: relative;
     .hero-content {
-      position:absolute;
-      top:0px;
-      left:0px;
-      right:0px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
       padding: 30px 0;
     }
   }
@@ -505,7 +536,7 @@ select {
     h2 {
       color: $primary-color;
       font-size: 18px;
-      margin-top:20px;
+      margin-top: 20px;
       margin-bottom: 0;
     }
     p {
@@ -546,7 +577,7 @@ select {
   }
   .button {
     background: $gray;
-    margin-left:20px;
+    margin-left: 20px;
     font-size: 20px;
   }
 }

@@ -9,28 +9,28 @@ $(document).foundation({
 
 // });
 
-$(document).ready(function() {
+$(document).ready(function () {
   var params = window.location.search.substring(1);
   if (params.indexOf("thanks") > -1) {
     $("#message").show();
-    setTimeout(function() {
+    setTimeout(function () {
       $("#message").fadeOut("slow");
     }, 4000);
   }
 
-  $("#site-search-form").on("click", function() {
+  $("#site-search-form").on("click", function () {
     $(this).addClass("active");
     $submit = $(this).find('input[type="submit"]');
   });
 
-  $("#services").on("click", function(event) {
+  $("#services").on("click", function (event) {
     event.stopPropagation();
     $("#service-choices").toggleClass("active");
   });
-  $("#service-choices").on("click", function() {
+  $("#service-choices").on("click", function () {
     event.stopPropagation();
   });
-  $("body").on("click", function() {
+  $("body").on("click", function () {
     $("#service-choices").removeClass("active");
   });
 
@@ -49,7 +49,7 @@ $(document).ready(function() {
   // });
 });
 
-$(document).on("click", 'a[href^="#"]', function(event) {
+$(document).on("click", 'a[href^="#"]', function (event) {
   event.preventDefault();
 
   $("html, body").animate(
@@ -71,7 +71,7 @@ $(document).on("click", 'a[href^="#"]', function(event) {
 // });
 
 //on user scroll, hide client vault notification
-$(window).scroll(function() {
+$(window).scroll(function () {
   if ($(window).scrollTop() >= 500) {
     $(".client-vault span").removeClass("flashit");
   }
@@ -85,7 +85,7 @@ $(window).scroll(function() {
 //  }
 
 //check for hash on load
-$(window).on("load", function(e) {
+$(window).on("load", function (e) {
   if (window.location.hash) {
     $("html, body").animate(
       {

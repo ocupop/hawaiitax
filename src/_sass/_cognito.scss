@@ -30,6 +30,9 @@
     }
     .c-label {
       background: transparent;
+      font-family: "ITCBookmanW01-LightItal", serif;
+      font-size: 16px !important;
+      font-weight: 300;
     }
     .c-action-col {
       position: absolute;
@@ -48,23 +51,32 @@
     .c-repeating-section-container {
       margin: 0;
       margin-top: 30px;
-      padding: 20px;
-      width: auto;
+      // padding: 20px;
+      // width: auto;
+      padding-top: 40px;
+      border-top: 1px solid $gray-lighter;
+      background-color: transparent !important;
     }
     legend {
+      font-family: "ITCBookmanW01-LightItal", serif;
       font-size: 16px !important;
+      font-weight: 300;
       margin-bottom: 10px;
+      margin-top: 20px;
+    }
+    .c-button-section {
+      position: absolute;
+      bottom: 0;
     }
     .c-repeating-section-add {
-      text-align: center;
+      float: right;
       button {
-        width: 98%;
+        width: 250px;
         border: 1px solid transparent;
         color: $white;
         background-color: $gray;
         margin-left: auto;
         margin-right: auto;
-
         &:hover {
           background-color: $primary-color;
           color: $white;
@@ -87,13 +99,13 @@
       appearance: none;
       display: inline-block;
       position: relative;
-      background-color: #d4d4d4;
+      background-color: #efeff0;
       color: $gray-dark;
       top: 0;
       height: 30px;
       width: 30px;
-      border: 0;
-      border-radius: 50px;
+      border-color: #cccccc;
+      // border-radius: 50px;
       cursor: pointer;
       margin-right: 7px;
       margin-bottom: 0;
@@ -127,14 +139,14 @@
       font-size: 13px;
     }
   }
-  .c-action {
-    float: none;
-    width: auto;
-    padding: 10px;
-  }
+  // .c-action {
+  //   float: none;
+  //   width: auto;
+  //   padding: 10px;
+  // }
   #c-submit-button {
-    float: none;
-    width: 100%;
+    // float: none;
+    width: 250px;
     margin: 0;
   }
 }

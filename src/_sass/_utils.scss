@@ -130,9 +130,17 @@
   color: $gray !important;
 }
 
+.text-white {
+  color: $white !important;
+}
+
 .text-green,
 .text-primary {
   color: $primary-color !important;
+}
+
+.bg-gray {
+  background-color: $gray;
 }
 
 .toggle {

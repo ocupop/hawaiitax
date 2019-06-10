@@ -1,0 +1,35 @@
+#outsource-your-finance-department {
+  h2 {
+    &.bg-gray {
+      margin-top: 40px;
+      margin-bottom: 30px;
+      padding: 25px;
+    }
+  }
+  h3 {
+    margin-bottom: 10px;
+  }
+  h4 {
+    font-size: 19px;
+    margin-bottom: 30px;
+  }
+  h6 {
+    color: $gray;
+  }
+  img {
+    width: 60px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  @media (max-width: 767px) {
+    .flex-grid {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      .flex-item {
+        width: 33%;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -22,6 +22,17 @@
     margin: 0 auto;
     display: block;
   }
+
+  .card {
+    .card-header {
+      h3 {
+        margin: 0;
+      }
+    }
+    .card-body {
+      height: 430px;
+    }
+  }
   @media (max-width: 767px) {
     .flex-grid {
       flex-wrap: wrap;
@@ -29,6 +40,13 @@
       .flex-item {
         width: 33%;
         text-align: center;
+      }
+    }
+  }
+  @media (max-width: 51em) {
+    .card {
+      .card-body {
+        height: auto;
       }
     }
   }

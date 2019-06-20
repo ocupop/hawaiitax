@@ -1,16 +1,16 @@
 HiGroup
 ================
 
-##Getting Started
-1. Install Bundler: `gem install bundler`
-2. Install dependencies: `bundle install`
-3. Install Node packages: `npm install`
-4. Install components: `bower install`
-5. Isolate Bower assets: `gulp bower`
+This project uses Gulp, Jekyll, Cloudcannon Suite. It is meant for hosting on Cloudcannon, but it is possible to reconfigure for Firebase or GithubPages hosting.
 
-##Daily Startup
+## Getting Started ##
+1. Install Node packages: `npm install`
+2. Install Gem Dependencies: `gulp dev:install`
+
+
+## Daily Startup ##
 1. `cd` to project directory
-2. Start environment: `jekyll serve --watch`
+2. Start environment: `npm start`
 3. Navigate to [http://localhost:4000/](http://localhost:4000/)
 
 

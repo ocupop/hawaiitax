@@ -1,21 +1,19 @@
 {
   "name": "repo-name",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Project Description",
   "private": true,
-  "main": "gulpfile.js",
   "repository": {
     "type": "git",
     "url": ""
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp dev"
   },
   "author": "Ocupop",
   "license": "MIT",
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "main-bower-files": "^2.13.1",
-    "require-dir": "^0.3.0"
+  "dependencies": {
+    "@cloudcannon/suite": "^2.0.0-rc5",
+    "gulp": "^4.0.0"
   }
 }

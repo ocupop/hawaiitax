@@ -1,0 +1,14 @@
+.modal {
+  >:first-child {
+    margin-top:20px;
+    margin-bottom: 20px;
+    color: $body-font-color;
+    i {
+      color: $primary-color;
+    }
+  }
+  .close {
+    font-weight: normal;
+    color: $body-font-color;
+  }
+}

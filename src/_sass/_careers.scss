@@ -1,11 +1,14 @@
 #benefits {
   ul.accordion {
     margin: 0;
+    list-style-type: none;
   }
   .accordion-navigation a {
     background-color: $primary-color;
     color: $white;
     margin-bottom: 10px;
+    display: block;
+    padding: 10px 20px;
   }
   .accordion-navigation ul {
     margin: 20px;
@@ -23,6 +26,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  div {
+    width: auto;
+  }
   img {
     display: block;
   }

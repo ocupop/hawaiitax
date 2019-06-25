@@ -1,0 +1,367 @@
+#notification-bar {
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+  p {
+    font-size: 13px;
+  }
+  .content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.navbar-brand {
+  width: 250px;
+}
+
+#page-header {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+  background-color: $white;
+  &.open_subnav {
+    #mainnav {
+      // box-shadow: 0 3px 15px rgba($black, 0.5);
+    }
+    #subnav {
+      display: block;
+      height: auto;
+      top: 114px;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  h3 {
+    color: $white;
+    overflow: visible;
+    font-family: $font-family-base;
+    font-size: 13px;
+    font-weight: 300;
+    white-space: nowrap;
+    a {
+      border: none;
+      line-height: 1;
+      height: auto;
+      padding: 0;
+      background-color: $gray-800;
+      color: $white;
+    }
+    li {
+      a {
+        color: $white;
+      }
+    }
+  }
+  ul {
+    margin-left: 0;
+    list-style: none;
+    padding-left: 0;
+    li {
+      margin: 0;
+      font-weight: 200;
+      a {
+        color: $white;
+        line-height: 1.2em;
+        background: transparent;
+        border: none;
+        font-size: 13px;
+        padding: 3px 0;
+        white-space: normal;
+        text-transform: none;
+      }
+    }
+  }
+  em {
+    color: #80a43f;
+  }
+  .border {
+    min-height: 200px;
+  }
+}
+
+#iconnav {
+  @include media-breakpoint-down(md) {
+    text-align: left;
+    a {
+      width: 40px;
+      i {
+        font-size: 25px;
+      }
+    }
+  }
+  a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    i {
+      font-size: 32px;
+      color: $gray-200;
+    }
+    &:hover {
+      i {
+        color: $primary;
+      }
+    }
+  }
+}
+#topnav {
+  background: #646469;
+  line-height: 50px;
+  // TODO - Add back in the search bar feature now that things are cleaned up
+  ul {
+    margin: 0;
+    li {
+      margin: 0;
+      border-top: 5px solid transparent;
+      background: transparent;
+      &.search {
+        border-top: 0;
+      }
+      &.active {
+        border-color: #80a43f;
+      }
+      &.brand {
+        width: 125px;
+        text-indent: -9999em;
+        background: #484849 url(images/logo-myhihr.png) top center no-repeat;
+        a {
+          border: none;
+        }
+        #logo_dropdown {
+          width: 220px;
+          max-width: none;
+          margin-top: 13px;
+          background: #484849;
+          border: none;
+          padding: 10px 0;
+          &:before,
+          &:after {
+            display: none;
+          }
+          li {
+            padding: 5px;
+            a {
+              color: #ffffff;
+              text-indent: 0;
+              text-align: right;
+            }
+          }
+        }
+      }
+      a {
+        color: #e8e8e8;
+        padding: 0 15px;
+        font-family: $font-family-base;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 200;
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+#mainnav {
+  height: 72px;
+  font-family: $font-family-base;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  .row .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5rem;
+  }
+}
+
+#primarynav {
+  background: transparent;
+  position: relative;
+  top: auto;
+  left: auto;
+  width: auto;
+  padding: 0;
+
+  ul {
+    li {
+      &.megamenu-toggle {
+        &:hover {
+          > .megamenu {
+            opacity: 1;
+            height: auto;
+            visibility: visible;
+          }
+        }
+      }
+      a {
+        font-size: 15px;
+        border-top: 2px solid transparent;
+        border-bottom: 0;
+        color: $gray-800;
+        text-transform: uppercase;
+        padding: 0 1.1375rem;
+        height: 72px;
+        line-height: 72px;
+      }
+    }
+    .megamenu {
+      position: fixed;
+      width: 100%;
+      top: 125px;
+      left: 0;
+      padding: 30px 0;
+      background: $gray-800;
+      box-shadow: 0 5px 5px rgba($black, 0.5);
+      opacity: 0;
+      height: 0;
+      visibility: hidden;
+      @include transition(opacity, 0.3s);
+      a {
+        color: $white;
+        line-height: 1.2;
+        height: auto;
+        text-transform: none;
+        font-style: italic;
+        padding: 0;
+      }
+      h3 {
+        a {
+          font-size: 13px;
+          text-transform: uppercase;
+          font-style: normal;
+        }
+      }
+    }
+  }
+}
+
+#mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  background-color: $white;
+  ul {
+    li {
+      background-color: $gray-800;
+      font-size: 13px;
+      padding-left: 20px;
+      padding-right: 20px;
+      .dropdown-menu {
+        height: auto;
+        overflow: hidden;
+        font-family: $font-family-base;
+        background: transparent;
+        z-index: -1;
+        border: 0;
+        padding: 10px;
+        a {
+          border-bottom: 0;
+        }
+        ul {
+          li {
+            padding-left: 10px;
+            padding-right: 10px;
+            a,
+            .dropdown-item {
+              border-bottom: 0 !important;
+              font-style: italic;
+            }
+          }
+        }
+      }
+      a {
+        height: auto;
+        line-height: 1.25;
+        font-family: $font-family-base;
+        font-size: 13px;
+        font-weight: 200;
+        border-bottom: 1px solid $gray-300;
+        padding: 12px 0;
+        color: $white;
+      }
+    }
+  }
+
+  .navbar-brand {
+    padding-left: 20px;
+  }
+  .navbar-toggler {
+    padding-right: 20px;
+  }
+}
+
+#mobilenav {
+  background-color: $gray-800;
+  padding-bottom: 20px;
+}
+
+.navbar-toggler {
+  padding: 0;
+  z-index: 1000;
+  position: relative;
+  &:focus {
+    outline: none;
+  }
+  &.collapsed {
+    .navbar-toggler-icon {
+      .icon-bar {
+        &:nth-of-type(1) {
+          top: 10px;
+          transform: rotate(0);
+        }
+        &:nth-of-type(2) {
+          top: 16px;
+          transform: rotate(0);
+        }
+        &:nth-of-type(3) {
+          top: 22px;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .navbar-toggler-icon {
+    position: relative;
+    height: 36px;
+    width: 40px;
+    padding: 10px;
+    background-color: transparent;
+    overflow: hidden;
+    .icon-bar {
+      width: 18px;
+      height: 2px;
+      background-color: $gray-800;
+      position: absolute;
+      left: 10px;
+      z-index: 1000;
+      @include transition(0.5s);
+      &:nth-of-type(1) {
+        top: 16px;
+        transform: rotate(45deg);
+      }
+      &:nth-of-type(2) {
+        top: 16px;
+        transform: rotate(-45deg);
+      }
+      &:nth-of-type(3) {
+        top: 12px;
+        opacity: 0;
+      }
+    }
+  }
+}

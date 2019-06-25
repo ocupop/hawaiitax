@@ -30,11 +30,14 @@ body.search_results {
 
 
 #site-search-form {
+  display: flex;
+  align-items: center;
+  height: 50px;
   label {
     display: none;
     color: #f2f2f2;
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1;
     padding: 0 15px 0 35px;
     font-family: $font-family-sans-serif;
     text-transform: uppercase;
@@ -58,6 +61,7 @@ body.search_results {
     border-color: none;
     box-shadow: none;
     display: inline-block;
+    line-height: 1;
   }
   input[type="text"] {
     width: 150px;
@@ -69,7 +73,7 @@ body.search_results {
   }
   input[type="submit"] {
     background: $primary-color;
-    margin-left: -4px;
+    margin-left: 0;
   }
 }
 

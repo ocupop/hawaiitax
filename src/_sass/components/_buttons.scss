@@ -1,0 +1,8 @@
+.btn {
+  color: $white;
+  border-radius: 0;
+  &.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+  }
+}

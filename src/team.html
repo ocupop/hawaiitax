@@ -11,7 +11,7 @@ title: Team HiAccounting
 <section>
   <div class="container">
     <div class="row">
-      <div class="small-12 columns">
+      <div class="col-12">
         <div class="editable">
           <h1>Our Team</h1>
           <p>Comprised of business leaders with decades of experience both locally and abroad, Hawaii Accounting is unmatched with
@@ -27,7 +27,7 @@ title: Team HiAccounting
   <div class="container">
     {% for object in site.data.team %}
     <div id="{{ object.name | slugify }}" class="row">
-      <div class="small-12 columns">
+      <div class="col-12">
         <h1>{{ object.name }}</h1>
       </div>
     </div>
@@ -35,14 +35,14 @@ title: Team HiAccounting
       {% for ordered in object.staff %}
       {% assign member = site.staff | where: "slug", ordered | first %}
       <li class="row">
-        <div class="medium-4 columns">
+        <div class="col-md-4">
           {% if member.profile_image %}
             <img src="{{ member.profile_image }}" alt="Profile Image" />
           {% else %}
             <i class="icon-accounting"></i>
           {% endif %}
         </div>
-        <div class="medium-8 columns bio">
+        <div class="col-md-8 columns bio">
           <h3>{{ member.name }}<small> {% if member.job_title %}- {{ member.job_title }}{% endif %}</small></h3>
           <p>{{ member.bio_html | truncatewords: 50 }}</p>
           {% assign num_words = member.bio_html | xml_escape | number_of_words %}

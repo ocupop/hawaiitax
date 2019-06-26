@@ -1,4 +1,5 @@
 .modal {
+  z-index: 100000;
   >:first-child {
     margin-top:20px;
     margin-bottom: 20px;
@@ -10,5 +11,14 @@
   .close {
     font-weight: normal;
     color: $body-font-color;
+    text-align: right;
+    padding: 0 10px 10px 0;
+    font-size: 30px;
+    opacity: 1;
+  }
+  .modal-content {
+    color: $body-font-color;
+    border-radius: 0;
+    padding: 20px;
   }
 }

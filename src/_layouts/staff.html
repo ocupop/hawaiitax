@@ -5,14 +5,14 @@ layout: default
 <section id="staff-member">
   <div class="container">
     <div class="row">
-      <div class="medium-4 columns">
+      <div class="col-md-4">
         {% if page.profile_image %}
-          <img src="{{ page.profile_image }}" alt="">
+          <img src="{{ page.profile_image }}" class="img-fluid" alt="{{ page.title }} image">
         {% else %}
           <img src="img/logo.svg" alt="HiAccounting Logo">
         {% endif %}
       </div>
-      <div class="medium-8 columns">
+      <div class="col-md-8">
         <h1>{{ page.name }}{% if page.job_title %}<br/><span class="job-title">{{ page.job_title }}</span>{% endif %}</h1>
         <p>{{ page.bio_html }}</p>
         <hr />

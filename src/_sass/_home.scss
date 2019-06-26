@@ -100,7 +100,7 @@
 ul#support-list {
   text-align: left;
   li { 
-    padding-bottom: 10px;
+    padding: 10px;
     &:last-child {
       h2 {
         border-bottom: 0;
@@ -117,6 +117,17 @@ ul#support-list {
     }
   }
   .modal {
-    color: $body-color;
+    color: $gray-400;
+    .close {
+      text-align: right;
+    }
+    .modal-content {
+      padding: 20px;
+      text-align: left;
+    }
+      h1, h2, p {
+      color: $gray-400;
+      font-family: $header-font-family;
+    }
   }
 }

@@ -13,7 +13,59 @@
 
 .navbar-brand {
   width: 250px;
+  @include media-breakpoint-down(sm) {
+    width: 165px;
+  }
 }
+
+// #page-header {
+//   position: fixed;
+//   background: #4b4948;
+//   z-index: 99999;
+//   width: 100%;
+//   top: 0;
+//   left: 0;
+//   &.open_subnav {
+//     #mainnav {
+//       // box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+//     }
+//     #subnav {
+//       display: block;
+//       height: auto;
+//       top: 114px;
+//     }
+//   }
+//   .client-vault {
+//     position: relative;
+//     span {
+//       position: absolute;
+//       top: 6px;
+//       left: -117px;
+//       display: block;
+//       background-color: #8dc63f;
+//       width: 119px;
+//       height: auto;
+//       z-index: 1000;
+//       font-size: 11px;
+//       padding: 4px;
+//       color: #fff;
+//       opacity: 0;
+//       line-height: 1.4;
+//       &:after {
+//         content: "";
+//         display: block;
+//         position: absolute;
+//         top: 12px;
+//         left: 117px;
+//         width: 0;
+//         height: 0;
+//         border-top: 8px solid transparent;
+//         border-bottom: 8px solid transparent;
+//         border-left: 10px solid $primary-color;
+//       }
+//     }
+//   }
+// }
 
 #page-header {
   position: fixed;
@@ -206,7 +258,7 @@
         }
       }
       a {
-        font-size: 15px;
+        font-size: 13px;
         border-top: 2px solid transparent;
         border-bottom: 0;
         color: $gray-800;
@@ -214,6 +266,14 @@
         padding: 0 1.1375rem;
         height: 72px;
         line-height: 72px;
+      }
+      > a {
+        &:hover,
+        &.active {
+          color: $white;
+          background: #4b4948;
+          border-color: $green;
+        }
       }
     }
     .megamenu {
@@ -235,6 +295,9 @@
         text-transform: none;
         font-style: italic;
         padding: 0;
+        &:hover {
+          border-color: $gray-800;
+        }
       }
       h3 {
         a {
@@ -306,7 +369,6 @@
 
 #mobilenav {
   background-color: $gray-800;
-  padding-bottom: 20px;
 }
 
 .navbar-toggler {
@@ -362,6 +424,200 @@
         top: 12px;
         opacity: 0;
       }
+    }
+  }
+}
+
+#iconnav {
+  text-align: center;
+  a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    i {
+      font-size: 32px;
+      color: $gray-lighter;
+    }
+    &:hover {
+      i {
+        color: $primary-color;
+      }
+    }
+  }
+}
+#topnav {
+  background: #646469;
+  line-height: 50px;
+  // TODO - Add back in the search bar feature now that things are cleaned up
+
+  ul {
+    margin: 0;
+    overflow: visible;
+    li {
+      margin: 0;
+      border-top: 5px solid transparent;
+      background: transparent;
+      &.search {
+        border-top: 0;
+      }
+      &.active {
+        border-color: #80a43f;
+      }
+      &.brand {
+        width: 125px;
+        text-indent: -9999em;
+        background: #484849 url(images/logo-myhihr.png) top center no-repeat;
+        a {
+          border: none;
+        }
+        #logo_dropdown {
+          width: 220px;
+          max-width: none;
+          margin-top: 13px;
+          background: #484849;
+          border: none;
+          padding: 10px 0;
+          &:before,
+          &:after {
+            display: none;
+          }
+          li {
+            padding: 5px;
+            a {
+              color: #ffffff;
+              text-indent: 0;
+              text-align: right;
+            }
+          }
+        }
+      }
+      a {
+        color: #e8e8e8;
+        padding: 0 15px;
+        font-family: $font-family-sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 200;
+        &:hover {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+#mobilenav {
+  min-height: 50px;
+  h1 {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    margin-bottom: 0;
+    height: 50px;
+    a {
+      text-indent: -9999em;
+      display: block;
+      width: 150px;
+      line-height: 50px;
+      background: transparent url(/img/logo.svg) no-repeat center center;
+      background-size: contain;
+    }
+  }
+  .client-vault-mobile {
+    .button {
+      display: inline-block;
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: $gray;
+    }
+  }
+  &.top-bar {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    // .myhihr-button {
+    //   text-indent: -9999px;
+    //   background: $gray url(/img/logo.svg) no-repeat center center;
+    //   border-bottom: 0;
+    //   &:after {
+    //     display: none;
+    //   }
+    // }
+    .name {
+      height: 50px;
+    }
+    .menu {
+      background-color: $gray-dark;
+    }
+    .toggle-topbar {
+      a {
+        //background: transparent url(images/menu.svg) no-repeat center center;
+        // background-size: 30px;
+        cursor: pointer;
+        i {
+          color: $gray;
+          font-size: 27px;
+        }
+      }
+    }
+    &.expanded {
+      .toggle-topbar {
+        a {
+          background: url(/img/gobal/exit.svg) no-repeat center center;
+        }
+      }
+    }
+  }
+  .top-bar-section {
+    ul {
+      li {
+        padding: 0 20px;
+        &.myhihr {
+          width: 49.5%;
+          display: inline-block;
+          padding-left: 20px;
+          padding-right: 0;
+          border-bottom: none;
+        }
+        &.mobile-search {
+          display: inline-block;
+          width: 49.5%;
+          background: url(/img/global/icon-search.png) no-repeat left 15% center;
+          margin-left: -4px;
+          padding-left: 0;
+          text-align: center;
+          a {
+            &:hover {
+              background: transparent;
+            }
+          }
+        }
+        &:last-child {
+          a {
+            border-bottom: none;
+          }
+        }
+        a {
+          border-bottom: 1px solid $gray-light;
+          padding: 12px 0;
+        }
+      }
+    }
+    .dropdown {
+      li {
+        a {
+          padding: 12px 0;
+        }
+      }
+    }
+    .has-dropdown {
+      a {
+        &:after {
+          right: 25px;
+        }
+      }
+    }
+    .parent-link {
+      display: none;
     }
   }
 }

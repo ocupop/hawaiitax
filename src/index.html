@@ -64,20 +64,22 @@ title: 'HiAccounting | Home'
 </section>
 
 <div class="content-divider">
-  <div class="row">
-    <div class="col-sm-2 col-md-3 col-lg-4">
-      <hr />
-    </div>
-    <div class="col-sm-8 col-md-6 col-lg-4">
-      <img class="content-divider-logo" src="/img/home/higroup-division.svg" />
-    </div>
-    <div class="col-sm-2 col-md-3 col-lg-4">
-      <hr />
+  <div class="container">
+    <div class="row">
+      <div class="col-2 col-md-3 col-lg-4">
+        <hr />
+      </div>
+      <div class="col-8 col-md-6 col-lg-4">
+        <img class="content-divider-logo" src="/img/home/higroup-division.svg" />
+      </div>
+      <div class="col-2 col-md-3 col-lg-4">
+        <hr />
+      </div>
     </div>
   </div>
 </div>
-<section id="homepage-services" style="background-image: url('/img/backgrounds/bg-flower-green.jpg');">
-  <div class="container image-bg">
+<section id="homepage-services" class="image-bg" style="background-image: url('/img/backgrounds/bg-flower-green.jpg');">
+  <div class="container">
     <div class="row">
       <div class="col-12">
         <h1 class="editable">
@@ -206,7 +208,7 @@ title: 'HiAccounting | Home'
   </div>
 </section>
 
-<div id="support-mobile-hero" class="hero d-block d-md-none" style="background-image: url(/img/backgrounds/bg-lighthouse-large.jpg);">
+<div id="support-mobile-hero" class="hero d-flex d-md-none" style="background-image: url(/img/backgrounds/bg-lighthouse-large.jpg);">
   <div class="hero-caption">
     <h1><i class="icon-employment"></i>HiEmployment</h1>
   </div>
@@ -240,7 +242,7 @@ title: 'HiAccounting | Home'
     </div>
     <div class="row">
       <div class="col-12">
-        <ul id="support-list" class="d-flex align-items-center justify-content-center list-unstyled">
+        <ul id="support-list" class="d-lg-flex align-items-center justify-content-center list-unstyled">
           <li>
             <a href="#" data-toggle="modal" data-target="#employment-modal">
               <h2><i class="icon-employment"></i>HiEmployment</h2>
@@ -259,7 +261,6 @@ title: 'HiAccounting | Home'
                     for a new C-level executive or short-term staff HiEmployment has the people, and connections, you need.
                   </p>
                   <a href="http://hi-employment.com/mission" class="btn btn-primary">Learn More</a>
-                  <a class="close" aria-label="Close" data-dismiss="modal">&#215;</a>
                 </div>
               </div>
             </div>
@@ -287,15 +288,15 @@ title: 'HiAccounting | Home'
             </div>
           </li>
           <li>
-            <a href="#" data-toggle="modal fade" data-target="#healthcare-modal">
+            <a href="#" data-toggle="modal" data-target="#healthcare-modal">
               <h2><i class="icon-healthcare"></i>HiHealthCare</h2>
             </a>
-            <div id="healthcare-modal" class="modal" aria-hidden="true" role="dialog">
+            <div id="healthcare-modal" class="modal fade" role="dialog">
               <div class="modal-dialog modal-dialog-centered">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
                 <div class="modal-content">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                   <h2><i class="icon-healthcare"></i>HiHealthcare</h2>
                   <p class="editable">
                     At HiHealthCare we provide the health care industry with specialized divisions that focus on medical
@@ -303,7 +304,7 @@ title: 'HiAccounting | Home'
                     Excellence through our commitment to the consistent delivery of quality, dependable service and
                     professionalism.
                   </p>
-                  <a href="http://hihealthcarehawaii.com/" class="button">Learn More</a>
+                  <a href="http://hihealthcarehawaii.com/" class="btn btn-primary">Learn More</a>
                 </div>
               </div>
             </div>
@@ -313,18 +314,23 @@ title: 'HiAccounting | Home'
     </div>
     <div class="row">
       <div class="col text-center">
-        <a href="#" data-toggle="modal" data-target="videoModal" id="play-commercial"><img src="/img/home/Play-video-02.svg"
+        <a href="#" data-toggle="modal" data-target="#videoModal" id="play-commercial"><img src="/img/home/Play-video-02.svg"
             alt="Play Video Icon" /></a>
       </div>
     </div>
-    <div id="videoModal" class="modal large" aria-labelledby="videoModalTitle" aria-hidden="true"
+    <div id="videoModal" class="modal fade" aria-labelledby="videoModalTitle" aria-hidden="true"
       role="dialog">
-      <div class="flex-video widescreen vimeo">
-        <iframe width="1280" height="720" src="https://player.vimeo.com/video/223559622" frameborder="0"
-          allowfullscreen></iframe>
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div style="padding: 56% 0 0 0; position: relative; height: 0; overflow: hidden;">
+            <iframe width="1280" height="720" src="https://player.vimeo.com/video/223559622" frameborder="0" allowfullscreen
+              style="max-width: 100%; width: 100%; height: 100%; position: absolute; left: 0; top: 0;"></iframe>
+          </div>
+        </div>
       </div>
-  
-      <a class="close" aria-label="Close">&#215;</a>
     </div>
   </div>
 </section>

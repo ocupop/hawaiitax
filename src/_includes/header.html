@@ -24,7 +24,7 @@
     </div>
   </div>
   <div class="container">
-    <nav id="mainnav" class="navbar d-none d-lg-flex">
+    <nav id="mainnav" class="navbar d-none d-md-flex">
       <a class="navbar-brand" href="/"><img src="/img/logo.svg" class="img-fluid" alt="HiAccounting logo"></a>
       <div id="primarynav">
         <ul class="nav justify-content-end">
@@ -76,9 +76,9 @@
             </div>
           </li>
           <li class="nav-item megamenu-toggle">
-            <a class="nav-link{% if page.url == '/services' %} active{% endif %}" href="/bookkeeping-and-accounting-services"
+            <a class="nav-link{% if page.url == '/bookkeeping-and-accounting-services/' %} active{% endif %}" href="/bookkeeping-and-accounting-services"
               role="button">Services
-              {% if page.url == '/bookkeeping-and-accounting-services' %}<span class="sr-only">(current)</span>{% endif %}</a>
+              {% if page.url == '/bookkeeping-and-accounting-services/' %}<span class="sr-only">(current)</span>{% endif %}</a>
             <div class="megamenu">
               <div class="container">
                 <div class="row">
@@ -123,22 +123,22 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link{% if page.url == '/careers' %} active{% endif %}" href="/careers">Careers
+            <a class="nav-link{% if page.url == '/careers/' %} active{% endif %}" href="/careers">Careers
               {% if page.url == '/careers/' %}<span class="sr-only">(current)</span>{% endif %}</a>
           </li>
           <li class="nav-item">
-            <a href="/press" class="nav-link{% if page.url == '/press' %} active{% endif %}">Press
+            <a href="/press" class="nav-link{% if page.url == '/press/' %} active{% endif %}">Press
               {% if page.url == '/careers/' %}<span class="sr-only">(current)</span>{% endif %}
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link{% if page.url == '/contact' %} active{% endif %}" href="/contact">Contact
+            <a class="nav-link{% if page.url == '/contact/' %} active{% endif %}" href="/contact">Contact
               {% if page.url == '/contact/' %}<span class="sr-only">(current)</span>{% endif %}</a>
           </li>
         </ul>
       </div>
     </nav>
-    <nav id="mobile" class="navbar d-flex d-lg-none">
+    <nav id="mobile" class="navbar d-flex d-md-none">
       <a class="navbar-brand" href="/"><img src="/img/logo.svg" class="img-fluid" alt="hiaccounting Accounting logo"></a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mobilenav"
         aria-controls="primarynav" aria-expanded="false" aria-label="Toggle navigation">

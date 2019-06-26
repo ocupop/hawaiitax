@@ -27,18 +27,22 @@
 @import "cognito";
 @import "flex_grid";
 @import "value";
-@import "card";
+
 
 // Sections
-@import "sections/footer";
 @import "sections/awards";
 @import "sections/testimonials";
 
 // Components
 @import "components/page_header";
+@import "components/page_footer";
 @import "components/hero";
 @import "components/buttons";
 @import "components/modal";
+@import "components/subnav";
+@import "components/page_content";
+@import "components/search";
+@import "components/card";
 
 #positions {
   p {
@@ -312,15 +316,7 @@
   }
 }
 @media (max-width: 500px) {
-  h1 {
-    font-size: 25px;
-  }
-  h2 {
-    font-size: 22px;
-  }
-  h3 {
-    font-size: 20px;
-  }
+  
   .call-to-action {
     a {
       display: inline-block;

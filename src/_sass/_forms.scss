@@ -1,4 +1,7 @@
-input[type="text"], input[type="email"], select {
+input[type="text"],
+input[type="email"],
+select,
+.select {
   border-radius: 0;
   background-color: #EFEFF0;
   border-style: solid;
@@ -15,9 +18,21 @@ input[type="text"], input[type="email"], select {
 }
 
 .select {
+  position: relative;
+  .arrow-down {
+    position: absolute;
+    right: 11px;
+    top: 20px;
+  }
   select {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;       /* remove default arrow */
     line-height: 1;
     height: 43px;
+    width: 100%;
+    text-indent: 10px;
+    padding-left: 10px;
   }
 }
 

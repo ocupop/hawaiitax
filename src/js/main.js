@@ -1,14 +1,3 @@
-// $(document).foundation({
-//   equalizer: {
-//     // Specify if Equalizer should make elements equal height once they become stacked.
-//     equalize_on_stack: false
-//   }
-// });
-
-// $(function() {
-
-// });
-
 $(document).ready(function() {
   var params = window.location.search.substring(1);
   if (params.indexOf("thanks") > -1) {
@@ -96,13 +85,6 @@ $(window).scroll(function() {
   }
 });
 
-// if ($(window).scrollTop() <= 250) {
-//   $('#page-header').addClass('top-only');
-//  }
-//  else {
-//   $('#page-header').removeClass('top-only');
-//  }
-
 //check for hash on load
 $(window).on("load", function(e) {
   if (window.location.hash) {
@@ -124,5 +106,3 @@ $(window).on("load", function(e) {
 //     .end()
 //     .appendTo('#testimonials');
 // },  3000);
-
-$(document).on("ready", function() {});

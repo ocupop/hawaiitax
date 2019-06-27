@@ -40,6 +40,11 @@ $(document).ready(function() {
         .closest("div.post")
         .removeClass("active");
     });
+
+    $(".megamenu a").on("click", function() {
+      console.log("megamenu link click");
+      $(this).addClass("active");
+    });
   }
 
   // $('a[href*="#"]:not([href="#"])').click(function() {
@@ -57,7 +62,8 @@ $(document).ready(function() {
   // });
 });
 
-$(document).on("click", 'a[href^="#"]', function(event) {
+$(document).on("click", 'a[href^="#"]', function() {
+  window.location.reload;
   $("html, body").animate(
     {
       scrollTop: $($.attr(this, "href")).offset().top - 130
@@ -86,6 +92,8 @@ $(window).scroll(function() {
 //check for hash on load
 $(window).on("load", function(e) {
   if (window.location.hash) {
+    var hash = window.location.hash;
+    console.log(hash);
     $("html, body").animate(
       {
         scrollTop: $(window.location.hash).offset().top - 125

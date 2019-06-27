@@ -401,10 +401,13 @@
   #support-mobile-hero {
     display: table !important;
     height: 140px;
+    padding-top: 0;
+    padding-bottom: 0;
     h1 {
       height: auto;
       min-height: 0;
       line-height: 140px;
+      width: 100%;
     }
     i {
       color: $primary-color;

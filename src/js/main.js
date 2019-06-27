@@ -34,6 +34,25 @@ $(document).ready(function() {
     $("#service-choices").removeClass("active");
   });
 
+  if ($(".posts").length) {
+    $(".posts").on("click", ".post-link", function() {
+      $(".posts").addClass("single-post-view");
+      $(".post.active").removeClass("active");
+
+      $(this)
+        .closest("div.post")
+        .addClass("active");
+      window.scrollTo(0, 0);
+    });
+
+    $(".posts").on("click", ".close-post", function() {
+      $(".posts").removeClass("single-post-view");
+      $(this)
+        .closest("div.post")
+        .removeClass("active");
+    });
+  }
+
   // $('a[href*="#"]:not([href="#"])').click(function() {
   //   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
   //     var target = $(this.hash);
@@ -105,3 +124,5 @@ $(window).on("load", function(e) {
 //     .end()
 //     .appendTo('#testimonials');
 // },  3000);
+
+$(document).on("ready", function() {});

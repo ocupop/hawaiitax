@@ -61,19 +61,18 @@ $(document).ready(function() {
     var new_url = $(this).attr("href");
     console.log("clicked", new_url);
     window.location.href = new_url;
-    window.location.reload(false);
   });
 });
 
-$(document).on("click", 'a[href^="#"]', function(event) {
-  event.preventDefault();
-  $("html, body").animate(
-    {
-      scrollTop: $($.attr(this, "href")).offset().top - 130
-    },
-    500
-  );
-});
+// $(document).on("click", 'a[href^="#"]', function(event) {
+//   event.preventDefault();
+//   $("html, body").animate(
+//     {
+//       scrollTop: $($.attr(this, "href")).offset().top - 130
+//     },
+//     500
+//   );
+// });
 
 // $(document).mouseup(function (e)
 // {

@@ -56,23 +56,23 @@ $(document).ready(function() {
   //   }
   // });
 
-  $(".megamenu-link").on("click", function(event) {
-    event.preventDefault();
-    var new_url = $(this).attr("href");
-    console.log("clicked", new_url);
-    window.location.href = new_url;
-  });
+  // $(".megamenu-link").on("click", function(event) {
+  //   event.preventDefault();
+  //   var new_url = $(this).attr("href");
+  //   console.log("clicked", new_url);
+  //   window.location.href = new_url;
+  // });
 });
 
-// $(document).on("click", 'a[href^="#"]', function(event) {
-//   event.preventDefault();
-//   $("html, body").animate(
-//     {
-//       scrollTop: $($.attr(this, "href")).offset().top - 130
-//     },
-//     500
-//   );
-// });
+$(document).on("click", 'a[href^="#"]', function(event) {
+  event.preventDefault();
+  $("html, body").animate(
+    {
+      scrollTop: $($.attr(this, "href")).offset().top - 130
+    },
+    500
+  );
+});
 
 // $(document).mouseup(function (e)
 // {
@@ -101,6 +101,10 @@ $(window).on("load", function(e) {
       1000
     );
   }
+});
+
+$(window).on("hashchange", function() {
+  window.location.reload(true);
 });
 
 // $("#testimonials > div:gt(0)").hide();

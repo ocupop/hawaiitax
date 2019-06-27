@@ -63,7 +63,7 @@ $(document).ready(function() {
 });
 
 $(document).on("click", 'a[href^="#"]', function() {
-  window.location.reload;
+  window.location.reload();
   $("html, body").animate(
     {
       scrollTop: $($.attr(this, "href")).offset().top - 130

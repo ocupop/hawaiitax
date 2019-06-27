@@ -61,6 +61,7 @@ $(document).ready(function() {
     var new_url = $(this).attr("href");
     console.log("clicked", new_url);
     window.location = new_url;
+    window.location.reload(false);
   });
 });
 

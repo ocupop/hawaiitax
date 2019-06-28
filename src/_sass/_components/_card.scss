@@ -1,11 +1,14 @@
 .card {
   margin-bottom: 20px;
+  border-radius: 0;
+  border: 0;
   .card-header {
     padding: 20px;
     text-align: center;
     background-image: url(/img/value/size-header-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 0;
     h1,
     h2,
     h3,
@@ -35,6 +38,9 @@
   }
   .card-footer {
     padding: 10px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
     .button {
       display: block;
       width: 100%;

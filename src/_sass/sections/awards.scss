@@ -27,14 +27,15 @@
 @media (max-width: 500px) {
   #awards {
     img {
-      height: 100px;
+      height: auto;
+      max-width: 200px;
       &.height-auto {
         max-width: 150px;
         display: block;
         margin: 0 auto;
       }
       &.large {
-        height: 100px;
+        height: auto;
       }
     }
   }

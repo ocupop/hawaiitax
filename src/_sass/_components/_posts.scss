@@ -4,7 +4,10 @@
     display: flex;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    border-bottom: 1px solid $gray-lightest;
+    border-bottom: 1px solid $gray-100;
+    .content {
+      max-width: 100%;
+    }
     .post-featured-image {
       padding: 20px;
       img {
@@ -23,7 +26,7 @@
     pointer-events: none;
     .close {
       padding: 3px 5px;
-      background-color: $primary-color;
+      background-color: $primary;
       color: #fff;
       margin-left: 10px;
     }
@@ -76,7 +79,7 @@
     }
     .sub-section {
       padding: 20px;
-      background-color: $gray-lightest;
+      background-color: $gray-100;
       margin: 20px 0;
       ul {
         margin-left: 50px;

@@ -1,3 +1,20 @@
+#search {
+  background: url(images/testimonial-background.jpg) no-repeat top center;
+  h2 {
+    color: $white;
+    padding-bottom: 20px;
+  }
+  input {
+    padding: 3px;
+    text-indent: 5px;
+  }
+  .button {
+    background: $gray-400;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+}
+
 body.search_results {
   #page-content {
     opacity: 0;
@@ -30,13 +47,16 @@ body.search_results {
 
 
 #site-search-form {
+  display: flex;
+  align-items: center;
+  height: 50px;
   label {
     display: none;
     color: #f2f2f2;
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1;
     padding: 0 15px 0 35px;
-    font-family: $font-family-sans-serif;
+    font-family: $font-family-base;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 200;
@@ -47,7 +67,7 @@ body.search_results {
     margin: 0;
     padding: 0 15px;
     height: 24px;
-    font-family: $body-font-family;
+    font-family: $font-family-base;
     color: #fff;
     background:transparent;
     background-color: transparent;
@@ -58,18 +78,20 @@ body.search_results {
     border-color: none;
     box-shadow: none;
     display: inline-block;
+    line-height: 1;
+    font-size: 11px;
   }
   input[type="text"] {
     width: 150px;
     border-width: 1px 0 1px 1px;
     border-style: solid;
-    border-color: $gray-light;
+    border-color: $gray-300;
     position: relative;
     text-indent: 20px;
   }
   input[type="submit"] {
-    background: $primary-color;
-    margin-left: -4px;
+    background: $primary;
+    margin-left: 0;
   }
 }
 

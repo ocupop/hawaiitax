@@ -1,0 +1,89 @@
+// Color Palette
+$white:    #ffffff !default;
+$gray-100: #EFEFF0; //was $gray-lightest
+$gray-200: #9c9c99; //was $gray-lighter
+$gray-300: #7f7e83; //was $gray-light
+$gray-400: #646569; //was $gray-400
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #484849; //was $gray-dark
+$gray-900: #222222; //was $gray-darker
+$black:    #000000 !default;
+
+$blue:    #25b0e8;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #F0A733;
+$green:   #8dc63f;
+$green-bright: #81ba3f;
+$teal:    #20c997 !default;
+$cyan:    #7dd0e8 !default;
+$link-hover:#ca8d2c;
+
+$primary:       $green;
+$secondary:     #23405e;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100;
+$dark:          $gray-800;
+
+
+$body-bg:               $white;
+$body-color:            $gray-400;
+
+
+$font-family-base: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-serif: 'ITC Bookman W01 Light', 'ITCBookmanW01-Light', Georgia, Cambria, "Times New Roman", Times, serif;
+$header-font-family: 'ITCBookmanW01-LightItal', serif;
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                ($font-size-base * 1.25) !default;
+$font-size-sm:                ($font-size-base * .875) !default;
+
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            700 !default;
+
+$font-weight-base:            $font-weight-normal !default;
+$line-height-base:            1.5 !default;
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2.2;
+$h3-font-size:                $font-size-base * 1.5;
+$h4-font-size:                $font-size-base * 1.4;
+$h5-font-size:                $font-size-base * 1.1;
+$h6-font-size:                $font-size-base !default;
+
+$headings-font-family:        $header-font-family;
+$headings-font-weight:        400;
+$headings-line-height:        1.1em;
+$headings-color:              $gray-400;
+
+
+$border-radius:           0;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+
+$screen-sm-min:           576px;
+$screen-md-min:           768px;
+$screen-lg-min:           992px;
+$screen-xl-min:           1200px;

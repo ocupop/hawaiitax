@@ -1,45 +1,54 @@
-<footer id="page-footer" class="container">
-  <div id="footernav" class="row">
-    <div class="small-12 columns small-text-center content">
-      <a href="{{ site.baseurl }}/careers" title="Careers">Careers</a>
-      &nbsp;|&nbsp;
-      <a href="{{ site.baseurl }}/referral" title="Referral">Referral Program</a>
-      &nbsp;|&nbsp;
-      <a href="{{ site.baseurl }}/contact" title="Contact">Contact</a>
-      <hr>
+<footer id="page-footer">
+  <div class="container">
+    <div id="footernav" class="row">
+      <div class="col-12 columns text-center content">
+        <a href="{{ site.baseurl }}/careers" title="Careers">Careers</a>
+        &nbsp;|&nbsp;
+        <a href="{{ site.baseurl }}/referral" title="Referral">Referral Program</a>
+        &nbsp;|&nbsp;
+        <a href="{{ site.baseurl }}/contact" title="Contact">Contact</a>
+        <hr>
+      </div>
     </div>
-  </div>
-  <div id="copyright" class="row">
-    <div class="small-12 medium-4 columns small-text-center medium-text-left">
-      <img src="/img/logo-gray.svg">
-    </div>
-    <div class="small-12 medium-4 columns small-text-center">
-      <p>
-        &copy; <script> document.write(new Date().getFullYear()) </script> Hawaii Accounting
-      </p>
-    </div>
-    <div class="small-12 medium-4 columns small-text-center medium-text-right social">
-      <a href="https://www.facebook.com/Hawaii-Accounting-364807074271947" title="follow HiEmployment on Facebook" target="_blank">
-        <i class="icon icon-social-facebook"></i>
-      </a>
-      <a href="https://www.linkedin.com/company/hiaccounting" title="" target="_blank">
-        <i class="icon icon-social-linkedin"></i>
-      </a>
-      <a href="https://www.instagram.com/hiaccounting/" title="" target="_blank">
-        <i class="icon icon-social-instagram"></i>
-      </a>
-    </div>
-  </div>
-  <div id="footersub" class="gray-dark">
-    <div class="row">
-      <a href="http://thehawaiigroup.com/" target="_blank">
-        <img src="/img/global/footer-logo-higroup.png"/>
-      </a>
-      <ul class="inline-list right">
-        <li><a href="http://hi-employment.com" target="_blank"><img src="/img/global/footer-logo-employment.png"/></a></li>
-        <li><a href="http://hi-accounting.com" target="_blank"><img src="/img/global/footer-logo-accounting.png"/></a></li>
-        <li><a href="http://hihealthcarehawaii.com/" target="_blank"><img src="/img/global/footer-logo-healthcare.png"/></a></li>
-      </ul>
+    <div id="copyright" class="row">
+      <div class="col-12 col-md-4 text-center">
+        <img src="/img/logo-gray.svg">
+      </div>
+      <div class="col-12 col-md-4 text-center">
+        <p>
+          &copy;
+          {{ site.time | date: '%Y' }} Hawaii Accounting
+        </p>
+      </div>
+      <div class="col-12 col-md-4 text-center social">
+        <a href="https://www.facebook.com/Hawaii-Accounting-364807074271947" title="follow HiEmployment on Facebook"
+          target="_blank">
+          <i class="icon icon-social-facebook"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/hiaccounting" title="" target="_blank">
+          <i class="icon icon-social-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/hiaccounting/" title="" target="_blank">
+          <i class="icon icon-social-instagram"></i>
+        </a>
+      </div>
     </div>
   </div>
 </footer>
+<section id="footersub">
+  <div class="container">
+    <div class="navbar justify-content-center justify-content-lg-between">
+      <a href="http://thehawaiigroup.com/" target="_blank">
+        <img src="/img/global/footer-logo-higroup.png" />
+      </a>
+      <ul class="navbar-nav flex-md-row">
+        <li class="nav-item"><a href="http://hi-employment.com" target="_blank"><img src="/img/global/footer-logo-employment.png" /></a>
+        </li>
+        <li class="nav-item"><a href="http://hi-accounting.com" target="_blank"><img src="/img/global/footer-logo-accounting.png" /></a>
+        </li>
+        <li class="nav-item"><a href="http://hihealthcarehawaii.com/" target="_blank"><img
+              src="/img/global/footer-logo-healthcare.png" /></a></li>
+      </ul>
+    </div>
+  </div>
+</section>

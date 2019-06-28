@@ -3,21 +3,21 @@
   >:first-child {
     margin-top:20px;
     margin-bottom: 20px;
-    color: $body-font-color;
+    color: $body-color;
     i {
-      color: $primary-color;
+      color: $primary;
     }
   }
   .close {
     font-weight: normal;
-    color: $body-font-color;
+    color: $body-color;
     text-align: right;
     padding: 0 10px 10px 0;
     font-size: 30px;
     opacity: 1;
   }
   .modal-content {
-    color: $body-font-color;
+    color: $body-color;
     border-radius: 0;
     padding: 20px;
   }

@@ -133,7 +133,7 @@
         height: 0;
         border-top: 8px solid transparent;
         border-bottom: 8px solid transparent;
-        border-left: 10px solid $primary-color;
+        border-left: 10px solid $primary;
       }
     }
   }
@@ -438,11 +438,11 @@
     background-color: transparent;
     i {
       font-size: 32px;
-      color: $gray-lighter;
+      color: $gray-200;
     }
     &:hover {
       i {
-        color: $primary-color;
+        color: $primary;
       }
     }
   }
@@ -496,7 +496,7 @@
       a {
         color: #e8e8e8;
         padding: 0 15px;
-        font-family: $font-family-sans-serif;
+        font-family: $font-family-base;
         text-transform: uppercase;
         font-size: 14px;
         font-weight: 200;
@@ -530,14 +530,14 @@
       width: auto;
       padding-left: 20px;
       padding-right: 20px;
-      background-color: $gray;
+      background-color: $gray-400;
     }
   }
   &.top-bar {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     // .myhihr-button {
     //   text-indent: -9999px;
-    //   background: $gray url(/img/logo.svg) no-repeat center center;
+    //   background: $gray-400 url(/img/logo.svg) no-repeat center center;
     //   border-bottom: 0;
     //   &:after {
     //     display: none;
@@ -547,7 +547,7 @@
       height: 50px;
     }
     .menu {
-      background-color: $gray-dark;
+      background-color: $gray-800;
     }
     .toggle-topbar {
       a {
@@ -555,7 +555,7 @@
         // background-size: 30px;
         cursor: pointer;
         i {
-          color: $gray;
+          color: $gray-400;
           font-size: 27px;
         }
       }
@@ -598,7 +598,7 @@
           }
         }
         a {
-          border-bottom: 1px solid $gray-light;
+          border-bottom: 1px solid $gray-300;
           padding: 12px 0;
         }
       }

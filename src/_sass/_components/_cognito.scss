@@ -1,0 +1,152 @@
+// .cognito {
+//   form {
+//     &:focus {
+//       outline: none;
+//       box-shadow: none;
+//     }
+//   }
+//   .c-forms-form {
+//     input[type="text"],
+//     input[type="email"],
+//     select,
+//     textarea {
+//       border-radius: 0;
+//       background-color: #efeff0;
+//       border-style: solid;
+//       border-width: 0px;
+//       border-color: #cccccc;
+//       box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+//       color: rgba(0, 0, 0, 0.75);
+//       display: block;
+//       font-family: "ITCBookmanW01-LightItal", serif;
+//       font-size: 0.875rem;
+//       line-height: 43px;
+//       height: 43px;
+//       text-indent: 10px;
+//       margin-bottom: 10px;
+//     }
+//     textarea {
+//       height: auto;
+//     }
+//     .c-label {
+//       background: transparent;
+//       font-family: "ITCBookmanW01-LightItal", serif;
+//       font-size: 16px !important;
+//       font-weight: 300;
+//     }
+//     .c-action-col {
+//       position: absolute;
+//       left: -5px;
+//       top: 7px;
+//     }
+//     .remove-icon circle {
+//       fill: $gray-400;
+//     }
+//     .c-repeating-section-item {
+//       margin: 0;
+//     }
+//     .c-repeating-section-item-title {
+//       padding-left: 30px;
+//     }
+//     .c-repeating-section-container {
+//       margin: 0;
+//       margin-top: 30px;
+//       // padding: 20px;
+//       // width: auto;
+//       padding-top: 40px;
+//       border-top: 1px solid $gray-200;
+//       background-color: transparent !important;
+//     }
+//     legend {
+//       font-family: "ITCBookmanW01-LightItal", serif;
+//       font-size: 16px !important;
+//       font-weight: 300;
+//       margin-bottom: 10px;
+//       margin-top: 20px;
+//     }
+//     .c-button-section {
+//       position: absolute;
+//       bottom: 0;
+//     }
+//     .c-repeating-section-add {
+//       float: right;
+//       button {
+//         width: 250px;
+//         border: 1px solid transparent;
+//         color: $white;
+//         background-color: $gray-400;
+//         margin-left: auto;
+//         margin-right: auto;
+//         &:hover {
+//           background-color: $primary;
+//           color: $white;
+//         }
+//       }
+//     }
+
+//     input[type="radio"] {
+//       margin-top: -5px;
+//       margin-right: 3px;
+//     }
+
+//     input[type="checkbox"] {
+//       margin-top: -5px;
+//     }
+//     input[type="checkbox"],
+//     input[type="radio"] {
+//       -webkit-appearance: none;
+//       -moz-appearance: none;
+//       appearance: none;
+//       display: inline-block;
+//       position: relative;
+//       background-color: #efeff0;
+//       color: $gray-800;
+//       top: 0;
+//       height: 30px;
+//       width: 30px;
+//       border-color: #cccccc;
+//       // border-radius: 50px;
+//       cursor: pointer;
+//       margin-right: 7px;
+//       margin-bottom: 0;
+//       outline: none;
+//     }
+//     input[type="checkbox"]:checked::before,
+//     input[type="radio"]:checked::before {
+//       position: absolute;
+//       font: 13px/1 "Open Sans", sans-serif;
+//       left: 11px;
+//       top: 7px;
+//       content: "\02143";
+//       transform: rotate(40deg);
+//     }
+//     // input[type="checkbox"]:hover {
+//     //   background-color: #f7f7f7;
+
+//     // }
+//     input[type="checkbox"]:checked,
+//     input[type="radio"]:checked {
+//       background-color: $gray-200;
+//       color: $white;
+//     }
+//     .c-choice-fillin {
+//       input[type="text"] {
+//         margin-top: -10px;
+//         margin-bottom: 0;
+//       }
+//     }
+//     .c-helptext {
+//       font-size: 13px;
+//     }
+//   }
+//   // .c-action {
+//   //   float: none;
+//   //   width: auto;
+//   //   padding: 10px;
+//   // }
+//   #c-submit-button {
+//     // float: none;
+//     width: 250px;
+//     margin: 0;
+//   }
+// }

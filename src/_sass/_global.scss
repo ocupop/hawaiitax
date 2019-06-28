@@ -5,7 +5,7 @@ html {
 }
 body {
   margin: 0;
-  color: $body-font-color;
+  color: $body-color;
 }
 *,
 *:after,
@@ -17,7 +17,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 a {
-  color: $primary-color;
+  color: $primary;
   &:hover,
   &:focus {
     color: $link-hover;
@@ -27,7 +27,7 @@ a {
   }
 }
 h4 {
-  color: $body-font-color;
+  color: $body-color;
 }
 dl {
   dt {
@@ -43,7 +43,7 @@ hr {
 }
 
 em {
-  color: $primary-color;
+  color: $primary;
 }
 i {
   font-size: 45px;
@@ -59,7 +59,7 @@ select {
 }
 
 .button {
-  background-color: $primary-color;
+  background-color: $primary;
   &:hover,
   &:active,
   &:focus {
@@ -105,8 +105,8 @@ section {
     padding: 0 10px;
     font-size: 14px;
     text-transform: uppercase;
-    color: $gray-lighter;
-    font-family: $font-family-sans-serif;
+    color: $gray-200;
+    font-family: $font-family-base;
   }
 }
 
@@ -141,9 +141,9 @@ section {
     display: inline-block;
   }
   &.carousel-mobile {
-    background: $gray-dark;
+    background: $gray-800;
     h2 {
-      color: $primary-color;
+      color: $primary;
       font-size: 18px;
       margin-top: 20px;
       margin-bottom: 0;

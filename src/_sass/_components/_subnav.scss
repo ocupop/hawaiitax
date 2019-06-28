@@ -14,10 +14,10 @@
         height: 80px;
         line-height: 80px;
         padding: 0 20px;
-        color: $gray;
+        color: $gray-400;
         font-family: "ITCBookmanW01-LightItal", serif;
         &:hover {
-          background-color: $primary-color;
+          background-color: $primary;
           color: $white;
         }
       }

@@ -5,6 +5,9 @@
     margin-bottom: 30px;
     padding-bottom: 30px;
     border-bottom: 1px solid $gray-lightest;
+    .content {
+      max-width: 100%;
+    }
     .post-featured-image {
       padding: 20px;
       img {

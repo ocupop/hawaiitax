@@ -1,0 +1,11 @@
+#page-content {
+  position: relative;
+  margin-top: 50px;
+  @include transition();
+  overflow: hidden;
+}
+.logged-in {
+  #page-content {
+    margin-top: 17px;
+  }
+}

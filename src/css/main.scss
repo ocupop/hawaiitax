@@ -4,28 +4,43 @@
 
 @charset "utf-8";
 
-@import "custom-settings";
-@import "foundation-overwrites";
+@import "settings";
+// Mixins
+@import "vendor/bootstrap/breakpoints";
+
 @import "mixins";
-@import "icons";
 @import "typography";
 @import "global";
 @import "utils";
-@import "home";
-@import "forms";
-@import "search";
-@import "team";
-@import "posts";
-@import "print";
-@import "services";
-@import "about";
-@import "careers";
-@import "cognito";
 
 // Sections
-@import "sections/footer";
 @import "sections/awards";
 @import "sections/testimonials";
+
+// Components
+@import "_components/page_header";
+@import "_components/page_footer";
+@import "_components/hero";
+@import "_components/buttons";
+@import "_components/modal";
+@import "_components/subnav";
+@import "_components/page_content";
+@import "_components/search";
+@import "_components/card";
+@import "_components/icons";
+@import "_components/forms";
+@import "_components/posts";
+@import "_components/print";
+@import "_components/flex_grid";
+
+// Pages
+@import "_pages/home";
+@import "_pages/team";
+@import "_pages/services";
+@import "_pages/about";
+@import "_pages/value";
+@import "_pages/careers";
+
 
 #positions {
   p {
@@ -44,7 +59,7 @@
     small {
       display: block;
       line-height: 1;
-      color: $primary-color;
+      color: $primary;
       margin-top: 10px;
     }
   }
@@ -53,12 +68,6 @@
 #apply-now {
   h2 {
     margin-top: 40px;
-  }
-}
-
-#hireology {
-  .container {
-    padding-bottom: 0;
   }
 }
 
@@ -246,12 +255,8 @@
     }
   }
   #footersub {
-    width: 110%;
-    margin-left: -5%;
-    margin-top: 20px;
-    padding: 10px;
     box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.6);
-    background-color: $gray-dark;
+    background-color: $gray-800;
     ul {
       li {
         a {
@@ -259,10 +264,6 @@
         }
       }
     }
-  }
-
-  .container {
-    padding: 70px 0;
   }
 
   .hero {
@@ -313,15 +314,7 @@
   }
 }
 @media (max-width: 500px) {
-  h1 {
-    font-size: 25px;
-  }
-  h2 {
-    font-size: 22px;
-  }
-  h3 {
-    font-size: 20px;
-  }
+  
   .call-to-action {
     a {
       display: inline-block;
@@ -406,13 +399,16 @@
   #support-mobile-hero {
     display: table !important;
     height: 140px;
+    padding-top: 0;
+    padding-bottom: 0;
     h1 {
       height: auto;
       min-height: 0;
       line-height: 140px;
+      width: 100%;
     }
     i {
-      color: $primary-color;
+      color: $primary;
     }
   }
 }

@@ -1,143 +1,202 @@
 <header id="page-header">
-<div id="topnav" class="show-for-medium-up">
-  <div class="row">
-    <div id="iconnav" class="small-12 medium-4 columns">
-      <a href="http://thehawaiigroup.com/" target="_blank"><i class='icon-higroup'></i></a>
-      <a href="http://hi-employment.com/" target="_blank"><i class='icon-employment'></i></a>
-      <a href="http://hihealthcarehawaii.com/" target="_blank"><i class='icon-healthcare'></i></a>
-    </div>
-    <div class="medium-8 columns show-for-medium-up">
-      <ul class="inline-list right">
-        <li class="client-vault">
-          <span class="flashit">Looking for the WRF client vault?</span>
-          <a href="https://hiaccounting.sharefile.com/Authentication/Login" target="_blank">Client Vault</a>
-        </li>
-        <li class="search">
-          <form id="site-search-form">
-            <label class="sr">Search</label>
-            <input id="search_box" class="keyterms" type="text" placeholder="Search">
-            <input type="submit" value="Search">
-          </form>
-        </li>
-      </ul>
+  <div id="topnav" class="d-none d-md-block">
+    <div class="container">
+      <nav class="navbar justify-content-between align-items-center py-0">
+        <div id="iconnav" class="d-flex">
+          <a href="http://thehawaiigroup.com/" target="_blank"><i class='icon-higroup'></i></a>
+          <a href="http://hi-employment.com/" target="_blank"><i class='icon-employment'></i></a>
+          <a href="http://hihealthcarehawaii.com/" target="_blank"><i class='icon-healthcare'></i></a>
+        </div>
+        <ul class="nav align-items-center">
+          <li class="client-vault">
+            <span class="flashit">Looking for the WRF client vault?</span>
+            <a href="https://hiaccounting.sharefile.com/Authentication/Login" target="_blank">Client Vault</a>
+          </li>
+          <li class="search">
+            <form id="site-search-form">
+              <label class="sr">Search</label>
+              <input id="search_box" class="keyterms" type="text" placeholder="Search">
+              <input type="submit" value="Search">
+            </form>
+          </li>
+        </ul>
+      </nav>
     </div>
   </div>
-</div>
-
-<nav id="mobilenav" class="top-bar hide-for-medium-up" data-topbar role="navigation">
-  <ul class="title-area">
-    <li class="name">
-      <h1><a href="{{ site.baseurl }}/">HiAccounting</a></h1>
-    </li>
-    <li class="toggle-topbar"><a><i class="icon-menu"></i></a></li>
-  </ul>
-  <section class="top-bar-section">
-    <ul class="menu">
-      <li class="client-vault-mobile"><a href="https://hiaccounting.sharefile.com/Authentication/Login" class="button" target="_blank">Client Vault</a></li>
-      <li><a href="/">Home</a></li>
-      <li class="has-dropdown">
-        <a href="#">About</a>
-        <ul class="dropdown">
-          <li><a href="{{ site.baseurl }}/value">Value</a></li>
-          <li><a href="{{ site.baseurl }}/history">History</a></li>
-          <li><a href="{{ site.baseurl }}/team">Team</a></li>
-          <li><a href="{{ site.baseurl }}/testimonials">Testimonials</a></li>
-        </ul>
-      <li class="has-dropdown">
-        <a href="{{ site.baseurl }}/services">Services</a>
-        <ul class="dropdown">
-          <li><a href="{{ site.baseurl }}/accounting-services">Bookkeeping & Accounting Services</a></li>
-          <li><a href="{{ site.baseurl }}/tax-services">Tax Services</a></li>
-          <li><a href="{{ site.baseurl }}/cfo-and-other-advisory-services">CFO and Other Advisory Services</a></li>
-        </ul>
-      </li>
-      <li><a href="{{ site.baseurl }}/careers">Careers</a></li>
-      <li><a href="{{ site.baseurl }}/press">Press</a></li>
-      <li><a href="{{ site.baseurl }}/contact" data-nav="contact">Contact</a></li>
-    </ul>
-  </section>
-</nav>
-
-<div id="mainnav" class="show-for-medium-up">
-  <div class="row">
-    <nav class="top-bar">
-      <ul class="title-area">
-        <li class="name">
-          <h1><a href="{{ site.baseurl }}/">HiAccounting</a></h1>
-        </li>
-      </ul>
-      <section class="top-bar-section">
-        <ul class="right">
-          <li><a href="/" title="HiAccounting">Home</a></li>
-          <li class="mega_menu">
-            <a href="{{ site.baseurl }}/history">About</a>
-            <div class="dropdown">
-              <div class="row" data-nav="about">
-                <div class="medium-2 columns medium-offset-4">
-                  <h3><a href="{{ site.baseurl }}/value">Value</a></h3>
-                  <ul>
-                    <li><a href="{{ site.baseurl }}/value#outsourcing-benefits">Benefits</a></li>
-                    <li><a href="{{ site.baseurl }}/value#awards">Awards</a></li>
-                    <li><a href="{{ site.baseurl }}/value#technology-partners">Technology Partners</a></li>
-                  </ul>
-                </div>
-                <div class="medium-2 columns">
-                  <h3><a href="{{ site.baseurl }}/history">History</a></h3>
-                  <ul>
-                    <li><a href="{{ site.baseurl }}/history#about">HiAccounting Advantage</a></li>
-                    <li class="hide"><a href="{{ site.baseurl }}/history#timeline">Timeline</a></li>
-                  </ul>
-                </div>
-                <div class="medium-2 columns">
-                  <h3><a href="{{ site.baseurl }}/team">Team</a></h3>
-                  <ul>
-                    <li><a href="{{ site.baseurl }}/team#management-team">Management Team</a></li>
-                    <li><a href="{{ site.baseurl }}/team#staff">Staff</a></li>
-                  </ul>
-                </div>
-                <div class="medium-2 columns end">
-                  <h3><a href="{{ site.baseurl }}/testimonials">Testimonials</a></h3>
+  <div class="container">
+    <nav id="mainnav" class="navbar d-none d-md-flex">
+      <a class="navbar-brand" href="/"><img src="/img/logo.svg" class="img-fluid" alt="HiAccounting logo"></a>
+      <div id="primarynav">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link{% if page.url == '/' %} active{% endif %}" href="/" title="HiAccounting">Home {% if page.url == '/' %}<span
+                class="sr-only">(current)</span>{% endif %}</a>
+          </li>
+          <li class="nav-item megamenu-toggle">
+            <a class="nav-link{% if page.url contains '/history/' %} active{% endif %}" href="/history" role="button">About
+              {% if page.url contains '/history/' %}<span class="sr-only">(current)</span>{% endif %}</a>
+            <div class="megamenu">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="content">
+                      <h3><a class="dropdown-item" href="/value">Value</a></h3>
+                      <ul>
+                        <li><a href="/value#outsourcing-benefits" class="megamenu-link">Benefits</a></li>
+                        <li><a href="/value#awards" class="megamenu-link">Awards</a></li>
+                        <li><a href="/value#technology-partners" class="megamenu-link">Technology Partners</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="content">
+                      <h3><a class="dropdown-item" href="/history">History</a></h3>
+                      <ul>
+                        <li><a href="/history#about" class="megamenu-link">HiAccounting Advantage</a></li>
+                        <!-- <li class="hide"><a href="/history#timeline">Timeline</a></li> -->
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="content">
+                      <h3><a class="dropdown-item" href="/team">Team</a></h3>
+                      <ul>
+                        <li><a href="/team#management-team" class="megamenu-link">Management Team</a></li>
+                        <li><a href="/team#staff" class="megamenu-link">Staff</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="content">
+                      <h3><a href="/testimonials">Testimonials</a></h3>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </li>
-          <li class="mega_menu">
-            <a href="{{ site.baseurl }}/bookkeeping-and-accounting-services">Services</a>
-            <div class="dropdown">
-              <div class="row" data-nav="services">
-                <div class="medium-4 columns medium-offset-1">
-                  <h3><a href="{{ site.baseurl }}/bookkeeping-and-accounting-services">Bookkeeping & Accounting Services</a></h3>
-                  <ul>
-                    <li><a href="{{ site.baseurl }}/accounting-services#software-as-service">Software as a Service</a></li>
-                  </ul>
-                </div>
-                <div class="medium-2 columns">
-                  <h3><a href="{{ site.baseurl }}/tax-services">Tax Services</a></h3>
-                  <ul>
-                    <li><a href="{{ site.baseurl }}/tax-services#tax-preparation">Tax Preparation</a></li>
-                    <li><a href="{{ site.baseurl }}/tax-services#tax-planning">Tax Planning</a></li>
-                    <li><a href="{{ site.baseurl }}/tax-services#irs-audit">IRS Audit Representation</a></li>
-                    <li><a href="{{ site.baseurl }}/tax-services#tax-problems">Tax Problems</a></li>
-                  </ul>
-                </div>
-                <div class="medium-3 columns">
-                  <h3><a href="{{ site.baseurl }}/cfo-and-other-advisory-services">CFO and Other Advisory Services</a></h3>
-                  <ul>
-                    <li><a href="{{ site.baseurl }}/cfo-and-other-advisory-services#services-for-all-sizes">Services for Small to Large Businesses</a></li>
-                  </ul>
-                </div>
-                <div class="medium-2 columns end">
-                  <h3><a href="{{ site.baseurl }}/industries">Industries</a></h3>
+          <li class="nav-item megamenu-toggle">
+            <a class="nav-link{% if page.url contains '/bookkeeping-and-accounting-services/' %} active{% endif %}" href="/bookkeeping-and-accounting-services"
+              role="button">Services
+              {% if page.url contains '/bookkeeping-and-accounting-services/' %}<span class="sr-only">(current)</span>{% endif %}</a>
+            <div class="megamenu">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="content">
+                      <h3><a class="dropdown-item" href="/bookkeeping-and-accounting-services">Bookkeeping & Accounting
+                          Services</a></h3>
+                      <ul>
+                        <li><a href="/bookkeeping-and-accounting-services#software-as-service" class="megamenu-link">Software as a Service</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="content">
+                      <h3><a class="dropdown-item" href="/tax-services">Tax Services</a></h3>
+                      <ul>
+                        <li><a href="/tax-services#tax-preparation" class="megamenu-link">Tax Preparation</a></li>
+                        <li><a href="/tax-services#tax-planning" class="megamenu-link">Tax Planning</a></li>
+                        <li><a href="/tax-services#irs-audit" class="megamenu-link">IRS Audit Representation</a></li>
+                        <li><a href="/tax-services#tax-problems" class="megamenu-link">Tax Problems</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="content">
+                      <h3><a class="dropdown-item" href="/cfo-and-other-advisory-services">CFO & Other Advisory
+                          Services</a></h3>
+                      <ul>
+                        <li><a href="/cfo-and-other-advisory-services#general-business-support" class="megamenu-link">General Business
+                            Support</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-2">
+                    <div class="content">
+                      <h3><a class="dropdown-item" href="/industries">Industries</a></h3>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </li>
-          <li><a href="{{ site.baseurl }}/careers">Careers</a></li>
-          <li><a href="{{ site.baseurl }}/press">Press</a></li>
-          <li><a href="{{ site.baseurl }}/contact" data-nav="contact">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-link{% if page.url == '/careers/' %} active{% endif %}" href="/careers">Careers
+              {% if page.url == '/careers/' %}<span class="sr-only">(current)</span>{% endif %}</a>
+          </li>
+          <li class="nav-item">
+            <a href="/press" class="nav-link{% if page.url == '/press/' %} active{% endif %}">Press
+              {% if page.url == '/press/' %}<span class="sr-only">(current)</span>{% endif %}
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link{% if page.url == '/contact/' %} active{% endif %}" href="/contact">Contact
+              {% if page.url == '/contact/' %}<span class="sr-only">(current)</span>{% endif %}</a>
+          </li>
         </ul>
-      </section>
+      </div>
+    </nav>
+    <nav id="mobile" class="navbar d-flex d-md-none">
+      <a class="navbar-brand" href="/"><img src="/img/logo.svg" class="img-fluid" alt="hiaccounting Accounting logo"></a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mobilenav"
+        aria-controls="primarynav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-md-end" id="mobilenav">
+        <ul class="navbar-nav">
+          <li class="client-vault-mobile nav-item"><a href="https://hiaccounting.sharefile.com/Authentication/Login"
+              class="button nav-link" target="_blank">Client Vault</a></li>
+          <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link{% if page.url == '/' %} active{% endif %}" href="/">Home {% if page.url == '/' %}<span
+                class="sr-only">(current)</span>{% endif %}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link{% if page.url == '/history' %} active{% endif %}" href="/history" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About
+              {% if page.url == '/history/' %}<span class="sr-only">(current)</span>{% endif %}</a>
+            <div class="dropdown-menu" aria-labelledby="about-dropdown">
+              <h3 class="mb-0"><a class="dropdown-item" href="/value">Value</a></h3>
+              <h3><a class="dropdown-item" href="/history">History</a></h3>
+              <h3><a class="dropdown-item" href="/team">Team</a></h3>
+              <h3><a class="dropdown-item" href="/testimonials">Testimonials</a></h3>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link{% if page.url == '/services' %} active{% endif %}"
+              href="#" id="about-dropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Services
+              {% if page.url == '/bookkeeping-and-accounting-services/' %}<span class="sr-only">(current)</span>{% endif %}</a>
+            <div class="dropdown-menu" aria-labelledby="about-dropdown">
+              <h3><a class="dropdown-item" href="/bookkeeping-and-accounting-services">Bookkeeping &amp; Accounting Services</a></h3>
+              <h3><a class="dropdown-item" href="/tax-services">Tax Services</a></h3>
+              <h3><a class="dropdown-item" href="/cfo-and-other-advisory-services">CFO & Other Advisory Services</a>
+              </h3>
+              <h3><a class="dropdown-item" href="/industries">Industries</a></h3>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link{% if page.url == '/careers' %} active{% endif %}" href="/careers">Careers
+              {% if page.url == '/careers/' %}<span class="sr-only">(current)</span>{% endif %}</a>
+          </li>
+          <li class="nav-item">
+            <a href="/press" class="nav-link{% if page.url == '/press' %} active{% endif %}">Press
+              {% if page.url == '/careers/' %}<span class="sr-only">(current)</span>{% endif %}
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link{% if page.url == '/contact' %} active{% endif %}" href="/contact">Contact
+              {% if page.url == '/contact/' %}<span class="sr-only">(current)</span>{% endif %}</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </div>
-</div>
 </header>

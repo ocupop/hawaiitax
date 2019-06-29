@@ -1,0 +1,84 @@
+$font-size: 16px;
+$line-height: 1.4;
+$lines-to-show: 6;
+
+  h1 .job-title {
+      color: $gray-400;
+  }
+
+.team {
+  list-style: none;
+  li {
+    position: relative;
+    padding-bottom: 20px;
+  }
+  h3 {
+    margin-top: 15px;
+    font-size: 1.3875rem;
+    small {
+      font-size: 100%;
+      color: $gray-400;
+    }
+  }
+  p {
+    font-family: $font-family-base;
+    font-weight: 300;
+  }
+  img {
+    max-width: 233px;
+  }
+  .icon-accounting {
+    font-size: 232px;
+    color: $gray-200;
+    padding: 0;
+    margin: 0;
+  }
+  .bio {
+    .contact-icon {
+      position: absolute;
+      bottom: 0;
+      color: $gray-400;
+      &:nth-of-type(1) {
+        right: 50px;
+      }
+      &:nth-of-type(2) {
+        right: 0;
+      }
+      i {
+        font-size: 25px;
+      }
+    }
+  }
+}
+.team-grid {
+  img {
+    margin-bottom: 10px;
+  }
+  h3 {
+    margin: 0;
+    font-size: 1.3875rem;
+    line-height: 1;
+  }
+}
+
+.single-staff {
+  h2 {
+    margin-top: 50px;
+  }
+}
+
+@media(max-width: 40em) {
+  .team {
+    margin-left: 0;
+    .bio {
+      .contact-icon {
+        display: inline-block;
+        position: relative;
+        bottom: 10px;
+        &:nth-of-type(1) {
+          right: auto;
+        }
+      }
+    }
+  }
+}

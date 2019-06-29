@@ -1,6 +1,6 @@
 <section id="contact-form" class="container">
   <div class="row">
-    <div class="small-12 columns">
+    <div class="col-12">
       <h2>Get In Touch</h2>
       <p>HiAccounting would be pleased to get in touch to discuss your accounting needs.</p>
     </div>
@@ -51,66 +51,84 @@
     enctype="multipart/form-data" method="post" novalidate
     action="https://ocupop.wufoo.com/forms/q1vgjjhz12x6p4l/#public">
     <div class="row">
-      <div class="small-12 large-8 columns">
-        <label for="Field3" class="sr-only">Full Name</label>
-        <input id="Field3" name="Field3" type="text" value="" maxlength="255" tabindex="101" onkeyup=""
+      <div class="col-12 col-lg-8">
+        <div class="form-group">
+          <label for="Field3" class="sr-only">Full Name</label>
+          <input id="Field3" class="form-control" name="Field3" type="text" value="" maxlength="255" tabindex="101" onkeyup=""
           placeholder="Full Name *" required />
+        </div>  
       </div>
-      <div class="small-12 large-4 columns">
-        <label for="Field12" class="sr-only">Email</label>
-        <input id="Field12" name="Field12" type="email" spellcheck="false" placeholder="Email *" spellcheck="false"
+      <div class="col-12 col-lg-4">
+        <div class="form-group">
+          <label for="Field12" class="sr-only">Email</label>
+          <input id="Field12" class="form-control" name="Field12" type="email" spellcheck="false" placeholder="Email *" spellcheck="false"
           value="" maxlength="255" tabindex="102" onkeyup="handleInput(this);" onchange="handleInput(this);" required="">
-      </div>
-    </div>
-    <div class="row">
-      <div class="small-12 large-4 columns">
-        <label for="Field9" class="sr-only">Phone Number</label>
-        <input id="Field9" name="Field9" type="text" placeholder="Phone *" value="" maxlength="255" tabindex="103"
-          onkeyup="" required />
-      </div>
-      <div class="small-12 large-4 columns">
-        <label for="Field6" class="sr-only">Company Name</label>
-        <input id="Field6" name="Field6" type="text" placeholder="Company Name *" tabindex="104" maxlength="255"
-          onkeyup="" required />
-      </div>
-      <div class="small-12 large-4 columns">
-        <label class="notranslate sr-only" for="Field14">Type of Company</label>
-        <div class="select">
-          <select tabindex="105">
-            <option value="" selected disabled>Type of Company</option>
-            <option value="Sole Proprietor">
-              <span class="notranslate">Sole Proprietor</span>
-            </option>
-            <option value="LLC">
-              <span class="notranslate">LLC</span>
-            </option>
-            <option value="Partnership">
-              <span class="notranslate">Partnership</span>
-            </option>
-            <option value="C-Corporation">
-              <span class="notranslate">C-Corporation</span>
-            </option>
-            <option value="S-Corporation">
-              <span class="notranslate">S-Corporation</span>
-            </option>
-            <option value="Other">
-              <span class="notranslate">Other</span>
-            </option>
-          </select>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="small-12 large-4 columns">
-        <label for="Field5" class="sr-only">Job Title</label>
-        <input id="Field5" name="Field5" type="text" placeholder="Job Title" maxlength="255" tabindex="106" onkeyup="" />
+      <div class="col-12 col-lg-4">
+        <div class="form-group">
+          <label for="Field9" class="sr-only">Phone Number</label>
+          <input id="Field9" class="form-control" name="Field9" type="text" placeholder="Phone *" value="" maxlength="255" tabindex="103"
+          onkeyup="" required />
+        </div>
       </div>
-      <div class="small-12 large-4 columns">
-        <label for="Field7" class="sr-only">Number Of Employees</label>
-        <input id="Field7" name="Field7" type="text" placeholder="Number Of Employees" maxlength="255" tabindex="107"
+      <div class="col-12 col-lg-4">
+        <div class="form-group">
+          <label for="Field6" class="sr-only">Company Name</label>
+          <input id="Field6" class="form-control" name="Field6" type="text" placeholder="Company Name *" tabindex="104" maxlength="255"
+          onkeyup="" required />
+        </div>
+        
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="form-group">
+          <label class="notranslate sr-only" for="Field14">Type of Company</label>
+          <div class="select">
+            <select tabindex="105">
+              <option value="" selected disabled>Type of Company</option>
+              <option value="Sole Proprietor">
+                <span class="notranslate">Sole Proprietor</span>
+              </option>
+              <option value="LLC">
+                <span class="notranslate">LLC</span>
+              </option>
+              <option value="Partnership">
+                <span class="notranslate">Partnership</span>
+              </option>
+              <option value="C-Corporation">
+                <span class="notranslate">C-Corporation</span>
+              </option>
+              <option value="S-Corporation">
+                <span class="notranslate">S-Corporation</span>
+              </option>
+              <option value="Other">
+                <span class="notranslate">Other</span>
+              </option>
+            </select>
+            <div class="arrow-down"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <div class="form-group">
+          <label for="Field5" class="sr-only">Job Title</label>
+          <input id="Field5" class="form-control" name="Field5" type="text" placeholder="Job Title" maxlength="255" tabindex="106" onkeyup="" />
+        </div>
+        
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="form-group">
+          <label for="Field7" class="sr-only">Number Of Employees</label>
+          <input id="Field7" class="form-control" name="Field7" type="text" placeholder="Number Of Employees" maxlength="255" tabindex="107"
           onkeyup="" />
+        </div>
+        
       </div>
-      <div class="small-12 large-4 columns">
+      <div class="col-12 col-lg-4">
         <div id="services">
           Services
           <span class="arrow-down"></span>
@@ -231,14 +249,16 @@
       </div>
     </div>
     <div class="row">
-      <div class="small-12 large-8 columns">
-        <label for="Field221" class="sr-only">Annual Revenues</label>
-        <input id="Field221" name="Field221" type="text" placeholder="Annual Revenues" tabindex="104">
+      <div class="col-12 col-lg-8">
+        <div class="form-group">
+          <label for="Field221" class="sr-only">Annual Revenues</label>
+          <input id="Field221" class="form-control" name="Field221" type="text" placeholder="Annual Revenues" tabindex="104">
+        </div>
       </div>
-      <div class="small-12 large-4 columns">
-        <input id="saveForm" name="saveForm" type="submit" class="button expand" value="submit" />
+      <div class="col-12 col-lg-4">
+        <input id="saveForm" name="saveForm" type="submit" class="btn btn-primary btn-block" value="submit" />
       </div>
-      <div class="hide">
+      <div class="d-none">
         <label for="comment">Do Not Fill This Out</label>
         <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
         <input type="hidden" id="idstamp" name="idstamp" value="wzOXTzTa+ZpWLk3oLTNLtRU+w4vc/FRLw42++qXMzSI=" />

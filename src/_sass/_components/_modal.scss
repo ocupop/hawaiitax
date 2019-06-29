@@ -1,0 +1,24 @@
+.modal {
+  z-index: 100000;
+  >:first-child {
+    margin-top:20px;
+    margin-bottom: 20px;
+    color: $body-color;
+    i {
+      color: $primary;
+    }
+  }
+  .close {
+    font-weight: normal;
+    color: $body-color;
+    text-align: right;
+    padding: 0 10px 10px 0;
+    font-size: 30px;
+    opacity: 1;
+  }
+  .modal-content {
+    color: $body-color;
+    border-radius: 0;
+    padding: 20px;
+  }
+}

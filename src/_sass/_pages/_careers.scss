@@ -1,0 +1,41 @@
+#benefits {
+  ul.accordion {
+    margin: 0;
+    list-style-type: none;
+  }
+  .accordion-navigation a {
+    background-color: $primary;
+    color: $white;
+    margin-bottom: 10px;
+    display: block;
+    padding: 10px 20px;
+  }
+  .accordion-navigation ul {
+    margin: 20px;
+    li {
+      margin-left: 10px;
+    }
+  }
+  img {
+    margin: 0;
+    margin-right: 5px;
+    max-height: 40px;
+  }
+}
+.lifetyle-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    width: auto;
+  }
+  img {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  #subnav {
+    display: none;
+  }
+}

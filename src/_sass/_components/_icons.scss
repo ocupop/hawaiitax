@@ -49,14 +49,23 @@
 .icon-higroup:before {
   content: "\e900";
 }
-.icon-accounting:before {
-  content: "\e901";
+
+.icon-accounting, .icon-caaccount, .icon-healthcare {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  margin: auto;
+  margin-right: 12px;
 }
-.icon-employment:before {
-  content: "\e902";
+
+.icon-accounting:before {
+  content: url(../img/icons/icon-hiaccounting.svg);
+}
+.icon-caaccount:before {
+  content: url(../img/icons/icon-californiaaccounting.svg);
 }
 .icon-healthcare:before {
-  content: "\e903";
+  content: url(../img/icons/icon-hihealthcare.svg);;
 }
 .icon-social-google:before {
   content: "\e904";

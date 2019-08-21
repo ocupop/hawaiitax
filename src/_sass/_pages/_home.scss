@@ -107,6 +107,17 @@ ul#support-list {
       }
     }
   }
+
+  a.caoverride {
+    background-color: #F0A733;
+    border-color: #F0A733;
+  }
+
+  h2 {
+    font-size: 26px !important;
+    margin-bottom: 0 !important;
+  }
+
   h1, h2 {
     color: $gray-800;
     border-bottom: 1px solid $gray-200;

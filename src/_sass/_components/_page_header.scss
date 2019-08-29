@@ -11,6 +11,48 @@
   }
 }
 
+a.top-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+}
+
+#grp-icon {
+  background-image:url(../img/icons/icon-hawaiigroup-grey.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#grp-icon:hover {
+  background-image:url(../img/icons/icon-hawaiigroup.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#ca-icon {
+  background-image:url(../img/icons/icon-californiaaccounting-grey.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#ca-icon:hover {
+  background-image:url(../img/icons/icon-californiaaccounting.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#hlt-icon {
+  background-image:url(../img/icons/icon-hihealthcare-grey.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#hlt-icon:hover {
+  background-image:url(../img/icons/icon-hihealthcare.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .navbar-brand {
   width: 250px;
   @include media-breakpoint-down(sm) {

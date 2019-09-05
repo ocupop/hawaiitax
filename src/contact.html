@@ -16,10 +16,10 @@ title: Contact HiAccounting
         <p>We’d love to hear from you and talk about how our local accounting and tax team can help you and your business focus on
         the things that matter most. Got questions? Concerns? That’s what we’re here for.</p>
         <h4>Call Us</h4>
-        <p>You can reach us at any time by calling <a href="tel:{{ site.contact_number }}">{{ site.contact_number }}</a>. <br>If we’re not in, leave a message and we’ll get back to you as soon as we can.</p>
+        <p>You can reach us at any time by calling <a href="tel:{{ site.contact_number }}" onclick="gtag('event', 'contact phone, {'event_category' : 'phone link triggered', 'event_label' : '{{ site.contact_number }}' });">{{ site.contact_number }}</a>. <br>If we’re not in, leave a message and we’ll get back to you as soon as we can.</p>
 
         <h4>Email Us</h4>
-        <p><a href="mailto:info@hi-accounting.com">info@hi-accounting.com</a></p>
+        <p><a href="mailto:info@hi-accounting.com" onclick="gtag('event', 'contact email', {'event_category' : 'email link triggered', 'event_label' : 'info@hi-accounting.com' });">info@hi-accounting.com</a></p>
         <p>Please do not use e-mail to send us sensitive information (such as bank information or social security numbers).</p>
         <p>E-mail could be intercepted by a third party during transmission; we cannot guarantee its security while in transit.
         Please contact us to learn more about our encrypted email options.</p>

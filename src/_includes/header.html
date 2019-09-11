@@ -2,27 +2,29 @@
   <div id="topnav" class="d-none d-md-block">
     <div class="container">
       <nav class="navbar justify-content-between align-items-center py-0">
-        <div id="iconnav" class="d-flex">
-          <a href="http://thehawaiigroup.com/" target="_blank"><i class='icon-higroup'></i></a>
-          <a href="http://hi-employment.com/" target="_blank"><i class='icon-employment'></i></a>
-          <a href="http://hihealthcarehawaii.com/" target="_blank"><i class='icon-healthcare'></i></a>
+        <div id="iconnavx" class="d-flex">
+          <a href="http://thehawaiigroup.com/" target="_blank" id="grp-icon" class="top-icon"></a>
+          <a href="https://californiaaccounting.com/" target="_blank" id="ca-icon" class="top-icon"></a>
+          <a href="http://hihealthcarehawaii.com/" target="_blank" id="hlt-icon" class="top-icon"></a>
+          <form id="site-search-form" class="d-none">
+            <label class="sr">Search</label>
+            <input id="search_box" class="keyterms" type="text" placeholder="Search">
+            <input type="submit" value="Search">
+          </form>
         </div>
         <ul class="nav align-items-center">
           <li class="client-vault">
             <span class="flashit">Looking for the WRF client vault?</span>
             <a href="https://hiaccounting.sharefile.com/Authentication/Login" target="_blank">Client Vault</a>
           </li>
-          <li class="search" style="display: none;">
-            <form id="site-search-form">
-              <label class="sr">Search</label>
-              <input id="search_box" class="keyterms" type="text" placeholder="Search">
-              <input type="submit" value="Search">
-            </form>
+          <li class="client-vault">
+            <a href="#" data-toggle="modal" data-target="#payYourBill" id="play-commercial">Pay Your Bill</a>
           </li>
         </ul>
       </nav>
     </div>
   </div>
+  {% include client_portal.html %}
   <div class="container">
     <nav id="mainnav" class="navbar d-none d-md-flex">
       <a class="navbar-brand" href="/" onclick="gtag('event', 'nav bar link', {'event_category' : 'navbar link', 'event_label' : 'log click' });"><img src="/img/logo.svg" class="img-fluid" alt="HiAccounting logo"></a>

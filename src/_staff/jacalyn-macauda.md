@@ -14,6 +14,6 @@ email: Jacalyn@thehawaiigroup.com
 phone: 808-529-9990
 linkedin:
 vcard: /downloads/Jacalyn-Macauda.vcf
-profile_image: /uploads/jacalyn-11-11-19.jpg
+profile_image: /uploads/300.jpg
 ---
 

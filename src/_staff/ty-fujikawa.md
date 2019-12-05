@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Ty Fujikawa
-job_title: Staff Accountant and Implementation Specialist
+job_title: Accounting Senior and Implementation Specialist
 bio_html: >-
   <p><strong>Hometown:</strong> Honolulu,
   Hawaii</p><p><strong>Education:</strong> University of Hawaii &ndash; Manoa,

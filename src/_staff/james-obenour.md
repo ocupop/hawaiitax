@@ -7,12 +7,13 @@ bio_html: >-
   Florida State University, B.A. in Accounting and
   Finance</p><p><strong>Experience: </strong>James worked at Keefe McCollough, a
   well-established public accounting firm in Fort Lauderdale, Florida for six
-  years prior to joining HiAccounting providing tax and audit consulting,
-  financial statement preparation, and general accounting services. His current
-  focus is on individual and business tax preparation, planning and consulting.
-  He&rsquo;s worked in industries including: construction, healthcare,
-  government, and non-profit.</p><p><strong>Fun Fact:</strong> James enjoys
-  surfing and catching waves when he&rsquo;s not working in the office.</p>
+  years prior to joining HiAccounting in 2018. There, he provided tax and audit
+  consulting, financial statement preparation, and general accounting services.
+  His current focus is on individual and business tax preparation, planning and
+  consulting. He&rsquo;s worked in industries including: construction,
+  healthcare, government, and non-profit.</p><p><strong>Fun Fact:</strong> James
+  enjoys surfing and catching waves when he&rsquo;s not working in the
+  office.</p>
 email: James@hi-accounting.com
 phone: 808-529-9990
 linkedin:

@@ -13,10 +13,10 @@ bio_html: >-
   implementation of new clients and service platforms such as but not limited to
   Sage Intacct, QuickBooks, CS Fixed Assets and Expensify. Ty is certified as a
   Sage Intacct Accounting Specialist, Sage Intacct Implementation Specialist,
-  QuickBooks Online ProAdvisor, and a Bill.com Expert. He is CPA eligible and
-  plans to sit for the exam in 2020.</p><p><strong>Fun Fact: </strong>Ty spends
-  his spare time with his friends trying the new and hip restaurants on the
-  island.</p>
+  QuickBooks Online ProAdvisor, Expensify certified, and a Bill.com Expert. He
+  is CPA eligible and plans to sit for the exam in 2020.</p><p><strong>Fun Fact:
+  </strong>Ty spends his spare time with his friends trying the new and hip
+  restaurants on the island.</p>
 email: ty@hi-accounting.com
 phone: 808-529-9990
 linkedin:

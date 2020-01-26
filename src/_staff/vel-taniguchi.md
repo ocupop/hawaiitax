@@ -15,7 +15,9 @@ bio_html: >-
   </strong></p><p><strong>Fun Fact:&nbsp;</strong>Vel loves spending time with
   her husband and son at the beach or rooting for the Golden State Warriors.</p>
 phone: 808-529-9990
+email: vel@thehawaiigroup.com
 linkedin:
 profile_image: /uploads/vel.jpg
+vcard: /downloads/Vel-Taniguchi.vcf
 ---
 

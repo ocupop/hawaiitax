@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: 'James Obenour, CPA'
-job_title: Senior Tax Accountant
+job_title: Tax Manager
 bio_html: >-
   <p><strong>Hometown:</strong> Miami, Florida</p><p><strong>Education:</strong>
   Florida State University, B.A. in Accounting and

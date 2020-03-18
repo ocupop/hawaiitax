@@ -33,15 +33,43 @@
   }
 }
 
-#c-submit-button {
-    height: 43px;
-    line-height: 43px;
-    padding: 0;
-    background-color: #8dc63f;
-    border-color: #8dc63f;
-    font-weight: 400;
-    text-align: center;
-    vertical-align: middle;
-    border: 1px solid transparent;
+#aps-form {
+  margin-bottom:40px;
+
+  #c-submit-button {
+      height: 43px;
+      line-height: 43px;
+      padding: 0;
+      background-color: #8dc63f;
+      border-color: #8dc63f;
+      font-weight: 400;
+      text-align: center;
+      vertical-align: middle;
+      border: 1px solid transparent;
+      border-radius: 0;
+      position: absolute;
+      top: 20px;
+      left:-10px;
+      width: 100%;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  select,
+  .select {
     border-radius: 0;
+    background-color: #FFF;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #cccccc;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.75);
+    display: block;
+    font-family: 'ITCBookmanW01-LightItal',serif;
+    font-size: 0.875rem;
+    line-height: 43px;
+    height: 43px;
+    text-indent: 10px;
+  }
 }

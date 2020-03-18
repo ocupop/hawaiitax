@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Evans Martin
-job_title: Senior Accountant
+job_title: Controller of The Hawaii Group
 bio_html: >-
   <p><strong>Hometown:</strong> Richmond,
   Virginia</p><p><strong>Education:</strong> University of Virginia, B.A. in

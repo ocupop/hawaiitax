@@ -48,8 +48,9 @@ title: Team HiAccounting
           {% assign num_words = member.bio_html | xml_escape | number_of_words %}
           {% if num_words > 50 %}
             <p><a href="{{ member.url }}">Read More</a></p>
+            <hr/>
           {% endif %}
-          <hr/>
+          
           <div class="member-meta">
             {% if member.email %}
               <a href="mailto:{{ member.email }}" class="contact-meta"><img src="/img/about/icon-mail.png" alt="Email {{ member.name }}">{{ member.email }}</a>

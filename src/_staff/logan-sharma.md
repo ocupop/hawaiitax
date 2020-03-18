@@ -19,6 +19,6 @@ email: logan@hi-accounting.com
 phone: 808-529-9990
 linkedin:
 vcard: /downloads/Logan-Sharma.vcf
-profile_image: /uploads/hiaccounting-portrait-logan.jpg
+profile_image: /uploads/logan-website.JPG
 ---
 

@@ -6,30 +6,24 @@ title: COVID-19 Updates From HiAccounting
 <section class="container">
   <div class="row">
     <div class="col-12">
+      <h1>COVID-19 Updates From HiAccounting</h1>
+      <hr class="my-5" />
+      <h4 class="mb-4">Email Links</h4>
+      <ul>
+        {% for object in site.data.covid_emails %}
+        <li><small>{{ object.email_date }} - </small><a href="{{ object.link_url }}">{{ object.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <hr class="my-5" />
+      <h4 class="mb-4">Tax Announcements</h4>
+      <ul>
+        {% for object in site.data.covid_tax_announcements %}
+        <li><small>{{ object.announcement_date }} - </small><a href="{{ object.announcement_url }}">{{ object.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <hr class="my-5" />
+      <h4 class="mb-4">Operations</h4>
       <div class="editable">
-        <h1>COVID-19 Updates From HiAccounting</h1>
-        <hr class="my-5" />
-        <h4 class="mb-4">Email Links</h4>
-        <ul>
-          <li><small>3/16/2020 - </small><a href="https://mailchi.mp/ec307260c237/hiaccounting-provides-full-scale-tax-services-2855545">COVID-19: Tax Deadline Reminder</a></li>
-          <li><small>3/16/2020 - </small><a href="https://mailchi.mp/67055131010a/hiaccounting-provides-full-scale-tax-services-2855553">An Update from HiAccounting</a></li>
-        </ul>
-        <hr class="my-5" />
-        <h4 class="mb-4">Tax Announcements</h4>
-        <ul>
-          <li><small>3/18/2020 - </small> <a
-              href="https://www.businessinsider.com/personal-finance/irs-to-extend-tax-filing-deadline-why-file-taxes-now-2020-3">The
-              tax-filing deadline will remain April 15, but the IRS will waive penalties and interest on tax payments for 90
-              days</a></li>
-          <li><small>3/18/2020 - </small> <a
-              href="https://www.aicpa.org/content/dam/aicpa/advocacy/tax/downloadabledocuments/coronavirus-state-filing-relief.pdf">State
-              Tax Filing Guidance for Coronavirus Pandemic</a></li>
-          <li><small>3/11/2020 - </small> <a
-              href="https://www.aicpa.org/press/pressreleases/2020/aicpa-calls-for-indiv-and-business-tax-relief-amid-coronavirus-pandemic.html">AICPA
-              Calls for Tax Filing Relief Amid Coronavirus Pandemic</a></li>
-        </ul>
-        <hr class="my-5" />
-        <h4 class="mb-4">Operations</h4>
         <h5>HiAccounting Office Hours</h5>
         <p>HiAccounting continues to remain open during normal business hours, Monday through Friday, 8:00 AM to 5:00 PM.</p>
         <h5>Remote Meetings and Communication</h5>
@@ -54,40 +48,41 @@ title: COVID-19 Updates From HiAccounting
         <p>Your business is important to us and we will continue to communicate proactively</p>
         <p>Mālama pono,<br/>HiAccounting Team</p>
         <hr class="my-5" />
-        <h1>Give Us A Call</h1>
-        <p>We’d love to hear from you and talk about how our local accounting and tax team can help you and your business focus on
-        the things that matter most. Got questions? Concerns? That’s what we’re here for.</p>
-        <h4>Call Us</h4>
-        <p>You can reach us at any time by calling <a href="tel:{{ site.contact_number }}" onclick="gtag('event', 'contact phone', {'event_category' : 'phone link triggered', 'event_label' : '{{ site.contact_number }}' });">{{ site.contact_number }}</a>. <br>If we’re not in, leave a message and we’ll get back to you as soon as we can.</p>
+      </div>
+      <h1>Give Us A Call</h1>
+      <p>We’d love to hear from you and talk about how our local accounting and tax team can help you and your business focus on
+      the things that matter most. Got questions? Concerns? That’s what we’re here for.</p>
+      <h4>Call Us</h4>
+      <p>You can reach us at any time by calling <a href="tel:{{ site.contact_number }}" onclick="gtag('event', 'contact phone', {'event_category' : 'phone link triggered', 'event_label' : '{{ site.contact_number }}' });">{{ site.contact_number }}</a>. <br>If we’re not in, leave a message and we’ll get back to you as soon as we can.</p>
 
-        <h4>Email Us</h4>
-        <p><a href="mailto:info@hi-accounting.com" onclick="gtag('event', 'contact email', {'event_category' : 'email link triggered', 'event_label' : 'info@hi-accounting.com' });">info@hi-accounting.com</a></p>
-        <p>Please do not use e-mail to send us sensitive information (such as bank information or social security numbers).</p>
-        <p>E-mail could be intercepted by a third party during transmission; we cannot guarantee its security while in transit.
-        Please contact us to learn more about our encrypted email options.</p>
+      <h4>Email Us</h4>
+      <p><a href="mailto:info@hi-accounting.com" onclick="gtag('event', 'contact email', {'event_category' : 'email link triggered', 'event_label' : 'info@hi-accounting.com' });">info@hi-accounting.com</a></p>
+      <p>Please do not use e-mail to send us sensitive information (such as bank information or social security numbers).</p>
+      <p>E-mail could be intercepted by a third party during transmission; we cannot guarantee its security while in transit.
+      Please contact us to learn more about our encrypted email options.</p>
 
-        <h4>Visit Us</h4>
-        <p>We are located in the Bishop Tower of the Topa Financial Center across from The Aloha Tower. We are on the 6th floor.</p>
-        <hr>
-        <div class="row">
-          <div class="col-md-6">
-            <address>
-              <strong>HiAccounting</strong><br>
-              700 Bishop St. Suite 600<br>
-              Honolulu, Hi 96813<br>
-              <a
-                href="https://www.google.com/maps/place/Hawaii+Accounting+(HiAccounting)/@21.3074881,-157.8655798,17z/data=!3m1!4b1!4m5!3m4!1s0x7c006e7452ec94e5:0x44b6f2f90cf79b0!8m2!3d21.3074881!4d-157.8633911">View
-                on Map</a>
-            </address>
-            <br /><br />
-            <p><strong>Office Hours</strong><br />Monday - Friday<br />8:00 AM - 5:00 PM<br />Closed on Holidays</p>
-          </div>
-          <div class="col-md-6">
-            <p><strong>Parking</strong><br/>The guest parking garage entrance is on Ala Moana Blvd.</p>
-            <img src="/img/contact/garage.jpg">
-          </div>
+      <h4>Visit Us</h4>
+      <p>We are located in the Bishop Tower of the Topa Financial Center across from The Aloha Tower. We are on the 6th floor.</p>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <address>
+            <strong>HiAccounting</strong><br>
+            700 Bishop St. Suite 600<br>
+            Honolulu, Hi 96813<br>
+            <a
+              href="https://www.google.com/maps/place/Hawaii+Accounting+(HiAccounting)/@21.3074881,-157.8655798,17z/data=!3m1!4b1!4m5!3m4!1s0x7c006e7452ec94e5:0x44b6f2f90cf79b0!8m2!3d21.3074881!4d-157.8633911">View
+              on Map</a>
+          </address>
+          <br /><br />
+          <p><strong>Office Hours</strong><br />Monday - Friday<br />8:00 AM - 5:00 PM<br />Closed on Holidays</p>
         </div>
-       </div>
+        <div class="col-md-6">
+          <p><strong>Parking</strong><br/>The guest parking garage entrance is on Ala Moana Blvd.</p>
+          <img src="/img/contact/garage.jpg">
+        </div>
+      </div>
+      </div>
     </div>
   </div>
 </section>

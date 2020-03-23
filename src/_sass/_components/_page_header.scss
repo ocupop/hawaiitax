@@ -1,7 +1,4 @@
 #notification-bar {
-  @include media-breakpoint-down(md) {
-    display: none;
-  }
   p {
     font-size: 13px;
   }
@@ -355,7 +352,7 @@ a.top-icon {
 
 #mobile {
   position: fixed;
-  top: 0;
+  top: 36;
   left: 0;
   width: 100%;
   padding: 0;

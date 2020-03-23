@@ -1,6 +1,6 @@
 <header id="page-header">
   {% include notification-bar.html %}
-  <div id="topnav" class="d-none d-md-block">
+  <div id="topnav" class="d-none d-lg-block">
     <div class="container">
       <nav class="navbar justify-content-between align-items-center py-0">
         <div id="iconnavx" class="d-flex">
@@ -27,7 +27,7 @@
   </div>
   {% include client_portal.html %}
   <div class="container">
-    <nav id="mainnav" class="navbar d-none d-md-flex">
+    <nav id="mainnav" class="navbar d-none d-lg-flex">
       <a class="navbar-brand" href="/" onclick="gtag('event', 'nav bar link', {'event_category' : 'navbar link', 'event_label' : 'log click' });"><img src="/img/logo.svg" class="img-fluid" alt="HiAccounting logo"></a>
       <div id="primarynav">
         <ul class="nav justify-content-end">
@@ -141,7 +141,7 @@
         </ul>
       </div>
     </nav>
-    <nav id="mobile" class="navbar d-flex d-md-none">
+    <nav id="mobile" class="navbar d-flex d-lg-none">
       <a class="navbar-brand" href="/"><img src="/img/logo.svg" class="img-fluid" alt="hiaccounting Accounting logo"></a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mobilenav"
         aria-controls="primarynav" aria-expanded="false" aria-label="Toggle navigation">
@@ -156,7 +156,7 @@
         <ul class="navbar-nav">
           <li class="client-vault-mobile nav-item"><a href="https://hiaccounting.sharefile.com/Authentication/Login"
               class="button nav-link" target="_blank">Client Vault</a></li>
-          <li class="nav-item">
+          <li class="nav-item"><a href="#" data-toggle="modal" data-target="#payYourBill" id="play-commercial" class="nav-link">Pay Your Bill</a></li>
           <li class="nav-item">
             <a class="nav-link{% if page.url == '/' %} active{% endif %}" href="/">Home {% if page.url == '/' %}<span
                 class="sr-only">(current)</span>{% endif %}</a>

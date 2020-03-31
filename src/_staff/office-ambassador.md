@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: Jacalyn Macauda - Office Ambassador
+name: Jacalyn Macauda
 job_title: Office Ambassador
 bio_html: >-
   <p><strong>Education:</strong> University of Connecticut, B.S. in Nutritional

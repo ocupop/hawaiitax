@@ -39,7 +39,7 @@ title: COVID-19 Resource Center
         {% endfor %}
       </ul>
       <hr class="my-5" />
-      <h4 class="mb-4">Tax Announcements</h4>
+      <h4 class="mb-4">Resources</h4>
       <ul>
         {% for object in site.data.covid_tax_announcements %}
         <li><small>{{ object.announcement_date | date: "%m/%d/%Y" }} - </small><a href="{{ object.announcement_url }}">{{ object.title }}</a></li>

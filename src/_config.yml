@@ -27,6 +27,7 @@ defaults:
 announcement_categories:
   - CARES
   - Families First
+  - Additional Guidance
 
 # Build settings
 safe: false

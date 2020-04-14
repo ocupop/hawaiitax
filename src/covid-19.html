@@ -55,6 +55,14 @@ title: COVID-19 Resource Center
             href="{{ object.announcement_url }}">{{ object.title }}</a></li>
         {% endfor %}
       </ul>
+      <h5>Additional Guidance</h5>
+      <ul class="mb-5">
+        {% assign objects = site.data.covid_tax_announcements | where:"announcement_category","Additional Guidance" %}
+        {% for object in objects %}
+        <li><small>{{ object.announcement_date | date: "%m/%d/%Y" }} - </small><a
+            href="{{ object.announcement_url }}">{{ object.title }}</a></li>
+        {% endfor %}
+      </ul>
       <hr class="my-5" />
       <h4 class="mb-4">Operations</h4>
       <div class="editable">

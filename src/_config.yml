@@ -24,8 +24,13 @@ defaults:
     values:
       layout: position
 
+announcement_categories:
+  - CARES
+  - Families First
+
 # Build settings
 safe: false
 
 plugins:
   - jekyll-sitemap
+

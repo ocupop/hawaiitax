@@ -1,3 +1,7 @@
+- title: Unemployment URL (for filing claims and reporting)
+  announcement_url: 'https://huiclaims.hawaii.gov/#/'
+  announcement_date: 2020-04-14 00:00:00
+  announcement_category: Additional Guidance
 - title: 'Chamber of Commerce of the United States of America: CARES Act Caps'
   announcement_url: >-
     https://www.uschamber.com/sites/default/files/200407_caresactcaps_congressionalleadership.pdf
@@ -113,8 +117,4 @@
   announcement_url: >-
     https://www.aicpa.org/press/pressreleases/2020/aicpa-calls-for-indiv-and-business-tax-relief-amid-coronavirus-pandemic.html
   announcement_date: 2020-03-11 00:00:00
-  announcement_category: Additional Guidance
-- title: Unemployment URL (for filing claims and reporting)
-  announcement_url: 'https://huiclaims.hawaii.gov/#/'
-  announcement_date: 2020-04-14 00:00:00
   announcement_category: Additional Guidance

@@ -33,16 +33,26 @@ title: COVID-19 Resource Center
       <p>Matthew Delaney<br />CEO/President</p>
       <hr class="my-5" />
       <h4 class="mb-4">Email Links</h4>
-      <ul>
+      <ul class="mb-4">
         {% for object in site.data.covid_emails %}
         <li><small>{{ object.email_date| date: "%m/%d/%Y" }} - </small><a href="{{ object.link_url }}">{{ object.title }}</a></li>
         {% endfor %}
       </ul>
       <hr class="my-5" />
       <h4 class="mb-4">Resources</h4>
-      <ul>
-        {% for object in site.data.covid_tax_announcements %}
+      <h5>The CARES Act</h5>
+      <ul class="mb-5">
+        {% assign objects = site.data.covid_tax_announcements | where:"announcement_category","CARES" %}
+        {% for object in objects %}
         <li><small>{{ object.announcement_date | date: "%m/%d/%Y" }} - </small><a href="{{ object.announcement_url }}">{{ object.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <h5>Families First Coronavirus Response Act</h5>
+      <ul class="mb-5">
+        {% assign objects = site.data.covid_tax_announcements | where:"announcement_category","Families First" %}
+        {% for object in objects %}
+        <li><small>{{ object.announcement_date | date: "%m/%d/%Y" }} - </small><a
+            href="{{ object.announcement_url }}">{{ object.title }}</a></li>
         {% endfor %}
       </ul>
       <hr class="my-5" />

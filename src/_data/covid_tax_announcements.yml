@@ -2,94 +2,115 @@
   announcement_url: >-
     https://www.uschamber.com/sites/default/files/200407_caresactcaps_congressionalleadership.pdf
   announcement_date: 2020-04-08 00:00:00
+  announcement_category: CARES
 - title: Comparing SBA COVID-19 Loans
   announcement_url: 'https://www.cochawaii.org/wp-content/uploads/Comparing-COVID19-SBA-Loans.pdf'
   announcement_date: 2020-04-08 00:00:00
+  announcement_category: CARES
 - title: CORONAVIRUS PAID LEAVE PROGRAMS Employer Guide
   announcement_url: >-
     https://www.uschamber.com/sites/default/files/uscc_coronavirus_fmla_paid-leave-programs-guide.pdf
   announcement_date: 2020-04-08 00:00:00
+  announcement_category: CARES
 - title: >-
     MetLife & U.S. Chamber of Commerce Special Report on Coronavirus and Small
     Business (April 3, 2020)
   announcement_url: >-
     https://www.uschamber.com/sites/default/files/metlife_uscc_coronavirus_and_small_business_report_april_3.pdf
   announcement_date: 2020-04-08 00:00:00
+  announcement_category: CARES
 - title: >-
     "PAYCHECK PROTECTION PROGRAM LOANS: Frequently Asked Questions (FAQs)" - (As
     of April 6, 2020)
   announcement_url: >-
     https://home.treasury.gov/system/files/136/Paycheck-Protection-Program-Frequenty-Asked-Questions.pdf
   announcement_date: 2020-04-07 00:00:00
+  announcement_category: CARES
 - title: >-
     Small Business Administration: "Business Loan Program Temporary Changes;
     Paycheck Protection Program"
   announcement_url: 'https://home.treasury.gov/system/files/136/PPP--IFRN%20FINAL.pdf'
   announcement_date: 2020-04-03 00:00:00
+  announcement_category: CARES
 - title: 'US Dept of Labor – FFCRA: Questions & Answers'
   announcement_url: 'https://www.dol.gov/agencies/whd/pandemic/ffcra-questions#58'
   announcement_date: 2020-04-02 00:00:00
+  announcement_category: CARES
 - title: Paycheck Protection Program (PPP) - Application Form
   announcement_url: >-
     https://home.treasury.gov/system/files/136/Paycheck-Protection-Program-Application-3-30-2020-v3.pdf
   announcement_date: 2020-04-01 00:00:00
+  announcement_category: CARES
 - title: GUIDE TO SBA'S ECONOMIC INJURY DISASTER LOANS
   announcement_url: >-
     https://www.uschamber.com/sites/default/files/uscc_covid19_sb-economic-injury-disaster-loans.pdf
   announcement_date: 2020-04-01 00:00:00
+  announcement_category: CARES
 - title: >-
     "GUIDE TO THE EMPLOYEE RETENTION TAX CREDIT" : For COVID-19 Impacted
     Employers
   announcement_url: >-
     https://www.uschamber.com/sites/default/files/uscc_covid19_employee-retention-tax-credit.pdf
   announcement_date: 2020-04-01 00:00:00
+  announcement_category: CARES
 - title: >-
     SBA Economic Injury Disaster Loans (EIDL) and Grant: Click Link for
     Application
   announcement_url: 'https://covid19relief.sba.gov/#/'
   announcement_date: 2020-03-31 00:00:00
+  announcement_category: CARES
 - title: “The Small Business Owner’s Guide to the CARES Act"
   announcement_url: >-
     https://www.sbc.senate.gov/public/_cache/files/2/9/29fc1ae7-879a-4de0-97d5-ab0a0cb558c8/1BC9E5AB74965E686FC6EBC019EC358F.the-small-business-owner-s-guide-to-the-cares-act-final-.pdf
   announcement_date: 2020-03-31 00:00:00
+  announcement_category: CARES
 - title: 'The "PAYCHECK PROTECTION PROGRAM (PPP) INFORMATION SHEET: BORROWERS"'
   announcement_url: >-
     https://home.treasury.gov/system/files/136/PPP%20Borrower%20Information%20Fact%20Sheet.pdf?j=268557&sfmc_sub=129171743&l=3151_HTML&u=8813282&mid=7306387&jb=739&utm_medium=email&SubscriberID=129171743&utm_source=NewsUp_A20Mar225&Site=aicpa&LinkID=8813282&utm_campaign=Newsupdate&cid=email:NewsUp_A20Mar225:Newsupdate:accompanying+borrower+guide:aicpa&SendID=268557&utm_content=Special
   announcement_date: 2020-03-31 00:00:00
+  announcement_category: CARES
 - title: >-
     U.S. Chamber of Commerce – Coronavirus Emergency Loans – Small Business
     Guide and Checklist
   announcement_url: >-
     https://www.uschamber.com/sites/default/files/023595_comm_corona_virus_smallbiz_loan_final_revised.pdf
   announcement_date: 2020-03-29 00:00:00
+  announcement_category: CARES
 - title: Economic Injury Disaster Loan Assistance
   announcement_url: 'https://www.sba.gov/disaster/apply-for-disaster-loan/index.html'
   announcement_date: 2020-03-27 00:00:00
+  announcement_category: CARES
 - title: APS Families First Coronavirus Response Act
   announcement_url: 'https://www.apspayroll.com/blog/families-first-coronavirus-response-act/'
   announcement_date: 2020-03-24 00:00:00
+  announcement_category: Families First
 - title: >-
     Department of Taxation Announcement No. 2020-01 | RE: Relief for Taxpayers
     Affected by the COVID-19 Emergency
   announcement_url: >-
     https://tax.hawaii.gov/wp-content/uploads/2020/03/2019-only-Tax-ANN-2020-01-COVID19-Relief-2020-03-23.pdf
   announcement_date: 2020-03-23 00:00:00
+  announcement_category: CARES
 - title: >-
     Relief for Taxpayers Affected by Ongoing Coronavirus Disease 2019 Pandemic
     (Notice 2020-17)
   announcement_url: 'https://www.irs.gov/pub/irs-drop/n-20-17.pdf'
   announcement_date: 2020-03-20 00:00:00
+  announcement_category: CARES
 - title: >-
     The tax-filing deadline will remain April 15, but the IRS will waive
     penalties and interest on tax payments for 90 days
   announcement_url: >-
     https://www.businessinsider.com/personal-finance/irs-to-extend-tax-filing-deadline-why-file-taxes-now-2020-3
   announcement_date: 2020-03-18 00:00:00
+  announcement_category: CARES
 - title: State Tax Filing Guidance for Coronavirus Pandemic
   announcement_url: >-
     https://www.aicpa.org/content/dam/aicpa/advocacy/tax/downloadabledocuments/coronavirus-state-filing-relief.pdf
   announcement_date: 2020-03-18 00:00:00
+  announcement_category: CARES
 - title: AICPA Calls for Tax Filing Relief Amid Coronavirus Pandemic
   announcement_url: >-
     https://www.aicpa.org/press/pressreleases/2020/aicpa-calls-for-indiv-and-business-tax-relief-amid-coronavirus-pandemic.html
   announcement_date: 2020-03-11 00:00:00
+  announcement_category: CARES

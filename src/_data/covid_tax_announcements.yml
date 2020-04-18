@@ -3,7 +3,7 @@
     4/16/2020)
   announcement_url: 'https://www.sba.gov/sites/default/files/2020-04/PPP%20Deck%20copy.pdf'
   announcement_date: 2020-04-17 00:00:00
-  announcement_category:
+  announcement_category: CARES
 - title: Unemployment URL (for filing claims and reporting)
   announcement_url: 'https://huiclaims.hawaii.gov/#/'
   announcement_date: 2020-04-14 00:00:00

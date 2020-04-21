@@ -4,7 +4,7 @@ name: Bryanna Phillips
 job_title: Staff Accountant
 bio_html: >-
   <p><strong>Hometown: </strong>Westbrook,
-  Maine</p><p><strong>Education:</strong> University of Southern Maine, BS in
+  Maine</p><p><strong>Education:</strong> University of Southern Maine, B.S. in
   Accounting &amp; Entrepreneurship</p><p><strong>Experience: </strong>Bryanna
   started her accounting career in college where she did four internships: two
   of which were in tax, one in audit, and one in underwriting. During her

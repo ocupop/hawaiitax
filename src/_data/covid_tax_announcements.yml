@@ -1,3 +1,71 @@
+- title: >-
+    Star Advertiser | "Mayor Kirk Caldwell announces reopening for several types
+    of businesses today"
+  announcement_url: >-
+    Mayor Kirk Caldwell announces reopening for several types of businesses
+    today
+  announcement_date: 2020-04-29 00:00:00
+  announcement_category: Additional Guidance
+- title: >-
+    Star Advertiser | "Mayor Kirk Caldwell says city will pursue aggressive
+    testing for coronavirus"
+  announcement_url: >-
+    https://www.staradvertiser.com/2020/04/28/breaking-news/mayor-kirk-caldwell-provides-an-update-on-the-citys-coronavirus-response/
+  announcement_date: 2020-04-28 00:00:00
+  announcement_category: Additional Guidance
+- title: >-
+    Star Advertiser | "Visitor arrivals near 4,000 since quarantine order in
+    place"
+  announcement_url: >-
+    https://www.staradvertiser.com/2020/04/26/breaking-news/visitor-arrivals-near-4000-since-quarantine-order-in-place/?utm_source=Hawai%27i+Lodging+%26+Tourism+Association&utm_campaign=8d17588477-EMAIL_CAMPAIGN_2018_06_19_02_16_COPY_01&utm_medium=email&utm_term=0_6e7e748655-8d17588477-53661481
+  announcement_date: 2020-04-26 00:00:00
+  announcement_category: Additional Guidance
+- title: '"CARES Act Funding - What''s Next?"'
+  announcement_url: >-
+    https://www.linkedin.com/posts/hiaccounting_cares-act-funding-whats-next-activity-6661420683207204864-Ian6
+  announcement_date: 2020-04-29 00:00:00
+  announcement_category: CARES
+- title: PPP Loans – FAQS (04.28.2020)
+  announcement_url: >-
+    https://home.treasury.gov/system/files/136/Paycheck-Protection-Program-Frequently-Asked-Questions.pdf
+  announcement_date: 2020-04-28 00:00:00
+  announcement_category: CARES
+- title: >-
+    SBA Disaster Assistance Update:  Nationwide Economic Injury Disaster Loans 
+    [COVID-19]
+  announcement_url: >-
+    https://www.sba.gov/sites/default/files/2020-04/EIDL%20COVID-19%20Loans%204.20.20.pdf
+  announcement_date: 2020-04-24 00:00:00
+  announcement_category: CARES
+- title: 'SBA Disaster Assistance Update:  EIDL Advance  [COVID-19]'
+  announcement_url: >-
+    https://www.sba.gov/sites/default/files/2020-04/EIDL%20COVID-19%20Advance%204.20.20.pdf
+  announcement_date: 2020-04-24 00:00:00
+  announcement_category: CARES
+- title: >-
+    Virtual Interview on COVID-19: Matthew Delaney, CEO & President,
+    HiAccounting
+  announcement_url: >-
+    https://www.hawaiibusiness.com/covid-19-hiaccounting/?spMailingID=23175287&spUserID=NTY1MzQ1OTUyOTUwS0&spJobID=1721159740&spReportId=MTcyMTE1OTc0MAS2
+  announcement_date: 2020-04-23 00:00:00
+  announcement_category: Additional Guidance
+- title: 'Virtual Interview on COVID-19: Matt Delaney, President & CEO, HiGroup'
+  announcement_url: 'https://www.hawaiibusiness.com/covid-19-hihealthcare/'
+  announcement_date: 2020-04-22 00:00:00
+  announcement_category: Additional Guidance
+- title: AN INDEPENDENT CONTRACTOR’S GUIDE TO CARES ACT RELIEF
+  announcement_url: >-
+    https://www.cochawaii.org/wp-content/uploads/coch_coronavirus_independent-contractors.pdf
+  announcement_date: 2020-04-18 00:00:00
+  announcement_category: CARES
+- title: President Announces 3 Phase Plan to Re-Open Economy
+  announcement_url: 'https://www.whitehouse.gov/openingamerica/'
+  announcement_date: 2020-04-17 00:00:00
+  announcement_category: Additional Guidance
+- title: Paycheck Protection Program (PPP) Report
+  announcement_url: 'https://www.sba.gov/sites/default/files/2020-04/PPP%20Deck%20copy.pdf'
+  announcement_date: 2020-04-17 00:00:00
+  announcement_category: CARES
 - title: Unemployment URL (for filing claims and reporting)
   announcement_url: 'https://huiclaims.hawaii.gov/#/'
   announcement_date: 2020-04-14 00:00:00
@@ -23,9 +91,7 @@
     https://www.uschamber.com/sites/default/files/metlife_uscc_coronavirus_and_small_business_report_april_3.pdf
   announcement_date: 2020-04-08 00:00:00
   announcement_category: CARES
-- title: >-
-    "PAYCHECK PROTECTION PROGRAM LOANS: Frequently Asked Questions (FAQs)" - (As
-    of April 6, 2020)
+- title: PAYCHECK PROTECTION PROGRAM LOANS
   announcement_url: >-
     https://home.treasury.gov/system/files/136/Paycheck-Protection-Program-Frequenty-Asked-Questions.pdf
   announcement_date: 2020-04-07 00:00:00
@@ -50,9 +116,7 @@
     https://www.uschamber.com/sites/default/files/uscc_covid19_sb-economic-injury-disaster-loans.pdf
   announcement_date: 2020-04-01 00:00:00
   announcement_category: CARES
-- title: >-
-    "GUIDE TO THE EMPLOYEE RETENTION TAX CREDIT" : For COVID-19 Impacted
-    Employers
+- title: GUIDE TO THE EMPLOYEE RETENTION TAX CREDIT
   announcement_url: >-
     https://www.uschamber.com/sites/default/files/uscc_covid19_employee-retention-tax-credit.pdf
   announcement_date: 2020-04-01 00:00:00
@@ -63,12 +127,12 @@
   announcement_url: 'https://covid19relief.sba.gov/#/'
   announcement_date: 2020-03-31 00:00:00
   announcement_category: CARES
-- title: “The Small Business Owner’s Guide to the CARES Act"
+- title: The Small Business Owner’s Guide to the CARES Act
   announcement_url: >-
     https://www.sbc.senate.gov/public/_cache/files/2/9/29fc1ae7-879a-4de0-97d5-ab0a0cb558c8/1BC9E5AB74965E686FC6EBC019EC358F.the-small-business-owner-s-guide-to-the-cares-act-final-.pdf
   announcement_date: 2020-03-31 00:00:00
   announcement_category: CARES
-- title: 'The "PAYCHECK PROTECTION PROGRAM (PPP) INFORMATION SHEET: BORROWERS"'
+- title: PAYCHECK PROTECTION PROGRAM (PPP) INFORMATION SHEET
   announcement_url: >-
     https://home.treasury.gov/system/files/136/PPP%20Borrower%20Information%20Fact%20Sheet.pdf?j=268557&sfmc_sub=129171743&l=3151_HTML&u=8813282&mid=7306387&jb=739&utm_medium=email&SubscriberID=129171743&utm_source=NewsUp_A20Mar225&Site=aicpa&LinkID=8813282&utm_campaign=Newsupdate&cid=email:NewsUp_A20Mar225:Newsupdate:accompanying+borrower+guide:aicpa&SendID=268557&utm_content=Special
   announcement_date: 2020-03-31 00:00:00

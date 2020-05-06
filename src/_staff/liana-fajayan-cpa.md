@@ -28,6 +28,6 @@ email: liana@thehawaiigroup.com
 phone: 808-529-9990
 linkedin: 'https://www.linkedin.com/in/liana-fajayan-9394ba2a/'
 vcard: /downloads/Liana-Fajayan.vcf
-profile_image:
+profile_image: /uploads/liana-new.jpg
 ---
 

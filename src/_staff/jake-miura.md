@@ -16,6 +16,6 @@ email: Jake@hi-accounting.com
 phone: 808-529-9990
 linkedin:
 vcard: /downloads/Jake-Miura.vcf
-profile_image: /uploads/HiAccounting - Portrait - Jake.JPG
+profile_image: /Hi-Accounting - jake - portrait -.JPG
 ---
 

@@ -7,8 +7,8 @@ bio_html: >-
   Hawaii</p><p><strong>Education:</strong> University of Washington, B.A. in
   Accounting</p><p><strong>Experience: </strong>Jake is an intern at
   HiAccounting where his responsibilities consist of preparing checks and
-  working with accounts payable and expenses for clients. Prior this, He has
-  some experience with working for a financial investment doing data entry,
+  working with accounts payable and expenses for clients. Jake has prior
+  experience working for a financial investment company doing data entry,
   preparing financial reports, and cold calling.</p><p><strong>Fun
   Fact:</strong> Jake is a huge Los Angeles Angels fan and he produces music in
   his free time.</p>

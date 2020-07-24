@@ -13,7 +13,7 @@ bio_html: >-
 email: rene@hi-accounting.com
 phone: 808-529-9990
 linkedin: 'https://www.linkedin.com/in/rene-blevins-10b4a811b'
-vcard: /downloads/Rene-Blevins.vcf
+vcard:
 profile_image: /uploads/IMG_1767.JPG
 ---
 

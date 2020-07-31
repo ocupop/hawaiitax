@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: Liana Fajayan
+name: 'Liana Fajayan, CPA'
 job_title: Managing Director
 bio_html: >-
   <p>Certified Public Accountant (WA), Liana has 13 years&rsquo; experience in

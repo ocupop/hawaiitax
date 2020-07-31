@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: Rene Blevins
+name: 'Rene Blevins, CPA'
 job_title: Director of Accounting
 bio_html: >-
   <p>Born and raised on O&rsquo;ahu, Rene recently moved back home after living

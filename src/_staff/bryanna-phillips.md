@@ -24,6 +24,6 @@ email: bryanna@hi-accounting.com
 phone: 808-529-9990
 linkedin:
 vcard:
-profile_image: /uploads/IMG_8930.JPG
+profile_image: /uploads/IMG_2198.JPG
 ---
 

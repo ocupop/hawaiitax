@@ -1,4 +1,4 @@
-- name: Management Team
+- name: Leadership
   staff:
     - matt-delaney
     - liana-fajayan
@@ -7,12 +7,12 @@
     - janet-williams
     - evans-martin
     - yvette-zolman
-- name: Staff
-  staff:
     - sheri-miyashiro-cpa
     - stanley-uratsuka
-    - becky-grennan
     - james-obenour
+- name: Team Members
+  staff:
+    - becky-grennan
     - charmaine-apa-ea
     - kathy-au
     - mahina-quinn

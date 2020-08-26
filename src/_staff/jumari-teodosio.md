@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Jumari Teodosio
-job_title: Tax Intern
+job_title: Tax Accountant
 bio_html: >-
   <p><strong>Hometown: </strong>Pearl City,
   Hawaii</p><p><strong>Education:</strong> University of Hawaii - West Oahu, BA

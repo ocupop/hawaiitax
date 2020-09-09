@@ -3,9 +3,9 @@ layout: staff
 name: Yvette Zolman
 job_title: Chief of Staff
 bio_html: >-
-  <p>Hometown: Elko, Nevada</p><p>Education:&nbsp; University of Phoenix, B.A.
-  Business Administration</p><p>Experience: &nbsp;Yvette moved to Honolulu in
-  2016 from Nashville, Tennessee. As Chief of Staff, Yvette directs the
+  <p>Hometown: Elko, Nevada</p><p>Education: University of Phoenix, B.A.
+  Business Administration</p><p>Experience: Yvette moved to Honolulu in 2016
+  from Nashville, Tennessee. As Chief of Staff, Yvette directs the
   administrative and operational activities for all companies of The Hawaii
   Group. She works closely with the CEO and executive leadership to establish
   and implement consistent processes, ensure alignment of company goals with

@@ -3,11 +3,14 @@ layout: staff
 name: Yvette Zolman
 job_title: Chief of Staff
 bio_html: >-
-  <p>As Chief of Staff, Yvette works with the HiHealthCare leadership team to
-  establish and implement operational processes, ensuring alignment in company
-  goals and directives. Yvette achieved her Bachelor&rsquo;s in Business
-  Administration and comes to Hawaii from Nashville, TN bringing experience in
-  Project Management, Marketing, Customer Relations, and Administration.</p>
+  <p>Hometown: Elko, Nevada</p><p>Education:&nbsp; University of Phoenix, B.A.
+  Business Administration</p><p>Experience: &nbsp;Yvette moved to Honolulu in
+  2016 from Nashville, Tennessee. As Chief of Staff, Yvette directs the
+  administrative and operational activities for all companies of The Hawaii
+  Group. She works closely with the CEO and executive leadership to establish
+  and implement consistent processes, ensure alignment of company goals with
+  operational directives, promote company culture and brand, and provide
+  oversight and guidance to high level projects.</p>
 email: yvette@thehawaiigroup.com
 phone: 808-529-9990
 linkedin:

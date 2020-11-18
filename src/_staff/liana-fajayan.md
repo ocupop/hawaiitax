@@ -3,7 +3,7 @@ layout: staff
 name: 'Liana Fajayan, CPA'
 job_title: Managing Director
 bio_html: >-
-  <p>Certified Public Accountant (WA), Liana has 13 years&rsquo; experience in
+  <p>Certified Public Accountant, Liana has 13 years&rsquo; experience in
   management of tax and accounting services. Liana comes to HiAccounting from
   the prestigious firm Moss Adams, where she was most recently a tax manager. In
   her tenure in both public and private accounting she has specialized in

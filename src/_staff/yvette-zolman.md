@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Yvette Zolman
-job_title: Chief of Staff
+job_title: Chief Operating Officer
 bio_html: >-
   <p>Hometown: Elko, Nevada</p><p>Education: University of Phoenix, B.A.
   Business Administration</p><p>Experience: Yvette moved to Honolulu in 2016

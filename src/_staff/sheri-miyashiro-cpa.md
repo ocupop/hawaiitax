@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: 'Sheri Miyashiro, CPA'
-job_title: Tax Manager
+job_title: Senior Tax Manager
 bio_html: >-
   <p><strong>Hometown:</strong> North Shore, Hawaii</p><p><strong>Education:
   </strong>San Francisco State, Master&rsquo;s in

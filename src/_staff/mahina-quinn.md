@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Mahina Quinn
-job_title: Staff Accountant
+job_title: Senior Accountant
 bio_html: >-
   <p><strong>Hometown: </strong>Mililani, Hawaii</p><p><strong>Education:
   </strong>Colorado Mesa University, B.S. in

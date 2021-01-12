@@ -16,7 +16,7 @@ bio_html: >-
   co-founded a London-based record label/platform, as an outlet for he &amp; his
   friends to release their music. He is also passionate about helping others
   explore.</p>
-email: logan@hi-accounting.com
+email: logan@thehawaiigroup.com
 phone: 808-529-9990
 linkedin:
 vcard: /downloads/Logan-Sharma.vcf

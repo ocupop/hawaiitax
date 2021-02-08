@@ -14,6 +14,8 @@ collections:
     output: true
   positions:
     output: true
+  resources:
+    output: true
 defaults:
   - scope:
       type: staff
@@ -23,6 +25,10 @@ defaults:
       type: positions
     values:
       layout: position
+  - scope:
+      type: resources
+    values:
+      layout: resource
 
 announcement_categories:
   - CARES

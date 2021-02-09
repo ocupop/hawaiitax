@@ -6,6 +6,7 @@ excerpt: >-
   Form 1099-NEC (Nonemployee Compensation) is a new tax form that businesses
   will be required to file...
 hero_image: /uploads/fpo.png
+link_override:
 ---
 
 <h2>Overview</h2>

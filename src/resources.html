@@ -1,51 +1,45 @@
 ---
 layout: default
+title: Resources
 ---
-<section id="resources-content" class="pt-2">
-  <div class="container">
-    {% for post in paginator.resources %}
-    {% if forloop.first %}
-    {% unless paginator.previous_page %}
-    <a href="{{ post.url }}" title="{{ post.title }}" class="d-block text-dark">
-      {% include post_feature.html %}
-    </a>
-    <hr>
-    {% endunless %}
-    {% else %}
-  <div class='row'>
-    <div class='col-12 col-md-6 order-md-2'>
-      <a href="{{ post.url }}" title='{{ post.title }}'>
-        <img src='{{ post.featured_image_path | default: site.placeholder_image }}' alt='{{ post.title }}'
-          class='img-fluid mb-3' />
-      </a>
-    </div>
-    <div class='col-12 col-md-6'>
-      <h5 class='text-muted'>{{ post.categories | join: ', ' }}</h5>
-      <h3><a href="{{ post.url }}" title='{{ post.title }}' class="text-dark">{{ post.title }}</a></h3>
-      <p class='text-muted mb-0'><small>{{ post.date | date_to_string: 'ordinal', 'US' }} | By <a
-            href="/blog/author/{{ post.author_name | slugify }}">{{ post.author_name }}</a></small></p>
-      <p class="d-none d-md-block mb-0">
-        {{ post.excerpt }}<br>
-        <a class='btn btn-inline' href='{{ post.url }}'>Continue Reading</a>
-      </p>
-    </div>
-  </div>
-    <hr>
-    {% endif %}
-
-
-
-
-
-    {% endfor %}
-
-    {% if paginator.total_pages > 1 %}
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
-    {% endif %}
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="btn btn-primary">Load More...</a>
-    {% endif %}
-    {% endif %}
+<section class="hero" style="background-image: url(/img/resources-hero.jpg);">
+  <div class="hero-caption">
+    <h1 class="editable">Resources</h1>
   </div>
 </section>
+<section id="resource-grid" class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="editable">COVID-19 Resource Center</h2>
+      <p class="editable">In these uncertain times, the HiAccounting team continues to be committed to serving as your trusted and valued partner
+      and delivering the quality service you expect from us. If you or your business need help navigating the changing tax,
+      accounting or payroll laws or deadlines, creating a strategic plan to move forward, addressing sudden staffing issues or
+      meeting other challenges, we are here to support you.</p>
+      <a href="/covid-19/" class="btn btn-primary editable mb-4">View COVID-19 Resources</a>
+    </div>
+  </div>
+  <hr class="my-5" />
+  <h2 class="editable mt-4">Tax & Accounting Resources</h2>
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for resource in site.resources %}
+    <div class="col mb-4">
+      <div class="card border h-100">
+        <div class="bg-image aspect-16x9 mb-2"
+          style="background-image: url({{ resource.hero_image }})">
+        </div>
+        <div class="card-body">
+          <p class="mb-2"><small>{{ resource.date | date: "%m/%d/%Y" }}</small></p>
+          <h5 class="card-title"><a href="{{ resource.url }}">{{ resource.title }}</a></h5>
+          <p class="card-text">{{ resource.excerpt }}</p>
+        </div>
+        <div class="card-footer pl-3 pt-0 pb-3">
+          <a class="btn btn-primary"
+            href="{% if resource.link_override  %}{{ resource.link_override }}{% else %}{{ resource.url }}{% endif %}">Read
+            More</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<hr />

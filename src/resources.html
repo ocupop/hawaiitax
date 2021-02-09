@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<section id="resources-content" class="pt-2">
+  <div class="container">
+    {% for post in paginator.resources %}
+    {% if forloop.first %}
+    {% unless paginator.previous_page %}
+    <a href="{{ post.url }}" title="{{ post.title }}" class="d-block text-dark">
+      {% include post_feature.html %}
+    </a>
+    <hr>
+    {% endunless %}
+    {% else %}
+  <div class='row'>
+    <div class='col-12 col-md-6 order-md-2'>
+      <a href="{{ post.url }}" title='{{ post.title }}'>
+        <img src='{{ post.featured_image_path | default: site.placeholder_image }}' alt='{{ post.title }}'
+          class='img-fluid mb-3' />
+      </a>
+    </div>
+    <div class='col-12 col-md-6'>
+      <h5 class='text-muted'>{{ post.categories | join: ', ' }}</h5>
+      <h3><a href="{{ post.url }}" title='{{ post.title }}' class="text-dark">{{ post.title }}</a></h3>
+      <p class='text-muted mb-0'><small>{{ post.date | date_to_string: 'ordinal', 'US' }} | By <a
+            href="/blog/author/{{ post.author_name | slugify }}">{{ post.author_name }}</a></small></p>
+      <p class="d-none d-md-block mb-0">
+        {{ post.excerpt }}<br>
+        <a class='btn btn-inline' href='{{ post.url }}'>Continue Reading</a>
+      </p>
+    </div>
+  </div>
+    <hr>
+    {% endif %}
+
+
+
+
+
+    {% endfor %}
+
+    {% if paginator.total_pages > 1 %}
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="btn btn-primary">Load More...</a>
+    {% endif %}
+    {% endif %}
+  </div>
+</section>

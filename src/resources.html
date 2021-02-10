@@ -29,7 +29,7 @@ title: Resources
         </div>
         <div class="card-body">
           <p class="mb-2"><small>{{ resource.date | date: "%m/%d/%Y" }}</small></p>
-          <h5 class="card-title"><a href="{{ resource.url }}">{{ resource.title }}</a></h5>
+          <h5 class="card-title"><a href="{% if resource.link_override  %}{{ resource.link_override }}{% else %}{{ resource.url }}{% endif %}">{{ resource.title }}</a></h5>
           <p class="card-text">{{ resource.excerpt }}</p>
         </div>
         <div class="card-footer pl-3 pt-0 pb-3">

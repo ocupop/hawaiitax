@@ -6,7 +6,7 @@ excerpt: >-
   The CARES Act, which was passed into law to help stimulate the economy,
   authorized 2 rounds of stimulus payments (also known as Economic Impact
   Payments or EIPs)...
-hero_image: /uploads/Treasury Check.jpg
+hero_image: /uploads/Thumbnail.png
 link_override:
 ---
 

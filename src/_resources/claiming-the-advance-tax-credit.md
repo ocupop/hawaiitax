@@ -16,7 +16,7 @@ The CARES Act, which was passed into law to help stimulate the economy, authoriz
 
 Recipients of these economic impact payments should have received an IRS Notice 1444, notifying them of the amount of payment(s) they should have received.&nbsp; If you haven’t already, please forward this notice to our office as we will need it in order to complete your 2020 return.&nbsp; If you do not recall receiving this notice, or did not keep it for your records, we ask that you go to the following website.
 
-**Click Here: &nbsp;**[https://www.irs.gov/coronavirus/economic-impact-payments](https://www.irs.gov/coronavirus/economic-impact-payments){: target="_blank"}
+[https://www.irs.gov/coronavirus/economic-impact-payments](https://www.irs.gov/coronavirus/economic-impact-payments){: target="_blank"}
 
 **Please do the following:**
 

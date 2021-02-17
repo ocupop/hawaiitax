@@ -10,7 +10,7 @@ hero_image: /uploads/Thumbnail.png
 link_override:
 ---
 
-## Dear Clients
+## Dear Clients,
 
 The CARES Act, which was passed into law to help stimulate the economy, authorized 2 rounds of stimulus payments (also known as Economic Impact Payments or EIPs) that were issued to many taxpayers.&nbsp; These payments are treated as advance tax credits against your 2020 income taxes.&nbsp; For this reason, in order to avoid potential errors when claiming the advance tax credit, it’s imperative that we know the amount of stimulus payments you received.&nbsp;**Not having this accurate information will result in subsequent and preventable correspondence from the IRS**.&nbsp; This is where we need your help.&nbsp;
 
@@ -25,6 +25,6 @@ Recipients of these economic impact payments should have received an IRS Notice 
 * Once you get through the login, the status of your EIP(s) will appear.&nbsp; If payment was made it will indicate date paid and bank account details.&nbsp;
 * Please review your bank account activity for referenced payment. &nbsp;When you locate the EIP deposit, please print out or screenshot the information and upload to your secure client portal.
 
-**Click Here to Upload:** [https://secure.netlinksolution.com/nextgen/?firm=422455](https://secure.netlinksolution.com/nextgen/?firm=422455)
+**Click Here to Upload: &nbsp;**[https://secure.netlinksolution.com/nextgen/?firm=422455](https://secure.netlinksolution.com/nextgen/?firm=422455)
 
 **No one wants a follow-up letter from the IRS proposing changes to their tax return**, and this is clearly what we are hoping to avoid.&nbsp; Thank you in advance for your assistance with this matter.

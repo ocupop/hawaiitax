@@ -2,7 +2,10 @@
 layout: resource
 title: Claiming the Advance Tax Credit
 date: 2021-02-04 00:00:00
-excerpt: "The CARES Act, which was passed into law to help stimulate the economy, authorized 2 rounds of stimulus payments (also known as Economic Impact Payments or EIPs) that were issued to many taxpayers.\_ These payments are treated as advance tax credits against your 2020 income taxes.\_ For this reason, in order to avoid potential errors when claiming the advance tax credit, it’s imperative that we know the amount of stimulus payments you received."
+excerpt: >-
+  The CARES Act, which was passed into law to help stimulate the economy,
+  authorized 2 rounds of stimulus payments (also known as Economic Impact
+  Payments or EIPs)...
 hero_image: /uploads/Treasury Check.jpg
 link_override:
 ---

@@ -5,7 +5,7 @@ date: 2021-02-17 00:00:00
 excerpt: >-
   Tax law is a complicated affair that is ever-changing. Through rigorous
   professional training and routine participation...
-hero_image:
+hero_image: /uploads/Kauai.jpeg
 link_override:
 ---
 

@@ -5,7 +5,7 @@ date: 2019-10-17 00:00:00
 excerpt: >-
   An individual may claim one of two types of educated-related tax credits, the
   American Opportunity Tax Credit (AOTC) or the Lifetime Learning Credit...
-hero_image:
+hero_image: /uploads/Study.jpeg
 link_override:
 ---
 

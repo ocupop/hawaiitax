@@ -10,7 +10,7 @@ hero_image: /uploads/File_000 (5).jpeg
 link_override:
 ---
 
-## Selling Your Home? Don’t Miss Out On This Tax Opportunity\!
+## Don’t Miss Out On This Tax Opportunity\!
 
 Section 121 of the Internal Revenue Code has allowed homeowners of all ages to exclude gain on the sale of a "principal residence."
 

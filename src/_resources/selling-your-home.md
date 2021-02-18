@@ -32,7 +32,7 @@ Example: X, a single taxpayer, purchased a home as his principal residence for $
 
 Equation: ($450,000) - ($330,000 + $20,000) =&nbsp;**$100,000 in gain**
 
-Because X owned and used the home as his principal residence for at least two of the five years prior to July 15, 2019, X may exclude up to $250,000 of gain; thus, X may exclude the entire $100,000 gain. This is how the gain exclusion works in its simplest form, but just like many sections in the Code there are many other hidden opportunities and potential quirks to this gain exclusion.
+Because X owned and used the home as his principal residence for at least two of the five years prior to *July 15, 2019*, X may exclude up to $250,000 of gain; thus, X may exclude the entire $100,000 gain. This is how the gain exclusion works in its simplest form, but just like many sections in the Code there are many other hidden opportunities and potential quirks to this gain exclusion.
 
 **HiAccounting Tax Experts Can Help You Navigate This Opportunity\!**
 

@@ -16,9 +16,11 @@ Section 121 of the Internal Revenue Code has allowed homeowners of all ages to e
 
 **Provided three tests are met:**
 
-1. &nbsp;You owned the home for two of the five years preceding the sale (the "ownership test")
-2. You used the home as your principal residence for two of the five years preceding the sale (the "use test"), and
-3. You haven't taken advantage of the Section 121 exclusion in the two years preceding the sale (the "once-every-two-years rule").
+(1)&nbsp; You owned the home for two of the five years preceding the sale (the "ownership test")
+
+(2)&nbsp; You used the home as your principal residence for two of the five years preceding the sale (the "use test"), and
+
+(3)&nbsp; You haven't taken advantage of the Section 121 exclusion in the two years preceding the sale (the "once-every-two-years rule").
 
 The maximum exclusion, as a general rule, cannot exceed $250,000 for Single filers and $500,000 for Joint filers.
 

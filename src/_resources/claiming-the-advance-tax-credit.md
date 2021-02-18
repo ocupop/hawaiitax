@@ -4,8 +4,7 @@ title: Claiming the Advance Tax Credit
 date: 2021-02-04 00:00:00
 excerpt: >-
   The CARES Act, which was passed into law to help stimulate the economy,
-  authorized 2 rounds of stimulus payments (also known as Economic Impact
-  Payments or EIPs)...
+  authorized 2 rounds of stimulus payments...
 hero_image: /uploads/Thumbnail.png
 link_override:
 ---

@@ -19,6 +19,10 @@ In short, No. Hawaii does not have a sales tax. The GET is different from a sale
 
 ## What are the GET rates for businesses?
 
+&nbsp;
+
+&nbsp;
+
 ![](uploads/get-graphic-2.JPG){: width="1245" height="800"}
 
 ## &nbsp;

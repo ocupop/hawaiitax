@@ -8,7 +8,7 @@ excerpt: >-
   businesses; and Businesses are required to collect sales tax from their
   customers whereas businesses are not required to collect GET from their
   customers...
-hero_image:
+hero_image: /uploads/GET photo.jpg
 link_override:
 ---
 

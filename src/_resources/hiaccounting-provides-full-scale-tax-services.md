@@ -15,8 +15,6 @@ Tax law is a complicated affair that is ever-changing. Through rigorous professi
 
 ![](uploads/service.JPG){: width="1088" height="348"}
 
-&nbsp;
-
 * Federal Income Tax Preparation
 * State Income Tax Preparation
 * State & Local Tax

@@ -1,7 +1,7 @@
 ---
 layout: resource
 title: Hawaii's General Excise Tax (GET)
-date: 2021-02-04 00:00:00
+date: 2020-03-11 00:00:00
 excerpt: >-
   In short, No. Hawaii does not have a sales tax. The GET is different from a
   sales tax because:  A sales tax is a tax on customers whereas GET is a tax on

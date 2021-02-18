@@ -5,7 +5,7 @@ date: 2020-01-27 00:00:00
 excerpt: >-
   When determining which business form best suits the needs of the owners, many
   factors need to be considered...
-hero_image: /uploads/File_000 (5).jpeg
+hero_image: /uploads/File_000 (6).jpeg
 link_override:
 ---
 

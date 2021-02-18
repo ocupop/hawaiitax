@@ -12,7 +12,9 @@ link_override:
 
 ## Selling Your Home? Don’t Miss Out On This Tax Opportunity\!
 
-For the past 22 years and counting, Section 121 of the Internal Revenue Code has allowed homeowners of all ages to exclude gain on the sale of a "principal residence." In simplified terms:![](uploads/selling-your-home-graphic.png){: width="500" height="175"}**Provided three tests are met:**
+For the past 22 years and counting, Section 121 of the Internal Revenue Code has allowed homeowners of all ages to exclude gain on the sale of a "principal residence." In simplified terms:![](uploads/house-graphic.JPG){: width="996" height="326"}
+
+**Provided three tests are met:**
 
 1. You owned the home for two of the five years preceding the sale (the "ownership test")
 2. You used the home as your principal residence for two of the five years preceding the sale (the "use test"), and

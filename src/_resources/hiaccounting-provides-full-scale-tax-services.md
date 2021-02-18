@@ -4,9 +4,7 @@ title: HiAccounting Provides Full-Scale Tax Services
 date: 2021-02-17 00:00:00
 excerpt: >-
   Tax law is a complicated affair that is ever-changing. Through rigorous
-  professional training and routine participation in industry briefings, we
-  sustain mastery of the current tax law, complex tax code, and new tax
-  regulations...
+  professional training and routine participation...
 hero_image:
 link_override:
 ---

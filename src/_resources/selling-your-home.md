@@ -22,13 +22,13 @@ Section 121 of the Internal Revenue Code has allowed homeowners of all ages to e
 
 (3)&nbsp; You haven't taken advantage of the Section 121 exclusion in the two years preceding the sale (the "once-every-two-years rule").
 
-Note:&nbsp; The maximum exclusion, as a general rule, cannot exceed $250,000 for Single filers and $500,000 for Joint filers.
+Note:&nbsp; The maximum exclusion, as a general rule, cannot exceed *$250,000 for Single filers* and *$500,000 for Joint filers*.
 
 **How it works:**
 
 In its most basic form, the exclusion works like so:
 
-Example: X, a single taxpayer, purchased a home as his principal residence for $330,000 on June 3, 2013. He resided in the house the entire time, and spent $20,000 improving the home. On July 15, 2019, X sold the home for $450,000, recognizing $100,000 in gain.
+Example: X, a single taxpayer, purchased a home as his principal residence for $330,000 on *June 3, 2013*. He resided in the house the entire time, and spent $20,000 improving the home. On *July 15, 2019*, X sold the home for $450,000, recognizing $100,000 in gain.
 
 Equation: ($450,000) - ($330,000 + $20,000) =&nbsp;**$100,000 in gain**
 

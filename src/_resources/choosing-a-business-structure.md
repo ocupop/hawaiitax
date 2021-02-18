@@ -1,7 +1,7 @@
 ---
 layout: resource
 title: Choosing a Business Structure
-date: 2019-09-17 00:00:00
+date: 2020-01-27 00:00:00
 excerpt: >-
   When determining which business form best suits the needs of the owners, many
   factors need to be considered...
@@ -13,7 +13,7 @@ link_override:
 
 When determining which business form best suits the needs of the owners, many factors need to be considered. These include both tax and nontax factors. The goal in choosing a business form is to structure it such that the form meets the taxpayer’s nontax objectives, while maximizing any current and future tax benefits.
 
-## Options to consider...
+## Options to consider…
 
 ![](uploads/business-structures-chart.png){: width="1200" height="739"}
 

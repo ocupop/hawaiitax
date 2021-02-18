@@ -6,7 +6,7 @@ excerpt: >-
   As we approach the end of this unprecedented year, there are some tax
   opportunities your family and business may want to consider before
   year-end....
-hero_image: /img/services/hero-tax-services.jpg
+hero_image: /uploads/Surfer.jpeg
 link_override: /2020-year-end-planning/
 ---
 

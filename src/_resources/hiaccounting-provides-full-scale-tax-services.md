@@ -13,7 +13,9 @@ link_override:
 
 Tax law is a complicated affair that is ever-changing. Through rigorous professional training and routine participation in industry briefings, we sustain mastery of the current tax law, complex tax code, and new tax regulations. This discipline enables us to offer a full range of tax planning, preparation, and support services.
 
-![](uploads/tax-serve-clips.JPG){: width="1088" height="348"}
+![](uploads/service.JPG){: width="1088" height="348"}
+
+&nbsp;
 
 * Federal Income Tax Preparation
 * State Income Tax Preparation

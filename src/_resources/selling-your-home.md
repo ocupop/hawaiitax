@@ -22,7 +22,7 @@ Section 121 of the Internal Revenue Code has allowed homeowners of all ages to e
 
 (3)&nbsp; You haven't taken advantage of the Section 121 exclusion in the two years preceding the sale (the "once-every-two-years rule").
 
-The maximum exclusion, as a general rule, cannot exceed $250,000 for Single filers and $500,000 for Joint filers.
+Note:&nbsp; The maximum exclusion, as a general rule, cannot exceed $250,000 for Single filers and $500,000 for Joint filers.
 
 **How it works:**
 

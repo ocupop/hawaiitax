@@ -18,7 +18,7 @@ For the past 22 years and counting, Section 121 of the Internal Revenue Code has
 
 **Provided three tests are met:**
 
-1. You owned the home for two of the five years preceding the sale (the "ownership test")
+1. &nbsp;You owned the home for two of the five years preceding the sale (the "ownership test")
 2. You used the home as your principal residence for two of the five years preceding the sale (the "use test"), and
 3. You haven't taken advantage of the Section 121 exclusion in the two years preceding the sale (the "once-every-two-years rule").
 

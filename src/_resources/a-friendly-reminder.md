@@ -1,7 +1,7 @@
 ---
 layout: resource
 title: A Friendly Reminder
-date: 2020-01-27 00:00:00
+date: 2020-02-22 16:00:00
 excerpt: >-
   As a reminder, if you operate an S Corporation or Partnership your federal tax
   return is due on March 15th. If we have not yet received your tax documents...

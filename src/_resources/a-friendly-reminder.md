@@ -3,8 +3,8 @@ layout: resource
 title: A Friendly Reminder
 date: 2020-01-27 00:00:00
 excerpt: >-
-  When determining which business form best suits the needs of the owners, many
-  factors need to be considered...
+  As a reminder, if you operate an S Corporation or Partnership your federal tax
+  return is due on March 15th. If we have not yet received your tax documents...
 hero_image: /uploads/TaARC.png
 link_override:
 ---

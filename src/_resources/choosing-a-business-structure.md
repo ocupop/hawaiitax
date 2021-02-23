@@ -15,7 +15,7 @@ When determining which business form best suits the needs of the owners, many fa
 
 ## Options to consider…
 
-![](uploads/business-structures-chart.png){: width="1200" height="739"}
+![](/uploads/business-structures-chart.png){: width="1200" height="739"}
 
 &nbsp;
 

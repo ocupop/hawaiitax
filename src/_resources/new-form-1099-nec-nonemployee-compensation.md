@@ -5,7 +5,7 @@ date: 2020-12-30 00:00:00
 excerpt: >-
   Form 1099-NEC (Nonemployee Compensation) is a new tax form that businesses
   will be required to file...
-hero_image: /uploads/1099NECGRAPHIC.jpeg
+hero_image: /uploads/Blue.jpeg
 link_override:
 ---
 

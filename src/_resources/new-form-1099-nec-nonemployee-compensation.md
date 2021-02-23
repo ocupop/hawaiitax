@@ -13,8 +13,6 @@ link_override:
 
 Form 1099-NEC (Nonemployee Compensation) is a new tax form that businesses will be required to file. Form 1099-NEC replaces Box 7 on Form 1099-MISC to report nonemployee compensation which reflects payments to nonemployee service providers and vendors. This change reflects only a change in reporting and not a change in the rules regarding payment filing requirements.
 
-[Contact Our Tax Experts](){: .btn.btn-primary}
-
 ## Nonemployee Compensation
 
 Starting in 2020, payments for services made in the course of a trade or business to US persons will be reported on Form 1099-NEC. Note that Form 1099-MISC still will report other payment types such as rent, other income, and royalties. However, the IRS has rearranged the box numbers for reporting certain income on Form 1099-MISC.

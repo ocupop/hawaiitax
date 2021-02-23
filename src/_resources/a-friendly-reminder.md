@@ -15,6 +15,6 @@ As a reminder, if you operate an **S Corporation** or **Partnership** your feder
 
 Aloha,
 
-HiAccounting Tax
+The Team
 
 &nbsp;

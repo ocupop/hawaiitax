@@ -14,8 +14,9 @@ link_override:
 
 In short, No. Hawaii does not have a sales tax. The GET is different from a sales tax because:
 
-1. A sales tax is a tax on customers whereas GET is a tax on businesses; and
-2. Businesses are required to collect sales tax from their customers whereas businesses are not required to collect GET from their customers.
+(1)&nbsp; A sales tax is a tax on customers whereas GET is a tax on businesses; and
+
+(2)&nbsp; Businesses are required to collect sales tax from their customers whereas businesses are not required to collect GET from their customers.
 
 ### What are the GET rates for businesses?
 

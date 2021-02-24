@@ -26,6 +26,8 @@ For the past 22 years and counting, Section 121 of the Internal Revenue Code has
 
 Note:&nbsp; The maximum exclusion, as a general rule, cannot exceed *$250,000 for Single filers* and *$500,000 for Joint filers*.
 
+### &nbsp;
+
 ### **How it works:**
 
 In its most basic form, the exclusion works like so:
@@ -36,9 +38,13 @@ Equation: ($450,000) - ($330,000 + $20,000) =&nbsp;**$100,000 in gain**
 
 Because X owned and used the home as his principal residence for at least two of the five years prior to *July 15, 2019*, X may exclude up to $250,000 of gain; thus, X may exclude the entire $100,000 gain. This is how the gain exclusion works in its simplest form, but just like many sections in the Code there are many other hidden opportunities and potential quirks to this gain exclusion.
 
+### &nbsp;
+
 ### **HiAccounting Tax Experts Can Help You Navigate This Opportunity\!**
 
 Our tax experts at Hawaii Accounting can help you navigate the sale of your principal residence home to ensure you are able to maximize your tax savings. Our CPAs and business advisors have many years of experience with these transactions and can make sure you don’t miss out on this important tax opportunity\!
+
+### &nbsp;
 
 ### **Ready to talk about your tax needs?**
 

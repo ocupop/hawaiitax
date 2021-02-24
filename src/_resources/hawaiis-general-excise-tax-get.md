@@ -19,7 +19,9 @@ In short, No. Hawaii does not have a sales tax. The GET is different from a sale
 
 ### What are the GET rates for businesses?
 
-![](/uploads/get.JPG){: width="1245" height="800"}
+![](/uploads/getsmaller.png){: width="5000" height="3000"}
+
+&nbsp;
 
 1 The 4% rate applies statewide except in a county where the tax rate includes a 0.25% or 0.5% county surcharge for a total tax rate of 4.25% or 4.5%. The county surcharge does not apply to activities taxed at the 0.5% rate (for example, selling wholesale goods) or activities sourced outside a county with a surcharge. (Note: This is not a complete list of tax rates and activities.)
 

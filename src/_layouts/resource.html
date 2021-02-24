@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section id="resource" class="mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="mt-3 mt-md-0">{{ page.title }}</h1>
+        <p><strong>{{ page.date | date: "%m/%d/%Y" }}</strong></p>
+        {% if page.hero_image %}
+        <img src="{{ page.hero_image }}" class="img-fluid" alt="{{ page.title }} image">
+        {% else %}
+        <img src="img/logo.svg" alt="HiAccounting Logo">
+        {% endif %}
+        <div class="editable mt-4 resource-body">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

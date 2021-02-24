@@ -1,0 +1,45 @@
+---
+layout: default
+title: Resources
+---
+<section class="hero" style="background-image: url(/img/resources-hero.jpg);">
+  <div class="hero-caption">
+    <h1 class="editable">Resources</h1>
+  </div>
+</section>
+<section id="resource-grid" class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="editable">COVID-19 Resource Center</h2>
+      <p class="editable">In these uncertain times, the HiAccounting team continues to be committed to serving as your trusted and valued partner
+      and delivering the quality service you expect from us. If you or your business need help navigating the changing tax,
+      accounting or payroll laws or deadlines, creating a strategic plan to move forward, addressing sudden staffing issues or
+      meeting other challenges, we are here to support you.</p>
+      <a href="/covid-19/" class="btn btn-primary editable mb-4">View COVID-19 Resources</a>
+    </div>
+  </div>
+  <hr class="my-5" />
+  <h2 class="editable mt-4">Tax & Accounting Resources</h2>
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for resource in site.resources reversed %}
+    <div class="col mb-4">
+      <div class="card border h-100">
+        <div class="bg-image aspect-16x9 mb-2"
+          style="background-image: url({{ resource.hero_image }})">
+        </div>
+        <div class="card-body">
+          <p class="mb-2"><small>{{ resource.date | date: "%m/%d/%Y" }}</small></p>
+          <h5 class="card-title"><a href="{% if resource.link_override  %}{{ resource.link_override }}{% else %}{{ resource.url }}{% endif %}">{{ resource.title }}</a></h5>
+          <p class="card-text">{{ resource.excerpt }}</p>
+        </div>
+        <div class="card-footer pl-3 pt-0 pb-3">
+          <a class="btn btn-primary"
+            href="{% if resource.link_override  %}{{ resource.link_override }}{% else %}{{ resource.url }}{% endif %}">Read
+            More</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<hr />

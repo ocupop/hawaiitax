@@ -1,0 +1,14 @@
+---
+layout: resource
+title: A Friendly Reminder
+date: 2021-02-22 16:00:00
+excerpt: >-
+  As a reminder, if you operate an S Corporation or Partnership your federal tax
+  return is due on March 15th. If we have not yet received your tax documents...
+hero_image: /uploads/TaARC.png
+link_override:
+---
+
+## ***Dear Client,***
+
+As a reminder, if you operate an **S Corporation** or **Partnership** your federal tax return is due on **March 15th**. If we have not yet received your tax documents, it may be necessary to apply for an extension of time to file.&nbsp; Please contact a member of our tax team so that we can determine the need to file an extension. *Our team can be reached at 808.529.9990\!*

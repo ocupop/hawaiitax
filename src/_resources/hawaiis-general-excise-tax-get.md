@@ -40,7 +40,9 @@ If you are not doing business in Hawaii, then you are not required to obtain a G
 
 ### What is the due date for filing an annual GET return?
 
-The due date is the 20th day of the fourth month following the close of the taxable year. For calendar year filers, the due date is April 20th of the following year.
+The due date is the 20th day of the fourth month following the close of the taxable year.
+
+For calendar year filers, the due date is April 20th of the following year.
 
 ### HiAccounting can make sure you have your bases covered. Call the Experts\!
 

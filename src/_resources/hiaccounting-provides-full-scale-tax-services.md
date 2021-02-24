@@ -28,6 +28,4 @@ While a computer software program may help, there’s no substitute for the qual
 
 ### Ready to talk about your tax needs?
 
-We provide a free initial meeting to learn more about you and your companies needs, to identify all tax savings opportunities.&nbsp;
-
-***Give our Tax Experts a call today at 808.529.9990\!***
+We provide a free call to learn more about you and your needs, to identify all tax savings opportunities. ***Call us today at 808.529.9990\!***

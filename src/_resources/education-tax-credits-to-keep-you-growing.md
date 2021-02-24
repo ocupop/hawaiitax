@@ -25,7 +25,7 @@ In its most basic form, the exclusion works like so:The AOTC is the sum of 100 p
 
 The lifetime learning credit is equal to 20 percent of the qualified tuition and related expenses paid by the taxpayer during the tax year on the first $10,000 of tuition.The allowable credit is reduced if the taxpayer has MAGI above certain thresholds. The phaseout begins for single taxpayers in 2018 when MAGI reaches $57,000 ($58,000 for 2019). The phaseout begins for married individuals filing jointly in 2018 when MAGI reaches $114,000 ($116,000 for 2019).
 
-## Qualified Tuition and Related Expenses \| What Expenses Can I Include?
+## Qualified Tuition and Related Expenses
 
 Qualified expenses generally include course materials such as books, supplies, or equipment only if required for enrollment. They do not include room and board, insurance, student health fees, transportation costs, or expenses that relate to any education that involves sports, games, or hobbies unless part of the student’s degree program.
 

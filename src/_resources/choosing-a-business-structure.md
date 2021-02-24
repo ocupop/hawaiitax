@@ -19,6 +19,4 @@ When determining which business form best suits the needs of the owners, many fa
 
 ### Let HiAccounting help you navigate this important decision\!
 
-Liability protection, tax reporting, and government compliance are all key pillars of your business foundation. HiAccounting can help make sure these pillars are strategically aligned with the needs of your business and its owners. With a solid foundation, you and your business will be able to focus on the operations of the industry you know inside-and-out. Leave the taxes to us\!
-
-***Give our Tax Experts a call today at 808.529.9990.***
+Liability protection, tax reporting, and government compliance are all key pillars of your business foundation. HiAccounting can help make sure these pillars are strategically aligned with the needs of your business and its owners. With a solid foundation, you and your business will be able to focus on the operations of the industry you know inside-and-out. Leave the taxes to us\!&nbsp;***Give our Tax Experts a call today at 808.529.9990.***

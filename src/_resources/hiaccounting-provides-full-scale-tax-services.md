@@ -9,7 +9,7 @@ hero_image: /uploads/Kauai.jpeg
 link_override:
 ---
 
-## Providing More Support to Keep You Growing
+### Providing More Support to Keep You Growing
 
 Tax law is a complicated affair that is ever-changing. Through rigorous professional training and routine participation in industry briefings, we sustain mastery of the current tax law, complex tax code, and new tax regulations. This discipline enables us to offer a full range of tax planning, preparation, and support services.
 
@@ -26,6 +26,6 @@ Tax law is a complicated affair that is ever-changing. Through rigorous professi
 
 While a computer software program may help, there’s no substitute for the quality of service and advice you’ll receive from an experienced tax professional.
 
-## Ready to talk about your tax needs?
+### Ready to talk about your tax needs?
 
 We provide a free initial meeting to learn more about you and your companies needs, to identify all tax savings opportunities.

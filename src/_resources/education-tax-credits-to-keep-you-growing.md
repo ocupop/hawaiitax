@@ -11,11 +11,7 @@ link_override:
 
 ### American Opportunity & Lifetime Learning Credits
 
-An individual may claim one of&nbsp;**two types**&nbsp;of educated-related tax credits, the&nbsp;*American Opportunity Tax Credit (AOTC)*&nbsp;or the&nbsp;*Lifetime Learning Credit*, for qualified tuition and related expenses paid or incurred during the tax year. The credits are elective and nonrefundable except that up to 40 percent of the AOTC may be refunded.
-
-![](/uploads/educationrectangle-2.jpeg){: width="2732" height="2048"}
-
-&nbsp;
+An individual may claim one of&nbsp;**two types**&nbsp;of educated-related tax credits, the&nbsp;*American Opportunity Tax Credit (AOTC)*&nbsp;or the&nbsp;*Lifetime Learning Credit*, for qualified tuition and related expenses paid or incurred during the tax year. The credits are elective and nonrefundable except that up to 40 percent of the AOTC may be refunded.![](/uploads/educationrectangle-2.jpeg){: width="2732" height="2048"}
 
 ### American Opportunity Tax Credit (AOTC)
 

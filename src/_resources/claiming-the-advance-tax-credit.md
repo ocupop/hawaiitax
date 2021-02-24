@@ -26,4 +26,4 @@ Recipients of these economic impact payments should have received an IRS Notice 
 
 **Click Here to Upload: &nbsp;**[https://secure.netlinksolution.com/nextgen/?firm=422455](https://secure.netlinksolution.com/nextgen/?firm=422455)
 
-**No one wants a follow-up letter from the IRS proposing changes to their tax return**, and this is clearly what we are hoping to avoid.&nbsp; Thank you in advance for your assistance with this matter.
+**No one wants a follow-up letter from the IRS proposing changes to their tax return**, and this is clearly what we are hoping to avoid.&nbsp; Thank you in advance for your assistance with this matter.&nbsp;***Need assistance? Call us today at 808.529.9990\!***

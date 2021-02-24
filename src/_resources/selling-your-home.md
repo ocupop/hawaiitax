@@ -14,6 +14,8 @@ link_override:
 
 Section 121 of the Internal Revenue Code has allowed homeowners of all ages to exclude gain on the sale of a "principal residence."
 
+![](/uploads/service-1.JPG){: width="1088" height="348"}
+
 **Provided three tests are met:**
 
 (1)&nbsp; You owned the home for two of the five years preceding the sale (the "ownership test")
@@ -23,6 +25,10 @@ Section 121 of the Internal Revenue Code has allowed homeowners of all ages to e
 (3)&nbsp; You haven't taken advantage of the Section 121 exclusion in the two years preceding the sale (the "once-every-two-years rule").
 
 Note:&nbsp; The maximum exclusion, as a general rule, cannot exceed *$250,000 for Single filers* and *$500,000 for Joint filers*.
+
+&nbsp;
+
+&nbsp;
 
 **How it works:**
 

@@ -12,9 +12,9 @@ link_override:
 
 ## Don’t Miss Out On This Tax Opportunity\!
 
-Section 121 of the Internal Revenue Code has allowed homeowners of all ages to exclude gain on the sale of a "principal residence."
+For the past 22 years and counting, Section 121 of the Internal Revenue Code has allowed homeowners of all ages to exclude gain on the sale of a "principal residence." In simplified terms:
 
-![](/uploads/3.jpeg){: width="5000" height="1000"}
+![](/uploads/photo1.jpeg){: width="5000" height="1000"}
 
 **Provided three tests are met:**
 

@@ -15,7 +15,7 @@ An individual may claim one of&nbsp;**two types**&nbsp;of educated-related tax c
 
 ### American Opportunity Tax Credit (AOTC)
 
-In its most basic form, the exclusion works like so:The AOTC is the sum of 100 percent of the first $2,000 of qualified tuition and related expenses paid by the taxpayer for an eligible student, plus 25 percent of the next $2,000 of qualified expenses paid. The credit amount phases out ratably for taxpayers with modified adjusted gross income (MAGI) between $80,000 and $90,000 ($160,000 and $180,000 for joint filers).
+In its most basic form, the exclusion works like so: The AOTC is the sum of 100 percent of the first $2,000 of qualified tuition and related expenses paid by the taxpayer for an eligible student, plus 25 percent of the next $2,000 of qualified expenses paid. The credit amount phases out ratably for taxpayers with modified adjusted gross income (MAGI) between $80,000 and $90,000 ($160,000 and $180,000 for joint filers).
 
 ### Lifetime Learning Credit
 

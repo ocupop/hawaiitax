@@ -24,8 +24,6 @@ In short, No. Hawaii does not have a sales tax. The GET is different from a sale
 
 *2*&nbsp; Except for insurance commissions, which are taxed at 0.15%.
 
-&nbsp;
-
 ### Are businesses required to charge GET?
 
 No. It is common for businesses to charge their customers GET by visibly passing it on, but it is not required by law. Businesses must pay GET whether or not they charge their customers for it. In certain circumstances, the law prohibits businesses from charging additional fees or amounts including GET.
@@ -47,3 +45,7 @@ The due date is the 20th day of the fourth month following the close of the taxa
 Hawaii’s General Excise Tax has its nuances and can be less straightforward than a business owner may hope, especially in sectors with additional technicalities. Our tax practice has many years of experience successfully navigating opportunities and mitigating liabilities for companies. With our experience, you can be assured that your business is fully compliant\!&nbsp;
 
 For more information you can view the State’s website at:&nbsp;[https://tax.hawaii.gov/geninfo/get/](https://tax.hawaii.gov/geninfo/get/)
+
+&nbsp;
+
+### &nbsp;

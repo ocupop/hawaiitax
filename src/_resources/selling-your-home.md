@@ -48,6 +48,6 @@ Our tax experts at Hawaii Accounting can help you navigate the sale of your prin
 
 ### **Ready to talk about your tax needs?**
 
-We provide a free initial meeting to learn more about you and your companies needs, to identify all tax savings opportunities. ***Call us today at 808.529.9990\!***
+We provide a free call to learn more about you and your needs, to identify all tax savings opportunities. ***Call us today at 808.529.9990\!***
 
 &nbsp;

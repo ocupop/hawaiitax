@@ -44,6 +44,6 @@ The due date is the 20th day of the fourth month following the close of the taxa
 
 ### HiAccounting can make sure you have your bases covered. Call the Experts\!
 
-Hawaii’s General Excise Tax has its nuances and can be less straightforward than a business owner may hope, especially in sectors with additional technicalities. Our tax practice has many years of experience successfully navigating opportunities and mitigating liabilities for companies. With our experience, you can be assured that your business is fully compliant\!&nbsp;
+Hawaii’s General Excise Tax has its nuances and can be less straightforward than a business owner may hope, especially in sectors with additional technicalities. Our tax practice has many years of experience successfully navigating opportunities and mitigating liabilities for companies. With our experience, you can be assured that your business is fully compliant\!&nbsp;***Call us today at 808.529.9990\!***
 
 For more information you can view the State’s website at:&nbsp;[https://tax.hawaii.gov/geninfo/get/](https://tax.hawaii.gov/geninfo/get/)

@@ -1,6 +1,6 @@
 ---
 layout: staff
-name:
+name: 'Lorna Loebl, CPA'
 job_title: Tax Manager
 bio_html: >-
   <p><strong>Hometown: </strong>Honolulu,

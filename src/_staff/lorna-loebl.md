@@ -11,7 +11,7 @@ bio_html: >-
   Office of Hawaiian Affairs, PricewaterhouseCoopers LLP and Grant Thorton LLP.
   Lorna is a Certified Public Accountant (CPA).</p><p><strong>Fun
   Fact:</strong>&nbsp;Lorna enjoys paddling and even paddled in the Na Wahine O
-  Ke Kai! She also enjoys going on walks with her dog.</p>
+  Ke Kai!</p>
 email: lorna@hi-accounting.com
 phone: 808-529-9990
 linkedin:

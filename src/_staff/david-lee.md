@@ -10,7 +10,7 @@ bio_html: >-
   role, David will assist the accounting team with various financial
   functions.&nbsp;</p><p><strong>Fun Fact:</strong>&nbsp;David loves to both
   play and watch soccer! And he is thrilled to begin his accounting career at
-  HiAccounting.</p><p>&nbsp; &nbsp;&nbsp;</p>
+  HiAccounting.</p>
 email: david@hi-accounting.com
 phone: 808-529-9990
 linkedin:

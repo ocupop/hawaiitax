@@ -7,9 +7,9 @@ bio_html: >-
   Hawaii</p><p><strong>Education:</strong>&nbsp;University of San Francisco, BA
   in Accounting</p><p><strong>Experience:&nbsp;</strong>Most recently, Lorna
   worked with a local CPA firm on tax preparation and review for individual and
-  businesses. She has also worked with the City &amp; County of Honolulu, Office
-  of Hawaiian Affairs, PricewaterhouseCoopers LLP and Grant Thorton LLP. Lorna
-  is a Certified Public Accountant (CPA).</p><p><strong>Fun
+  businesses. Lorna has also worked with the City &amp; County of Honolulu,
+  Office of Hawaiian Affairs, PricewaterhouseCoopers LLP and Grant Thorton LLP.
+  Lorna is a Certified Public Accountant (CPA).</p><p><strong>Fun
   Fact:</strong>&nbsp;Lorna enjoys paddling and even paddled in the Na Wahine O
   Ke Kai! She also enjoys going on walks with her dog.</p>
 email: lorna@hi-accounting.com

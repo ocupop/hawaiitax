@@ -8,6 +8,7 @@ excerpt: >-
 hero_image: /uploads/File_0005.jpeg
 link_override:
 ---
+
 ### *Dear Client,*
 
 **Individual, C Corporation and Trust/Estate&nbsp;**federal tax returns are due on&nbsp;**April 15th**.&nbsp; If we do not receive your tax documents by&nbsp;**March 18th**, it may become necessary to apply for an extension of time to file.&nbsp; Note that an extension of time to file is not an extension of time to pay.&nbsp; All taxes owed are due by the original filing due date.&nbsp;
@@ -15,9 +16,3 @@ link_override:
 Note that we may recommend an extension to file for those impacted by the new COVID-19 tax laws and relief as we await additional guidance from the state of Hawaii. &nbsp;Timing of Hawaii’s announcement may impact the timing of your tax return filings.
 
 Please contact a member of our tax team at&nbsp;***808\.529.9990*&nbsp;**so that we can discuss your options.
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;

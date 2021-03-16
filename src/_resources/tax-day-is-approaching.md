@@ -5,7 +5,7 @@ date: 2021-03-15 15:08:00
 excerpt: >-
   Individual, C Corporation and Trust/Estate federal tax returns are due on
   April 15th.  If we do not receive your tax documents by March 18th...
-hero_image: /uploads/File_0005.jpeg
+hero_image: /uploads/computer1.png
 link_override:
 ---
 

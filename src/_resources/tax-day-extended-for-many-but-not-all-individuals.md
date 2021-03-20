@@ -2,7 +2,7 @@
 layout: resource
 title: 'Tax Day Extended for Many, But Not All Individuals'
 date: 2021-03-19 15:23:00
-excerpt: "The\_Treasury Department\_and\_Internal Revenue Service (IRS)\_announced Wednesday, March 17th that the federal income tax filing due date for individuals for the\_2020 tax year..."
+excerpt: "The\_Treasury Department\_and\_Internal Revenue Service (IRS)\_announced Wednesday, March 17th..."
 hero_image: /uploads/file-000-17.jpeg
 link_override:
 ---

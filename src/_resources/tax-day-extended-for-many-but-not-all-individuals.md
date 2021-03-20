@@ -2,9 +2,7 @@
 layout: resource
 title: 'Tax Day Extended for Many, But Not All Individuals'
 date: 2021-03-19 15:23:00
-excerpt: >-
-  Individual, C Corporation and Trust/Estate federal tax returns are due on
-  April 15th.  If we do not receive your tax documents by March 18th...
+excerpt: "The\_Treasury Department\_and\_Internal Revenue Service (IRS)\_announced Wednesday, March 17th that the federal income tax filing due date for individuals for the\_2020 tax year..."
 hero_image: /uploads/file-000-17.jpeg
 link_override:
 ---

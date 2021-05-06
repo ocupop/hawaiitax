@@ -15,8 +15,6 @@ Subject matter experts at HiAccounting are committed to serving nonprofit organi
 
 ***![](/uploads/img-2078.JPG){: width="1100" height="175"}***
 
-&nbsp;
-
 #### ***Services Include:***
 
 * Accounts Payable&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;

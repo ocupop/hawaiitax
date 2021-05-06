@@ -35,7 +35,7 @@ Subject matter experts at HiAccounting are committed to serving nonprofit organi
 
 Since HiAccounting’s inception in 2009, our leadership and team has been dedicated to giving back to the community in which we live and work. Our investment into our community is in the form of:
 
-![](/uploads/screen-shot-2021-05-06-at-10-09-49-pm.png){: width="1096" height="232"}
+![](/uploads/img-2079.JPG){: width="1100" height="175"}
 
 Over the years, HiAccounting has given back thousands of hours of volunteer service and we will continue to be of service to our community.
 

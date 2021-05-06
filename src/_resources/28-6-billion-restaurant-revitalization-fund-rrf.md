@@ -4,7 +4,7 @@ title: $28.6 Billion Restaurant Revitalization Fund (RRF)
 date: 2021-04-30 15:23:00
 excerpt: >-
   The Restaurant Revitalization Fund (RRF) grant program will go live on Monday,
-  May 3...
+  May 3, at 12 p.m. Eastern...
 hero_image: /uploads/RRFProgram.PNG
 link_override:
 ---

@@ -5,7 +5,7 @@ date: 2021-05-06 10:15:00
 excerpt: >-
   Subject matter experts at HiAccounting are committed to serving nonprofit
   organizations in our local community...
-hero_image: /uploads/UsePhoto.JPG
+hero_image: /uploads/Sunsetphoto.JPG
 link_override:
 ---
 

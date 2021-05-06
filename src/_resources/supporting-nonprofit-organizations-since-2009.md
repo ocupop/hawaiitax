@@ -3,9 +3,10 @@ layout: resource
 title: Supporting Nonprofit Organizations Since 2009
 date: 2021-05-06 10:15:00
 excerpt: $28.6 Billion Restaurant Revitalization Fund (RRF)
-hero_image: /uploads/RRFProgram.PNG
+hero_image:
 link_override:
 ---
+
 Subject matter experts at HiAccounting are committed to serving nonprofit organizations in our local community. Our team understands the importance of maintaining oversight of nonprofit financial operations and assets. Our ohana is prepared to be the trusted third party that adds an extra layer of oversight for tax-exempt organizations of all types.
 
 ***HiAccounting Nonprofit Experts Work With***

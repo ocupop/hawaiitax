@@ -9,11 +9,11 @@ link_override:
 
 Subject matter experts at HiAccounting are committed to serving nonprofit organizations in our local community. Our team understands the importance of maintaining oversight of nonprofit financial operations and assets. Our ohana is prepared to be the trusted third party that adds an extra layer of oversight for tax-exempt organizations of all types.
 
-***HiAccounting Nonprofit Experts Work With***
+#### ***HiAccounting Nonprofit Experts Work With***
 
 ![](/uploads/screen-shot-2021-05-06-at-10-06-42-pm.png){: width="1115" height="188"}
 
-***Services Include:***
+#### ***Services Include:***
 
 * Accounts Payable&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
 * Accounts Receivable
@@ -27,7 +27,7 @@ Subject matter experts at HiAccounting are committed to serving nonprofit organi
 * IRS and State Audit Representation
 * Unrelated Business Taxable Income (UBTI)
 
-***HiAccounting Gives Back:***
+#### ***HiAccounting Gives Back:***
 
 ![](/uploads/hfb.jpeg){: width="1080" height="608"}
 
@@ -37,4 +37,4 @@ Since HiAccounting’s inception in 2009, our leadership and team has been dedic
 
 Over the years, HiAccounting has given back thousands of hours of volunteer service and we will continue to be of service to our community.
 
-Liability protection, tax reporting, and government compliance are all key pillars of your organization's foundation. HiAccounting can help make sure these pillars are strategically aligned with the needs of your stakeholders. Give our experts a call at&nbsp;**808\.529.9990.**
+Liability protection, tax reporting, and government compliance are all key pillars of your organization's foundation. HiAccounting can help make sure these pillars are strategically aligned with the needs of your stakeholders. Give our experts a call at&nbsp;***808\.529.9990*.**

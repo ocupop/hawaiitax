@@ -2,7 +2,9 @@
 layout: resource
 title: Supporting Nonprofit Organizations Since 2009
 date: 2021-05-06 10:15:00
-excerpt: $28.6 Billion Restaurant Revitalization Fund (RRF)
+excerpt: >-
+  Subject matter experts at HiAccounting are committed to serving nonprofit
+  organizations in our local community...
 hero_image: /uploads/UsePhoto.JPG
 link_override:
 ---

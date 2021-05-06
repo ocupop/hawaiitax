@@ -13,7 +13,7 @@ Subject matter experts at HiAccounting are committed to serving nonprofit organi
 
 #### ***HiAccounting Nonprofit Experts Work With***
 
-***![](/uploads/group1.JPG){: width="800" height="125"}***
+***![](/uploads/img-2078.JPG){: width="1100" height="175"}***
 
 &nbsp;
 

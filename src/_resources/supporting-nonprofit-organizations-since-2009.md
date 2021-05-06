@@ -37,4 +37,4 @@ Since HiAccounting’s inception in 2009, our leadership and team has been dedic
 
 Over the years, HiAccounting has given back thousands of hours of volunteer service and we will continue to be of service to our community.
 
-Liability protection, tax reporting, and government compliance are all key pillars of your organization's foundation. HiAccounting can help make sure these pillars are strategically aligned with the needs of your stakeholders. Give our experts a call at&nbsp;***808\.529.9990*.**
+Liability protection, tax reporting, and government compliance are all key pillars of your organization's foundation. HiAccounting can help make sure these pillars are strategically aligned with the needs of your stakeholders. Give our experts a call at&nbsp;**808\.529.9990.**

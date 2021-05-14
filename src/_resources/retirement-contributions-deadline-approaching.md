@@ -9,9 +9,11 @@ hero_image: /uploads/IMG_2507.JPG
 link_override:
 ---
 
-***Overview***
+#### ***Overview***
 
-Tax Day, typically&nbsp;*April 15th*&nbsp;was pushed back to&nbsp;*May 17th*. This means there is still time to make your 2020 retirement contributions\! Here are the amounts that individuals are eligible to contribute to their&nbsp;**Individual Retirement Account**&nbsp;(**IRA**) before the&nbsp;*May 17th*&nbsp;contribution deadline.***IRA Contribution Limits***
+Tax Day, typically&nbsp;*April 15th*&nbsp;was pushed back to&nbsp;*May 17th*. This means there is still time to make your 2020 retirement contributions\! Here are the amounts that individuals are eligible to contribute to their&nbsp;**Individual Retirement Account**&nbsp;(**IRA**) before the&nbsp;*May 17th*&nbsp;contribution deadline.
+
+#### ***IRA Contribution Limits***
 
 For&nbsp;**tax year 2020**, the IRS published the following limits on IRAs:
 

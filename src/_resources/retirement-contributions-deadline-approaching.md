@@ -4,7 +4,7 @@ title: Retirement Contributions Deadline Approaching
 date: 2021-05-14 10:01:00
 excerpt: >-
   Tax Day, typically April 15th was pushed back to May 17th. This means there is
-  still time to make your 2020 retirement contributions...
+  still time to make your 2020 retirement...
 hero_image: /uploads/IMG_2507.JPG
 link_override:
 ---

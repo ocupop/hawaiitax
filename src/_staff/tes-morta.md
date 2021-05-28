@@ -9,11 +9,12 @@ bio_html: >-
   supporting our tax and accounting teams with various financial functions. With
   experience in the financial services industry, Tes will be working with much
   of our HiAccounting team. In her free time, Tes loves to travel, hiking and
-  paddle board!</p><p><strong>Fun Fact:</strong>&nbsp;Tes is also a former
-  member of Filipino Chambers of Commerce.</p>
+  paddle board!</p><p><strong>Fun Fact:</strong>&nbsp;Tes is a former member of
+  Filipino Chambers of Commerce.</p>
 email: tes@hi-accounting.com
 phone: 808-529-9990
 linkedin:
 vcard: /downloads/Tes-Morta.vcf
 profile_image: /uploads/Tes-300x300.JPG
 ---
+

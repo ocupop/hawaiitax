@@ -1,13 +1,14 @@
 ---
 layout: resource
 title: Monthly Child Tax Credits - IRS Payments Start July 15th
-date: 2021-02-04 00:00:00
+date: 2021-06-18 15:02:00
 excerpt: >-
-  The CARES Act, which was passed into law to help stimulate the economy,
-  authorized 2 rounds of stimulus payments...
-hero_image: /uploads/Thumbnail.png
+  The Internal Revenue Service has started sending letters to more than 36
+  million American families...
+hero_image: /uploads/IMG_4847.PNG
 link_override:
 ---
+
 ### ​​​​​​**Overview**
 
 The Internal Revenue Service has started sending letters to more than 36 million American families who, based on tax returns filed with the agency, may be eligible to receive monthly&nbsp;**Child Tax Credit&nbsp;**payments starting in July.

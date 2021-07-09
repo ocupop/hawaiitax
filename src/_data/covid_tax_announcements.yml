@@ -1,4 +1,9 @@
 ---
+- title: 'Loan Forgiveness Application - Form 3508 '
+  announcement_url: >-
+    https://www.sba.gov/sites/default/files/2021-05/PPP%20--%20Forgiveness%20Application%20and%20Instructions%20--%203508%20%285.24.2021%29-508.pdf
+  announcement_date: 2021-07-09 00:00:00
+  announcement_category: Additional Guidance
 - title: >-
     Business Loan Program Temporary Changes; Paycheck Protection Program Second
     Draw Loans
@@ -10,7 +15,7 @@
   announcement_url: /downloads/Expanded-Oahu-Small-Business-Grants.pdf
   announcement_date: 2020-09-17 00:00:00
   announcement_category: Additional Guidance
-- title: 'Paycheck Protection Program (PPP) Report through July 17, 2020'
+- title: Paycheck Protection Program (PPP) Report through July 17, 2020
   announcement_url: >-
     https://www.sba.gov/sites/default/files/2020-07/PPP_Report_Public%20-%202020-07-19-508.pdf
   announcement_date: 2020-07-21 00:00:00
@@ -23,10 +28,10 @@
   announcement_date: 2020-07-07 00:00:00
   announcement_category: CARES
 - title: Lenders Serving SBA’s Hawaii District
-  announcement_url: 'https://www.sba.gov/sites/default/files/articles/HI%20Lenders%2010-10.pdf'
+  announcement_url: https://www.sba.gov/sites/default/files/articles/HI%20Lenders%2010-10.pdf
   announcement_date: 2020-07-06 00:00:00
   announcement_category: CARES
-- title: 'Paycheck Protection Program (PPP) Report through June 27, 2020'
+- title: Paycheck Protection Program (PPP) Report through June 27, 2020
   announcement_url: >-
     https://www.sba.gov/sites/default/files/2020-06/PPP_Report_Public_200627%20FInal%20%28002%29.pdf
   announcement_date: 2020-07-06 00:00:00
@@ -81,8 +86,8 @@
     https://home.treasury.gov/system/files/136/PPP-Loan-Forgiveness-Application-Form-EZ-Instructions.pdf
   announcement_date: 2020-06-17 00:00:00
   announcement_category: CARES
-- title: 'Paycheck Protection Program Report through June 12, 2020'
-  announcement_url: 'https://www.sba.gov/sites/default/files/2020-06/PPP_Report_20200612-508.pdf'
+- title: Paycheck Protection Program Report through June 12, 2020
+  announcement_url: https://www.sba.gov/sites/default/files/2020-06/PPP_Report_20200612-508.pdf
   announcement_date: 2020-06-15 00:00:00
   announcement_category: CARES
 - title: COVID-19 EIDL Loans Report 6-12-20
@@ -95,20 +100,20 @@
     https://www.sba.gov/sites/default/files/2020-06/EIDL%20COVID-19%20Advance%206.12.20-508.pdf
   announcement_date: 2020-06-15 00:00:00
   announcement_category: CARES
-- title: 'SBA Paycheck Protection Program (PPP) Forgiveness - [05.27.20 - Slideshow]'
-  announcement_url: 'https://www.linkedin.com/feed/update/urn:li:activity:6671520471730786304'
+- title: SBA Paycheck Protection Program (PPP) Forgiveness - [05.27.20 - Slideshow]
+  announcement_url: https://www.linkedin.com/feed/update/urn:li:activity:6671520471730786304
   announcement_date: 2020-05-27 00:00:00
   announcement_category: CARES
-- title: 'Paycheck Protection Program (PPP) Report - [Approvals through 05/23/20]'
-  announcement_url: 'https://www.sba.gov/sites/default/files/2020-04/PPP%20Deck%20copy.pdf'
+- title: Paycheck Protection Program (PPP) Report - [Approvals through 05/23/20]
+  announcement_url: https://www.sba.gov/sites/default/files/2020-04/PPP%20Deck%20copy.pdf
   announcement_date: 2020-05-27 00:00:00
   announcement_category: CARES
-- title: 'SBA Disaster Assistance Update Nationwide EIDL Loans - [May 23, 2020]'
+- title: SBA Disaster Assistance Update Nationwide EIDL Loans - [May 23, 2020]
   announcement_url: >-
     https://www.sba.gov/sites/default/files/2020-05/EIDL%20COVID-19%20Loan%205.23.2020.pdf
   announcement_date: 2020-05-27 00:00:00
   announcement_category: CARES
-- title: 'SBA Disaster Assistance Update EIDL Advance - [May 8, 2020]'
+- title: SBA Disaster Assistance Update EIDL Advance - [May 8, 2020]
   announcement_url: >-
     https://www.sba.gov/sites/default/files/2020-05/EIDL%20COVID-19%20Advance%205.8.20_0.pdf
   announcement_date: 2020-05-27 00:00:00
@@ -119,13 +124,13 @@
   announcement_date: 2020-05-26 00:00:00
   announcement_category: CARES
 - title: 'Paycheck Protection Program (PPP) Report: Second Round'
-  announcement_url: 'https://home.treasury.gov/system/files/136/PPP2-Data-05012020.pdf'
+  announcement_url: https://home.treasury.gov/system/files/136/PPP2-Data-05012020.pdf
   announcement_date: 2020-05-24 00:00:00
   announcement_category: CARES
 - title: >-
     Hawaii Tax Treatment of Various Federal COVID-19 Relief Programs and
     Payments - (Information Release No. 2020-02)
-  announcement_url: 'http://files.hawaii.gov/tax/legal/tir/tir20-02_rev.pdf'
+  announcement_url: http://files.hawaii.gov/tax/legal/tir/tir20-02_rev.pdf
   announcement_date: 2020-05-24 00:00:00
   announcement_category: CARES
 - title: IFR Forgiveness - SBA Loan Review Procedures (FINAL)
@@ -211,7 +216,7 @@
   announcement_date: 2020-04-23 00:00:00
   announcement_category: Additional Guidance
 - title: 'Virtual Interview on COVID-19: Matt Delaney, President & CEO, HiGroup'
-  announcement_url: 'https://www.hawaiibusiness.com/covid-19-hihealthcare/'
+  announcement_url: https://www.hawaiibusiness.com/covid-19-hihealthcare/
   announcement_date: 2020-04-22 00:00:00
   announcement_category: Additional Guidance
 - title: AN INDEPENDENT CONTRACTOR’S GUIDE TO CARES ACT RELIEF
@@ -220,15 +225,15 @@
   announcement_date: 2020-04-18 00:00:00
   announcement_category: CARES
 - title: Paycheck Protection Program (PPP) Report
-  announcement_url: 'https://www.sba.gov/sites/default/files/2020-05/PPP__200523.pdf'
+  announcement_url: https://www.sba.gov/sites/default/files/2020-05/PPP__200523.pdf
   announcement_date: 2020-05-27 00:00:00
   announcement_category: CARES
 - title: President Announces 3 Phase Plan to Re-Open Economy
-  announcement_url: 'https://www.whitehouse.gov/openingamerica/'
+  announcement_url: https://www.whitehouse.gov/openingamerica/
   announcement_date: 2020-04-17 00:00:00
   announcement_category: Additional Guidance
 - title: Unemployment URL (for filing claims and reporting)
-  announcement_url: 'https://huiclaims.hawaii.gov/#/'
+  announcement_url: https://huiclaims.hawaii.gov/#/
   announcement_date: 2020-04-14 00:00:00
   announcement_category: Additional Guidance
 - title: 'Chamber of Commerce of the United States of America: CARES Act Caps'
@@ -237,7 +242,7 @@
   announcement_date: 2020-04-08 00:00:00
   announcement_category: CARES
 - title: Comparing SBA COVID-19 Loans
-  announcement_url: 'https://www.cochawaii.org/wp-content/uploads/Comparing-COVID19-SBA-Loans.pdf'
+  announcement_url: https://www.cochawaii.org/wp-content/uploads/Comparing-COVID19-SBA-Loans.pdf
   announcement_date: 2020-04-08 00:00:00
   announcement_category: CARES
 - title: CORONAVIRUS PAID LEAVE PROGRAMS Employer Guide
@@ -260,11 +265,11 @@
 - title: >-
     Small Business Administration: "Business Loan Program Temporary Changes;
     Paycheck Protection Program"
-  announcement_url: 'https://home.treasury.gov/system/files/136/PPP--IFRN%20FINAL.pdf'
+  announcement_url: https://home.treasury.gov/system/files/136/PPP--IFRN%20FINAL.pdf
   announcement_date: 2020-04-03 00:00:00
   announcement_category: CARES
 - title: 'US Dept of Labor – FFCRA: Questions & Answers'
-  announcement_url: 'https://www.dol.gov/agencies/whd/pandemic/ffcra-questions#58'
+  announcement_url: https://www.dol.gov/agencies/whd/pandemic/ffcra-questions#58
   announcement_date: 2020-04-02 00:00:00
   announcement_category: Families First
 - title: Paycheck Protection Program (PPP) - Application Form
@@ -285,7 +290,7 @@
 - title: >-
     SBA Economic Injury Disaster Loans (EIDL) and Grant: Click Link for
     Application
-  announcement_url: 'https://covid19relief.sba.gov/#/'
+  announcement_url: https://covid19relief.sba.gov/#/
   announcement_date: 2020-03-31 00:00:00
   announcement_category: CARES
 - title: The Small Business Owner’s Guide to the CARES Act
@@ -306,11 +311,11 @@
   announcement_date: 2020-03-29 00:00:00
   announcement_category: CARES
 - title: Economic Injury Disaster Loan Assistance
-  announcement_url: 'https://www.sba.gov/disaster/apply-for-disaster-loan/index.html'
+  announcement_url: https://www.sba.gov/disaster/apply-for-disaster-loan/index.html
   announcement_date: 2020-03-27 00:00:00
   announcement_category: CARES
 - title: APS Families First Coronavirus Response Act
-  announcement_url: 'https://www.apspayroll.com/blog/families-first-coronavirus-response-act/'
+  announcement_url: https://www.apspayroll.com/blog/families-first-coronavirus-response-act/
   announcement_date: 2020-03-24 00:00:00
   announcement_category: Families First
 - title: >-
@@ -323,7 +328,7 @@
 - title: >-
     Relief for Taxpayers Affected by Ongoing Coronavirus Disease 2019 Pandemic
     (Notice 2020-17)
-  announcement_url: 'https://www.irs.gov/pub/irs-drop/n-20-17.pdf'
+  announcement_url: https://www.irs.gov/pub/irs-drop/n-20-17.pdf
   announcement_date: 2020-03-20 00:00:00
   announcement_category: CARES
 - title: >-

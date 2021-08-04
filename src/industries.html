@@ -6,7 +6,7 @@ testimonial:
   quote: 'We value our relationship with the team at HiAccounting. Over the last 7 years, HiAccounting has provided a steady service to our real estate venture, travel operating company and our brand marketing business. They have a depth of knowledge in many industries that has been a huge benefit for us to use HiAccounting for our various businesses over the year.'
   author: 'Thomas Jaenichen, President – SWAT Real Estate LLC, Summer Winter Action Tours, LLC & SWAT Marketing LLC'
 ---
-<section class="hero" style="background-image: url(/img/about/about-value-header.jpg);">
+<section class="hero" style="background-image: url(/uploads/industries_hero.jpg);">
   <div class="hero-caption">
     <h1 class="editable">Industries</h1>
   </div>
@@ -23,21 +23,25 @@ testimonial:
           craft of accounting and tax by industry with the right team, we have the ability to provide unique solutions
           with real
           life experience.</p>
-        <ul class="col2">
-          <li>Construction</li>
-          <li>e-commerce</li>
-          <li>Education</li>
-          <li>Financial Services</li>
-          <li>Government & Utilities</li>
-          <li>Healthcare</li>
-          <li>Hospitality</li>
-          <li>Manufacturing & Distribution</li>
-          <li>Nonprofit</li>
-          <li>Professional Services</li>
-          <li>Real Estate</li>
-          <li>Restaurants</li>
-          <li>Retail & Wholesale</li>
-        </ul>
+        <h4 class="mt-5 mb-4">Industries</h4>  
+        <div class="row industry-grid">
+          {% for object in site.data.industries %}
+          <div class="col-md-6 col-lg-4 col-12">
+            <div class="card-deck">
+              <div class="card mb-5 border">
+                <img class="card-img-top" src="{{ object.hero }}" alt="Card image cap">
+                <div class="card-body mb-3">
+                  <h3 class="card-title">{{ object.title }}</h3>
+                  <p class="card-text">{{ object.description}}</p>
+                  {% if object.link_slug %}
+                  <a class="btn btn-primary" href="/{{ object.link_slug }}">Read More</a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
         <hr>
         <h4>Choose HiAccounting</h4>
         <p>HiAccounting has worked with hundreds of companies covering a wide variety of industries, our professionals

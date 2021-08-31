@@ -15,10 +15,9 @@ bio_html: >-
   with her husband. She continued her career as a Tax Accountant for a small
   Estate and Trust company in Honolulu. Justine now is a Senior Accountant with
   HiAccounting located in our Maui office. Justine is a Certified Sage Intacct
-  Implementation Specialist and is currently studying for the CMA exam to
-  broaden her accounting expertise.</p><p><strong>Fun Fact:</strong> Justine's
-  native language is French. She ran track in college. In her time off, you can
-  find her on the beach, reading a book, snorkeling or hiking somewhere in the
+  Implementation Specialist.</p><p><strong>Fun Fact:</strong> Justine's native
+  language is French. She ran track in college. In her time off, you can find
+  her on the beach, reading a book, snorkeling or hiking somewhere in the
   mountains.</p>
 email: justine@hi-accounting.com
 phone: 808-529-9990

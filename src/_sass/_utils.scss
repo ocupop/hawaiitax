@@ -454,6 +454,9 @@ $border-width: 1px;
   &.aspect-16x9 {
     padding-top: 56.25%;
   }
+  &.aspect-section {
+    height: auto;
+  }
   // TODO: Confirm or refactor these modifier classes
   &.aspect-multilayer,
   &.aspect-hero {

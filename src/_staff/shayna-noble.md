@@ -7,7 +7,7 @@ bio_html: >-
   </strong>UH-West Oahu, Bachelors in Business Administration with a
   concentration in Accounting</p><p><strong>Experience:</strong>&nbsp;Prior to
   joining HiAccounting, Shayna worked at a local CPA firm for almost twelve
-  years. Shayna recently earned her Enrolled Agent's license and has tax
+  years. Shayna has recently earned her Enrolled Agent's license and has tax
   experience working with clients in various industries including food service,
   general contracting and retail.</p><p><strong>Fun Fact:</strong> Shayna enjoys
   spending time at the beach with family and friends.</p>

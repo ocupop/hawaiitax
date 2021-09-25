@@ -8,8 +8,8 @@ bio_html: >-
   concentration in Accounting</p><p><strong>Experience:</strong> Prior to
   joining HiAccounting, Shayna worked at a local CPA firm for almost twelve
   years. Shayna has tax experience working with clients in various industries
-  including food service, general contracting and retail.
-  &nbsp;</p><p><strong>Fun Fact:</strong> Shayna enjoys spending time at the
+  including food service, general contracting and retail.&nbsp; Shayna
+  is&nbsp;</p><p><strong>Fun Fact:</strong> Shayna enjoys spending time at the
   beach with family and friends.</p>
 email: shayna@hi-accounting.com
 phone: 808-529-9990

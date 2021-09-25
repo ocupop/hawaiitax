@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: Shayna Noble
+name: Shayna Noble, EA
 job_title: Senior Tax Accountant
 bio_html: >-
   <p><strong>Hometown: </strong>Waipahu, Hawaii</p><p><strong>Education:

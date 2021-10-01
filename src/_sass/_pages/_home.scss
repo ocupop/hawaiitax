@@ -11,6 +11,26 @@
   }
 }
 
+#carouselExampleIndicators {
+  .hero-caption {
+    text-align: left;
+    h1 {
+      font-size: 40px;
+      line-height: 1;
+      margin-bottom: 20px;
+      min-height: 0;
+      height: auto;
+    }
+  }
+
+  .carousel-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+
 // new styles for announcement and video modal on homepage
 #announcement {
   h3 { 

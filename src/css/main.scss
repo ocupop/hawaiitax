@@ -363,6 +363,20 @@
       }
     }
   }
+  #carouselExampleIndicators {
+  .hero-caption {
+    text-align: center;
+    h1 {
+      font-size: 30px;
+      line-height: 1;
+      margin-bottom: 10px;
+      min-height: 0;
+      height: auto;
+    }
+  }
+}
+
+
   #job-search {
     input[type="checkbox"] {
       margin: 10px 5px 0 20px;

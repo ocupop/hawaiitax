@@ -49,3 +49,62 @@
   }
   
 }
+
+#press {
+  .card {
+  margin-bottom: 20px;
+  border-radius: 0;
+  border: 1px solid $gray-100;
+  .card-header {
+    padding: 20px;
+    text-align: center;
+    background-image: url(/img/value/size-header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-bottom: 0;
+    }
+  }
+  .card-image {
+    height: 0;
+    width: 100%;
+    padding-top: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .card-body {
+    padding: 20px;
+
+    .card-date {
+      font-size: 12px;
+    }
+
+    ul {
+      margin-left: 0;
+    }
+    li {
+      list-style-type: none;
+      margin-bottom: 10px;
+    }
+  }
+  .card-footer {
+    padding: 10px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    .button {
+      display: block;
+      width: 100%;
+      margin-bottom: 0;
+    }
+  }
+  
+}
+}

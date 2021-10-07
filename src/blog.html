@@ -6,7 +6,7 @@ title: Press
 <section id="press">
   <div class="container">
     <div class="row">
-      {% assign sorted = site.press | sort: 'date' | reverse %}
+      {% assign sorted = site.posts | sort: 'date' | reverse %}
       {% for article in sorted %}
       <div class="col-md-6 col-lg-4 col-12 mb-5">
         <div class="card h-100">

@@ -13,6 +13,7 @@
       img {
         width: 250px;
         max-width: none;
+        
       }
     }
   }
@@ -112,7 +113,7 @@
           .post-featured-image {
             img {
               width: auto;
-              max-width: none;
+              max-width: 640px;
             }
           }
           .post-pdf, .post-content {

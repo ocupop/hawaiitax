@@ -3,8 +3,8 @@ layout: post
 title: Culture | Our Work Ohana at The Hawaii Group!
 date: 2021-04-21 00:00:00
 summary:
-featured_image: /uploads/
-featured_video: 'eBJb4f6b2NY'
+featured_image: /uploads/our_work_ohana_at_hawaii_group.png
+featured_video: 'LqV_aLmxtkw'
 pdf_document:
 link:
 ---

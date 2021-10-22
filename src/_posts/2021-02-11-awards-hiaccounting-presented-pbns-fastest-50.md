@@ -3,7 +3,7 @@ layout: post
 title: Awards | HiAccounting Presented PBN’s “Fastest 50”
 date: 2021-02-11 00:00:00
 summary:
-featured_image: /uploads/
+featured_image: /uploads/Awards_HiAccounting_presented_pbns_fastest_50.png
 featured_video: 'eBJb4f6b2NY'
 pdf_document:
 link:

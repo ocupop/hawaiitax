@@ -3,7 +3,7 @@ layout: post
 title: Kokua | A Volunteer Day with Mālama Maunalua
 date: 2019-07-15 00:00:00
 summary:
-featured_image: /uploads/
+featured_image: /uploads/Volunteer_Day_with_malama_maunalua.png
 featured_video: 'KFONVk5038I'
 pdf_document:
 link:

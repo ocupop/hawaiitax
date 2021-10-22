@@ -3,7 +3,7 @@ layout: post
 title: Kupono | A peek Inside the Office of HiAccounting + HiHealthCare (Divisions of The Hawaii Group)
 date: 2020-06-29 00:00:00
 summary:
-featured_image: /uploads/
+featured_image: /uploads/Peek_Inside_HiAccounting_office.png
 featured_video: 'AkRig7cM2pI'
 pdf_document:
 link:

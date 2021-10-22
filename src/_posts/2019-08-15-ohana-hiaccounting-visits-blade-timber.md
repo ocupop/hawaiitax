@@ -3,7 +3,7 @@ layout: post
 title: Ohana | HiAccounting Visits Blade & Timber!
 date: 2019-08-15 00:00:00
 summary:
-featured_image: /uploads/
+featured_image: /uploads/HiAccounting_visits_blade_and_timber.png
 featured_video: 'Byk2Ap504CM'
 pdf_document:
 link:

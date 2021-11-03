@@ -6,7 +6,7 @@ summary:
 categories:
   - hi-accounting
   - hi-group
-featured_image: /uploads/HiAccounting-Expands-to-Maui-Press-Release-01.jpg
+featured_image: /uploads/HiAccounting-Press-Images-01.jpeg
 pdf_document:
 link:
 ---

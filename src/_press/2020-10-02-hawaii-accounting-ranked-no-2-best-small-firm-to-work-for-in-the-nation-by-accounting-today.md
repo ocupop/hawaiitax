@@ -8,7 +8,7 @@ summary: >-
 categories:
   - hi-group
   - hi-accounting
-featured_image: /uploads/HiAccounting-Press-Release-Image-01.jpg
+featured_image: /uploads/HiAccounting-Press-Images-02.jpeg
 pdf_document:
 link:
 ---

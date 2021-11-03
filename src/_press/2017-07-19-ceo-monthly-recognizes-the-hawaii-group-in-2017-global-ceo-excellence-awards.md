@@ -9,7 +9,7 @@ summary: >-
 categories:
   - hi-accounting
   - hi-group
-featured_image: /uploads/matt-ceo.jpg
+featured_image: /uploads/HiAccounting-Press-Images-09.jpeg
 pdf_document: /uploads/GCE17003 The Hawaii Group Press Release - Final.pdf
 link:
 ---

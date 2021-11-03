@@ -8,7 +8,7 @@ summary: >-
   graduate returns from nine years accounting and tax work in San Francisco.
 categories:
   - hi-accounting
-featured_image: /uploads/sheri.jpg
+featured_image: /uploads/HiAccounting-Press-Images-06.jpeg
 pdf_document: /uploads/2017-9-07-press-release-hiaccounting-sheri-miyashiro-1.pdf
 link:
 ---

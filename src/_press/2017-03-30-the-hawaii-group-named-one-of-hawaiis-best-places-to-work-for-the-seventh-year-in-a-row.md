@@ -7,7 +7,7 @@ categories:
   - hi-group
   - hi-accounting
   - hi-healthcare
-featured_image: /uploads/03-press-release-image.jpg
+featured_image: /uploads/HiAccounting-Press-Images-18.jpeg
 pdf_document:
 link:
 ---

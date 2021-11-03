@@ -13,7 +13,7 @@ summary: >-
 categories:
   - hi-accounting
   - hi-group
-featured_image: /uploads/wrf-merge.jpg
+featured_image: /uploads/HiAccounting-Press-Images-12.jpeg
 pdf_document: /uploads/2017-7-01-press-release-hiaccounting-acquires-wr-financial.pdf
 link:
 ---

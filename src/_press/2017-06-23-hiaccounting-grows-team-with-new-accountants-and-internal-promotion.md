@@ -5,7 +5,7 @@ date: 2017-06-23 09:00:00
 summary: 'As part of its dynamic growth, HiAccounting just hired two new accountants, Evans Martin and Tiana Fa’asua, and promoted Ellie Zhao to Senior Accountant.'
 categories:
   - hi-accounting
-featured_image: /uploads/press-feature.jpg
+featured_image: /uploads/HiAccounting-Press-Images-14.jpeg
 pdf_document: /uploads/2017-6-22-press-release-hiaccounting-final.pdf
 link:
 ---

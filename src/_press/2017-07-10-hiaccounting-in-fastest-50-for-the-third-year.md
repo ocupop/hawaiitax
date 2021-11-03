@@ -5,7 +5,7 @@ date: 2017-07-10 10:59:51
 summary: 'HiAccounting has been selected as one of Hawaii’s Fastest 50! We are told by Pacific Business News it was one of the most competitive years yet.'
 categories:
   - hi-accounting
-featured_image: /uploads/screen-shot-2017-07-10-at-10-52-58-am.png
+featured_image: /uploads/HiAccounting-Press-Images-10.jpeg
 pdf_document:
 link: 'https://www.bizjournals.com/pacific/news/2017/06/30/meet-hawaiis-fastest-50-for-2017.html'
 ---

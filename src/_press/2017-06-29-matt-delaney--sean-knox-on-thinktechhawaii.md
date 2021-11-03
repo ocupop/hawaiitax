@@ -10,7 +10,7 @@ summary: >-
 categories:
   - hi-accounting
   - hi-group
-featured_image: /uploads/thinktech-02.jpg
+featured_image: /uploads/HiAccounting-Press-Images-13.jpeg
 pdf_document:
 link: 'https://www.youtube.com/watch?v=gmVUB0HUW5E&feature=youtu.be&t=26'
 ---

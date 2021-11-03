@@ -13,7 +13,7 @@ summary: >-
 categories:
   - hi-accounting
   - hi-group
-featured_image: /uploads/uc.png
+featured_image: /uploads/HiAccounting-Press-Images-07.jpeg
 pdf_document: >-
   /uploads/matthew-delaney-ceo-of-the-hawaii-grou----the-2017-global-ceo-excellence-awards.pdf
 link: >-

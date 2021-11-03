@@ -8,7 +8,7 @@ summary: >-
   seeking information regarding the new GOP tax reform bill.
 categories:
   - hi-accounting
-featured_image: /uploads/screen-shot-2017-07-10-at-9-57-58-am.png
+featured_image: /uploads/HiAccounting-Press-Images-05.jpeg
 pdf_document: /uploads/171226 PBN Hawaii Group preps for increased.pdf
 link:
 ---

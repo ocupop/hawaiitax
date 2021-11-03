@@ -9,7 +9,7 @@ summary: >-
   COVID-19 with Steve Petranik
 categories:
   - hi-accounting
-featured_image: /uploads/hi-accounting-press.jpg
+featured_image: /uploads/HiAccounting-Press-Images-04.jpeg
 pdf_document:
 link: >-
   https://www.hawaiibusiness.com/covid-19-hiaccounting/?spMailingID=23175287&spUserID=NTY1MzQ1OTUyOTUwS0&spJobID=1721159740&spReportId=MTcyMTE1OTc0MAS2

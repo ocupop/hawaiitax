@@ -5,7 +5,7 @@ date: 2017-07-19 00:00:00
 summary: "HiAccounting's very own Ellie Zhao is featured in this week's edition of Midweek."
 categories:
   - hi-accounting
-featured_image: /uploads/ellie-movers.jpg
+featured_image: /uploads/HiAccounting-Press-Images-08.jpeg
 pdf_document:
 link:
 ---

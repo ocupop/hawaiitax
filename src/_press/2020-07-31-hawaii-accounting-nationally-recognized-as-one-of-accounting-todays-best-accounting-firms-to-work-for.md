@@ -12,7 +12,7 @@ summary: >-
 categories:
   - hi-group
   - hi-accounting
-featured_image: /uploads/accounting-today.jpg
+featured_image: /uploads/HiAccounting-Press-Images-03.jpeg
 pdf_document:
 link:
 ---

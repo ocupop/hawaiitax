@@ -5,7 +5,7 @@ date: 2017-07-05 00:00:00
 summary: 'HiAccounting has acquired the CPA firm WR Financial, effective June 30, 2017, expanding its presence in Hawaii.'
 categories:
   - hi-accounting
-featured_image: /uploads/accounting-today-logo1.jpg
+featured_image: /uploads/HiAccounting-Press-Images-11.jpeg
 pdf_document: /uploads/2017-7-5-hiaccounting-acquires-wr-financial---accounting-today.pdf
 link: 'https://www.accountingtoday.com/news/hiaccounting-acquires-wr-financial'
 ---

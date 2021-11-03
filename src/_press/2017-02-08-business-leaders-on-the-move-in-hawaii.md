@@ -7,7 +7,7 @@ categories:
   - hi-group
   - hi-accounting
   - hi-healthcare
-featured_image: /uploads/01-article-image.png
+featured_image: /uploads/HiAccounting-Press-Images-21.jpeg
 pdf_document:
 link: 'http://midweek.com/pdf/MidWeek/2017/0208/html5forpc.html?page=0'
 ---

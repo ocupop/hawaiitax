@@ -7,7 +7,7 @@ categories:
   - hi-group
   - hi-accounting
   - hi-healthcare
-featured_image:
+featured_image: /uploads/HiAccounting-Press-Images-16.png
 pdf_document: /uploads/2017-4-21-hawaii-group-welcomes-new-cfo-1.pdf
 link:
 ---

@@ -5,7 +5,7 @@ date: 2017-05-23 09:00:00
 summary: 'HiAccounting along with our parent company The Hawaii Group is proud to announce the launch of our new website! The redesigned site offers visitors richer insight into our company advantage, services and company benefits.At HiAccounting, we’re dedicated to providing an unparalleled combination of local insight and global knowledge. We’re excited'
 categories:
   - hi-accounting
-featured_image:
+featured_image: /uploads/HiAccounting-Press-Images-15.png
 pdf_document:
 link:
 ---

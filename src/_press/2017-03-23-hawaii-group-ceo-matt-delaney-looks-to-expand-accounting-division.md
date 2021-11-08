@@ -7,7 +7,7 @@ categories:
   - hi-group
   - hi-accounting
   - hi-healthcare
-featured_image:
+featured_image: /uploads/HiAccounting-Press-Images-19.png
 pdf_document:
 link: 'http://www.bizjournals.com/pacific/news/2017/03/23/hawaii-group-ceo-matt-delaney-looks-to-expand.html'
 ---

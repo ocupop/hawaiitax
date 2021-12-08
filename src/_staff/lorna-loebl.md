@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: 'Lorna Loebl, CPA'
+name: Lorna Loebl, CPA
 job_title: Tax Manager
 bio_html: >-
   <p><strong>Hometown: </strong>Honolulu,
@@ -16,6 +16,6 @@ email: lorna@hi-accounting.com
 phone: 808-529-9990
 linkedin:
 vcard: /downloads/Lorna-Loebl.vcf
-profile_image: /uploads/hiaccounting-social-avatar-r1-1.png
+profile_image: /uploads/Lorna-Loebl-1000x1000.JPG
 ---
 

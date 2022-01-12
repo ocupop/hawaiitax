@@ -2,13 +2,32 @@
 layout: default
 title: Press
 ---
-
+<section class="hero" style="background-image: url(/img/contact/hero-contact.jpg);">
+  <div class="hero-caption">
+    <h1 class="editable">
+      Press
+    </h1>
+  </div>
+</section>
 <section id="press">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        {% include posts.html %}
+      {% assign sorted = site.press | sort: 'date' | reverse %}
+      {% for article in sorted %}
+      <div class="col-md-6 col-lg-4 col-12 mb-5">
+        <div class="card h-100">
+          <div class="card-image"
+            style="background-image: url({{ article.featured_image | default: '/uploads/press_placeholder.png' }})"></div>
+          <div class="card-body mb-0 pb-0">
+            <span class="card-date">{{ article.date | date_to_string | date: "%b. %d, %Y"}}</span>
+            <h5 class="card-title text-primary">{{ article.title }}</h5>
+          </div>
+          <div class="card-footer pb-3 pl-3 pt-0 mt-0">
+            <a href="{{ article.url }}" class="btn btn-primary stretched-link">Read More</a>
+          </div>
+        </div>
       </div>
+      {% endfor %}
     </div>
   </div>
 </section>

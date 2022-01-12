@@ -16,6 +16,8 @@ collections:
     output: true
   resources:
     output: true
+  press:
+    output: true
 defaults:
   - scope:
       type: staff
@@ -29,6 +31,10 @@ defaults:
       type: resources
     values:
       layout: resource
+  - scope:
+      type: press
+    values:
+      layout: press
 
 announcement_categories:
   - CARES

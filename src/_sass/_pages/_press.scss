@@ -1,17 +1,3 @@
-img.press-float {
-  float:right; 
-  margin-bottom: 20px; 
-  margin-left: 20px; 
-  max-width: 400px;
-
-  @include media-breakpoint-down(md) {
-    float: none;
-    max-width: 100%;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-  }
-
-
+#news-hero {
+  max-width: 640px;
 }

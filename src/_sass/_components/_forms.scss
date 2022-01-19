@@ -98,14 +98,18 @@ fieldset {
   }
 }
 
-#saveForm {
-  height: 43px;
-  line-height: 43px;
-  padding: 0;
+
+.el-button {
+  color: $white !important;
+  border-radius: 0 !important;
+  padding: 12px 23px !important;
+  background-color: $primary !important;
+  border-color: $primary !important;
+  border: 0 !important;
+  outline: 0 !important;
+  width: 100%;
 }
 
-@media all and (max-width: 1024px) {
-  #saveForm {
-    margin-top: 20px;
-  }
+.cog-page__navigation {
+  padding-top: 14px !important;
 }

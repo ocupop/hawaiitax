@@ -58,7 +58,7 @@ select {
   text-indent: 10px;
 }
 
-.button {
+.button, .el-button {
   background-color: $primary;
   &:hover,
   &:active,

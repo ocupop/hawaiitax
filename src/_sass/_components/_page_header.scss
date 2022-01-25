@@ -182,17 +182,19 @@ a.top-icon {
   @include media-breakpoint-down(md) {
     text-align: left;
   }
+
   a {
+    height: 38px;
     display: inline-block;
     background-color: transparent;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 8px;
+    padding-top: 6px;
+    margin-right: 12px;
     
     svg {
-      height: 30px;
+      height: 26px;
       width: auto;
-      padding: 0;
+      margin: auto;
+      display: block;
 
       .st0 {
         fill: $gray-200;
@@ -227,6 +229,9 @@ a.top-icon {
       margin: 0;
       border-top: 5px solid transparent;
       background: transparent;
+      &.client-vault {
+        border-top: 0;
+      }
       &.search {
         border-top: 0;
       }
@@ -485,23 +490,12 @@ a.top-icon {
   text-align: center;
   a {
     display: inline-block;
-    width: 50px;
-    height: 50px;
     background-color: transparent;
-    i {
-      font-size: 32px;
-      color: $gray-200;
-    }
-    &:hover {
-      i {
-        color: $primary;
-      }
-    }
   }
 }
 #topnav {
   background: #646469;
-  line-height: 50px;
+  line-height: 38px;
   // TODO - Add back in the search bar feature now that things are cleaned up
 
   ul {

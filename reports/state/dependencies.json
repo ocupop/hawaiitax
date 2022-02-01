@@ -1,0 +1,90 @@
+{
+	"/index.html": {
+		"Internal Assets": [
+			"/css/main.css",
+			"/js/main.js"
+		],
+		"External Assets": [
+			"https://cdn.jsdelivr.net/npm/remixicon@2.4.0/fonts/remixicon.css",
+			"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		],
+		"Internal Links": [
+			"/index.html",
+			"/about/index.html"
+		],
+		"External Links": []
+	},
+	"/about/index.html": {
+		"Internal Assets": [
+			"/css/main.css",
+			"/js/main.js"
+		],
+		"External Assets": [
+			"https://cdn.jsdelivr.net/npm/remixicon@2.4.0/fonts/remixicon.css",
+			"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		],
+		"Internal Links": [
+			"/index.html",
+			"/about/index.html"
+		],
+		"External Links": []
+	},
+	"/settings/index.html": {
+		"Internal Assets": [
+			"/css/main.css",
+			"/js/main.js"
+		],
+		"External Assets": [
+			"https://cdn.jsdelivr.net/npm/remixicon@2.4.0/fonts/remixicon.css",
+			"https://via.placeholder.com/1280x630/333333/000000?text=incomplete",
+			"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		],
+		"Internal Links": [
+			"/index.html",
+			"/about/index.html"
+		],
+		"External Links": []
+	},
+	"/examples/form/index.html": {
+		"Internal Assets": [
+			"/css/main.css",
+			"/assets/img/loading.gif",
+			"/js/main.js"
+		],
+		"External Assets": [
+			"https://cdn.jsdelivr.net/npm/remixicon@2.4.0/fonts/remixicon.css",
+			"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		],
+		"Internal Links": [
+			"/index.html",
+			"/about/index.html"
+		],
+		"External Links": []
+	},
+	"/examples/html-proofer/index.html": {
+		"Internal Assets": [
+			"/css/main.css",
+			"/js/main.js"
+		],
+		"External Assets": [
+			"https://cdn.jsdelivr.net/npm/remixicon@2.4.0/fonts/remixicon.css",
+			"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		],
+		"Internal Links": [
+			"/index.html",
+			"/about/index.html"
+		],
+		"External Links": [
+			"https://google.com",
+			"https://example.com/broken"
+		]
+	},
+	"/purgecss.config.js": {
+		"Internal Assets": [],
+		"Internal Links": []
+	},
+	"/js/main.js": {
+		"Internal Assets": [],
+		"Internal Links": []
+	}
+}

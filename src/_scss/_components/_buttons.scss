@@ -6,6 +6,10 @@
   &.btn-primary {
     background-color: $primary;
     border-color: $primary;
+    &:hover {
+      background-color: $primary !important;
+      border-color: $primary !important;
+    }
   }
   &.btn-yellow {
     background-color: #F0A733;

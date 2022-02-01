@@ -43,10 +43,13 @@ announcement_categories:
 
 # Build settings
 safe: false
-
+sass:
+  # style: compressed
+  sass_dir: _scss
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate-v2
+
+placeholder_image: https://via.placeholder.com/1000x1000/333333/000000?text=Placeholder
 
 
 

@@ -1,0 +1,92 @@
+{
+	"/android-chrome-192x192.png": {
+		"Required By": []
+	},
+	"/apple-touch-icon.png": {
+		"Required By": []
+	},
+	"/android-chrome-512x512.png": {
+		"Required By": []
+	},
+	"/favicon-16x16.png": {
+		"Required By": []
+	},
+	"/favicon-32x32.png": {
+		"Required By": []
+	},
+	"/favicon.ico": {
+		"Required By": []
+	},
+	"/index.html": {
+		"Required By": [
+			"/index.html",
+			"/about/index.html",
+			"/settings/index.html",
+			"/examples/form/index.html",
+			"/examples/html-proofer/index.html"
+		]
+	},
+	"/purgecss.config.js": {
+		"Required By": []
+	},
+	"/robots.txt": {
+		"Required By": []
+	},
+	"/site.webmanifest": {
+		"Required By": []
+	},
+	"/sitemap.xml": {
+		"Required By": []
+	},
+	"/about/index.html": {
+		"Required By": [
+			"/index.html",
+			"/about/index.html",
+			"/settings/index.html",
+			"/examples/form/index.html",
+			"/examples/html-proofer/index.html"
+		]
+	},
+	"/api/explore.json": {
+		"Required By": []
+	},
+	"/css/main.css": {
+		"Required By": [
+			"/index.html",
+			"/about/index.html",
+			"/settings/index.html",
+			"/examples/form/index.html",
+			"/examples/html-proofer/index.html"
+		]
+	},
+	"/css/main.css.map": {
+		"Required By": []
+	},
+	"/img/logo-horizontal.svg": {
+		"Required By": []
+	},
+	"/img/logo-icon.svg": {
+		"Required By": []
+	},
+	"/img/logo-vertical.svg": {
+		"Required By": []
+	},
+	"/js/main.js": {
+		"Required By": [
+			"/index.html",
+			"/about/index.html",
+			"/settings/index.html",
+			"/examples/form/index.html",
+			"/examples/html-proofer/index.html"
+		]
+	},
+	"/settings/index.html": {
+		"Required By": []
+	},
+	"/examples/form/index.html": {
+		"Required By": []
+	},
+	"/examples/html-proofer/index.html": {
+		"Required By": []
+	}
+}

@@ -19,5 +19,6 @@ email:
 phone: 808-529-9990
 linkedin:
 vcard:
-profile_image: /uploads/image002.png
+profile_image: /uploads/image002.jpg
 ---
+

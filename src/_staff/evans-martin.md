@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: Evans Martin
+name: Evans Pierce
 job_title: Chief Financial Officer
 bio_html: >-
   <p><strong>Hometown:</strong> Richmond,
@@ -19,7 +19,7 @@ bio_html: >-
 email: evans@hi-accounting.com
 phone: 808-529-9990
 linkedin: https://www.linkedin.com/in/sallyevansmartin/
-vcard: /downloads/Evans-Martin.vcf
+vcard: /downloads/Evans-Pierce.vcf
 profile_image: /uploads/evans0023.jpg
 ---
 

@@ -36,14 +36,12 @@ bio_html: >-
   Board of Advisors at Hawaii Pacific University Travel Industry Management. Mr.
   Delaney also sits on the board of directors for Special Olympics Hawaii as
   well serving as a member of the Finance and Admissions &amp; Membership
-  Committees at Outrigger Canoe Club. He holds a Certified Public Accountant
-  (CPA) License from State of California and is a member of the American
-  Institute of Certified Public Accountants. He received his Bachelors of
-  Science in Accounting, Business Administration and Entrepreneurship from
-  University of Southern California.</p>
+  Committees at Outrigger Canoe Club. He received his Bachelors of Science in
+  Accounting, Business Administration and Entrepreneurship from University of
+  Southern California.</p>
 email: MDelaney@thehawaiigroup.com
 phone: 808-529-9990
-linkedin: 'https://www.linkedin.com/in/matthew-delaney-a49b731/'
+linkedin: https://www.linkedin.com/in/matthew-delaney-a49b731/
 vcard: /downloads/Matt-Delaney.vcf
 profile_image: /uploads/matt-delaney.jpg
 ---

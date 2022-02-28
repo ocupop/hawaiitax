@@ -19,7 +19,7 @@ bio_html: >-
 email: evans@hi-accounting.com
 phone: 808-529-9990
 linkedin: https://www.linkedin.com/in/sallyevansmartin/
-vcard: /downloads/Evans-Pierce.vcf
+vcard: /downloads/Evans-Martin.vcf
 profile_image: /uploads/evans0023.jpg
 ---
 

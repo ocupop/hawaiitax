@@ -15,6 +15,6 @@ email: tes@hi-accounting.com
 phone: 808-529-9990
 linkedin:
 vcard: /downloads/Tes-Morta.vcf
-profile_image: /uploads/Tes-300x300.JPG
+profile_image: /uploads/tes-morta-accounting-2.jpg
 ---
 

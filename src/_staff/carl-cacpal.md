@@ -17,5 +17,6 @@ email: carl@hi-accounting.com
 phone: 808-529-9990
 linkedin:
 vcard:
-profile_image: /uploads/hiaccounting-headshot-carl-cacpal-web.jpg
+profile_image: /uploads/carl-cacpal-accounting.jpg
 ---
+

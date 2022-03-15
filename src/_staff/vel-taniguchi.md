@@ -17,7 +17,7 @@ bio_html: >-
 phone: 808-529-9990
 email: vel@thehawaiigroup.com
 linkedin:
-profile_image: /uploads/vel.jpg
+profile_image: /uploads/vel-taniguchi-the-hawaii-group-payroll-manager-2.jpg
 vcard: /downloads/Vel-Taniguchi.vcf
 ---
 

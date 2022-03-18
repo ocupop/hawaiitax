@@ -1,4 +1,4 @@
-.cognito {
+.cog-cognito {
   form {
     &:focus {
       outline: none;
@@ -158,4 +158,22 @@
   button {
     
   }
+
+  span.el-checkbox__input{
+    padding-left: 8px !important;
+  }
+
+  span.el-checkbox__label {
+    padding-left: 5px !important;
+    font-family: 'ITCBookmanW01-LightItal',serif;
+    font-size: 14px;
+  }
+
+  .cog-html p {
+    font-family: 'ITCBookmanW01-LightItal',serif;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+  }
+
 }

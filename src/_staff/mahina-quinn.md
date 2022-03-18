@@ -17,6 +17,6 @@ email: mahina@hi-accounting.com
 phone: 808-529-9990
 linkedin:
 vcard: /downloads/Mahina-Quinn.vcf
-profile_image: /MahinaQuinn(300x300).jpeg
+profile_image: /uploads/mahina-quinn-accounting.jpg
 ---
 

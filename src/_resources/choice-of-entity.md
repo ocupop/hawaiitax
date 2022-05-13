@@ -13,7 +13,7 @@ link_override:
 
 <h2>Options to Consider:</h2>
 
-<img src="/uploads/9eaca627-30e6-523e-84fb-fde9a729cd7a.png" class="img-fluid">
+<img src="/uploads/9eaca627-30e6-523e-84fb-fde9a729cd7a.png" class="img-fluid" style="max-width:536px !important;">
 
 <h2>Type of Entity — Tax Advantages VS. Disadvantages</h2>
 

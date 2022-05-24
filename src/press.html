@@ -23,7 +23,11 @@ title: Press
             <h5 class="card-title text-primary">{{ article.title }}</h5>
           </div>
           <div class="card-footer pb-3 pl-3 pt-0 mt-0">
+            {% if article.link %}
+            <a href="{{ article.link }}" class="btn btn-primary stretched-link">Read More</a>
+            {% else %}
             <a href="{{ article.url }}" class="btn btn-primary stretched-link">Read More</a>
+            {% endif %}
           </div>
         </div>
       </div>

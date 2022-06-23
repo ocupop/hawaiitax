@@ -3,7 +3,7 @@ layout: resource
 title: Selling Your Home?
 date: 2022-06-21 17:25:00
 excerpt: >-
-    The IRS announced a revision to the standard mileage rates for computing deductible costs of operating an automobile for business, medical or moving expenses.
+    With the recent surge in the residential real estate markets, homeowners may be considering selling their residence.  Homeowners should be aware of the potential tax implications, as the gain realized on a sale in today’s market could be significant.
 hero_image: /uploads/Hawaii-Homes.jpg
 link_override:
 ---

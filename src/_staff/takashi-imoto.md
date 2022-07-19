@@ -17,5 +17,6 @@ email: takashi@hi-accounting.com
 phone: 808-695-4232
 linkedin:
 vcard:
-profile_image: /uploads/takashi-2.jpg
+profile_image: /uploads/takashi-2-1.jpg
 ---
+

@@ -30,7 +30,7 @@ bio_html: >-
   (Sunterra Japan). He was also instrumental in forming the DaVinci real estate
   fund in Tokyo, Japan, which has invested over $2 billion in commercial office
   and mixed-use buildings.</p><p>Prior to joining Marc/Sunterra, Matt was a
-  Senior Consultant and CPA for E&amp;Y Kenneth Leventhal Real Estate
+  Senior Consultant and CPA (inactive) for E&amp;Y Kenneth Leventhal Real Estate
   Group.</p><p>Matt has served as the Chairman of Hawaii Hotel &amp; Lodging
   Association, on the Board of Trustees at Queen Emma Land Company, and on the
   Board of Advisors at Hawaii Pacific University Travel Industry Management. Mr.
@@ -45,4 +45,3 @@ linkedin: https://www.linkedin.com/in/matthew-delaney-a49b731/
 vcard: /downloads/Matt-Delaney.vcf
 profile_image: /uploads/matt-delaney.jpg
 ---
-

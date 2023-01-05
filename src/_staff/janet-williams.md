@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Janet Williams-Reyes, CPA/PFS
-job_title: CPA
+job_title:
 bio_html: >-
   <p>Janet Williams-Reyes started her accounting career with the international
   public accounting firm of Arthur Andersen. She moved to Los Angeles in 1984

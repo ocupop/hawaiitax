@@ -1,7 +1,7 @@
 ---
 layout: staff
-name: 'Janet Williams-Reyes, CPA/PFS'
-job_title: Director of Tax Services
+name: Janet Williams-Reyes, CPA/PFS
+job_title: CPA
 bio_html: >-
   <p>Janet Williams-Reyes started her accounting career with the international
   public accounting firm of Arthur Andersen. She moved to Los Angeles in 1984
@@ -17,4 +17,3 @@ linkedin:
 vcard: /downloads/Janet-Williams-Reyes.vcf
 profile_image: /uploads/janet.jpg
 ---
-

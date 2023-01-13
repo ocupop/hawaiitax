@@ -10,10 +10,9 @@ bio_html: >-
   primary objectives are to coordinate and assist management with marketing and
   sales through brand consistency, digital marketing, and
   networking.&nbsp;&nbsp;</p>
-email:
+email: maya@thehawaiigroup.com
 phone: 808-529-9990
 linkedin:
 vcard:
 profile_image: /uploads/image001.jpg
 ---
-

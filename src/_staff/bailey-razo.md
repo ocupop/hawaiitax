@@ -16,9 +16,8 @@ bio_html: >-
   moving to the island she is fascinated by the ocean and looks forward to
   spending her weekends trying things like scuba diving and snorkeling with her
   family.</p>
-email:
-phone:
+email: bailey@hi-accounting.com
+phone: 808.529.9990
 linkedin:
 profile_image: /uploads/bailey.png
 ---
-

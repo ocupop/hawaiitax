@@ -17,7 +17,7 @@ bio_html: >-
   award.&nbsp; He was also part of a Showtime limited series, where he met Ethan
   Hawke.</p>
 email: david@hi-accounting.com
-phone:
+phone: 808.529.9990
 linkedin:
 vcard:
 profile_image: /uploads/j-david-o-brien.PNG

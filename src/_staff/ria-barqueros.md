@@ -11,7 +11,7 @@ bio_html: >-
   and real estate.</p><p>Fun Fact: Ria grew up in Manila, Philippines until she
   was 17 and moved to the mainland in 2012.&nbsp; She recently moved to Oahu in
   November 2022.&nbsp;</p>
-email: riabarqueros@gmail.com
+email: ria@hi-accounting.com
 phone: 808-529-9990
 linkedin:
 vcard:

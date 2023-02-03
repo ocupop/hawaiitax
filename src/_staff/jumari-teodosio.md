@@ -1,12 +1,12 @@
 ---
 layout: staff
 name: Jumari Teodosio
-job_title: Tax Accountant
+job_title: Tax Accountant II
 bio_html: >-
   <p><strong>Hometown: </strong>Pearl City,
   Hawaii</p><p><strong>Education:</strong> University of Hawaii - West Oahu, BA
   in Accounting</p><p><strong>Experience: </strong>Prior to joining the
-  HiAccounting team, Jumari&rsquo;s first experience in tax was through the VITA
+  HiAccounting team, Jumari’s first experience in tax was through the VITA
   program at Leeward Community College. Through VITA, Jumari was given the
   opportunity as a volunteer tax preparer to complete hands-on work, such as
   interviewing clients and completing federal and state individual returns. He
@@ -19,4 +19,3 @@ linkedin:
 vcard:
 profile_image: /uploads/3-square-for-website.JPG
 ---
-

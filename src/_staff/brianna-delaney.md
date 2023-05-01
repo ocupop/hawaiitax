@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Brianna Delaney
-job_title: Staff Accountant
+job_title: Senior  Accountant
 bio_html: >-
   <p><strong>Hometown:&nbsp;</strong>Miami Beach,
   Florida</p><p><strong>Education:</strong>&nbsp;Florida State University, B.A.
@@ -20,4 +20,3 @@ linkedin:
 vcard:
 profile_image: /uploads/img-7794.jpg
 ---
-

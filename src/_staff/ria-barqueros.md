@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: Ria Barqueros
+name: Ria Barqueros, CPA
 job_title: Senior Tax Accountant
 bio_html: >-
   <p>Hometown: Knoxville, TN</p><p>Education: University of Tennessee, Master's

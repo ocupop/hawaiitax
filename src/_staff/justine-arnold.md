@@ -6,8 +6,8 @@ bio_html: >-
   <p><strong>Hometown: </strong>Lille, France</p><p><strong>Education:
   </strong>Western Colorado University, B.A. in Accounting &amp; B.A. in
   Business Administration</p><p><strong>Experience:</strong> After earning her
-  bachelor&rsquo;s degrees in Accounting &amp; Business Administration, Justine
-  worked for the largest public accounting firm in Western Colorado as a Tax
+  bachelor’s degrees in Accounting &amp; Business Administration, Justine worked
+  for the largest public accounting firm in Western Colorado as a Tax
   Accountant. During this time, she obtained her CPA license and worked with a
   variety of clients and industries including (but not limited to): real estate,
   healthcare, agriculture and ranching, professional service, hospitality and
@@ -26,4 +26,3 @@ linkedin: https://www.linkedin.com/in/justine-arnold/
 vcard: /downloads/Justine-Arnold.vcf
 profile_image: /uploads/Justine.jpg
 ---
-

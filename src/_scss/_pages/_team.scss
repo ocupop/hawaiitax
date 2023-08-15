@@ -67,14 +67,12 @@ $lines-to-show: 6;
   }
 }
 
-.staff-img {
+img .staff-img {
   width: 100% !important;
   
   @include media-breakpoint-up(sm) {
-  .staff-img {
-    width:75%;
+    width:75% !important;
   }
-}
 }
 
 @media(max-width: 40em) {

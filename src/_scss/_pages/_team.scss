@@ -71,7 +71,7 @@ $lines-to-show: 6;
   width: 100% !important;
   
   @include media-breakpoint-up(sm) {
-  .custom-class {
+  .staff-img {
     width:75%;
   }
 }

@@ -67,7 +67,7 @@ $lines-to-show: 6;
   }
 }
 
-img.staff-img {
+.staff-img {
   width: 100% !important;
   
   @include media-breakpoint-up(sm) {

@@ -69,6 +69,7 @@ $lines-to-show: 6;
 
 .staff-img {
   width: 100% !important;
+  max-width: 600px;
   
   @include media-breakpoint-up(sm) {
     width: 90% !important;

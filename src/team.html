@@ -26,7 +26,13 @@ title: Team HiAccounting
     {% for object in site.data.team %}
     <div id="{{ object.name | slugify }}" class="row">
       {% if object.name contains 'California' %} 
-       Do stuff
+      <div class="col-12">
+        <div class="editable">
+          <img src="/uploads/6451460af6e498c944eed615aa57b102.png" class="staff-img mb-5" />
+          <h1>Please meet our sister company, California Accounting, a member of The Hawaii Group Ohana.</h1>
+          <p>Our team across the ocean provides even more resources and expertise to help facilitate your needs. Our California team provides an unparalleled combination of local insight and global knowledge. We strongly believe in working personally and directly with our clients, connecting through our core principles of integrity, transparency, and dedication to customer service.</p>
+        </div>
+      </div>
       {% endif %}
       <div class="col-12">
         <h1>{{ object.name }}</h1>

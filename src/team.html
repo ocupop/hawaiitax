@@ -21,9 +21,9 @@ title: Team HiAccounting
   </div>
 </section>
 {% include image-slider.html %}
+{% for object in site.data.team %}
 <section class="gray">
   <div class="container">
-    {% for object in site.data.team %}
     <div id="{{ object.name | slugify }}" class="row">
       {% if object.name contains 'California' %} 
       <div class="col-12">
@@ -76,6 +76,6 @@ title: Team HiAccounting
       </li>
       {% endfor %}
     </ul>
-    {% endfor %}
   </div>
 </section>
+{% endfor %}

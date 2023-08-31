@@ -22,7 +22,11 @@ title: Team HiAccounting
 </section>
 {% include image-slider.html %}
 {% for object in site.data.team %}
-<section {% unless object.name contains 'California' %}class="gray"{% endunless %}>
+{% if object.name contains 'California' %} 
+<section>
+{% else %}
+<section class="gray">
+{% endif %}
   <div class="container">
     <div id="{{ object.name | slugify }}" class="row">
       {% if object.name contains 'California' %} 

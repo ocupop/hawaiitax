@@ -17,5 +17,5 @@ email: jumari@hi-accounting.com
 phone: 808-529-9990
 linkedin:
 vcard:
-profile_image: /uploads/3-square-for-website.JPG
+profile_image: /uploads/untitled-1.png
 ---

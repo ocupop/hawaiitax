@@ -3,10 +3,11 @@ layout: staff
 name: Nick Snyder
 job_title: Tax Accountant
 bio_html: >-
-  <p>​​​​​​Hometown: Sacramento, CA</p><p>⁣⁣Experience: Nick recently graduated
-  from Gonzaga University with an Economics degree and plans to go back to
-  Gonzaga to earn an MBA degree. He is excited to start his new career with
-  California Accounting.</p><p>⁣⁣Fun Fact: Nick has a 3 legged dog named
+  <p><strong>​​​​​​Hometown:</strong> Sacramento,
+  CA</p><p><strong>⁣⁣Experience</strong>: Nick recently graduated from Gonzaga
+  University with an Economics degree and plans to go back to Gonzaga to earn an
+  MBA degree. He is excited to start his new career with California
+  Accounting.</p><p><strong>⁣⁣Fun Fact:</strong> Nick has a 3 legged dog named
   Skippy!⁣</p>
 email: nick@californiaaccounting.com
 phone:

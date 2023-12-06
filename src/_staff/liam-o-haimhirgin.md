@@ -10,7 +10,7 @@ bio_html: >-
   Fact:</strong>&nbsp;After graduating, Liam plans to explore options in the
   accounting field.</p>
 email: liam@californiaaccounting.com
-phone: 808-529-9990
+phone:
 linkedin:
 vcard:
 profile_image: /uploads/liam.jpg

@@ -14,5 +14,5 @@ email: Melissa@CaliforniaAccounting.com
 phone:
 linkedin:
 vcard:
-profile_image:
+profile_image: /uploads/melissa-web-100x.png
 ---

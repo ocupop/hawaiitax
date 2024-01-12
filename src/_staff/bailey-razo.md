@@ -19,5 +19,5 @@ bio_html: >-
 email: bailey@hi-accounting.com
 phone: 808.529.9990
 linkedin:
-profile_image: /uploads/bailey.png
+profile_image: /uploads/bailey-web.png
 ---

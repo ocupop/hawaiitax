@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Shayna Noble, EA
-job_title: Senior Tax Accountant
+job_title: 'Tax Supervisor '
 bio_html: >-
   <p><strong>Hometown: </strong>Waipahu, Hawaii</p><p><strong>Education:
   </strong>UH-West Oahu, Bachelors in Business Administration with a
@@ -17,4 +17,3 @@ linkedin:
 vcard: /downloads/Becky-Grennan.vcf
 profile_image: /uploads/IMG_9548.jpg
 ---
-

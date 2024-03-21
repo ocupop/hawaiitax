@@ -24,5 +24,5 @@ email: justine@hi-accounting.com
 phone: 808-529-9990
 linkedin: https://www.linkedin.com/in/justine-arnold/
 vcard: /downloads/Justine-Arnold.vcf
-profile_image: /uploads/Justine.jpg
+profile_image: /uploads/justine-linkedin-photo-1.jpg
 ---

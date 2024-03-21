@@ -1,7 +1,7 @@
 ---
 layout: staff
-name: Liam O’hAimhirgin
-job_title: Tax Accountant II
+name: Liam O’hAimhirgin,CRTP
+job_title: Senior Tax Accountant I
 bio_html: >-
   <p><strong>Experience:</strong>&nbsp;Liam is a fifth-year student at the
   University of Utah, where he is finishing a degree in Economics, with minors

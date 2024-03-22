@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: Denise Kadomoto, CPA
-job_title: Senior Accountant
+job_title: 'Accounting Supervisor '
 bio_html: >-
   <p><strong>Hometown:</strong> Aiea, Hawaii</p><p><strong>Education:</strong>
   University of Hawaii – Manoa, B.A. in

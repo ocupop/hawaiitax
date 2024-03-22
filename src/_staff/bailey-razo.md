@@ -9,8 +9,7 @@ bio_html: >-
   an Intern, supporting the staff with processing Accounts Payable, monthly
   reconciliations, recording bank transactions, among other client servicing
   needs. She has since been promoted to Staff Accountant
-  II.&nbsp;&nbsp;</p><p>Bailey is currently in her Senior year at Kansas State
-  University, expecting to graduate in August of 2022 with a bachelor's in
+  II.&nbsp;&nbsp;</p><p>Bailey  graduated from Kansas State with a bachelor's in
   Accounting. While living in Kansas, she volunteered at several local food
   drives and looks forward to doing the same for the Hawaiian Community! Since
   moving to the island she is fascinated by the ocean and looks forward to

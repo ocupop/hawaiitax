@@ -9,8 +9,8 @@ bio_html: >-
   an Intern, supporting the staff with processing Accounts Payable, monthly
   reconciliations, recording bank transactions, among other client servicing
   needs. She has since been promoted to Staff Accountant
-  II.&nbsp;&nbsp;</p><p>Bailey  graduated from Kansas State with a bachelor's in
-  Accounting. While living in Kansas, she volunteered at several local food
+  II.&nbsp;&nbsp;</p><p>Bailey graduated from Kansas State with a bachelor's in
+  Accounting.<br />While living in Kansas, she volunteered at several local food
   drives and looks forward to doing the same for the Hawaiian Community! Since
   moving to the island she is fascinated by the ocean and looks forward to
   spending her weekends trying things like scuba diving and snorkeling with her

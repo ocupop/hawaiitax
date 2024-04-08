@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: Sheri Miyashiro, CPA
+name: Sheri Miyashiro, CPA(Hi & CA)
 job_title: 'Director of Tax Services '
 bio_html: >-
   <p><strong>Hometown:</strong> North Shore, Hawaii</p><p><strong>Education:
@@ -25,4 +25,3 @@ linkedin: https://www.linkedin.com/in/sherimiyashiro/
 vcard: /downloads/Sheri-Miyashiro.vcf
 profile_image: /uploads/04sheri0032.jpg
 ---
-

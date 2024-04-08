@@ -1,54 +1,90 @@
----
 - title: Construction
   hero: /uploads/Industry-Construction.jpg
-  description: "Subject matter experts at HiAccounting are committed to serving construction organizations in our local community by providing a mix of services..."
+  description: >-
+    Subject matter experts at HiAccounting are committed to serving construction
+    organizations in our local community by providing a mix of services...
   link_slug: construction
 - title: Nonprofit
   hero: /uploads/Industry-NonProfit.jpg
-  description: "Subject matter experts at HiAccounting are committed to serving nonprofit organizations in our local community by providing a mix of services such as..."
+  description: >-
+    Subject matter experts at HiAccounting are committed to serving nonprofit
+    organizations in our local community by providing a mix of services such
+    as...
   link_slug: nonprofits
 - title: Healthcare
   hero: /uploads/Industry-Healthcare.jpg
-  description: "Subject matter experts at HiAccounting are committed to serving healthcare organizations in our local community by providing a mix of services such as..."
+  description: >-
+    Subject matter experts at HiAccounting are committed to serving healthcare
+    organizations in our local community by providing a mix of services such
+    as...
   link_slug: healthcare
 - title: Financial Services
   hero: /uploads/Industry-Financial.jpg
-  description: "Subject matter experts at HiAccounting are committed to serving financial service organizations in our local community by providing a mix of services such as..."
-  link_slug: 
+  description: >-
+    Subject matter experts at HiAccounting are committed to serving financial
+    service organizations in our local community by providing a mix of services
+    such as...
+  link_slug:
 - title: Government &amp; Utilities
   hero: /uploads/Industry-Government.jpg
-  description: "Subject matter experts at HiAccounting are committed to serving government & Utility organizations in our local community by providing a mix of services..."
-  link_slug: 
+  description: >-
+    Subject matter experts at HiAccounting are committed to serving government &
+    Utility organizations in our local community by providing a mix of
+    services...
+  link_slug:
 - title: E-Commerce
   hero: /uploads/Indsutry-Ecommerce.jpg
-  description: "Subject matter experts at HiAccounting are committed to serving e-commerce organizations in our local community by providing a mix of services such as..."
+  description: >-
+    Subject matter experts at HiAccounting are committed to serving e-commerce
+    organizations in our local community by providing a mix of services such
+    as...
   link_slug:
 - title: Hospitality
   hero: /uploads/Industry-Hospitality.jpg
-  description: "Subject matter experts at HiAccounting are committed to serving hospitality organizations in our local community by providing a mix of services such as..."
+  description: >-
+    Subject matter experts at HiAccounting are committed to serving hospitality
+    organizations in our local community by providing a mix of services such
+    as...
   link_slug:
 - title: Manufacturing &amp; Distribution
   hero: /uploads/Industry-Mfg.jpg
-  description: "Subject matter experts at HiAccounting are committed to serving manufacturing & distribution organizations in our local community by providing a mix of services..."
+  description: >-
+    Subject matter experts at HiAccounting are committed to serving
+    manufacturing & distribution organizations in our local community by
+    providing a mix of services...
   link_slug:
 - title: Education
   hero: /uploads/Industry-Education.jpg
-  description: "Subject matter experts at HiAccounting are committed to serving education organizations in our local community by providing a mix of services such as..."
+  description: >-
+    Subject matter experts at HiAccounting are committed to serving education
+    organizations in our local community by providing a mix of services such
+    as...
   link_slug:
 - title: Professional Services
   hero: /uploads/Industry-Professional.jpg
-  description: "Subject matter experts at HiAccounting are committed to serving professional service organizations in our local community by providing a mix of services..."
+  description: >-
+    Subject matter experts at HiAccounting are committed to serving professional
+    service organizations in our local community by providing a mix of
+    services...
   link_slug:
 - title: Real Estate
   hero: /uploads/Industry-RealEstate.jpg
-  description: "Subject matter experts at HiAccounting are committed to serving real estate organizations in our local community by providing a mix of services such as..."
+  description: >-
+    Subject matter experts at HiAccounting are committed to serving real estate
+    organizations in our local community by providing a mix of services such
+    as...
   link_slug:
 - title: Restaurants
   hero: /uploads/Industry-Restaurant.jpg
-  description: "Subject matter experts at HiAccounting are committed to serving restaurant organizations in our local community by providing a mix of services such as..."
+  description: >-
+    Subject matter experts at HiAccounting are committed to serving restaurant
+    organizations in our local community by providing a mix of services such
+    as...
   link_slug: restaurants
 - title: Retail &amp; Wholesale
   hero: /uploads/Industry-Retail.jpg
-  description: "Subject matter experts at HiAccounting are committed to serving retail & wholesale organizations in our local community by providing a mix of services..."
+  description: >-
+    Subject matter experts at HiAccounting are committed to serving retail &
+    wholesale organizations in our local community by providing a mix of
+    services...
   link_slug:
----

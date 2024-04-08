@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: Justine Arnold, CPA
+name: Justine Arnold, CPA(CO)
 job_title: Director of Accounting Services
 bio_html: >-
   <p><strong>Hometown: </strong>Lille, France</p><p><strong>Education:

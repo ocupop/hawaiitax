@@ -23,5 +23,5 @@ email: Carly@thehawaiigroup.com
 phone: 808-529-9990
 linkedin:
 vcard:
-profile_image: /uploads/carly-m-100x.png
+profile_image: /uploads/cm.png
 ---

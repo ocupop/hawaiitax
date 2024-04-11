@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: Danny Wong, CTRP(CA)
+name: Danny Wong, CTRP (CA)
 job_title: Senior Tax Accountant
 bio_html: >-
   <p><strong>Hometown:</strong><strong>&nbsp;</strong>Central Valley,

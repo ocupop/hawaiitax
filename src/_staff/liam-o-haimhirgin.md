@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: Liam O’hAimhirgin, CRTP(CA)
+name: Liam O’hAimhirgin, CRTP (CA)
 job_title: Senior Tax Accountant I
 bio_html: >-
   <p><strong>Experience:</strong>&nbsp;Liam is a fifth-year student at the

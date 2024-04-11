@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: Takashi Imoto, CPA(WA)
+name: Takashi Imoto, CPA (WA)
 job_title: Senior Accountant I
 bio_html: >-
   <p>Hometown:&nbsp; Osaka, Japan/ Makiki, Hawaii</p><p>Education:&nbsp;

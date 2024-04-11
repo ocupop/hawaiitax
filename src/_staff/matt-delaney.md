@@ -1,6 +1,6 @@
 ---
 layout: staff
-name: Matt Delaney, CPA(CA)
+name: Matt Delaney, CPA (CA)
 job_title: President & CEO - HiGroup
 bio_html: >-
   <p>Chief Executive Officer, Matthew S. Delaney, has been a catalyst for

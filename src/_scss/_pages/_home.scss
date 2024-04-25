@@ -79,8 +79,11 @@
 
 #content-support {
   background-color: $gray-100;
+  background: url(/img/backgrounds/bg-lighthouse-large.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
   p {
-    color: $gray-400;
+    color: $white;
   }
   .support-logo {
     margin: 30% 0px;

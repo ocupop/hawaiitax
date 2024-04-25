@@ -1,7 +1,7 @@
 ---
 layout: staff
-name: Takashi Imoto, CPA
-job_title: Staff Accountant
+name: Takashi Imoto, CPA (WA)
+job_title: Senior Accountant I
 bio_html: >-
   <p>Hometown:&nbsp; Osaka, Japan/ Makiki, Hawaii</p><p>Education:&nbsp;
   Doshisha University (Kyoto, Japan) Bachelor’s Degree in Health and Sports

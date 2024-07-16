@@ -176,37 +176,6 @@
     font-style: italic;
   }
 
-  select {
-      padding-top: 0 !important;
-    }
-
-    .c-choice-checkboxes {
-      position: relative;
-
-      .c-columns-1 {
-        display: none;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        z-index: 100;
-        background-color: #fff;
-        margin: 0;
-        &.active {
-          display: block;
-        }
-      }
-      .c-helptext {
-        margin-top: 16px;
-        display: block;
-        width: 100%;
-        height: 100%;
-        z-index: 10000;
-        &:hover {
-          background: red;
-          cursor: pointer;
-        }
-      }
-    }
+  
 
 }

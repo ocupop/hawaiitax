@@ -40,6 +40,7 @@ summary: >-
   (2011-2024).   Learn more at www.TheHawaiiGroup.com.
 categories:
   - hi-accounting
+  - hi-group
 featured_image: /uploads/q1-newsletter-header.png
 pdf_document: /uploads/hawai-i-s-top-250-2.pdf
 link:

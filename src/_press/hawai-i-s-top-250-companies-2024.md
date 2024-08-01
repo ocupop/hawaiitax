@@ -38,10 +38,9 @@ summary: >-
   DemandHR, an HR Outsourcing company.  The Hawaii Group has been selected for
   Hawaii Business magazine’s Top 250 for fourteen (14) years in a row
   (2011-2024).   Learn more at www.TheHawaiiGroup.com.
-
 categories:
   - hi-accounting
 featured_image: /uploads/q1-newsletter-header.png
-pdf_document:
+pdf_document: /uploads/hawai-i-s-top-250-1.pdf
 link:
 ---

@@ -1,7 +1,7 @@
 ---
 layout: press
 title: Hawai‘i’s Top 250 Companies 2024
-date: 2013-01-02 00:00:00
+date: 2024-08-01 00:00:00
 summary:
 categories:
   - hi-accounting

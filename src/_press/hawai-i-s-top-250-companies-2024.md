@@ -42,5 +42,5 @@ categories:
   - hi-accounting
 featured_image: /uploads/q1-newsletter-header.png
 pdf_document: /uploads/hawai-i-s-top-250-1.pdf
-link: https://thehawaiigroup.com/
+link:
 ---

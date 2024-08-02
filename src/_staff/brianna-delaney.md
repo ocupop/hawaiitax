@@ -1,7 +1,7 @@
 ---
 layout: staff
 name: 'Brianna Delaney '
-job_title: Senior  Accountant I
+job_title: 'Controller '
 bio_html: >-
   <p><strong>Hometown:&nbsp;</strong>Miami Beach,
   Florida</p><p><strong>Education:</strong>&nbsp;Florida State University, B.A.

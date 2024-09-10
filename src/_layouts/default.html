@@ -8,11 +8,6 @@
     <div id="page-content" role="main">
       {{ content }}
       {% include testimonial.html %}
-      {% if page.url contains 'sandbox' %}
-      {% include contact_form_captcha.html %}
-      {% else %}
-      {% include contact_form.html %}
-      {% endif %}
       {% include locations.html %}
       {% include awards.html %}
     </div>
